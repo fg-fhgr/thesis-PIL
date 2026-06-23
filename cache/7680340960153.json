@@ -1,0 +1,167 @@
+{
+  "medikament_name": "Tyroqualin®",
+  "relevanter_rohtext": "[Tyroqualin®] Spirig HealthCare AG [Was ist Tyroqualin und wann wird es angewendet?] Tyroqualin ist ein Kombinationspräparat zur Bekämpfung von Infektionen des Mund- und Rachenraumes. Es kann sowohl Bakterien als auch Pilze rasch vernichten und lindert Schmerzen und Schluckbeschwerden. Tyroqualin wird verwendet zur Behandlung von Infektionen des Mund- und Rachenraumes einschliesslich Pilzbefall. Vorbeugend kann es nach Mandeloperationen und zahnärztlichen Eingriffen eingesetzt werden. [Wann darf Tyroqualin nicht eingenommen / angewendet werden?] Wenn Sie bei einer früheren Anwendung von Tyroqualin oder einem seiner Wirkstoffe Zeichen einer allergischen Reaktion festgestellt haben, dürfen Sie Tyroqualin nicht anwenden. [Wann ist bei der Einnahme / Anwendung von Tyroqualin Vorsicht geboten?] Bei noch blutenden Wunden im Mundbereich sollte Tyroqualin nicht eingenommen werden. Bei höherem Fieber oder wenn innerhalb einer Woche keine Besserung eintritt, ist ein Arzt bzw. eine Ärztin aufzusuchen. Die Anwendung und Sicherheit von Tyroqualin, Lutschtabletten bei Kindern und Jugendlichen ist bisher nicht geprüft worden. Tyroqualin, Lutschtabletten enthalten Lactose. Bitte nehmen Sie Tyroqualin, Lutschtabletten erst nach Rücksprache mit Ihrem Arzt bzw. Ihrer Ärztin ein, wenn Ihnen bekannt ist, dass Sie unter einer Zuckerunverträglichkeit leiden. Tyroqualin enthält weniger als 1 mmol Natrium (23 mg) pro Lutschtablette, d.h. es ist nahezu «natriumfrei». Informieren Sie Ihren Arzt, Apotheker oder Drogisten bzw. Ihre Ärztin, Apothekerin oder Drogistin, wenn Sie ·an anderen Krankheiten leiden, ·Allergien haben oder ·andere Arzneimittel (auch selbstgekaufte!) einnehmen oder äusserlich anwenden! [Darf Tyroqualin während einer Schwangerschaft oder in der Stillzeit eingenommen / angewendet werden?] Wenn Sie schwanger sind oder es werden möchten und während der Stillzeit sollen Sie vorsichtshalber möglichst auf Arzneimittel verzichten und Tyroqualin nur nach Rücksprache mit dem Arzt bzw. mit der Ärztin einnehmen. [Wie verwenden Sie Tyroqualin?] Erwachsene Jede Stunde eine Lutschtablette langsam im Munde zergehen lassen. Nach Abklingen der Symptome bzw. zur Vorbeugung alle 4 bis 5 Stunden eine Lutschtablette lutschen. Maximal 8 Lutschtabletten täglich. Kinder und Jugendliche Die Anwendung und Sicherheit von Tyroqualin, Lutschtabletten bei Kindern und Jugendlichen ist bisher nicht geprüft worden. Halten Sie sich an die in der Packungsbeilage angegebene oder vom Arzt oder der Ärztin verschriebene Dosierung. Wenn Sie glauben, das Arzneimittel wirke zu schwach oder zu stark, so sprechen Sie mit Ihrem Arzt, Apotheker oder Drogisten bzw. mit Ihrer Ärztin, Apothekerin oder Drogistin.",
+  "pil_rohtext": {
+    "kurzfassung": "Tyroqualin ist ein Kombinationspräparat zur Bekämpfung von Infektionen des Mund- und Rachenraumes. Es kann sowohl Bakterien als auch Pilze rasch vernichten und lindert Schmerzen und Schluckbeschwerden. Tyroqualin wird verwendet zur Behandlung von Infektionen des Mund- und Rachenraumes einschliesslich Pilzbefall. Vorbeugend kann es nach Mandeloperationen und zahnärztlichen Eingriffen eingesetzt werden.",
+    "warnhinweise": "Bei noch blutenden Wunden im Mundbereich sollte Tyroqualin nicht eingenommen werden. Bei höherem Fieber oder wenn innerhalb einer Woche keine Besserung eintritt, ist ein Arzt bzw. eine Ärztin aufzusuchen. Die Anwendung und Sicherheit von Tyroqualin, Lutschtabletten bei Kindern und Jugendlichen ist bisher nicht geprüft worden. Tyroqualin, Lutschtabletten enthalten Lactose. Bitte nehmen Sie Tyroqualin, Lutschtabletten erst nach Rücksprache mit Ihrem Arzt bzw. Ihrer Ärztin ein, wenn Ihnen bekannt ist, dass Sie unter einer Zuckerunverträglichkeit leiden. Tyroqualin enthält weniger als 1 mmol Natrium (23 mg) pro Lutschtablette, d.h. es ist nahezu «natriumfrei». Informieren Sie Ihren Arzt, Apotheker oder Drogisten bzw. Ihre Ärztin, Apothekerin oder Drogistin, wenn Sie ·an anderen Krankheiten leiden, ·Allergien haben oder ·andere Arzneimittel (auch selbstgekaufte!) einnehmen oder äusserlich anwenden! Wenn Sie schwanger sind oder es werden möchten und während der Stillzeit sollen Sie vorsichtshalber möglichst auf Arzneimittel verzichten und Tyroqualin nur nach Rücksprache mit dem Arzt bzw. mit der Ärztin einnehmen.",
+    "dosierung": "Erwachsene Jede Stunde eine Lutschtablette langsam im Munde zergehen lassen. Nach Abklingen der Symptome bzw. zur Vorbeugung alle 4 bis 5 Stunden eine Lutschtablette lutschen. Maximal 8 Lutschtabletten täglich. Kinder und Jugendliche Die Anwendung und Sicherheit von Tyroqualin, Lutschtabletten bei Kindern und Jugendlichen ist bisher nicht geprüft worden. Halten Sie sich an die in der Packungsbeilage angegebene oder vom Arzt oder der Ärztin verschriebene Dosierung. Wenn Sie glauben, das Arzneimittel wirke zu schwach oder zu stark, so sprechen Sie mit Ihrem Arzt, Apotheker oder Drogisten bzw. mit Ihrer Ärztin, Apothekerin oder Drogistin."
+  },
+  "pil_fakten": null,
+  "pil_tile_content": null,
+  "atomic_facts": [
+    {
+      "begruendung_prio": "Dies ist die Hauptindikation des Medikaments — antimikrobielle und analgetische Wirkung im Mund-/Rachenraum. Nicht sinngleich in jedem Beipackzettel, da spezifisch für Tyroqualin. → P1.",
+      "bucket": "wofuer",
+      "lese_prioritaet": 1,
+      "claim": "wirkt antibakteriell und antipilzlich, lindert Schmerzen und Schluckbeschwerden",
+      "population": null,
+      "condition": null,
+      "modality": "indication",
+      "negation": false,
+      "source_span": "Tyroqualin ist ein Kombinationspräparat zur Bekämpfung von Infektionen des Mund- und Rachenraumes. Es kann sowohl Bakterien als auch Pilze rasch vernichten und lindert Schmerzen und Schluckbeschwerden."
+    },
+    {
+      "begruendung_prio": "Spezifische Anwendungsgebiete des Medikaments — Behandlung von Infektionen inkl. Pilzbefall sowie Prophylaxe nach Eingriffen. Nicht generisch, gehört vollständig dargestellt. → P1 für Hauptindikation, aber da dies die Detaillierung der Anwendungsgebiete ist, → P2.",
+      "bucket": "wofuer",
+      "lese_prioritaet": 2,
+      "claim": "wird angewendet zur Behandlung von Infektionen des Mund- und Rachenraumes einschliesslich Pilzbefall sowie vorbeugend nach Mandeloperationen und zahnärztlichen Eingriffen",
+      "population": null,
+      "condition": null,
+      "modality": "indication",
+      "negation": false,
+      "source_span": "Tyroqualin wird verwendet zur Behandlung von Infektionen des Mund- und Rachenraumes einschliesslich Pilzbefall. Vorbeugend kann es nach Mandeloperationen und zahnärztlichen Eingriffen eingesetzt werden."
+    },
+    {
+      "begruendung_prio": "Absolute Kontraindikation bei Allergie auf den Wirkstoff — häufigste absolute KI, gilt spezifisch für Tyroqualin. → P1.",
+      "bucket": "nicht_nehmen",
+      "lese_prioritaet": 1,
+      "claim": "darf nicht angewendet werden",
+      "population": "Personen mit bekannter Allergie auf Tyroqualin oder einen seiner Wirkstoffe",
+      "condition": "bei früheren allergischen Reaktionen auf Tyroqualin oder einen seiner Wirkstoffe",
+      "modality": "contraindication",
+      "negation": true,
+      "source_span": "Wenn Sie bei einer früheren Anwendung von Tyroqualin oder einem seiner Wirkstoffe Zeichen einer allergischen Reaktion festgestellt haben, dürfen Sie Tyroqualin nicht anwenden."
+    },
+    {
+      "begruendung_prio": "Absolute Kontraindikation für eine konkrete Situation (blutende Wunden im Mundbereich) — spezifisch für dieses Lokaltherapeutikum, nicht generisches Boilerplate. Unmittelbar handlungsrelevant.",
+      "bucket": "nicht_nehmen",
+      "lese_prioritaet": 1,
+      "claim": "darf nicht eingenommen werden",
+      "population": null,
+      "condition": "bei noch blutenden Wunden im Mundbereich",
+      "modality": "contraindication",
+      "negation": true,
+      "source_span": "Bei noch blutenden Wunden im Mundbereich sollte Tyroqualin nicht eingenommen werden."
+    },
+    {
+      "begruendung_prio": "Generische Arzt-Konsultationsregel ohne spezifischen medizinischen Mehrwert für dieses Medikament — gilt für praktisch jedes OTC-Mittel bei Fieber oder ausbleibendem Therapieerfolg. P4-Kategorie (b).",
+      "bucket": "beachten",
+      "lese_prioritaet": 4,
+      "claim": "Arzt aufsuchen",
+      "population": null,
+      "condition": "bei höherem Fieber oder wenn innerhalb einer Woche keine Besserung eintritt",
+      "modality": "warning",
+      "negation": false,
+      "source_span": "Bei höherem Fieber oder wenn innerhalb einer Woche keine Besserung eintritt, ist ein Arzt bzw. eine Ärztin aufzusuchen."
+    },
+    {
+      "begruendung_prio": "Wichtige Information zur fehlenden Sicherheitsdaten bei Kindern und Jugendlichen — spezifisch für dieses Produkt und diese Population, nicht generisches Boilerplate. Handlungsrelevant für Eltern.",
+      "bucket": "nicht_nehmen",
+      "lese_prioritaet": 2,
+      "claim": "Anwendung und Sicherheit bisher nicht geprüft",
+      "population": "Kinder und Jugendliche unter 18 Jahren",
+      "condition": null,
+      "modality": "warning",
+      "negation": false,
+      "source_span": "Die Anwendung und Sicherheit von Tyroqualin, Lutschtabletten bei Kindern und Jugendlichen ist bisher nicht geprüft worden."
+    },
+    {
+      "begruendung_prio": "Konkrete Inhaltsstoff-Warnung (Lactose) mit Handlungsanweisung für Personen mit Zuckerunverträglichkeit — spezifisch relevant für diese Untergruppe. Kein generisches Boilerplate.",
+      "bucket": "beachten",
+      "lese_prioritaet": 4,
+      "claim": "enthält Lactose; Einnahme nur nach Rücksprache mit Arzt empfohlen",
+      "population": "Personen mit Zuckerunverträglichkeit",
+      "condition": null,
+      "modality": "warning",
+      "negation": false,
+      "source_span": "Tyroqualin, Lutschtabletten enthalten Lactose. Bitte nehmen Sie Tyroqualin, Lutschtabletten erst nach Rücksprache mit Ihrem Arzt bzw. Ihrer Ärztin ein, wenn Ihnen bekannt ist, dass Sie unter einer Zuckerunverträglichkeit leiden."
+    },
+    {
+      "begruendung_prio": "Natriumgehalt-Entwarnung — klassisches bürokratisches Boilerplate (P4-Kategorie d/f), inhaltlich kein Mehrwert für den typischen User.",
+      "bucket": "beachten",
+      "lese_prioritaet": 4,
+      "claim": "enthält weniger als 1 mmol Natrium pro Lutschtablette (nahezu natriumfrei)",
+      "population": null,
+      "condition": null,
+      "modality": "info",
+      "negation": false,
+      "source_span": "Tyroqualin enthält weniger als 1 mmol Natrium (23 mg) pro Lutschtablette, d.h. es ist nahezu «natriumfrei»."
+    },
+    {
+      "begruendung_prio": "Generische Arzt/Apotheker-Informationspflicht ohne spezifischen medizinischen Inhalt — klassisches regulatorisches Boilerplate, steht in jedem Beipackzettel. P4-Kategorie (b).",
+      "bucket": "beachten",
+      "lese_prioritaet": 4,
+      "claim": "Arzt, Apotheker oder Drogisten informieren bei anderen Erkrankungen, Allergien oder gleichzeitiger Einnahme anderer Arzneimittel",
+      "population": null,
+      "condition": null,
+      "modality": "info",
+      "negation": false,
+      "source_span": "Informieren Sie Ihren Arzt, Apotheker oder Drogisten bzw. Ihre Ärztin, Apothekerin oder Drogistin, wenn Sie ·an anderen Krankheiten leiden, ·Allergien haben oder ·andere Arzneimittel (auch selbstgekaufte!) einnehmen oder äusserlich anwenden!"
+    },
+    {
+      "begruendung_prio": "Schwangerschaft und Stillzeit — spezifische Vorsichtsaussage für diese Populationen. Schwangerschaft/Stillzeit-Populations-Regel greift. Gehört in beachten (Vorsichtshinweis, kein absolutes Verbot).",
+      "bucket": "beachten",
+      "lese_prioritaet": 2,
+      "claim": "sollte möglichst gemieden und nur nach Rücksprache mit dem Arzt eingenommen werden",
+      "population": "Schwangere und Stillende",
+      "condition": null,
+      "modality": "precaution",
+      "negation": false,
+      "source_span": "Wenn Sie schwanger sind oder es werden möchten und während der Stillzeit sollen Sie vorsichtshalber möglichst auf Arzneimittel verzichten und Tyroqualin nur nach Rücksprache mit dem Arzt bzw. mit der Ärztin einnehmen."
+    },
+    {
+      "begruendung_prio": "Konkrete Dosierungsanweisung mit Intervall und Maximaldosis für Erwachsene — spezifische Zahlen, kein Boilerplate. Hauptdosierungsregel für die primäre Anwendergruppe → P1.",
+      "bucket": "dosierung",
+      "lese_prioritaet": 1,
+      "claim": "jede Stunde eine Lutschtablette langsam im Mund zergehen lassen; nach Abklingen der Symptome bzw. zur Vorbeugung alle 4–5 Stunden eine Lutschtablette; maximal 8 Lutschtabletten täglich",
+      "population": "Erwachsene ab 18 Jahren",
+      "condition": null,
+      "modality": "dosage_instruction",
+      "negation": false,
+      "source_span": "Erwachsene Jede Stunde eine Lutschtablette langsam im Munde zergehen lassen. Nach Abklingen der Symptome bzw. zur Vorbeugung alle 4 bis 5 Stunden eine Lutschtablette lutschen. Maximal 8 Lutschtabletten täglich."
+    },
+    {
+      "begruendung_prio": "Anwendung bei Kindern und Jugendlichen wurde bisher nicht geprüft — das ist eine produktspezifische Einschränkung, keine generische Floskel. Sicherheit nicht belegt → P1 als absolute Kontraindikation/Warnung.",
+      "bucket": "nicht_nehmen",
+      "lese_prioritaet": 1,
+      "claim": "Anwendung und Sicherheit wurden bisher nicht geprüft, daher nicht anwenden",
+      "population": "Kinder und Jugendliche unter 18 Jahren",
+      "condition": null,
+      "modality": "contraindication",
+      "negation": true,
+      "source_span": "Kinder und Jugendliche Die Anwendung und Sicherheit von Tyroqualin, Lutschtabletten bei Kindern und Jugendlichen ist bisher nicht geprüft worden."
+    },
+    {
+      "begruendung_prio": "Generische Aufforderung, sich an die Packungsbeilage oder Arzt-Verschreibung zu halten — steht wortgleich in jedem Beipackzettel, kein spezifischer medizinischer Mehrwert → P4.",
+      "bucket": "dosierung",
+      "lese_prioritaet": 4,
+      "claim": "empfohlene Dosierung einhalten",
+      "population": null,
+      "condition": null,
+      "modality": "info",
+      "negation": false,
+      "source_span": "Halten Sie sich an die in der Packungsbeilage angegebene oder vom Arzt oder der Ärztin verschriebene Dosierung."
+    },
+    {
+      "begruendung_prio": "Generische Aufforderung, Arzt/Apotheker zu kontaktieren bei subjektiv wahrgenommener Über- oder Unterwirkung — keine medikamentenspezifische Information, steht in jedem Beipackzettel → P4.",
+      "bucket": "beachten",
+      "lese_prioritaet": 4,
+      "claim": "Arzt, Apotheker oder Drogisten konsultieren",
+      "population": null,
+      "condition": "wenn das Arzneimittel zu schwach oder zu stark wirkt",
+      "modality": "info",
+      "negation": false,
+      "source_span": "Wenn Sie glauben, das Arzneimittel wirke zu schwach oder zu stark, so sprechen Sie mit Ihrem Arzt, Apotheker oder Drogisten bzw. mit Ihrer Ärztin, Apothekerin oder Drogistin."
+    }
+  ]
+}

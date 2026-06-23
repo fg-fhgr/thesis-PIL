@@ -1,0 +1,1789 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <title>Beipackzettel-Assistent</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:          #f5f5f5;
+      --card:        #ffffff;
+      --primary:     #1e1e1e;
+      --brand:       #2c2c2c;
+      --secondary:   #757575;
+      --border-card: #d9d9d9;
+      --border:      #e3e3e3;
+      --on-brand:    #f5f5f5;
+      --scan-bg:     #393939;
+      --trans:       0.22s cubic-bezier(0.4,0,0.2,1);
+    }
+
+    html, body {
+      width: 100%; height: 100%;
+      overflow: hidden;
+      background: var(--bg);
+      font-family: 'Inter', -apple-system, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      color: var(--primary);
+    }
+
+    /* ── Screen system ── */
+    .screen {
+      position: absolute; inset: 0;
+      display: flex;
+      opacity: 0; pointer-events: none;
+      transition: opacity var(--trans);
+    }
+    .screen.active { opacity: 1; pointer-events: all; }
+
+    /* ── Shared typography ── */
+    .heading {
+      font-size: 24px; font-weight: 600;
+      letter-spacing: -0.48px; line-height: 1.2;
+      color: var(--primary);
+    }
+
+    /* ── Back / Chevron button  (32×32 container, 20×20 icon) ── */
+    .back-btn {
+      flex-shrink: 0; width: 32px; height: 32px;
+      border: none; background: transparent; cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      border-radius: 6px; transition: background var(--trans);
+      color: var(--primary); padding: 0;
+    }
+    .back-btn:hover { background: var(--border); }
+    .back-btn svg { width: 20px; height: 20px; display: block; }
+
+    /* ── Card shared by Scanner / Confirm / Questionnaire ── */
+    .center-card {
+      background: var(--card);
+      border: 0.5px solid var(--border-card);
+      border-radius: 20px;
+      width: 780px;
+      padding: 16px;
+      display: flex; flex-direction: column; gap: 16px;
+      overflow: hidden;
+    }
+
+    .card-header {
+      display: flex; align-items: flex-start; gap: 8px;
+      padding-bottom: 16px; border-bottom: 1px solid var(--border);
+      width: 100%;
+    }
+
+    /* ── Dark viewport (scanner / confirm) ── */
+    .dark-viewport {
+      background: var(--scan-bg);
+      border-radius: 8px;
+      width: 100%; height: 432px;
+      position: relative; overflow: hidden;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+    }
+
+
+    /* ════════════════════════════════════════
+       SCREEN 1 – SCANNER
+    ════════════════════════════════════════ */
+    #screen-scanner {
+      background: var(--bg);
+      align-items: center; justify-content: center;
+    }
+    #camera-feed {
+      position: absolute; inset: 0;
+      width: 100%; height: 100%; object-fit: cover;
+    }
+    #scanner-anim {
+      position: relative; z-index: 1;
+      width: 75%; max-height: 247px; object-fit: contain;
+    }
+    .dev-btn {
+      position: absolute; bottom: 40px; left: 50%;
+      transform: translateX(-50%);
+      background: rgba(44,44,44,0.08);
+      border: 1px solid rgba(44,44,44,0.15);
+      border-radius: 100px; padding: 8px 20px;
+      font-family: 'Inter', sans-serif; font-size: 13px;
+      color: var(--secondary); cursor: pointer;
+    }
+
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .stop-btn {
+      position: fixed; bottom: 24px; right: 24px; z-index: 9999;
+      background: #ff3b30; border: none; border-radius: 100px;
+      padding: 10px 22px; font-family: 'Inter', sans-serif;
+      font-size: 13px; font-weight: 600; color: #fff; cursor: pointer;
+      box-shadow: 0 2px 10px rgba(255,59,48,0.4);
+      display: none;
+    }
+    .stop-btn.visible { display: block; }
+
+    /* ════════════════════════════════════════
+       SCREEN 1.1 – CONFIRMATION  (auto-advance)
+    ════════════════════════════════════════ */
+    #screen-confirm {
+      background: var(--bg);
+      align-items: center; justify-content: center;
+    }
+    .confirm-viewport {
+      flex-direction: column; gap: 14px;
+    }
+    .confirm-check {
+      width: 52px; height: 52px; border-radius: 50%;
+      background: rgba(255,255,255,0.15);
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+    }
+    .confirm-check svg { width: 26px; height: 26px; }
+    .confirm-label {
+      font-size: 14px; font-weight: 400; color: rgba(245,245,245,0.7);
+      text-align: center;
+    }
+    .confirm-product-text {
+      font-size: 24px; font-weight: 600;
+      letter-spacing: -0.48px; line-height: 1.2;
+      color: #f5f5f5; text-align: center;
+      padding: 0 32px;
+    }
+
+
+    /* ════════════════════════════════════════
+       SCREEN 2 – QUESTIONNAIRE
+    ════════════════════════════════════════ */
+    #screen-questionnaire {
+      background: var(--bg);
+      align-items: center; justify-content: center;
+    }
+
+    /* Segmented button group */
+    .opts-seg { display: flex; width: 100%; }
+    .opt-btn {
+      flex: 1; min-height: 44px; padding: 8px 4px;
+      border-top: 1px solid var(--secondary);
+      border-bottom: 1px solid var(--secondary);
+      border-left: 0.5px solid var(--secondary);
+      border-right: 0.5px solid var(--secondary);
+      background: var(--border);
+      font-family: 'Inter', sans-serif; font-size: 14px; font-weight: 400;
+      color: var(--primary); cursor: pointer;
+      white-space: normal; text-align: center; line-height: 1.25;
+      display: flex; align-items: center; justify-content: center; gap: 4px;
+      transition: background var(--trans), border-color var(--trans), color var(--trans);
+    }
+    .opt-btn:first-child {
+      border-left: 1px solid var(--secondary);
+      border-radius: 8px 0 0 8px;
+    }
+    .opt-btn:last-child {
+      border-right: 1px solid var(--secondary);
+      border-radius: 0 8px 8px 0;
+    }
+    .opt-btn:first-child:last-child { border-radius: 8px; }
+    .opt-btn.selected {
+      background: var(--brand); border-color: var(--brand);
+      color: var(--on-brand); z-index: 1; position: relative;
+    }
+    .opt-check { display: none; width: 14px; height: 14px; flex-shrink: 0; }
+    .opt-btn.selected .opt-check { display: block; }
+
+
+    /* ════════════════════════════════════════
+       SCREEN 3 – DASHBOARD
+    ════════════════════════════════════════ */
+    #screen-canvas {
+      background: var(--bg);
+      padding: 32px; gap: 24px;
+      align-items: flex-start;
+    }
+
+    /* ── Sidebar ── */
+    .sidebar {
+      width: 240px; flex-shrink: 0; height: 100%;
+      background: var(--card);
+      border: 0.5px solid var(--border-card);
+      border-radius: 20px; padding: 16px;
+      display: flex; flex-direction: column; gap: 16px;
+      position: relative; overflow: hidden;
+    }
+    .sb-nav { display: flex; align-items: flex-start; gap: 8px; padding-bottom: 16px; border-bottom: 1px solid var(--border); }
+    .sb-section {
+      padding-top: 16px; border-top: 1px solid var(--border);
+      display: flex; flex-direction: column; gap: 8px;
+    }
+    .sb-label {
+      font-size: 16px; font-weight: 400;
+      line-height: 1.4; color: var(--primary);
+    }
+
+    /* ── Custom slider (Figma-faithful: track + draggable knob) ── */
+    .custom-slider {
+      position: relative; width: 208px; height: 40px;
+      user-select: none; -webkit-user-select: none; touch-action: none;
+    }
+    .cs-track {
+      position: absolute; left: 0; right: 0;
+      top: 7px;           /* (40 - 25) / 2 = 7.5 → 7px – Figma exact */
+      height: 25px;       /* Figma exact: Block height = 25px */
+      background: var(--border); border-radius: 9999px;
+      cursor: pointer;
+    }
+    .cs-knob {
+      position: absolute; top: 0; left: 0;
+      width: 40px; height: 40px; border-radius: 20px;
+      background: var(--brand);
+      overflow: hidden;   /* clip icon to rounded bounds */
+      cursor: grab; touch-action: none;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.22);
+    }
+    .cs-knob:active { cursor: grabbing; }
+    .cs-dot {
+      position: absolute; width: 6px; height: 6px; border-radius: 50%;
+      background: var(--secondary); opacity: 0.45;
+      top: 50%; transform: translateY(-50%);
+      pointer-events: none; z-index: 0;
+    }
+    .cs-knob { z-index: 1; }
+
+    .slider-labels {
+      display: flex; justify-content: space-between;
+      font-size: 12px; color: var(--secondary); width: 208px;
+    }
+
+
+    /* ── Ansicht grid ── */
+    .ansicht-section {
+      padding-top: 16px; padding-bottom: 16px;
+      border-top: 1px solid var(--border);
+      display: flex; flex-direction: column; gap: 6px;
+    }
+    .paradigm-grid { display: flex; flex-direction: column; gap: 6px; }
+    .p-btn {
+      border-radius: 8px;
+      border: 1.5px solid var(--border); background: var(--card);
+      font-family: 'Inter', sans-serif;
+      color: var(--primary); cursor: pointer;
+      display: flex; flex-direction: row; align-items: center;
+      gap: 12px; padding: 8px 12px;
+      width: 100%; box-sizing: border-box; text-align: left;
+      transition: all var(--trans);
+    }
+    .p-btn.selected { background: var(--brand); border-color: var(--brand); color: var(--on-brand); }
+    .p-preview {
+      width: 56px; height: 36px; flex-shrink: 0; border-radius: 5px;
+      background: var(--bg); border: 1px solid var(--border);
+      display: flex; flex-direction: column; justify-content: center;
+      padding: 6px; gap: 3px; overflow: hidden; box-sizing: border-box;
+    }
+    .p-preview svg { display: block; width: 100%; height: 100%; }
+    .p-btn.selected .p-preview { background: rgba(255,255,255,0.15); border-color: rgba(255,255,255,0.25); }
+    .p-line {
+      height: 2px; border-radius: 2px;
+      background: var(--secondary); opacity: 0.45; flex-shrink: 0;
+    }
+    .p-btn.selected .p-line { background: white; opacity: 0.8; }
+    .p-label { font-size: 13px; font-weight: 500; color: var(--primary); }
+    .p-btn.selected .p-label { color: var(--on-brand); }
+
+    /* ── Slider/Toggle ausgeblendet (Narrativ/Infografik-Modus) ── */
+    .slider-disabled { opacity: 0.3; pointer-events: none; }
+    .sb-section-hidden { display: none; }
+
+    /* ── Sprach-Toggle Zeile ── */
+    .lang-toggle-row { display: flex; align-items: center; gap: 8px; }
+    .lang-label { font-size: 12px; color: var(--secondary); flex: 1; }
+    .lang-label:last-child { text-align: right; }
+
+    /* reset button – absolute bottom-left inside sidebar */
+    .reset-btn {
+      position: absolute; bottom: 16px; left: 12px;
+      width: 32px; height: 32px;
+      background: var(--border); border: 1px solid var(--secondary);
+      border-radius: 8px; cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .reset-btn svg { width: 16px; height: 16px; color: var(--primary); }
+
+    /* Medikamenten-Titel: max 2 Zeilen, auto-shrink via JS */
+    #sb-med-name {
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      padding-bottom: 3px; /* Platz für Unterlängen (g, y, p …) */
+    }
+
+    /* ── Canvas (right) ── */
+    .canvas-area {
+      flex: 1; height: 100%; min-width: 0;
+      display: flex; flex-direction: column; gap: 24px;
+      overflow: hidden; position: relative;
+    }
+    .canvas-row { display: flex; gap: 24px; flex: 1; min-height: 0; }
+    .info-card {
+      flex: 1; min-width: 0;
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 20px; padding: 24px;
+      overflow: hidden;
+      display: flex; flex-direction: column; gap: 8px;
+    }
+    .info-card-title {
+      font-size: 24px; font-weight: 600;
+      letter-spacing: -0.48px; line-height: 1.2;
+      color: var(--primary); flex-shrink: 0;
+    }
+    .info-card-body {
+      font-size: 16px; font-weight: 400;
+      line-height: 1.4; color: var(--secondary); overflow: hidden;
+    }
+
+    /* ── Visual Mode: Controls deaktivieren ── */
+    #screen-canvas.paradigm-visual #sb-lang-section,
+    #screen-canvas.paradigm-visual #sb-text-section {
+      opacity: 0.25;
+      pointer-events: none;
+    }
+
+    /* ── Bedingung A: gesamte Sidebar ausblenden ── */
+    #screen-canvas.condition-a .sidebar {
+      display: none;
+    }
+
+    /* ── Bedingung A: Floating Reset-Button (Seitenrand unten links) ── */
+    .cond-a-reset {
+      display: none;
+      position: fixed;
+      bottom: 32px; left: 32px;
+      width: 36px; height: 36px;
+      background: var(--card);
+      border: 0.5px solid var(--border-card);
+      border-radius: 10px;
+      cursor: pointer;
+      align-items: center; justify-content: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+      z-index: 10;
+      transition: background var(--trans);
+    }
+    .cond-a-reset:hover { background: var(--border); }
+    .cond-a-reset svg { width: 16px; height: 16px; color: var(--primary); }
+    #screen-canvas.condition-a .cond-a-reset { display: flex; }
+
+    /* ── Bedingungsauswahl (Scanner-Screen) ── */
+    .cond-picker {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 8px;
+    }
+    .cond-picker-label {
+      font-size: 13px;
+      color: var(--secondary);
+      font-weight: 500;
+    }
+    .cond-seg {
+      display: flex;
+      border: 1px solid var(--border-card);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .cond-btn {
+      border: none;
+      background: transparent;
+      padding: 6px 20px;
+      font-family: inherit;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      color: var(--secondary);
+      transition: background var(--trans), color var(--trans);
+    }
+    .cond-btn + .cond-btn { border-left: 1px solid var(--border-card); }
+    .cond-btn.selected {
+      background: var(--brand);
+      color: var(--on-brand);
+    }
+
+    /* ── Visual Mode ── */
+    .visual-list {
+      padding: 0; margin: 0; list-style: none;
+      display: flex; flex-direction: column; gap: 10px;
+    }
+    .vl-item {
+      display: flex; align-items: flex-start; gap: 10px;
+    }
+    .vl-icons {
+      display: flex; flex-direction: column; gap: 4px; flex-shrink: 0;
+    }
+    .atom-icon {
+      width: 108px; height: 108px; object-fit: contain; display: block;
+    }
+    .vl-item span {
+      font-size: 15px; line-height: 1.5; flex: 1; min-width: 0;
+    }
+    .vl-item.no-icon {
+      font-size: 15px; line-height: 1.5; padding-left: 4px;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 900px) {
+      #screen-scanner, #screen-confirm, #screen-questionnaire {
+        padding: 20px; align-items: center; justify-content: center;
+      }
+      .center-card { width: 100%; max-width: 780px; }
+      .dark-viewport { width: 100%; height: 280px; }
+      #scanner-anim { width: 80%; height: auto; }
+    }
+    @media (max-width: 640px) {
+      #screen-canvas { padding: 12px; gap: 12px; flex-direction: column; }
+      .sidebar { width: 100%; height: auto; }
+      .canvas-row { flex-direction: column; min-height: 200px; }
+      .canvas-area { height: auto; flex: unset; }
+    }
+
+    mark.vereinfacht {
+      background: #FFE066;
+      border-radius: 2px;
+      padding: 0 1px;
+      cursor: help;
+    }
+    .safety-banner {
+      background: #FFF7E6;
+      border: 1px solid #FFD591;
+      border-radius: 8px;
+      padding: 12px 16px;
+      font-size: 14px;
+      color: #873800;
+      margin-bottom: 16px;
+      flex-shrink: 0;
+    }
+
+    .w-swap {
+      display: inline-block;
+      overflow: hidden;
+      height: 1.5em;
+      vertical-align: text-bottom;
+    }
+    .w-col {
+      display: flex;
+      flex-direction: column;
+    }
+    .w-row {
+      display: block;
+      white-space: nowrap;
+      line-height: 1.5;
+      height: 1.5em;
+    }
+    @keyframes slotUp {
+      from { transform: translateY(0);    }
+      to   { transform: translateY(-50%); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════
+       SCREEN 1 – SCANNER
+  ══════════════════════════════════════ -->
+  <div id="screen-scanner" class="screen active">
+    <div class="center-card">
+      <div style="padding-bottom:16px; border-bottom:1px solid var(--border);">
+        <p class="heading">Schachtel in der Markierung platzieren</p>
+      </div>
+      <div class="dark-viewport">
+        <video id="camera-feed" autoplay playsinline muted></video>
+        <img id="scanner-anim"
+             src="https://www.figma.com/api/mcp/asset/7793a97e-c279-41ae-9e13-703fb275fc9a"
+             alt="Scanner Animation">
+      </div>
+      <div class="cond-picker">
+        <span class="cond-picker-label">Studie – Bedingung</span>
+        <div class="cond-seg">
+          <button class="cond-btn" data-cond="A" onclick="setCondition('A')">A</button>
+          <button class="cond-btn selected" data-cond="B" onclick="setCondition('B')">B</button>
+        </div>
+      </div>
+    </div>
+    <button class="dev-btn" onclick="devSkip()">⚡ Dev: Dafalgan laden</button>
+  </div>
+
+
+  <!-- ══════════════════════════════════════
+       SCREEN 1.1 – CONFIRMATION  (auto-advance after 1 s)
+  ══════════════════════════════════════ -->
+  <div id="screen-confirm" class="screen">
+    <div class="center-card">
+      <div class="card-header">
+        <button class="back-btn" onclick="goTo('scanner')">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M15 18l-6-6 6-6"/>
+          </svg>
+        </button>
+        <p class="heading" id="confirm-title">DAFALGAN® 500 mg Tabletten</p>
+      </div>
+      <div class="dark-viewport confirm-viewport">
+        <div class="confirm-check">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#f5f5f5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12"/>
+          </svg>
+        </div>
+        <p class="confirm-label">Medikament erkannt:</p>
+        <p class="confirm-product-text" id="confirm-product-text">DAFALGAN® 500 mg Tabletten</p>
+        <p id="confirm-loading" style="display:none;align-items:center;gap:8px;font-size:13px;color:rgba(245,245,245,0.55);margin-top:4px;">
+          <span style="width:13px;height:13px;border:2px solid rgba(245,245,245,0.25);border-top-color:rgba(245,245,245,0.75);border-radius:50%;animation:spin .7s linear infinite;flex-shrink:0;display:inline-block;"></span>
+          Fragen werden analysiert…
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ══════════════════════════════════════
+       SCREEN 2 – QUESTIONNAIRE  (no preselection, auto-advance on pick)
+  ══════════════════════════════════════ -->
+  <div id="screen-questionnaire" class="screen">
+    <div class="center-card">
+      <div class="card-header">
+        <button class="back-btn" onclick="backFromQ()">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M15 18l-6-6 6-6"/>
+          </svg>
+        </button>
+        <p class="heading" id="q-med-name">DAFALGAN® 500 mg Tabletten</p>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:8px;">
+        <p style="font-size:16px;font-weight:400;line-height:1.4;color:var(--primary);" id="q-label">Altersgruppe</p>
+        <div id="q-opts" class="opts-seg"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ══════════════════════════════════════
+       SCREEN 2.5 – SAFETY WARNING
+  ══════════════════════════════════════ -->
+  <div id="screen-warning" class="screen">
+    <div class="center-card">
+      <div class="card-header">
+        <button class="back-btn" onclick="goTo('scanner')">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M15 18l-6-6 6-6"/>
+          </svg>
+        </button>
+        <p class="heading">Wichtiger Hinweis</p>
+      </div>
+      <div class="dark-viewport" style="flex-direction:column;gap:20px;align-items:center;justify-content:center;">
+        <div style="font-size:56px;line-height:1;">⚠️</div>
+        <p style="font-size:20px;font-weight:600;color:#f5f5f5;text-align:center;padding:0 32px;">Dieses Medikament nicht einnehmen</p>
+        <p id="warning-text" style="font-size:14px;color:rgba(245,245,245,0.7);text-align:center;padding:0 48px;line-height:1.5;"></p>
+      </div>
+      <button onclick="goTo('scanner')" style="width:100%;padding:14px;background:var(--brand);color:var(--on-brand);border:none;border-radius:12px;font-family:inherit;font-size:15px;font-weight:600;cursor:pointer;">Zurück zum Scan</button>
+    </div>
+  </div>
+
+
+  <!-- ══════════════════════════════════════
+       SCREEN 3 – DASHBOARD
+  ══════════════════════════════════════ -->
+  <div id="screen-canvas" class="screen">
+
+    <!-- Left sidebar -->
+    <div class="sidebar">
+
+      <div class="sb-nav">
+        <button class="back-btn" onclick="goBackFromCanvas()">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M15 18l-6-6 6-6"/>
+          </svg>
+        </button>
+        <p class="heading" id="sb-med-name" style="flex:1;">DAFALGAN® 500 mg Tabletten</p>
+      </div>
+
+      <!-- Satz-Länge -->
+      <div class="sb-section" id="sb-text-section" style="border-top:none;padding-top:0;">
+        <p class="sb-label">Text-Länge</p>
+        <div class="custom-slider" id="cs-text" data-key="text">
+          <div class="cs-track"></div>
+          <div class="cs-dot" style="left:17px;"></div>
+          <div class="cs-dot" style="left:101px;"></div>
+          <div class="cs-dot" style="left:185px;"></div>
+          <div class="cs-knob">
+            <img src="/textlaenge.svg"
+                 alt="" draggable="false"
+                 style="position:absolute;width:13px;height:14px;
+                        left:calc(50% + 0.5px);top:calc(50% + 1px);
+                        transform:translate(-50%,-50%);pointer-events:none;">
+          </div>
+        </div>
+        <div class="slider-labels"><span>Original</span><span>Kurz</span></div>
+      </div>
+
+      <!-- Informationsmenge -->
+      <div class="sb-section" id="sb-info-section">
+        <p class="sb-label">Informations-Menge</p>
+        <div class="custom-slider" id="cs-info" data-key="info">
+          <div class="cs-track"></div>
+          <div class="cs-dot" style="left:17px;"></div>
+          <div class="cs-dot" style="left:101px;"></div>
+          <div class="cs-dot" style="left:185px;"></div>
+          <div class="cs-knob">
+            <img src="/level_of_details.svg"
+                 alt="" draggable="false"
+                 style="position:absolute;width:18px;height:17px;
+                        left:calc(50% + 0.5px);top:calc(50% + 1px);
+                        transform:translate(-50%,-50%);pointer-events:none;">
+          </div>
+        </div>
+        <div class="slider-labels"><span>Alle</span><span>Nur Wichtiges</span></div>
+      </div>
+
+      <!-- Sprache Toggle -->
+      <div class="sb-section" id="sb-lang-section">
+        <p class="sb-label">Sprach-Level</p>
+        <div class="lang-toggle-row">
+          <span class="lang-label">Fachlich</span>
+          <div class="custom-slider" id="cs-lang" style="width:80px;cursor:pointer;flex-shrink:0;">
+            <div class="cs-track"></div>
+            <div class="cs-knob" style="transition:left 0.15s ease;">
+              <img src="/sprache.svg" alt="" draggable="false"
+                   style="position:absolute;width:16px;height:17px;
+                          left:calc(50% + 0.5px);top:calc(50% + 1px);
+                          transform:translate(-50%,-50%);pointer-events:none;">
+            </div>
+          </div>
+          <span class="lang-label" style="text-align:right;">Einfach</span>
+        </div>
+      </div>
+
+      <!-- Ansicht -->
+      <div class="ansicht-section">
+        <p class="sb-label">Ansicht</p>
+        <div class="paradigm-grid">
+
+          <!-- Text -->
+          <button class="p-btn selected" data-p="text" onclick="pickParadigm(this)">
+            <div class="p-preview">
+              <div class="p-line" style="width:90%"></div>
+              <div class="p-line" style="width:75%"></div>
+              <div class="p-line" style="width:85%"></div>
+              <div class="p-line" style="width:55%"></div>
+            </div>
+            <span class="p-label">Text</span>
+          </button>
+
+          <!-- Infografik -->
+          <button class="p-btn" data-p="infografik" onclick="pickParadigm(this)">
+            <div class="p-preview" style="padding:4px;">
+              <svg viewBox="0 0 56 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="1" y="1" width="24" height="15" rx="2" fill="currentColor" opacity="0.2"/>
+                <rect x="31" y="1" width="24" height="15" rx="2" fill="currentColor" opacity="0.2"/>
+                <rect x="1" y="20" width="24" height="15" rx="2" fill="currentColor" opacity="0.2"/>
+                <rect x="31" y="20" width="24" height="15" rx="2" fill="currentColor" opacity="0.2"/>
+              </svg>
+            </div>
+            <span class="p-label">Infografik</span>
+          </button>
+
+          <!-- Narrativ -->
+          <button class="p-btn" data-p="narrativ" onclick="pickParadigm(this)">
+            <div class="p-preview" style="padding:4px;">
+              <svg viewBox="0 0 56 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="28" cy="18" rx="12" ry="8" fill="currentColor" opacity="0.2"/>
+                <path d="M4 28 Q16 10 28 18 Q40 26 52 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+              </svg>
+            </div>
+            <span class="p-label">Narrativ</span>
+          </button>
+
+        </div>
+      </div>
+
+      <!-- Reset -->
+      <button class="reset-btn" onclick="resetAll()" title="Neu starten">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/>
+          <path d="M3 3v5h5"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Bedingung A: Floating Reset-Button (unten links, am Seitenrand) -->
+    <button class="cond-a-reset" onclick="resetAll()" title="Neu starten">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/>
+        <path d="M3 3v5h5"/>
+      </svg>
+    </button>
+
+    <!-- Right canvas -->
+    <div class="canvas-area">
+      <!-- Row 1: 2 cards -->
+      <div class="canvas-row">
+        <div class="info-card">
+          <p class="info-card-title">Einnahme, dosierung</p>
+          <p class="info-card-body">Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story.</p>
+        </div>
+        <div class="info-card">
+          <p class="info-card-title">Title</p>
+          <p class="info-card-body">Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story.</p>
+        </div>
+      </div>
+      <!-- Row 2: 3 cards -->
+      <div class="canvas-row">
+        <div class="info-card">
+          <p class="info-card-title">Title</p>
+          <p class="info-card-body">Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story.</p>
+        </div>
+        <div class="info-card">
+          <p class="info-card-title">Title</p>
+          <p class="info-card-body">Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story.</p>
+        </div>
+        <div class="info-card">
+          <p class="info-card-title">Title</p>
+          <p class="info-card-body">Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <button id="stop-btn" class="stop-btn" onclick="abortAll()">⏹ Dev: Stop API</button>
+
+  <script>
+    /* ── State ─────────────────────────────── */
+    const S = {
+      med: 'DAFALGAN® 500 mg Tabletten',
+      paradigm: 'text',
+      atoms: null,              // Resultat von /api/atomize — alle enriched atoms
+      sicherheitshinweis: null, // Relativer Warnhinweis-Text (oder null)
+      informationsmenge: 0,     // 0=Alle, 2=Standard, 4=Nur Wichtiges
+      satzlaenge: 4,            // 0=Ultrakurz, 2=Ausführlich, 4=Original
+      sprache: 0,               // 0=Standard (default), 1=Einfach
+      condition: 'B',           // 'A'=statisch (kein Fragebogen, keine Einstellungen) | 'B'=adaptiv
+      questions: [],
+      answers: {},
+      qIdx: 0,
+      stream: null,
+      confirmTimer: null, pickTimer: null,
+      pilRoh: null, pilFakten: null, pilTileContent: {}, atomicFacts: null, scanning: false, scanTimer: null, detector: null,
+      abortController: null,
+      _textSliderState: null,
+    };
+
+    const SATZ_FELDER   = {0: 'kurz', 2: 'mittel', 4: 'lang'};
+    const KRIT_SCHWELLE = {0: 3, 2: 2, 4: 1};
+
+    /* ── Dev: API-Abbruch ───────────────────── */
+    function startRequest() {
+      S.abortController = new AbortController();
+      document.getElementById('stop-btn').classList.add('visible');
+      return S.abortController.signal;
+    }
+    function endRequest() {
+      S.abortController = null;
+      document.getElementById('stop-btn').classList.remove('visible');
+    }
+    function abortAll() {
+      if (S.abortController) { S.abortController.abort(); }
+      endRequest();
+      S.scanning = false;
+    }
+
+    const DEMO_QS = [
+      { id: 'altersgruppe',   label: 'Altersgruppe',
+        opts: ['3 bis 6 Jahre', '6 bis 9 Jahre', '9 bis 12 Jahre', 'ab 12 Jahre'] },
+      { id: 'schwangerschaft', label: 'Sind Sie schwanger?',
+        opts: ['Ja', 'Nein'] },
+    ];
+
+    /* ── Navigation ─────────────────────────── */
+    function goTo(name) {
+      if (S.confirmTimer) { clearTimeout(S.confirmTimer); S.confirmTimer = null; }
+      document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+      setTimeout(() => {
+        const el = document.getElementById('screen-' + name);
+        if (el) el.classList.add('active');
+      }, 20);
+      if (name === 'scanner')       startCam();
+      else                          stopCam();
+      if (name === 'questionnaire') initQ();
+      if (name === 'canvas') {
+        document.getElementById('screen-canvas').classList.toggle('condition-a', S.condition === 'A');
+        updateSidebar();
+      }
+    }
+
+    /* ── Camera ─────────────────────────────── */
+    async function startCam() {
+      S.scanning = false;
+      try {
+        S.stream = await navigator.mediaDevices.getUserMedia({
+          video: { facingMode: { ideal: 'environment' } }, audio: false
+        });
+        document.getElementById('camera-feed').srcObject = S.stream;
+        document.getElementById('scanner-anim').style.display = 'none';
+        if ('BarcodeDetector' in window) {
+          S.detector = new BarcodeDetector({ formats: ['ean_13','ean_8','data_matrix','qr_code','upc_a'] });
+          scheduleDetect();
+        } else {
+          scheduleFrameScan();
+        }
+      } catch (e) { /* keep animation */ }
+    }
+    function stopCam() {
+      if (S.scanTimer) { cancelAnimationFrame(S.scanTimer); clearTimeout(S.scanTimer); S.scanTimer = null; }
+      if (S.stream) { S.stream.getTracks().forEach(t => t.stop()); S.stream = null; }
+    }
+
+    /* ── Scanner dev shortcut ───────────────── */
+    async function devSkip() {
+      S.scanning = true;
+      S.questions = [];
+      const signal = startRequest();
+      try {
+        const resp = await fetch('/api/scan', { method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ barcode: '7680462060026' }), signal });
+        const data = await resp.json();
+        if (data.success) {
+          S.med            = data.medikament_name;
+          S.pilRoh         = data.pil_rohtext;
+          S.pilFakten      = data.pil_fakten || null;
+          S.pilTileContent = data.pil_tile_content || {};
+          S.atomicFacts    = data.atomic_facts || null;
+          S.atoms          = null;  // alten Transform-Cache leeren
+        } else { S.med = 'DAFALGAN® 500 mg Tabletten'; }
+      } catch(e) {
+        if (e.name !== 'AbortError') S.med = 'DAFALGAN® 500 mg Tabletten';
+      } finally { endRequest(); }
+      S.scanning = false;
+      document.getElementById('confirm-title').textContent        = S.med;
+      document.getElementById('confirm-product-text').textContent = S.med;
+      goTo('confirm');
+      await advanceAfterConfirm();
+    }
+
+    /* ── Confirm → Fragebogen oder Canvas ──────── */
+    async function advanceAfterConfirm() {
+      const loadingEl = document.getElementById('confirm-loading');
+      if (S.condition === 'A') {
+        // Bedingung A: kein Fragebogen, direkt zum Canvas
+        S.questions = [];
+        S.answers   = {};
+        S.confirmTimer = setTimeout(() => {
+          if (!document.getElementById('screen-confirm').classList.contains('active')) return;
+          goTo('canvas');
+        }, 800);
+        return;
+      }
+      loadingEl.style.display = 'flex';
+      await fetchOnboarding();
+      loadingEl.style.display = 'none';
+      S.confirmTimer = setTimeout(() => {
+        if (!document.getElementById('screen-confirm').classList.contains('active')) return;
+        if (S.questions.length > 0) goTo('questionnaire');
+        else                        goTo('canvas');
+      }, 800);
+    }
+
+    /* ── Questionnaire ──────────────────────── */
+    function initQ() {
+      S.qIdx = 0;
+      S.answers = {};
+      document.getElementById('q-med-name').textContent = S.med;
+      renderQ();
+    }
+
+    function renderQ() {
+      const q   = S.questions[S.qIdx];
+      const sel = S.answers[q.id];
+      document.getElementById('q-label').textContent = q.label;
+
+      const checkSvg = `<svg class="opt-check" viewBox="0 0 24 24" fill="none"
+        stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="20 6 9 17 4 12"/></svg>`;
+
+      document.getElementById('q-opts').innerHTML =
+        q.opts.map(o =>
+          `<button class="opt-btn${o === sel ? ' selected' : ''}"
+             onclick="pick('${q.id}','${o.replace(/'/g, "\\'")}',this)">
+             ${checkSvg}${o}
+           </button>`
+        ).join('');
+    }
+
+    function backFromQ() {
+      /* Laufenden Advance-Timer abbrechen */
+      if (S.pickTimer) { clearTimeout(S.pickTimer); S.pickTimer = null; }
+      if (S.qIdx > 0) {
+        S.qIdx--;
+        renderQ();
+      } else {
+        goTo('scanner');
+      }
+    }
+
+    function goBackFromCanvas() {
+      goTo(S.condition === 'A' ? 'scanner' : 'questionnaire');
+    }
+
+    function setCondition(val) {
+      S.condition = val;
+      if (val === 'A' && (S.paradigm === 'narrativ' || S.paradigm === 'infografik')) {
+        S.paradigm = 'text';
+        document.querySelectorAll('.p-btn').forEach(b => b.classList.remove('selected'));
+        const textBtn = document.querySelector('.p-btn[data-p="text"]');
+        if (textBtn) textBtn.classList.add('selected');
+        document.getElementById('screen-canvas').classList.remove('paradigm-narrativ', 'paradigm-infografik');
+      }
+      document.querySelectorAll('.cond-btn').forEach(b =>
+        b.classList.toggle('selected', b.dataset.cond === val)
+      );
+    }
+
+    function pick(id, val, btn) {
+      /* Laufenden Timer abbrechen falls User Auswahl ändert */
+      if (S.pickTimer) { clearTimeout(S.pickTimer); S.pickTimer = null; }
+
+      /* Auswahl visuell setzen — Buttons bleiben klickbar */
+      S.answers[id] = val;
+      const seg = btn.closest('.opts-seg');
+      seg.querySelectorAll('.opt-btn').forEach(b => b.classList.remove('selected'));
+      btn.classList.add('selected');
+
+      /* 1s Delay — User kann in dieser Zeit noch ändern */
+      S.pickTimer = setTimeout(() => {
+        S.pickTimer = null;
+        advanceFromQ();
+      }, 1500);
+    }
+
+    function advanceFromQ() {
+      nextQ();
+    }
+
+    function nextQ() {
+      if (S.qIdx < S.questions.length - 1) {
+        S.qIdx++; renderQ();
+      } else {
+        goTo('canvas');
+      }
+    }
+
+    /* Titel auf max. 2 Zeilen einpassen — verkleinert Schrift bis es passt */
+    function fitMedName() {
+      const el = document.getElementById('sb-med-name');
+      el.style.fontSize = '';
+      const baseSize = parseInt(getComputedStyle(el).fontSize) || 24;
+      const lineH = parseFloat(getComputedStyle(el).lineHeight) || baseSize * 1.2;
+      const maxH = lineH * 2 + 2;
+      let size = baseSize;
+      while (el.scrollHeight > maxH && size > 12) {
+        size--;
+        el.style.fontSize = size + 'px';
+      }
+    }
+
+    /* ── Dashboard controls ─────────────────── */
+    async function updateSidebar() {
+      document.getElementById('sb-med-name').textContent = S.med;
+      fitMedName();
+      await safetyCheckAndGenerate();
+    }
+
+    function _setSliderKnob(id, step) {
+      const wrap = document.getElementById(id);
+      if (!wrap) return;
+      const travel = wrap.offsetWidth - 40;
+      wrap.querySelector('.cs-knob').style.left = (step * travel / 2) + 'px';
+    }
+    function _setLangKnob(v) {
+      const wrap = document.getElementById('cs-lang');
+      if (!wrap) return;
+      const travel = wrap.offsetWidth - 40;
+      wrap.querySelector('.cs-knob').style.left = (v === 0 ? 0 : travel) + 'px';
+    }
+
+    function pickParadigm(btn) {
+      const prevParadigm = S.paradigm;
+      document.querySelectorAll('.p-btn').forEach(b => b.classList.remove('selected'));
+      btn.classList.add('selected');
+      S.paradigm = btn.dataset.p;
+      document.getElementById('screen-canvas').classList.toggle('paradigm-visual', S.paradigm === 'visual');
+      document.getElementById('screen-canvas').classList.toggle('paradigm-narrativ', S.paradigm === 'narrativ');
+      document.getElementById('screen-canvas').classList.toggle('paradigm-infografik', S.paradigm === 'infografik');
+      const slidersDisabled = S.paradigm !== 'text';
+      document.getElementById('sb-lang-section').classList.toggle('slider-disabled', slidersDisabled);
+      document.getElementById('sb-info-section').classList.toggle('slider-disabled', slidersDisabled);
+      document.getElementById('sb-text-section').classList.toggle('slider-disabled', slidersDisabled);
+
+      if (S.paradigm === 'narrativ' || S.paradigm === 'infografik') {
+        if (prevParadigm === 'text') {
+          S._textSliderState = { informationsmenge: S.informationsmenge, satzlaenge: S.satzlaenge, sprache: S.sprache };
+        }
+        S.informationsmenge = 4; S.satzlaenge = 0; S.sprache = 1;
+        _setSliderKnob('cs-info', 2); _setSliderKnob('cs-text', 2); _setLangKnob(1);
+      } else if (S.paradigm === 'text' && S._textSliderState) {
+        S.informationsmenge = S._textSliderState.informationsmenge;
+        S.satzlaenge        = S._textSliderState.satzlaenge;
+        S.sprache           = S._textSliderState.sprache;
+        _setSliderKnob('cs-info', S.informationsmenge / 2);
+        _setSliderKnob('cs-text', (4 - S.satzlaenge) / 2);
+        _setLangKnob(S.sprache);
+      }
+
+      renderCanvas();
+    }
+
+    const LANG_ANIMATION = false; // true = Slot-Machine-Animation aktiv
+    let _langAnimTimer = null;
+    let _narrativ_loading  = { neutral: false, lucky_luke: false };
+    let _infografik_loading = false;
+
+    function onLangToggle(v) {
+      if (!document.getElementById('screen-canvas').classList.contains('active')) {
+        S.sprache = v;
+        return;
+      }
+      if (LANG_ANIMATION) animateLanguageToggle(v);
+      else { S.sprache = v; renderCanvas(); }
+    }
+
+    /* LCS: gibt Match-Paare [oldIdx, newIdx] für gleiche Wörter zurück */
+    function wordMatchPairs(a, b) {
+      const m = a.length, n = b.length;
+      const dp = Array.from({length: m+1}, () => new Array(n+1).fill(0));
+      for (let i = 1; i <= m; i++)
+        for (let j = 1; j <= n; j++)
+          dp[i][j] = a[i-1].toLowerCase() === b[j-1].toLowerCase()
+            ? dp[i-1][j-1] + 1
+            : Math.max(dp[i-1][j], dp[i][j-1]);
+      const pairs = [];
+      let i = m, j = n;
+      while (i > 0 && j > 0) {
+        if (a[i-1].toLowerCase() === b[j-1].toLowerCase()) { pairs.unshift([i-1, j-1]); i--; j--; }
+        else if (dp[i-1][j] >= dp[i][j-1]) i--;
+        else j--;
+      }
+      return pairs;
+    }
+
+    /* Slot-Machine-HTML: gleiche Wörter statisch, geänderte Blöcke rollen hoch */
+    function buildWordSwapHtml(oldText, newText) {
+      const oldWords = oldText.match(/\S+/g) || [];
+      const newWords = newText.match(/\S+/g) || [];
+      const pairs    = wordMatchPairs(oldWords, newWords);
+      const parts    = [];
+      let prevO = -1, prevN = -1;
+
+      const pushChange = (changedO, changedN) => {
+        if (!changedO.length && !changedN.length) return;
+        parts.push(
+          '<span class="w-swap"><span class="w-col">' +
+            '<span class="w-row">' + esc(changedO.join(' ')) + '</span>' +
+            '<span class="w-row">' + esc(changedN.join(' ')) + '</span>' +
+          '</span></span> '
+        );
+      };
+
+      for (const [oi, ni] of pairs) {
+        pushChange(oldWords.slice(prevO+1, oi), newWords.slice(prevN+1, ni));
+        parts.push('<span>' + esc(newWords[ni]) + '</span> ');
+        prevO = oi; prevN = ni;
+      }
+      pushChange(oldWords.slice(prevO+1), newWords.slice(prevN+1));
+
+      return parts.join('');
+    }
+
+    function animateLanguageToggle(newSprache) {
+      if (_langAnimTimer) { clearTimeout(_langAnimTimer); _langAnimTimer = null; }
+
+      const oldLang  = S.sprache  === 0 ? 'default' : 'einfach';
+      const newLang  = newSprache === 0 ? 'default' : 'einfach';
+      const satzFeld = SATZ_FELDER[S.satzlaenge];
+
+      const lis = document.querySelectorAll('.canvas-area li[data-tile-key]');
+      const toAnimate = [];
+
+      lis.forEach(li => {
+        const atom = (S.atoms[li.dataset.tileKey] || [])[parseInt(li.dataset.origIdx)];
+        if (!atom) return;
+        const oldText = (atom[satzFeld] && atom[satzFeld][oldLang]) || (atom.kurz && atom.kurz[oldLang]) || '';
+        const newText = (atom[satzFeld] && atom[satzFeld][newLang]) || (atom.kurz && atom.kurz[newLang]) || '';
+        if (oldText === newText) return;
+        toAnimate.push({ li, oldText, newText });
+      });
+
+      S.sprache = newSprache;
+      if (!toAnimate.length) return;
+
+      // Slot-Machine-HTML einsetzen — kein opacity, kein Blinken
+      toAnimate.forEach(({ li, oldText, newText }) => {
+        li.innerHTML = buildWordSwapHtml(oldText, newText);
+      });
+
+      // Zwei rAF-Frames warten damit Browser Layout berechnet hat, dann Animation starten
+      requestAnimationFrame(() => requestAnimationFrame(() => {
+        toAnimate.forEach(({ li }) => {
+          li.querySelectorAll('.w-col').forEach(col => {
+            col.style.animation = 'slotUp 0.42s ease forwards';
+          });
+        });
+      }));
+
+      // Nach Transition DOM aufräumen
+      _langAnimTimer = setTimeout(() => {
+        renderCanvas();
+        _langAnimTimer = null;
+      }, 560);
+    }
+
+    function resetAll() {
+      stopCam();
+      if (S.pickTimer) { clearTimeout(S.pickTimer); S.pickTimer = null; }
+      S.med = ''; S.paradigm = 'text'; S.narrativ_images = { neutral: null, lucky_luke: null }; S.narrativ_character = 'neutral'; S.infografik_image = null;
+      _narrativ_loading = { neutral: false, lucky_luke: false }; _infografik_loading = false;
+      S.questions = []; S.answers = {};
+      S.atoms = null;
+      S.sicherheitshinweis = null;
+      S.pilFakten = null;
+      S.pilTileContent = {};
+      S.atomicFacts = null;
+      S.informationsmenge = 0;
+      S.satzlaenge = 4;
+      S.sprache = 0;
+      S._textSliderState = null;
+      /* Slider-Knobs zurücksetzen */
+      const knobInfo = document.querySelector('#cs-info .cs-knob');
+      if (knobInfo) knobInfo.style.left = '0px';
+      const knobText = document.querySelector('#cs-text .cs-knob');
+      if (knobText) knobText.style.left = '0px';
+      const knobLang = document.querySelector('#cs-lang .cs-knob');
+      if (knobLang) knobLang.style.left = '0px';
+      /* Ansicht p-btn + Slider-Disabled zurücksetzen */
+      document.querySelectorAll('.p-btn').forEach(b => b.classList.remove('selected'));
+      document.querySelector('.p-btn[data-p="text"]').classList.add('selected');
+      document.getElementById('screen-canvas').classList.remove('paradigm-narrativ', 'paradigm-infografik');
+      document.getElementById('sb-lang-section').classList.remove('slider-disabled');
+      document.getElementById('sb-info-section').classList.remove('slider-disabled');
+      document.getElementById('sb-text-section').classList.remove('slider-disabled');
+      goTo('scanner');
+    }
+
+    /* ── Slider-Initialisierung (generisch) ─────────────────────────────────── */
+    function initSlider(id, steps, defaultPos, onSnap) {
+      const KNOB_W  = 40;
+      const wrap    = document.getElementById(id);
+      if (!wrap) return;
+      const TRACK_W = wrap.offsetWidth;
+      const TRAVEL  = TRACK_W - KNOB_W;
+      const STEP_PX = TRAVEL / steps;
+
+      const knob  = wrap.querySelector('.cs-knob');
+      const track = wrap.querySelector('.cs-track');
+
+      let dragging = false, startX = 0, startLeft = 0;
+
+      function getLeft()   { return parseFloat(knob.style.left) || 0; }
+      function setLeft(px) { knob.style.left = Math.max(0, Math.min(px, TRAVEL)) + 'px'; }
+      function snapAndStore(px) {
+        const v = Math.round(Math.max(0, Math.min(px, TRAVEL)) / STEP_PX);
+        setLeft(v * STEP_PX);
+        onSnap(v);
+      }
+
+      knob.addEventListener('mousedown', e => {
+        dragging = true; startX = e.clientX; startLeft = getLeft();
+        document.addEventListener('mousemove', onMove);
+        document.addEventListener('mouseup', onUp);
+        e.preventDefault();
+      });
+      function onMove(e) { if (dragging) setLeft(startLeft + e.clientX - startX); }
+      function onUp(e) {
+        if (!dragging) return; dragging = false;
+        snapAndStore(getLeft());
+        document.removeEventListener('mousemove', onMove);
+        document.removeEventListener('mouseup', onUp);
+      }
+
+      knob.addEventListener('touchstart', e => {
+        dragging = true; startX = e.touches[0].clientX; startLeft = getLeft();
+        e.preventDefault();
+      }, { passive: false });
+      knob.addEventListener('touchmove', e => {
+        if (dragging) setLeft(startLeft + e.touches[0].clientX - startX);
+        e.preventDefault();
+      }, { passive: false });
+      knob.addEventListener('touchend', () => {
+        if (!dragging) return; dragging = false; snapAndStore(getLeft());
+      });
+
+      track.addEventListener('click', e => {
+        const rect = wrap.getBoundingClientRect();
+        snapAndStore(e.clientX - rect.left - KNOB_W / 2);
+      });
+
+      knob.style.left = (defaultPos * STEP_PX) + 'px';
+    }
+
+    function initSliders() {
+      const onCanvas = () => document.getElementById('screen-canvas').classList.contains('active');
+
+      /* Informationsmenge: 3 Stufen, links=Alle (0), rechts=Nur Wichtiges (4) */
+      initSlider('cs-info', 2, 0, v => {
+        S.informationsmenge = v * 2;
+        if (onCanvas()) renderCanvas();
+      });
+
+      /* Satz-Länge: 3 Stufen, links=Original (4), rechts=Ultrakurz (0); default=links */
+      initSlider('cs-text', 2, 0, v => {
+        S.satzlaenge = (2 - v) * 2;
+        if (onCanvas()) renderCanvas();
+      });
+
+      /* Sprache: Click-Toggle, links=Original (0), rechts=Einfach (1) */
+      (function() {
+        const wrap = document.getElementById('cs-lang');
+        if (!wrap) return;
+        const knob = wrap.querySelector('.cs-knob');
+        const TRAVEL = wrap.offsetWidth - 40;
+        knob.style.left = '0px';
+        wrap.addEventListener('click', () => {
+          const newSprache = S.sprache === 0 ? 1 : 0;
+          knob.style.left = (newSprache === 0 ? 0 : TRAVEL) + 'px';
+          onLangToggle(newSprache);
+        });
+      })();
+    }
+
+    /* ── Init ───────────────────────────────── */
+    document.addEventListener('DOMContentLoaded', () => {
+      startCam();
+      initSliders();
+    });
+
+    /* ── Server-side frame scan fallback (Safari / kein BarcodeDetector) ── */
+    function scheduleFrameScan() {
+      S.scanTimer = setTimeout(async () => {
+        if (!S.stream || S.scanning) return;
+        const feed = document.getElementById('camera-feed');
+        if (feed.readyState < 2) { scheduleFrameScan(); return; }
+        const canvas = document.createElement('canvas');
+        canvas.width = feed.videoWidth || 640;
+        canvas.height = feed.videoHeight || 480;
+        canvas.getContext('2d').drawImage(feed, 0, 0);
+        canvas.toBlob(async blob => {
+          if (!blob || !S.stream || S.scanning) { scheduleFrameScan(); return; }
+          const fd = new FormData();
+          fd.append('frame', blob, 'frame.jpg');
+          try {
+            const resp = await fetch('/api/scan_frame', { method: 'POST', body: fd });
+            const data = await resp.json();
+            if (data.success && data.barcode) {
+              await onBarcodeDetected(data.barcode);
+            } else {
+              scheduleFrameScan();
+            }
+          } catch(e) { scheduleFrameScan(); }
+        }, 'image/jpeg', 0.8);
+      }, 500);
+    }
+
+    /* ── BarcodeDetector loop ───────────────── */
+    function scheduleDetect() {
+      S.scanTimer = requestAnimationFrame(async () => {
+        if (!S.stream || S.scanning) return;
+        const feed = document.getElementById('camera-feed');
+        if (feed.readyState >= 2) {
+          try {
+            const codes = await S.detector.detect(feed);
+            if (codes.length > 0) { await onBarcodeDetected(codes[0].rawValue); return; }
+          } catch(e) {}
+        }
+        scheduleDetect();
+      });
+    }
+
+    async function onBarcodeDetected(barcode) {
+      if (S.scanning) return;
+      S.scanning = true;
+      S.questions = [];
+      stopCam();
+      const signal = startRequest();
+      try {
+        const resp = await fetch('/api/scan', { method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ barcode }), signal });
+        const data = await resp.json();
+        if (data.success) {
+          S.med            = data.medikament_name;
+          S.pilRoh         = data.pil_rohtext;
+          S.pilFakten      = data.pil_fakten || null;
+          S.pilTileContent = data.pil_tile_content || {};
+          S.atomicFacts    = data.atomic_facts || null;
+          S.atoms          = null;  // alten Transform-Cache leeren
+          S.scanning = false;
+          document.getElementById('confirm-title').textContent        = S.med;
+          document.getElementById('confirm-product-text').textContent = S.med;
+          goTo('confirm');
+          await advanceAfterConfirm();
+        } else {
+          S.scanning = false;
+          startCam();
+        }
+      } catch(e) {
+        S.scanning = false;
+        if (e.name !== 'AbortError') startCam();
+      } finally { endRequest(); }
+    }
+
+    async function fetchOnboarding() {
+      if (!S.pilRoh || !S.med) return;
+      const signal = startRequest();
+      try {
+        const resp = await fetch('/api/onboarding', { method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ atomic_facts: S.atomicFacts, medikament_name: S.med }),
+          signal });
+        const data = await resp.json();
+        if (data.success && Array.isArray(data.questions) && data.questions.length) {
+          S.questions = data.questions.map(q => ({
+            id: q.id, label: q.label,
+            opts: q.optionen || q.opts || []
+          }));
+        }
+      } catch(e) { /* AbortError oder Netzwerkfehler → DEMO_QS als Fallback */ }
+      finally { endRequest(); }
+    }
+
+    /* ── Generate & Render ──────────────────── */
+    async function generate() {
+      const area = document.querySelector('.canvas-area');
+      area.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;gap:12px;color:var(--secondary);font-size:15px;">' +
+        '<div style="width:20px;height:20px;border:2.5px solid var(--border);border-top-color:var(--primary);border-radius:50%;animation:spin .7s linear infinite;flex-shrink:0"></div>' +
+        'Claude generiert…</div>';
+      if (!document.getElementById('spin-keyframes')) {
+        const st = document.createElement('style');
+        st.id = 'spin-keyframes';
+        st.textContent = '@keyframes spin{to{transform:rotate(360deg)}}';
+        document.head.appendChild(st);
+      }
+      const signal = startRequest();
+      try {
+        const resp = await fetch('/api/generate', { method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            pil_rohtext:          S.pilRoh,
+            pil_fakten:           S.pilFakten,
+            paradigma:            S.paradigm === 'checklist' ? 'text' : S.paradigm,
+            onboarding_antworten: S.answers,
+            medikament_name:      S.med,
+          }), signal });
+        const data = await resp.json();
+        if (!data.success) { showErr(area, data.error || 'Fehler beim Generieren'); return; }
+        /* Legacy-Endpunkt — result wird im neuen Atom-Flow nicht gerendert */
+      } catch(e) {
+        if (e.name !== 'AbortError') showErr(area, 'Verbindungsfehler — läuft server.py?');
+      } finally { endRequest(); }
+    }
+
+    /* ── atomizeAll starten (Safety-Check bereits in advanceFromQ erledigt) ─── */
+    async function safetyCheckAndGenerate() {
+      await atomizeAll();
+    }
+
+    /* ── Bedingung A: atomic_facts direkt als Atoms-Struktur aufbauen (kein API-Call) ── */
+    function buildConditionAAtoms() {
+      const buckets = { wofuer: [], nicht_nehmen: [], dosierung: [], beachten: [] };
+      if (!S.atomicFacts || !Array.isArray(S.atomicFacts)) return buckets;
+      for (const fact of S.atomicFacts) {
+        const prio = fact.lese_prioritaet ?? fact.kritikalitaet ?? 1;
+        if (prio === 4) continue;
+        const bucket = fact.bucket;
+        if (!(bucket in buckets)) continue;
+        const text = fact.source_span || fact.claim || '';
+        buckets[bucket].push({
+          ...fact,
+          relevant_for_user: true,
+          kurz:   { default: text, einfach: text },
+          mittel: { default: text, einfach: text },
+          lang:   { default: text, einfach: text },
+        });
+      }
+      return buckets;
+    }
+
+    /* ── Atoms via /api/atomize laden, dann sofort rendern ──────────────────── */
+    async function atomizeAll() {
+      const area = document.querySelector('.canvas-area');
+
+      /* Bereits geladen → sofort rendern */
+      if (S.atoms) { renderCanvas(); return; }
+
+      /* Bedingung A: kein API-Call — atomic_facts direkt verwenden */
+      if (S.condition === 'A') {
+        if (!S.atomicFacts || !Array.isArray(S.atomicFacts)) {
+          showErr(area, 'Kein Beipackzettel geladen');
+          return;
+        }
+        S.atoms = buildConditionAAtoms();
+        renderCanvas();
+        return;
+      }
+
+      if (!S.atomicFacts && (!S.pilTileContent || Object.keys(S.pilTileContent).length === 0)) {
+        showErr(area, 'Kein Beipackzettel geladen');
+        return;
+      }
+
+      area.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;gap:12px;color:var(--secondary);font-size:15px;">' +
+        '<div style="width:20px;height:20px;border:2.5px solid var(--border);border-top-color:var(--primary);border-radius:50%;animation:spin .7s linear infinite;flex-shrink:0"></div>' +
+        'Inhalt wird aufbereitet…</div>';
+      if (!document.getElementById('spin-keyframes')) {
+        const st = document.createElement('style');
+        st.id = 'spin-keyframes';
+        st.textContent = '@keyframes spin{to{transform:rotate(360deg)}}';
+        document.head.appendChild(st);
+      }
+
+      const signal = startRequest();
+      try {
+        const atomizeBody = S.atomicFacts
+          ? { atomic_facts: S.atomicFacts, onboarding_antworten: S.answers, medikament_name: S.med }
+          : { pil_tile_content: S.pilTileContent, onboarding_antworten: S.answers, medikament_name: S.med, pil_fakten: S.pilFakten };
+
+        const resp = await fetch('/api/atomize', { method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(atomizeBody), signal });
+        const data = await resp.json();
+        if (!data.success || !data.atoms) {
+          showErr(area, data.error || 'Fehler beim Aufbereiten');
+          return;
+        }
+        S.atoms = data.atoms;
+      } catch(e) {
+        if (e.name === 'AbortError') {
+          area.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:var(--secondary);font-size:15px;">Abgebrochen.</div>';
+        } else {
+          showErr(area, 'Verbindungsfehler — läuft server.py?');
+        }
+        return;
+      } finally {
+        endRequest();
+      }
+
+      renderCanvas();
+    }
+
+
+    /* ── Warning Screen anzeigen ─────────────────────────────────────────── */
+    function showWarningScreen(nachricht) {
+      document.getElementById('warning-text').textContent = nachricht;
+      goTo('warning');
+    }
+
+    function showErr(area, msg) {
+      area.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;">' +
+        '<div style="background:#fff1f0;border:1px solid #ffa39e;border-radius:8px;padding:20px 24px;max-width:400px;color:#cf1322;font-size:14px;">⚠️ ' + esc(msg) + '</div></div>';
+    }
+
+    const TILES = [
+      { key: 'wofuer',       title: 'Wofür' },
+      { key: 'nicht_nehmen', title: 'Nicht nehmen wenn' },
+      { key: 'dosierung',    title: 'Dosierung & Einnahme' },
+      { key: 'beachten',     title: 'Was du beachten solltest' },
+    ];
+
+    /* ── Atom-basiertes Rendering (Schicht 4, kein API-Call) ──────────────── */
+    function renderCanvas() {
+      if (!S.atoms) return;
+      // Bedingung A nutzt immer Text-Paradigma — kein LLM-Narrativ/Infografik
+      if (S.condition !== 'A') {
+        if (S.paradigm === 'narrativ')   { renderNarrativ();   return; }
+        if (S.paradigm === 'infografik') { renderInfografik(); return; }
+      }
+      const area     = document.querySelector('.canvas-area');
+      const satzFeld = S.condition === 'A' ? 'mittel' : SATZ_FELDER[S.satzlaenge];
+      const langFeld = S.condition === 'A' ? 'default' : (S.sprache === 0 ? 'default' : 'einfach');
+      const maxKrit  = S.condition === 'A' ? 3 : KRIT_SCHWELLE[S.informationsmenge];
+
+      const bannerHtml = S.sicherheitshinweis
+        ? `<div class="safety-banner">⚠️ Hinweis: ${esc(S.sicherheitshinweis)}</div>`
+        : '';
+      const html =
+        bannerHtml +
+        '<div class="canvas-row">' +
+          cardHtml(TILES[0], satzFeld, langFeld, maxKrit) +
+          cardHtml(TILES[1], satzFeld, langFeld, maxKrit) +
+        '</div>' +
+        '<div class="canvas-row">' +
+          cardHtml(TILES[2], satzFeld, langFeld, maxKrit) +
+          cardHtml(TILES[3], satzFeld, langFeld, maxKrit) +
+        '</div>';
+      area.innerHTML = html;
+    }
+
+    function _narrativSwitcher() {
+      if (!S.narrativ_images) S.narrativ_images = { neutral: null, lucky_luke: null };
+      if (!S.narrativ_character) S.narrativ_character = 'neutral';
+      const cur = S.narrativ_character;
+      const btnBase = 'cursor:pointer;border:1.5px solid;border-radius:8px;padding:7px 18px;font-size:13px;font-weight:500;transition:all 0.15s;';
+      const btnActive = btnBase + 'background:var(--primary,#2c7be5);border-color:var(--primary,#2c7be5);color:#fff;';
+      const btnInactive = btnBase + 'background:#fff;border-color:#d0d5dd;color:var(--secondary,#555);';
+      return (
+        '<div style="display:flex;justify-content:center;gap:10px;padding:12px 0 4px;">' +
+          '<button style="' + (cur === 'neutral' ? btnActive : btnInactive) + '" ' +
+            'onclick="switchNarrativCharacter(\'neutral\')">Neutral</button>' +
+          '<button style="' + (cur === 'lucky_luke' ? btnActive : btnInactive) + '" ' +
+            'onclick="switchNarrativCharacter(\'lucky_luke\')">Lucky Luke</button>' +
+        '</div>'
+      );
+    }
+
+    function switchNarrativCharacter(character) {
+      if (!S.narrativ_images) S.narrativ_images = { neutral: null, lucky_luke: null };
+      S.narrativ_character = character;
+      renderNarrativ();
+    }
+
+    async function renderNarrativ() {
+      const area = document.querySelector('.canvas-area');
+      if (!S.narrativ_images) S.narrativ_images = { neutral: null, lucky_luke: null };
+      if (!S.narrativ_character) S.narrativ_character = 'neutral';
+      const char = S.narrativ_character;
+
+      if (S.narrativ_images[char]) {
+        area.innerHTML =
+          '<div style="display:flex;flex-direction:column;align-items:center;height:100%;padding:16px;overflow-y:auto;">' +
+            '<img src="data:image/png;base64,' + S.narrativ_images[char] + '" ' +
+                 'style="max-width:100%;height:auto;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.1);" ' +
+                 'alt="Medikamenten-Comic">' +
+            _narrativSwitcher() +
+          '</div>';
+        return;
+      }
+
+      area.innerHTML =
+        '<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;gap:16px;color:var(--secondary);">' +
+          '<div style="font-size:15px;">Comic wird generiert…</div>' +
+          '<div style="font-size:12px;opacity:0.6;">Das dauert ca. 15–30 Sekunden</div>' +
+        '</div>';
+
+      if (_narrativ_loading[char]) return;
+      _narrativ_loading[char] = true;
+
+      const atomsPayload = {};
+      ['wofuer', 'nicht_nehmen', 'dosierung', 'beachten'].forEach(k => {
+        atomsPayload[k] = S.atoms[k] || [];
+      });
+
+      try {
+        const resp = await fetch('/api/narrativ', {
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify({
+            atoms: atomsPayload,
+            medikament_name: S.med || 'Medikament',
+            character: char
+          })
+        });
+        const data = await resp.json();
+        if (!data.success) throw new Error(data.error || 'Unbekannter Fehler');
+
+        S.narrativ_images[char] = data.image_b64;
+        _narrativ_loading[char] = false;
+        if (S.paradigm === 'narrativ') renderNarrativ();
+
+      } catch (e) {
+        _narrativ_loading[char] = false;
+        area.innerHTML =
+          '<div style="display:flex;align-items:center;justify-content:center;height:100%;">' +
+            '<div style="background:#fff1f0;border:1px solid #ffa39e;border-radius:8px;padding:20px 24px;max-width:400px;color:#cf1322;font-size:14px;">' +
+              '⚠️ Comic konnte nicht generiert werden: ' + esc(e.message) +
+            '</div>' +
+          '</div>';
+      }
+    }
+
+    async function renderInfografik() {
+      const area = document.querySelector('.canvas-area');
+
+      if (S.infografik_image) {
+        area.innerHTML =
+          '<div style="display:flex;justify-content:center;align-items:center;height:100%;overflow:hidden;">' +
+            '<img src="data:image/png;base64,' + S.infografik_image + '" ' +
+                 'style="height:100%;width:auto;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.1);" ' +
+                 'alt="Medikamenten-Infografik">' +
+          '</div>';
+        return;
+      }
+
+      area.innerHTML =
+        '<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;gap:16px;color:var(--secondary);">' +
+          '<div style="font-size:15px;">Infografik wird generiert…</div>' +
+          '<div style="font-size:12px;opacity:0.6;">Das dauert ca. 15–30 Sekunden</div>' +
+        '</div>';
+
+      if (_infografik_loading) return;
+      _infografik_loading = true;
+
+      const atomsPayload = {};
+      ['wofuer', 'nicht_nehmen', 'dosierung', 'beachten'].forEach(k => {
+        atomsPayload[k] = S.atoms[k] || [];
+      });
+
+      try {
+        const resp = await fetch('/api/infografik', {
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify({
+            atoms: atomsPayload,
+            medikament_name: S.med || 'Medikament'
+          })
+        });
+        const data = await resp.json();
+        if (!data.success) throw new Error(data.error || 'Unbekannter Fehler');
+
+        S.infografik_image = data.image_b64;
+        _infografik_loading = false;
+        if (S.paradigm === 'infografik') renderInfografik();
+
+      } catch (e) {
+        _infografik_loading = false;
+        area.innerHTML =
+          '<div style="display:flex;align-items:center;justify-content:center;height:100%;">' +
+            '<div style="background:#fff1f0;border:1px solid #ffa39e;border-radius:8px;padding:20px 24px;max-width:400px;color:#cf1322;font-size:14px;">' +
+              '⚠️ Infografik konnte nicht generiert werden: ' + esc(e.message) +
+            '</div>' +
+          '</div>';
+      }
+    }
+
+    function cardHtml(tile, satzFeld, langFeld, maxKrit) {
+      return '<div class="info-card">' +
+        '<p class="info-card-title">' + esc(tile.title) + '</p>' +
+        '<div class="info-card-body" style="overflow-y:auto;">' +
+          tileContent(tile.key, satzFeld, langFeld, maxKrit) +
+        '</div></div>';
+    }
+
+    function tileContent(key, satzFeld, langFeld, maxKrit) {
+      const allAtoms = S.atoms[key] || [];
+      // P4 = regulatorisches Boilerplate, nie anzeigen
+      const nonBoilerplate = allAtoms.filter(a => (a.lese_prioritaet ?? a.kritikalitaet ?? 1) !== 4);
+      // relevant_for_user-Filter (neue Pipeline): nur in Bedingung B aktiv
+      const relevantAtoms = (S.condition === 'B' && nonBoilerplate.some(a => 'relevant_for_user' in a))
+        ? nonBoilerplate.filter(a => a.relevant_for_user !== false)
+        : nonBoilerplate;
+      console.log(`[DEBUG tileContent] key=${key} maxPrio=${maxKrit} total=${allAtoms.length} relevant=${relevantAtoms.length}`);
+      // lese_prioritaet (neue Pipeline) mit Fallback auf kritikalitaet (alte ATOMIZE-Pipeline)
+      const atoms = relevantAtoms.filter(a => (a.lese_prioritaet ?? a.kritikalitaet ?? 1) <= maxKrit);
+      if (atoms.length === 0) {
+        return '<p style="color:var(--secondary);font-size:14px;padding:4px 0;">Keine Informationen für diese Einstellung.</p>';
+      }
+
+      // Text Mode
+      return '<ul style="padding-left:18px;margin:0;">' +
+        atoms.map((a, idx) => {
+          const origIdx = allAtoms.indexOf(a);
+          const text = (a[satzFeld] && a[satzFeld][langFeld])
+            || (a.kurz && a.kurz[langFeld])
+            || '';
+          return '<li data-tile-key="' + key + '" data-orig-idx="' + origIdx + '" style="font-size:15px;line-height:1.5;margin-bottom:6px;">' + esc(text) + '</li>';
+        }).join('') +
+        '</ul>';
+    }
+
+    function list(items) {
+      return '<ul style="padding-left:18px;margin:0;">' +
+        (items || []).map(i => '<li style="font-size:15px;line-height:1.5;margin-bottom:4px;">' + esc(i) + '</li>').join('') +
+        '</ul>';
+    }
+    function chips(items, bg, prefix) {
+      return '<div style="display:flex;flex-wrap:wrap;gap:6px;">' +
+        (items || []).map(i =>
+          '<span style="background:' + bg + ';border-radius:100px;padding:4px 12px;font-size:13px;font-weight:500;">' +
+          prefix + esc(i) + '</span>'
+        ).join('') + '</div>';
+    }
+    function detail(label, val) {
+      if (!val) return '';
+      return '<div style="margin-top:8px;padding-top:8px;border-top:1px solid var(--border);">' +
+        '<span style="font-size:12px;color:var(--secondary);text-transform:uppercase;letter-spacing:.5px;">' +
+        esc(label) + '</span><br>' +
+        '<span style="font-size:14px;">' + esc(val) + '</span></div>';
+    }
+
+    /* ── Original PIL Modal ─────────────────── */
+    function showOriginal() {
+      if (!S.pilRoh) { alert('Bitte zuerst ein Medikament scannen.'); return; }
+      const overlay = document.createElement('div');
+      overlay.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:9999;' +
+        'overflow-y:auto;padding:40px 20px;';
+      const card = document.createElement('div');
+      card.style.cssText = 'background:#fff;border-radius:16px;padding:28px;max-width:760px;' +
+        'margin:0 auto;font-size:14px;line-height:1.6;';
+      const secs = [
+        ['Anwendungsgebiete', S.pilRoh.kurzfassung],
+        ['Warnhinweise & Kontraindikationen', S.pilRoh.warnhinweise],
+        ['Dosierung & Einnahme', S.pilRoh.dosierung],
+      ];
+      card.innerHTML =
+        '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;">' +
+        '<h3 style="font-size:18px;font-weight:700;margin:0;">Original Beipackzettel</h3>' +
+        '<button onclick="this.closest(\'div[style*=fixed]\').remove()" ' +
+        'style="border:none;background:none;font-size:22px;cursor:pointer;color:#666;line-height:1;">✕</button></div>' +
+        secs.map(([k, v]) =>
+          '<h4 style="font-size:11px;text-transform:uppercase;letter-spacing:.8px;color:#888;margin:16px 0 4px;">' + esc(k) + '</h4>' +
+          '<p style="white-space:pre-line;margin:0;">' + esc(v || '—') + '</p>'
+        ).join('');
+      overlay.appendChild(card);
+      overlay.addEventListener('click', e => { if (e.target === overlay) overlay.remove(); });
+      document.body.appendChild(overlay);
+    }
+
+    /* ── Vereinfachungs-Highlighting ────────────────────────────────────── */
+    function applyHighlighting(text, vereinfachungen) {
+      if (!vereinfachungen || vereinfachungen.length === 0) return esc(text);
+      let result = esc(text);
+      vereinfachungen.forEach(v => {
+        if (!v.vereinfacht) return;
+        const escapedTerm = esc(v.vereinfacht).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const escapedOrig = esc(v.original || '');
+        result = result.replace(
+          new RegExp(escapedTerm, 'gi'),
+          `<mark class="vereinfacht" title="${escapedOrig}">$&</mark>`
+        );
+      });
+      return result;
+    }
+
+    function listH(items, verein) {
+      return '<ul style="padding-left:18px;margin:0;">' +
+        (items || []).map(i =>
+          '<li style="font-size:15px;line-height:1.5;margin-bottom:4px;">' +
+          applyHighlighting(i, verein) + '</li>'
+        ).join('') + '</ul>';
+    }
+    function detailH(label, val, verein) {
+      if (!val) return '';
+      return '<div style="margin-top:8px;padding-top:8px;border-top:1px solid var(--border);">' +
+        '<span style="font-size:12px;color:var(--secondary);text-transform:uppercase;letter-spacing:.5px;">' +
+        esc(label) + '</span><br>' +
+        '<span style="font-size:14px;">' + applyHighlighting(val, verein) + '</span></div>';
+    }
+
+    /* ── Helpers ────────────────────────────── */
+    function esc(s) { return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+  </script>
+</body>
+</html>

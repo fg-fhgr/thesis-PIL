@@ -1,0 +1,150 @@
+{
+  "cache_key": "v22_transform_Tyroqualin®|{\"altersgruppe\": \"ab 18 Jahren\", \"schwangerschaft\": \"Nein\"}",
+  "buckets": {
+    "wofuer": [
+      {
+        "bucket": "wofuer",
+        "lese_prioritaet": 1,
+        "claim": "Kombinationspräparat zur Bekämpfung von Infektionen des Mund- und Rachenraumes; wirkt gegen Bakterien und Pilze und lindert Schmerzen und Schluckbeschwerden",
+        "population": null,
+        "condition": null,
+        "modality": "indication",
+        "negation": false,
+        "source_span": "Tyroqualin ist ein Kombinationspräparat zur Bekämpfung von Infektionen des Mund- und Rachenraumes. Es kann sowohl Bakterien als auch Pilze rasch vernichten und lindert Schmerzen und Schluckbeschwerden.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Kombinationspräparat gegen bakterielle und Pilzinfektionen von Mund und Rachen.",
+          "einfach": "Hilft gegen Bakterien und Pilze im Mund und Rachen."
+        },
+        "mittel": {
+          "default": "Tyroqualin bekämpft Infektionen im Mund- und Rachenraum durch Wirkung gegen Bakterien und Pilze und lindert gleichzeitig Schmerzen und Schluckbeschwerden.",
+          "einfach": "Das Mittel wirkt gegen Bakterien und Pilze im Mund und Rachen. Es hilft auch gegen Schmerzen und Schluckbeschwerden."
+        },
+        "lang": {
+          "default": "Tyroqualin ist ein Kombinationspräparat zur Bekämpfung von Infektionen des Mund- und Rachenraumes. Es kann sowohl Bakterien als auch Pilze rasch vernichten und lindert Schmerzen und Schluckbeschwerden.",
+          "einfach": "Tyroqualin ist ein Mittel mit mehreren Wirkstoffen zur Bekämpfung von Infektionen im Mund- und Rachenraum. Es kann schnell Bakterien und Pilze abtöten und lindert auch Schmerzen und Schluckbeschwerden."
+        }
+      },
+      {
+        "bucket": "wofuer",
+        "lese_prioritaet": 1,
+        "claim": "zur Behandlung von Infektionen des Mund- und Rachenraumes einschliesslich Pilzbefall",
+        "population": null,
+        "condition": null,
+        "modality": "indication",
+        "negation": false,
+        "source_span": "Tyroqualin wird verwendet zur Behandlung von Infektionen des Mund- und Rachenraumes einschliesslich Pilzbefall.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Behandlung von Infektionen des Mund- und Rachenraumes einschliesslich Pilzbefall.",
+          "einfach": "Hilft bei Infektionen im Mund und Rachen, auch bei Pilzen."
+        },
+        "mittel": {
+          "default": "Tyroqualin wird zur Behandlung von Mund- und Rachenrauminfektionen eingesetzt, auch wenn ein Pilzbefall vorliegt.",
+          "einfach": "Das Mittel wird verwendet bei Infektionen im Mund und Rachen. Es wirkt auch gegen Pilze."
+        },
+        "lang": {
+          "default": "Tyroqualin wird verwendet zur Behandlung von Infektionen des Mund- und Rachenraumes einschliesslich Pilzbefall.",
+          "einfach": "Tyroqualin wird verwendet zur Behandlung von Infektionen des Mund- und Rachenraumes. Es hilft auch, wenn ein Pilzbefall vorhanden ist."
+        }
+      },
+      {
+        "bucket": "wofuer",
+        "lese_prioritaet": 2,
+        "claim": "kann vorbeugend nach Mandeloperationen und zahnärztlichen Eingriffen eingesetzt werden",
+        "population": null,
+        "condition": "nach Mandeloperationen und zahnärztlichen Eingriffen",
+        "modality": "indication",
+        "negation": false,
+        "source_span": "Vorbeugend kann es nach Mandeloperationen und zahnärztlichen Eingriffen eingesetzt werden.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Kann nach Mandeloperationen und zahnärztlichen Eingriffen vorbeugend eingesetzt werden.",
+          "einfach": "Kann nach Zahn- und Halsoperationen vorbeugend verwendet werden."
+        },
+        "mittel": {
+          "default": "Tyroqualin kann zur Vorbeugung von Infektionen nach Mandeloperationen und zahnärztlichen Eingriffen eingesetzt werden.",
+          "einfach": "Das Mittel kann nach einer Zahn- oder Mandelentfernung zur Vorbeugung von Infektionen verwendet werden."
+        },
+        "lang": {
+          "default": "Vorbeugend kann es nach Mandeloperationen und zahnärztlichen Eingriffen eingesetzt werden.",
+          "einfach": "Vorbeugend kann Tyroqualin nach Mandeloperationen und zahnärztlichen Eingriffen eingesetzt werden. Das heisst, es wird verwendet, um Infektionen nach diesen Operationen zu verhindern."
+        }
+      }
+    ],
+    "nicht_nehmen": [
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 1,
+        "claim": "darf nicht angewendet werden",
+        "population": "Personen mit bekannter Überempfindlichkeit gegen Tyroqualin oder einen seiner Wirkstoffe",
+        "condition": null,
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "Wenn Sie bei einer früheren Anwendung von Tyroqualin oder einem seiner Wirkstoffe Zeichen einer allergischen Reaktion festgestellt haben, dürfen Sie Tyroqualin nicht anwenden.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei bekannter Überempfindlichkeit oder Allergie gegen Tyroqualin oder seine Wirkstoffe.",
+          "einfach": "Bei Allergie gegen Tyroqualin oder seine Wirkstoffe."
+        },
+        "mittel": {
+          "default": "Darf nicht angewendet werden bei bekannter Überempfindlichkeit gegenüber Tyroqualin oder einem seiner Wirkstoffe.",
+          "einfach": "Nicht verwenden, wenn man allergisch auf Tyroqualin oder einen seiner Wirkstoffe ist."
+        },
+        "lang": {
+          "default": "Wenn Sie bei einer früheren Anwendung von Tyroqualin oder einem seiner Wirkstoffe Zeichen einer allergischen Reaktion festgestellt haben, dürfen Sie Tyroqualin nicht anwenden.",
+          "einfach": "Wenn Sie bei einer früheren Anwendung von Tyroqualin oder einem seiner Wirkstoffe Zeichen einer allergischen Reaktion festgestellt haben, dürfen Sie Tyroqualin nicht anwenden."
+        }
+      },
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 1,
+        "claim": "darf nicht eingenommen werden",
+        "population": null,
+        "condition": "bei noch blutenden Wunden im Mundbereich",
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "Bei noch blutenden Wunden im Mundbereich sollte Tyroqualin nicht eingenommen werden.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei noch blutenden Wunden im Mundbereich.",
+          "einfach": "Wenn der Mund noch blutet."
+        },
+        "mittel": {
+          "default": "Sollte nicht verwendet werden, wenn noch blutende Wunden im Mundbereich vorhanden sind.",
+          "einfach": "Nicht verwenden, wenn der Mund noch blutet."
+        },
+        "lang": {
+          "default": "Bei noch blutenden Wunden im Mundbereich sollte Tyroqualin nicht eingenommen werden.",
+          "einfach": "Bei noch blutenden Wunden im Mundbereich sollte Tyroqualin nicht eingenommen werden."
+        }
+      }
+    ],
+    "dosierung": [
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 1,
+        "claim": "1 Lutschtablette stündlich langsam im Munde zergehen lassen, nach Abklingen der Symptome bzw. zur Vorbeugung alle 4–5 Stunden, max. 8 Lutschtabletten täglich",
+        "population": "Erwachsene",
+        "condition": null,
+        "modality": "dosage_instruction",
+        "negation": false,
+        "source_span": "Erwachsene Jede Stunde eine Lutschtablette langsam im Munde zergehen lassen. Nach Abklingen der Symptome bzw. zur Vorbeugung alle 4 bis 5 Stunden eine Lutschtablette lutschen. Maximal 8 Lutschtabletten täglich.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Stündlich 1 Lutschtablette langsam zergehen lassen, später alle 4–5 Stunden, max. 8 täglich.",
+          "einfach": "Jede Stunde 1 Tablette lutschen, später alle 4–5 Stunden, max. 8 pro Tag."
+        },
+        "mittel": {
+          "default": "Jede Stunde eine Lutschtablette langsam im Mund zergehen lassen. Nach Abklingen der Symptome oder zur Vorbeugung alle 4 bis 5 Stunden eine Tablette lutschen. Maximum 8 Lutschtabletten täglich.",
+          "einfach": "Jede Stunde eine Tablette langsam im Mund zergehen lassen. Wenn es besser wird, dann nur noch alle 4 bis 5 Stunden eine Tablette. Pro Tag nicht mehr als 8 Tabletten."
+        },
+        "lang": {
+          "default": "Erwachsene Jede Stunde eine Lutschtablette langsam im Munde zergehen lassen. Nach Abklingen der Symptome bzw. zur Vorbeugung alle 4 bis 5 Stunden eine Lutschtablette lutschen. Maximal 8 Lutschtabletten täglich.",
+          "einfach": "Erwachsene sollten jede Stunde eine Lutschtablette langsam im Mund zergehen lassen. Nachdem die Beschwerden besser werden oder zur Vorbeugung können Sie alle 4 bis 5 Stunden eine Lutschtablette lutschen. Sie dürfen aber nicht mehr als 8 Lutschtabletten am Tag nehmen."
+        }
+      }
+    ],
+    "beachten": []
+  }
+}

@@ -1,0 +1,496 @@
+{
+  "cache_key": "v22_transform_Muco-Mepha Brausetabletten|{\"altersgruppe\": \"ab 12 Jahren\", \"schwangerschaft\": \"Nein\"}",
+  "buckets": {
+    "wofuer": [
+      {
+        "bucket": "wofuer",
+        "lese_prioritaet": 1,
+        "claim": "wirkt schleimlösend, verflüssigt zähen festsitzenden Schleim in den Luftwegen und fördert den Auswurf",
+        "population": null,
+        "condition": null,
+        "modality": "indication",
+        "negation": false,
+        "source_span": "Muco-Mepha enthält den Wirkstoff Acetylcystein. Dieser Wirkstoff verflüssigt und löst den zähen, festsitzenden Schleim in den Luftwegen und fördert den Auswurf.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Löst zähen Schleim in den Luftwegen und fördert den Auswurf.",
+          "einfach": "Löst dicken Schleim in den Atemwegen. Hilft beim Abhusten."
+        },
+        "mittel": {
+          "default": "Der Wirkstoff Acetylcystein verflüssigt zähen, festsitzenden Schleim in den Luftwegen und erleichtert so den Auswurf.",
+          "einfach": "Der Wirkstoff heißt Acetylcystein. Er macht dicken Schleim in den Atemwegen flüssig. So kann man den Schleim leichter abhusten."
+        },
+        "lang": {
+          "default": "Muco-Mepha enthält den Wirkstoff Acetylcystein. Dieser Wirkstoff verflüssigt und löst den zähen, festsitzenden Schleim in den Luftwegen und fördert den Auswurf.",
+          "einfach": "Muco-Mepha enthält den Wirkstoff Acetylcystein. Dieser Wirkstoff macht den dicken, festsitzenden Schleim in den Atemwegen flüssig. Er löst den Schleim. Und er hilft, den Schleim abzuhusten."
+        }
+      },
+      {
+        "bucket": "wofuer",
+        "lese_prioritaet": 1,
+        "claim": "eignet sich zur Behandlung aller Atemwegserkrankungen mit übermässiger Schleimproduktion: Erkältungen und Grippeerkrankungen mit Husten und Katarrh, akuter und chronischer Bronchitis, Nasennebenhöhlenentzündungen, Hals- und Rachenentzündungen, Bronchialasthma sowie als Zusatzbehandlung bei Mukoviszidose (zystische Fibrose)",
+        "population": null,
+        "condition": null,
+        "modality": "indication",
+        "negation": false,
+        "source_span": "Muco-Mepha eignet sich zur Behandlung aller Atemwegserkrankungen, die zu übermässiger Schleimproduktion führen, wie z.B. Erkältungen oder Grippeerkrankungen mit Husten und Katarrh sowie bei akuter und chronischer Bronchitis, Nasennebenhöhlenentzündungen, Hals- und Rachenentzündungen, Bronchialasthma und (als Zusatzbehandlung) bei Mukoviszidose (zystische Fibrose).",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Anwendung bei Atemwegserkrankungen mit übermässiger Schleimproduktion.",
+          "einfach": "Hilft bei Erkrankungen der Atemwege mit zu viel Schleim."
+        },
+        "mittel": {
+          "default": "Geeignet bei allen Atemwegserkrankungen mit übermässiger Schleimproduktion: Erkältungen und Grippeerkrankungen mit Husten und Katarrh, akuter und chronischer Bronchitis, Nasennebenhöhlenentzündungen, Hals- und Rachenentzündungen, Bronchialasthma sowie als Zusatzbehandlung bei Mukoviszidose (zystische Fibrose).",
+          "einfach": "Das Mittel hilft bei Atemwegskrankheiten, bei denen zu viel Schleim entsteht. Zum Beispiel bei Erkältung oder Grippe mit Husten, bei Bronchitis, bei Entzündungen der Nasennebenhöhlen, des Halses oder des Rachens, bei Asthma und auch zusätzlich bei Mukoviszidose."
+        },
+        "lang": {
+          "default": "Muco-Mepha eignet sich zur Behandlung aller Atemwegserkrankungen, die zu übermässiger Schleimproduktion führen, wie z.B. Erkältungen oder Grippeerkrankungen mit Husten und Katarrh sowie bei akuter und chronischer Bronchitis, Nasennebenhöhlenentzündungen, Hals- und Rachenentzündungen, Bronchialasthma und (als Zusatzbehandlung) bei Mukoviszidose (zystische Fibrose).",
+          "einfach": "Das Mittel kann bei allen Krankheiten der Atemwege helfen, bei denen zu viel Schleim entsteht. Das sind zum Beispiel Erkältungen oder Grippeerkrankungen mit Husten und Katarrh. Auch bei akuter Bronchitis und bei chronischer Bronchitis. Und bei Entzündungen der Nasennebenhöhlen, des Halses oder des Rachens. Auch bei Asthma kann es helfen. Bei Mukoviszidose — das ist auch zystische Fibrose — kann es zusätzlich zu anderen Behandlungen eingesetzt werden."
+        }
+      },
+      {
+        "bucket": "wofuer",
+        "lese_prioritaet": 3,
+        "claim": "durch die schleimlösende Wirkung verflüssigt sich der zähe Schleim, lässt sich besser abhusten, vermindert die Infektionsgefahr, lässt den Husten nachlassen und erleichtert die Atmung",
+        "population": null,
+        "condition": null,
+        "modality": "info",
+        "negation": false,
+        "source_span": "Durch die schleimlösende Wirkung von Muco-Mepha verflüssigt sich der zähe Schleim und kann besser abgehustet werden. Dadurch wird die Gefahr einer Infektion vermindert. Bei freien Atemwegen lässt der Husten nach und die Atmung wird erleichtert.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Schleim wird flüssiger, Abhusten leichter, Infektionsgefahr sinkt, Atmung erleichtert.",
+          "einfach": "Schleim wird flüssig. Husten lässt nach. Atmen wird leichter."
+        },
+        "mittel": {
+          "default": "Der zähe Schleim wird verflüssigt und lässt sich leichter abhusten. Dadurch sinkt die Infektionsgefahr, der Husten lässt nach und die Atmung wird erleichtert.",
+          "einfach": "Der dicke Schleim wird flüssig. Man kann ihn besser abhusten. So wird die Gefahr einer Infektion kleiner. Der Husten hört nach und nach auf. Das Atmen fällt leichter."
+        },
+        "lang": {
+          "default": "Durch die schleimlösende Wirkung von Muco-Mepha verflüssigt sich der zähe Schleim und kann besser abgehustet werden. Dadurch wird die Gefahr einer Infektion vermindert. Bei freien Atemwegen lässt der Husten nach und die Atmung wird erleichtert.",
+          "einfach": "Die schleimlösende Wirkung macht den zähen Schleim flüssig. Dann kann man den Schleim besser abhusten. Das ist gut, weil so die Gefahr einer Infektion kleiner wird. Wenn die Atemwege frei sind, lässt der Husten nach. Und das Atmen wird leichter."
+        }
+      }
+    ],
+    "nicht_nehmen": [
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 1,
+        "claim": "darf nicht eingenommen werden",
+        "population": null,
+        "condition": "bei bekannter Überempfindlichkeit gegenüber dem Wirkstoff Acetylcystein oder einem anderen Inhaltsstoff",
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "Muco-Mepha darf bei bekannter Überempfindlichkeit gegenüber dem Wirkstoff Acetylcystein oder einem anderen Inhaltsstoff und bei Magen- und Darmgeschwüren nicht eingenommen werden.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei bekannter Allergie oder Überempfindlichkeit gegenüber Acetylcystein oder einem anderen Inhaltsstoff.",
+          "einfach": "Bei Allergie gegen Acetylcystein oder einen anderen Inhaltsstoff."
+        },
+        "mittel": {
+          "default": "Nicht einnehmen bei bekannter Überempfindlichkeit gegenüber dem Wirkstoff Acetylcystein oder einem anderen Inhaltsstoff des Präparats.",
+          "einfach": "Du darfst das Mittel nicht nehmen, wenn du allergisch auf Acetylcystein oder einen anderen Inhaltsstoff reagierst."
+        },
+        "lang": {
+          "default": "Muco-Mepha darf bei bekannter Überempfindlichkeit gegenüber dem Wirkstoff Acetylcystein oder einem anderen Inhaltsstoff und bei Magen- und Darmgeschwüren nicht eingenommen werden.",
+          "einfach": "Du darfst dieses Mittel nicht nehmen, wenn du weißt, dass du auf den Wirkstoff Acetylcystein allergisch reagierst. Auch wenn du auf einen anderen Inhaltsstoff des Mittels allergisch reagierst, darfst du es nicht nehmen. Außerdem darf das Mittel bei Magen- und Darmgeschwüren nicht eingenommen werden."
+        }
+      },
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 2,
+        "claim": "sollte nicht zusammen mit hustenstillenden Mitteln (Antitussiva) eingenommen werden, da diese den Husten und die natürliche Selbstreinigung der Atemwege unterdrücken, wodurch das Abhusten des verflüssigten Schleims beeinträchtigt wird und es zu einem Stau des Bronchialschleims mit Gefahr von Bronchialkrämpfen und Infektionen der Atemwege kommen kann",
+        "population": null,
+        "condition": null,
+        "modality": "drug_interaction",
+        "negation": true,
+        "source_span": "Muco-Mepha sollte auch nicht zusammen mit hustenstillenden Mitteln (Antitussiva) eingenommen werden, da durch diese Mittel der Husten und die natürliche Selbstreinigung der Atemwege unterdrückt werden, wodurch das Abhusten des verflüssigten Schleims beeinträchtigt wird und es zu einem Stau des Bronchialschleims mit Gefahr von Bronchialkrämpfen und Infektionen der Atemwege kommen kann.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Nicht zusammen mit hustenstillenden Mitteln (Antitussiva) — Staugefahr für Bronchialschleim.",
+          "einfach": "Nicht zusammen mit Mitteln gegen Husten nehmen. Das kann gefährlich werden."
+        },
+        "mittel": {
+          "default": "Nicht zusammen mit hustenstillenden Mitteln (Antitussiva) einnehmen: Diese unterdrücken den Husten und die natürliche Selbstreinigung der Atemwege, wodurch der verflüssigte Schleim nicht abgehustet werden kann — es drohen Bronchialkrämpfe und Atemwegsinfektionen.",
+          "einfach": "Nimm das Mittel nicht zusammen mit Mitteln, die den Husten stoppen. Solche Mittel unterdrücken den Husten. Dann kann der flüssige Schleim nicht mehr abgehustet werden. Das kann zu Krämpfen in den Bronchien und zu Infektionen der Atemwege führen."
+        },
+        "lang": {
+          "default": "Muco-Mepha sollte auch nicht zusammen mit hustenstillenden Mitteln (Antitussiva) eingenommen werden, da durch diese Mittel der Husten und die natürliche Selbstreinigung der Atemwege unterdrückt werden, wodurch das Abhusten des verflüssigten Schleims beeinträchtigt wird und es zu einem Stau des Bronchialschleims mit Gefahr von Bronchialkrämpfen und Infektionen der Atemwege kommen kann.",
+          "einfach": "Du solltest dieses Mittel nicht zusammen mit hustenstillenden Mitteln nehmen. Hustenstillende Mittel heißen auch Antitussiva. Diese Mittel stoppen den Husten. Sie stoppen auch die natürliche Reinigung der Atemwege. Wenn man beide Mittel zusammen nimmt, kann der flüssige Schleim nicht mehr abgehustet werden. Der Schleim staut sich dann in den Bronchien. Das kann gefährlich sein. Es können Krämpfe in den Bronchien entstehen. Und es kann zu Infektionen der Atemwege kommen."
+        }
+      },
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 3,
+        "claim": "kann schädlich sein, da Aspartam (20 mg/Tablette) eine Quelle für Phenylalanin ist, das sich bei PKU im Körper anreichert",
+        "population": "Personen mit Phenylketonurie (PKU)",
+        "condition": null,
+        "modality": "contraindication",
+        "negation": false,
+        "source_span": "Dieses Arzneimittel enthält 20 mg Aspartam pro Brausetablette. Aspartam ist eine Quelle für Phenylalanin. Es kann schädlich sein, wenn Sie eine Phenylketonurie (PKU) haben, eine seltene angeborene Erkrankung, bei der sich Phenylalanin anreichert, weil der Körper es nicht ausreichend abbauen kann.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Personen mit Phenylketonurie (PKU): Aspartam-Quelle für Phenylalanin, kann schädlich sein.",
+          "einfach": "Personen mit PKU: Enthält Aspartam — Phenylalanin-Quelle, kann schaden."
+        },
+        "mittel": {
+          "default": "Personen mit Phenylketonurie (PKU) sollten dieses Mittel nicht nehmen: Jede Brausetablette enthält 20 mg Aspartam, eine Quelle für Phenylalanin, das sich bei PKU im Körper anreichert.",
+          "einfach": "Personen mit Phenylketonurie (PKU) dürfen dieses Mittel nicht nehmen. Jede Tablette enthält 20 mg Aspartam. Das ist eine Quelle für Phenylalanin, das sich bei PKU im Körper ansammelt und schaden kann."
+        },
+        "lang": {
+          "default": "Dieses Arzneimittel enthält 20 mg Aspartam pro Brausetablette. Aspartam ist eine Quelle für Phenylalanin. Es kann schädlich sein, wenn Sie eine Phenylketonurie (PKU) haben, eine seltene angeborene Erkrankung, bei der sich Phenylalanin anreichert, weil der Körper es nicht ausreichend abbauen kann.",
+          "einfach": "In jeder Brausetablette stecken 20 mg Aspartam. Aspartam enthält einen Stoff namens Phenylalanin. Manche Menschen haben eine seltene Krankheit. Diese Krankheit heisst Phenylketonurie, kurz PKU. Bei PKU kann der Körper Phenylalanin nicht richtig abbauen. Dann sammelt sich Phenylalanin im Körper an. Das kann schädlich sein. Wenn Sie PKU haben, dürfen Sie dieses Mittel nicht nehmen."
+        }
+      }
+    ],
+    "dosierung": [
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 1,
+        "claim": "600 mg täglich, verteilt auf eine Gabe (1 Brausetablette zu 600 mg) oder mehrere Gaben (z.B. 3× täglich 1 Brausetablette zu 200 mg) bei akuten Erkrankungen",
+        "population": "Jugendliche über 12 Jahre und Erwachsene ab 18 Jahren",
+        "condition": "bei akuten Erkrankungen",
+        "modality": "dosage_instruction",
+        "negation": false,
+        "source_span": "Jugendliche über 12 Jahre und Erwachsene: 600 mg täglich, verteilt auf eine Gabe (1 Brausetablette zu 600 mg) oder mehrere Gaben (z.B. 3-mal täglich 1 Brausetablette zu 200 mg).",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "600 mg täglich: 1× 600 mg oder z. B. 3× 200 mg bei akuten Erkrankungen.",
+          "einfach": "600 mg pro Tag: einmal oder z. B. dreimal täglich bei akuten Erkrankungen."
+        },
+        "mittel": {
+          "default": "Bei akuten Erkrankungen beträgt die Tagesdosis 600 mg — entweder als einmalige Gabe (1 Brausetablette zu 600 mg) oder aufgeteilt, z. B. 3-mal täglich 1 Brausetablette zu 200 mg.",
+          "einfach": "Bei einer akuten Erkrankung nehmen Sie 600 mg pro Tag. Das kann eine Tablette mit 600 mg auf einmal sein. Oder Sie nehmen dreimal täglich eine Tablette mit 200 mg."
+        },
+        "lang": {
+          "default": "Jugendliche über 12 Jahre und Erwachsene: 600 mg täglich, verteilt auf eine Gabe (1 Brausetablette zu 600 mg) oder mehrere Gaben (z.B. 3-mal täglich 1 Brausetablette zu 200 mg).",
+          "einfach": "Jugendliche über 12 Jahre und Erwachsene nehmen bei einer akuten Erkrankung 600 mg pro Tag. Das können Sie so aufteilen: Entweder nehmen Sie einmal am Tag eine Brausetablette mit 600 mg. Oder Sie nehmen dreimal am Tag eine Brausetablette mit 200 mg. Beides ergibt zusammen 600 mg."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 1,
+        "claim": "400–600 mg täglich, verteilt auf eine oder mehrere Gaben; nur auf ärztliche Verordnung",
+        "population": "Jugendliche über 12 Jahre und Erwachsene ab 18 Jahren",
+        "condition": "bei Langzeitbehandlung chronischer Erkrankungen",
+        "modality": "dosage_instruction",
+        "negation": false,
+        "source_span": "Jugendliche über 12 Jahre und Erwachsene: 400–600 mg täglich, verteilt auf eine oder mehrere Gaben. Langzeitbehandlung bei chronischen Erkrankungen (nur auf ärztliche Verordnung).",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "400–600 mg täglich auf eine oder mehrere Gaben; nur auf ärztliche Verordnung.",
+          "einfach": "400–600 mg pro Tag; nur mit Rezept vom Arzt."
+        },
+        "mittel": {
+          "default": "Bei einer Langzeitbehandlung chronischer Erkrankungen beträgt die Tagesdosis 400–600 mg, verteilt auf eine oder mehrere Gaben — ausschliesslich auf ärztliche Verordnung.",
+          "einfach": "Bei einer langen Behandlung einer chronischen Erkrankung nehmen Sie 400–600 mg pro Tag. Das dürfen Sie nur tun, wenn ein Arzt oder eine Ärztin es Ihnen verschrieben hat."
+        },
+        "lang": {
+          "default": "Jugendliche über 12 Jahre und Erwachsene: 400–600 mg täglich, verteilt auf eine oder mehrere Gaben. Langzeitbehandlung bei chronischen Erkrankungen (nur auf ärztliche Verordnung).",
+          "einfach": "Jugendliche über 12 Jahre und Erwachsene, die eine chronische Erkrankung haben, nehmen 400 bis 600 mg pro Tag. Diese Menge kann man auf eine oder mehrere Einnahmen am Tag aufteilen. Eine Langzeitbehandlung darf man nur machen, wenn ein Arzt oder eine Ärztin es verordnet hat. Das bedeutet: Sie brauchen ein Rezept."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 1,
+        "claim": "Behandlungsdauer auf maximal 3–6 Monate beschränkt",
+        "population": null,
+        "condition": "bei Langzeitbehandlung chronischer Erkrankungen",
+        "modality": "dosage_instruction",
+        "negation": false,
+        "source_span": "Behandlungsdauer auf maximal 3-6 Monate beschränkt.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Langzeitbehandlung auf maximal 3–6 Monate begrenzt.",
+          "einfach": "Höchstens 3 bis 6 Monate behandeln."
+        },
+        "mittel": {
+          "default": "Die Dauer einer Langzeitbehandlung ist auf maximal 3–6 Monate begrenzt.",
+          "einfach": "Eine Langzeitbehandlung darf höchstens 3 bis 6 Monate dauern."
+        },
+        "lang": {
+          "default": "Behandlungsdauer auf maximal 3-6 Monate beschränkt.",
+          "einfach": "Wenn Sie dieses Mittel über eine lange Zeit nehmen, dann darf das höchstens 3 bis 6 Monate dauern. Danach sollten Sie aufhören oder mit Ihrem Arzt oder Ihrer Ärztin sprechen."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 1,
+        "claim": "600 mg täglich, verteilt auf eine Gabe (1× täglich 1 Brausetablette zu 600 mg) oder mehrere Gaben (3× täglich 1 Brausetablette zu 200 mg) bei Mukoviszidose",
+        "population": "Kinder über 6 Jahre und Erwachsene ab 18 Jahren",
+        "condition": "bei Mukoviszidose",
+        "modality": "dosage_instruction",
+        "negation": false,
+        "source_span": "Kinder über 6 Jahre und Erwachsene: 600 mg täglich, verteilt auf eine Gabe (1-mal täglich 1 Brausetablette zu 600 mg) oder mehrere Gaben (3-mal täglich 1 Brausetablette zu 200 mg).",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "600 mg täglich: 1× 600 mg oder 3× 200 mg bei Mukoviszidose.",
+          "einfach": "600 mg pro Tag: einmal oder dreimal täglich bei Mukoviszidose."
+        },
+        "mittel": {
+          "default": "Bei Mukoviszidose beträgt die Tagesdosis 600 mg — entweder als einmalige Gabe (1 Brausetablette zu 600 mg) oder aufgeteilt in 3-mal täglich 1 Brausetablette zu 200 mg.",
+          "einfach": "Bei Mukoviszidose nehmen Sie 600 mg pro Tag. Das kann eine Tablette mit 600 mg auf einmal sein. Oder Sie nehmen dreimal täglich eine Tablette mit 200 mg."
+        },
+        "lang": {
+          "default": "Kinder über 6 Jahre und Erwachsene: 600 mg täglich, verteilt auf eine Gabe (1-mal täglich 1 Brausetablette zu 600 mg) oder mehrere Gaben (3-mal täglich 1 Brausetablette zu 200 mg).",
+          "einfach": "Kinder über 6 Jahre und Erwachsene, die Mukoviszidose haben, nehmen 600 mg pro Tag. Das können Sie auf zwei Arten aufteilen: Entweder nehmen Sie einmal am Tag eine Brausetablette mit 600 mg. Oder Sie nehmen dreimal am Tag eine Brausetablette mit 200 mg. Beides ergibt zusammen 600 mg."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 2,
+        "claim": "Brausetablette in einem Glas kaltem oder heissem Wasser auflösen und sofort trinken",
+        "population": null,
+        "condition": null,
+        "modality": "dosage_instruction",
+        "negation": false,
+        "source_span": "Lösen Sie die Brausetablette in einem Glas kaltem oder heissem Wasser auf und trinken Sie es sofort.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Brausetablette in kaltem oder heissem Wasser auflösen und sofort trinken.",
+          "einfach": "In kaltem oder heissem Wasser auflösen und sofort trinken."
+        },
+        "mittel": {
+          "default": "Die Brausetablette in einem Glas kaltem oder heissem Wasser auflösen und die Lösung sofort trinken.",
+          "einfach": "Geben Sie die Brausetablette in ein Glas mit kaltem oder heissem Wasser. Warten Sie, bis sie sich aufgelöst hat. Dann trinken Sie das Wasser sofort."
+        },
+        "lang": {
+          "default": "Lösen Sie die Brausetablette in einem Glas kaltem oder heissem Wasser auf und trinken Sie es sofort.",
+          "einfach": "Nehmen Sie ein Glas mit kaltem oder heissem Wasser. Geben Sie die Brausetablette hinein. Warten Sie, bis die Tablette sich komplett aufgelöst hat. Dann trinken Sie die Flüssigkeit sofort. Lassen Sie die aufgelöste Tablette nicht stehen."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 2,
+        "claim": "Arzt aufsuchen zur Abklärung und zum Ausschluss einer bösartigen Erkrankung der Atemwege",
+        "population": null,
+        "condition": "wenn übermässige Schleimbildung und Husten nach 2 Wochen Behandlung nicht zurückgehen",
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Wenn die übermässige Schleimbildung und der damit verbundene Husten nach einer Behandlung von 2 Wochen nicht zurückgehen, sollten Sie einen Arzt aufsuchen, damit er die Ursache genauer abklärt und eine eventuelle bösartige Erkrankung der Atemwege ausschliesst.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Nach 2 Wochen ohne Besserung: Arzt aufsuchen zum Ausschluss einer bösartigen Erkrankung.",
+          "einfach": "Nach 2 Wochen keine Besserung: zum Arzt gehen."
+        },
+        "mittel": {
+          "default": "Wenn übermässige Schleimbildung und Husten nach 2 Wochen Behandlung nicht nachlassen, sollten Sie einen Arzt aufsuchen, um die Ursache abzuklären und eine bösartige Erkrankung der Atemwege auszuschliessen.",
+          "einfach": "Wenn Schleim und Husten nach 2 Wochen nicht besser werden, gehen Sie zum Arzt. Der Arzt schaut nach, was die Ursache ist. Er prüft auch, ob eine ernste Erkrankung der Atemwege vorliegt."
+        },
+        "lang": {
+          "default": "Wenn die übermässige Schleimbildung und der damit verbundene Husten nach einer Behandlung von 2 Wochen nicht zurückgehen, sollten Sie einen Arzt aufsuchen, damit er die Ursache genauer abklärt und eine eventuelle bösartige Erkrankung der Atemwege ausschliesst.",
+          "einfach": "Manchmal bildet sich zu viel Schleim, und man hustet sehr viel. Wenn das nach 2 Wochen Behandlung nicht besser wird, sollten Sie einen Arzt oder eine Ärztin aufsuchen. Der Arzt oder die Ärztin untersucht dann genauer, warum der Husten und der Schleim nicht weggehen. Er oder sie prüft auch, ob vielleicht eine ernste Erkrankung der Atemwege dahintersteckt."
+        }
+      }
+    ],
+    "beachten": [
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 2,
+        "claim": "kann die Wirksamkeit von Mitteln gegen Durchblutungsstörungen der Herzkranzgefässe verstärken (z.B. Nitroglycerin bei Angina pectoris)",
+        "population": null,
+        "condition": "bei gleichzeitiger Anwendung",
+        "modality": "drug_interaction",
+        "negation": false,
+        "source_span": "So kann die Wirksamkeit gewisser Mittel gegen Durchblutungsstörungen der Herzkranzgefässe (z.B. Nitroglycerin bei Angina pectoris) verstärkt werden.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Kann Wirkung von Herzgefässmitteln wie Nitroglycerin (Angina pectoris) verstärken.",
+          "einfach": "Kann Mittel gegen Herz-Durchblutungsstörungen stärker machen, z. B. Nitroglycerin."
+        },
+        "mittel": {
+          "default": "Bei gleichzeitiger Anwendung kann die Wirkung bestimmter Mittel gegen Durchblutungsstörungen der Herzkranzgefässe — wie Nitroglycerin bei Angina pectoris — verstärkt werden.",
+          "einfach": "Wenn du gleichzeitig Mittel gegen Durchblutungsstörungen am Herzen nimmst — zum Beispiel Nitroglycerin bei Angina pectoris — kann deren Wirkung stärker werden."
+        },
+        "lang": {
+          "default": "So kann die Wirksamkeit gewisser Mittel gegen Durchblutungsstörungen der Herzkranzgefässe (z.B. Nitroglycerin bei Angina pectoris) verstärkt werden.",
+          "einfach": "Es gibt Mittel gegen Durchblutungsstörungen der Herzkranzgefässe. Ein Beispiel ist Nitroglycerin. Das wird zum Beispiel bei Angina pectoris verwendet. Wenn man dieses Mittel zusammen mit solchen Herzmitteln nimmt, kann die Wirkung der Herzmittel stärker werden. Das ist wichtig zu wissen."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 2,
+        "claim": "kann die Wirkung von Muco-Mepha beeinträchtigen",
+        "population": null,
+        "condition": "bei gleichzeitiger Verabreichung von hustenstillenden Mitteln (Antitussiva)",
+        "modality": "drug_interaction",
+        "negation": false,
+        "source_span": "Die gleichzeitige Verabreichung von hustenstillenden Mitteln (Antitussiva) kann die Wirkung von Muco-Mepha beeinträchtigen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Hustenstiller (Antitussiva) können die Wirkung beeinträchtigen.",
+          "einfach": "Hustenstillende Mittel können die Wirkung abschwächen."
+        },
+        "mittel": {
+          "default": "Hustenstillende Mittel (Antitussiva) können die Wirkung von Acetylcystein beeinträchtigen — eine gleichzeitige Einnahme sollte vermieden werden.",
+          "einfach": "Hustenstillende Mittel können dazu führen, dass Acetylcystein nicht mehr so gut wirkt. Nehmen Sie diese Mittel nicht zusammen ein."
+        },
+        "lang": {
+          "default": "Die gleichzeitige Verabreichung von hustenstillenden Mitteln (Antitussiva) kann die Wirkung von Muco-Mepha beeinträchtigen.",
+          "einfach": "Es gibt Mittel, die Husten stillen. Diese Mittel heissen Antitussiva. Wenn Sie solche Mittel gleichzeitig mit Muco-Mepha nehmen, kann Muco-Mepha nicht mehr so gut wirken. Fragen Sie Ihren Arzt oder Ihre Ärztin, was Sie tun sollen."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 2,
+        "claim": "mindestens 2 Stunden Abstand einhalten",
+        "population": null,
+        "condition": "bei gleichzeitiger Einnahme von Antibiotika",
+        "modality": "drug_interaction",
+        "negation": false,
+        "source_span": "Des Weiteren sollten Sie Antibiotika nicht gleichzeitig mit Muco-Mepha einnehmen, sondern in einem zeitlichen Abstand von mindestens 2 Stunden.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Mindestens 2 Stunden Abstand zu Antibiotika einhalten.",
+          "einfach": "Mindestens 2 Stunden Abstand vor oder nach Antibiotika."
+        },
+        "mittel": {
+          "default": "Antibiotika nicht gleichzeitig einnehmen — zwischen den beiden Einnahmen einen Abstand von mindestens 2 Stunden einhalten.",
+          "einfach": "Nehmen Sie Antibiotika nicht zur gleichen Zeit ein. Warten Sie mindestens 2 Stunden zwischen den beiden Einnahmen."
+        },
+        "lang": {
+          "default": "Des Weiteren sollten Sie Antibiotika nicht gleichzeitig mit Muco-Mepha einnehmen, sondern in einem zeitlichen Abstand von mindestens 2 Stunden.",
+          "einfach": "Wenn Sie Antibiotika nehmen müssen, dann nehmen Sie diese nicht zur gleichen Zeit wie Muco-Mepha. Zwischen den zwei Einnahmen sollen mindestens 2 Stunden liegen. So wirken beide Mittel richtig."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 2,
+        "claim": "wird durch reichliches Trinken in der Wirkung gefördert",
+        "population": null,
+        "condition": null,
+        "modality": "precaution",
+        "negation": false,
+        "source_span": "Die Wirkung von Muco-Mepha wird durch reichliches Trinken gefördert.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Reichliches Trinken fördert die Wirkung.",
+          "einfach": "Viel trinken hilft dem Mittel besser zu wirken."
+        },
+        "mittel": {
+          "default": "Viel zu trinken unterstützt die schleimlösende Wirkung.",
+          "einfach": "Wenn man viel trinkt, wirkt das Mittel besser."
+        },
+        "lang": {
+          "default": "Die Wirkung von Muco-Mepha wird durch reichliches Trinken gefördert.",
+          "einfach": "Es ist wichtig, viel zu trinken. Das hilft dem Mittel, besser zu wirken. Je mehr man trinkt, desto besser kann das Mittel den Schleim lösen."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 2,
+        "claim": "Rauchen trägt zur übermässigen Bildung von Bronchialschleim bei und schwächt die Wirkung; Rauchverzicht unterstützt die Wirkung",
+        "population": null,
+        "condition": null,
+        "modality": "precaution",
+        "negation": false,
+        "source_span": "Rauchen trägt zur übermässigen Bildung von Bronchialschleim bei. Durch Verzicht auf das Rauchen können Sie die Wirkung von Muco-Mepha unterstützen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Rauchen fördert Schleimbildung und schwächt die Wirkung; Rauchstopp empfohlen.",
+          "einfach": "Rauchen macht mehr Schleim und schwächt das Mittel. Nicht rauchen hilft."
+        },
+        "mittel": {
+          "default": "Rauchen fördert die übermässige Bildung von Bronchialschleim und schwächt die Wirkung. Wer auf das Rauchen verzichtet, unterstützt die Behandlung.",
+          "einfach": "Rauchen lässt mehr Schleim entstehen. Es schwächt auch das Mittel. Wenn man nicht raucht, hilft das Mittel besser."
+        },
+        "lang": {
+          "default": "Rauchen trägt zur übermässigen Bildung von Bronchialschleim bei. Durch Verzicht auf das Rauchen können Sie die Wirkung von Muco-Mepha unterstützen.",
+          "einfach": "Rauchen ist schlecht, wenn man dieses Mittel nimmt. Durch Rauchen entsteht mehr Schleim in den Bronchien. Außerdem wird die Wirkung des Mittels schwächer. Wenn man aufhört zu rauchen oder gar nicht raucht, kann das Mittel besser wirken."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 2,
+        "claim": "Arzt/Apotheker informieren vor der Einnahme wegen möglicher Überempfindlichkeitsreaktion (Ausschläge, Atembeschwerden bei früherer Einnahme desselben Wirkstoffs)",
+        "population": null,
+        "condition": "bei früherer Einnahme eines Arzneimittels mit demselben Wirkstoff und beobachteten Ausschlägen oder Atembeschwerden",
+        "modality": "precaution",
+        "negation": false,
+        "source_span": "Falls Sie bei einer früheren Einnahme eines Arzneimittels mit dem gleichen Wirkstoff, wie ihn Muco-Mepha enthält, Ausschläge oder Atembeschwerden beobachtet haben, sollten Sie unbedingt Ihren Arzt, Apotheker oder Drogisten bzw. Ihre Ärztin, Apothekerin oder Drogistin darüber informieren, bevor Sie mit der Einnahme des Präparates beginnen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Arzt oder Apotheker informieren, falls bei früherer Einnahme Ausschläge oder Atembeschwerden auftraten.",
+          "einfach": "Hatte man früher Ausschläge oder Atemprobleme: Arzt oder Apotheke informieren."
+        },
+        "mittel": {
+          "default": "Wer bei einer früheren Einnahme eines Mittels mit dem Wirkstoff Acetylcystein Ausschläge oder Atembeschwerden bemerkt hat, muss unbedingt vor Beginn der Einnahme einen Arzt oder Apotheker informieren.",
+          "einfach": "Hattest du früher nach einem Mittel mit dem gleichen Wirkstoff Hautausschlag oder Probleme beim Atmen? Dann sag das bitte vor der Einnahme dem Arzt oder der Apotheke."
+        },
+        "lang": {
+          "default": "Falls Sie bei einer früheren Einnahme eines Arzneimittels mit dem gleichen Wirkstoff, wie ihn Muco-Mepha enthält, Ausschläge oder Atembeschwerden beobachtet haben, sollten Sie unbedingt Ihren Arzt, Apotheker oder Drogisten bzw. Ihre Ärztin, Apothekerin oder Drogistin darüber informieren, bevor Sie mit der Einnahme des Präparates beginnen.",
+          "einfach": "Hast du früher einmal ein Medikament mit dem gleichen Wirkstoff wie dieses Mittel genommen? Und hast du dabei Ausschläge auf der Haut oder Probleme beim Atmen bemerkt? Dann ist das sehr wichtig. Du solltest unbedingt deinen Arzt oder deine Ärztin darüber informieren. Oder du sagst es dem Apotheker oder der Apothekerin. Das musst du tun, bevor du mit der Einnahme dieses Mittels anfängst."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "kann zu einer Verflüssigung des Bronchialsekrets führen und den Auswurf fördern",
+        "population": null,
+        "condition": "insbesondere zu Beginn der Behandlung",
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Die Anwendung von Muco-Mepha kann, insbesondere zu Beginn der Behandlung, zu einer Verflüssigung des Bronchialsekrets führen und den Auswurf fördern. Ist der Patient nicht in der Lage dieses ausreichend abzuhusten, kann der Arzt bzw. Ärztin unterstützende Massnahmen durchführen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Besonders zu Beginn: mehr Schleim und stärkerer Auswurf möglich.",
+          "einfach": "Besonders am Anfang: mehr Schleim und mehr Husten möglich."
+        },
+        "mittel": {
+          "default": "Besonders zu Beginn der Behandlung kann sich das Bronchialsekret verflüssigen und der Auswurf zunehmen. Falls das Abhusten nicht ausreichend gelingt, kann ärztliche Unterstützung notwendig sein.",
+          "einfach": "Besonders am Anfang der Behandlung kann mehr Schleim entstehen. Der Schleim wird flüssiger und muss abgehustet werden. Wenn das schwierig ist, kann ein Arzt oder eine Ärztin helfen."
+        },
+        "lang": {
+          "default": "Die Anwendung von Muco-Mepha kann, insbesondere zu Beginn der Behandlung, zu einer Verflüssigung des Bronchialsekrets führen und den Auswurf fördern. Ist der Patient nicht in der Lage dieses ausreichend abzuhusten, kann der Arzt bzw. Ärztin unterstützende Massnahmen durchführen.",
+          "einfach": "Wenn man mit der Behandlung beginnt, kann es sein, dass der Schleim in den Bronchien flüssiger wird. Dann muss man mehr husten und mehr Schleim abhusten. Das ist besonders am Anfang der Behandlung so. Wenn man den Schleim nicht gut abhusten kann, kann der Arzt oder die Ärztin helfen. Sie können dann besondere Maßnahmen einleiten."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "darf nicht gleichzeitig mit anderen Arzneimitteln im selben Wasser aufgelöst werden, da dies die Wirksamkeit beider Mittel beeinträchtigen oder aufheben kann",
+        "population": null,
+        "condition": "bei gleichzeitiger Einnahme anderer Arzneimittel",
+        "modality": "warning",
+        "negation": true,
+        "source_span": "Lösen Sie nicht gleichzeitig andere Arzneimittel mit Muco-Mepha im Wasser auf, denn dadurch kann die Wirksamkeit sowohl von Muco-Mepha als auch der anderen Arzneimittel beeinträchtigt oder aufgehoben werden.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Nie andere Arzneimittel im selben Wasser auflösen.",
+          "einfach": "Nicht zusammen mit anderen Tabletten im Wasser auflösen."
+        },
+        "mittel": {
+          "default": "Andere Arzneimittel niemals zusammen im selben Glas Wasser auflösen — das kann die Wirksamkeit beider Mittel beeinträchtigen oder aufheben.",
+          "einfach": "Lösen Sie keine anderen Medikamente im selben Wasser auf. Das kann dazu führen, dass beide Mittel nicht mehr richtig wirken."
+        },
+        "lang": {
+          "default": "Lösen Sie nicht gleichzeitig andere Arzneimittel mit Muco-Mepha im Wasser auf, denn dadurch kann die Wirksamkeit sowohl von Muco-Mepha als auch der anderen Arzneimittel beeinträchtigt oder aufgehoben werden.",
+          "einfach": "Lösen Sie keine anderen Medikamente zusammen mit dieser Brausetablette im Wasser auf. Wenn Sie das tun, kann es passieren, dass beide Medikamente nicht mehr so gut wirken — oder gar nicht mehr wirken."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "kann zu einer Senkung der Carbamazepin-Konzentration führen",
+        "population": null,
+        "condition": "bei gleichzeitiger Verabreichung von Acetylcystein und Carbamazepin",
+        "modality": "drug_interaction",
+        "negation": false,
+        "source_span": "Eine gleichzeitige Verabreichung von Acetylcystein und Carbamazepin kann zu einer Senkung der Carbamazepin Konzentration führen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Kann Carbamazepin-Konzentration im Blut senken.",
+          "einfach": "Kann den Carbamazepin-Spiegel im Blut senken."
+        },
+        "mittel": {
+          "default": "Bei gleichzeitiger Einnahme mit Carbamazepin kann die Konzentration von Carbamazepin im Blut sinken.",
+          "einfach": "Wenn Sie Carbamazepin nehmen, kann der Wirkstoffspiegel im Blut sinken. Sprechen Sie mit Ihrem Arzt."
+        },
+        "lang": {
+          "default": "Eine gleichzeitige Verabreichung von Acetylcystein und Carbamazepin kann zu einer Senkung der Carbamazepin Konzentration führen.",
+          "einfach": "Wenn Sie Acetylcystein und Carbamazepin gleichzeitig nehmen, kann die Menge von Carbamazepin in Ihrem Blut kleiner werden. Das kann ein Problem sein. Sprechen Sie mit Ihrem Arzt oder Ihrer Ärztin darüber."
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1485 @@
+{
+  "cache_key": "v22_transform_Pantoprazol-Mepha Filmtabletten|{\"altersgruppe\": \"ab 18 Jahren\", \"schwangerschaft\": \"Ja, ich bin schwanger\"}",
+  "buckets": {
+    "wofuer": [
+      {
+        "bucket": "wofuer",
+        "lese_prioritaet": 1,
+        "claim": "zur Behandlung von Magensäurebedingten Erkrankungen (Sodbrennen, saures Aufstoßen, Magenschmerzen)",
+        "population": null,
+        "condition": null,
+        "modality": "indication",
+        "negation": false,
+        "source_span": "Pantoprazol ist ein Protonenpumpenhemmer, der zur Behandlung von Sodbrennen und saurem Aufstoßen angewendet wird.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Behandlung von Sodbrennen und saurem Aufstoßen.",
+          "einfach": "Hilft bei Sodbrennen und saurem Aufstoßen."
+        },
+        "mittel": {
+          "default": "Angewendet bei Sodbrennen, saurem Aufstoßen und magensäurebedingten Beschwerden wie Magenschmerzen.",
+          "einfach": "Das Mittel hilft bei Sodbrennen, saurem Aufstoßen und Magenschmerzen durch zu viel Magensäure."
+        },
+        "lang": {
+          "default": "Pantoprazol ist ein Protonenpumpenhemmer, der zur Behandlung von Sodbrennen und saurem Aufstoßen angewendet wird.",
+          "einfach": "Pantoprazol ist ein Medikament, das die Magensäure hemmt. Es wird bei Sodbrennen und saurem Aufstoßen eingenommen."
+        }
+      },
+      {
+        "bucket": "wofuer",
+        "lese_prioritaet": 1,
+        "claim": "zur Besserung der Beschwerden und Heilung von leichten Formen der entzündlichen Speiseröhrenerkrankung",
+        "population": null,
+        "condition": null,
+        "modality": "indication",
+        "negation": false,
+        "source_span": "Pantoprazol-Mepha 20 mg wird zur Besserung der Beschwerden und Heilung von leichten Formen der entzündlichen Speiseröhrenerkrankung angewendet.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bessert Beschwerden und heilt leichte Speiseröhrenentzündungen.",
+          "einfach": "Hilft bei leichter Entzündung der Speiseröhre."
+        },
+        "mittel": {
+          "default": "Lindert Beschwerden und fördert die Heilung bei leichten Formen der entzündlichen Speiseröhrenerkrankung.",
+          "einfach": "Es hilft bei einer leichten Entzündung der Speiseröhre. Die Beschwerden werden besser und die Entzündung heilt ab."
+        },
+        "lang": {
+          "default": "Pantoprazol-Mepha 20 mg wird zur Besserung der Beschwerden und Heilung von leichten Formen der entzündlichen Speiseröhrenerkrankung angewendet.",
+          "einfach": "Pantoprazol-Mepha 20 mg wird eingesetzt, um die Beschwerden zu lindern und leichte Formen der Entzündung der Speiseröhre zu heilen."
+        }
+      },
+      {
+        "bucket": "wofuer",
+        "lese_prioritaet": 1,
+        "claim": "zur Heilung und Besserung von leichten und mittelschweren Formen der Speiseröhrenentzündung, Zwölffingerdarmgeschwüren und Magengeschwüren",
+        "population": null,
+        "condition": null,
+        "modality": "indication",
+        "negation": false,
+        "source_span": "Pantoprazol-Mepha 40 mg soll zur Heilung und Besserung der Beschwerden von leichten und mittelschweren Formen der Speiseröhrenentzündung, Zwölffingerdarmgeschwüren und Magengeschwüren angewendet werden.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Heilt leichte bis mittelschwere Speiseröhrenentzündungen, Zwölffingerdarmgeschwüre und Magengeschwüre.",
+          "einfach": "Hilft bei Entzündungen der Speiseröhre, Magengeschwüren und Zwölffingerdarmgeschwüren."
+        },
+        "mittel": {
+          "default": "Fördert die Heilung und lindert Beschwerden bei leichten bis mittelschweren Speiseröhrenentzündungen, Zwölffingerdarmgeschwüren und Magengeschwüren.",
+          "einfach": "Es hilft bei einer Entzündung der Speiseröhre. Es heilt auch Geschwüre im Magen und im Zwölffingerdarm. Es wirkt bei leichten und mittelschweren Beschwerden."
+        },
+        "lang": {
+          "default": "Pantoprazol-Mepha 40 mg soll zur Heilung und Besserung der Beschwerden von leichten und mittelschweren Formen der Speiseröhrenentzündung, Zwölffingerdarmgeschwüren und Magengeschwüren angewendet werden.",
+          "einfach": "Pantoprazol-Mepha 40 mg wird eingesetzt, um leichte und mittelschwere Entzündungen der Speiseröhre zu heilen und die Beschwerden zu verbessern. Es wird auch bei Geschwüren im Zwölffingerdarm und im Magen angewendet."
+        }
+      },
+      {
+        "bucket": "wofuer",
+        "lese_prioritaet": 2,
+        "claim": "zur Langzeitbehandlung und Vorbeugung eines Rückfalls einer abgeheilten Speiseröhrenentzündung",
+        "population": null,
+        "condition": null,
+        "modality": "indication",
+        "negation": false,
+        "source_span": "Es ist ausserdem für die Langzeitbehandlung und zur Vorbeugung eines Rückfalls einer abgeheilten Entzündung im Bereich der unteren Speiseröhre angezeigt.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Langzeitbehandlung und Rückfallvorbeugung nach abgeheilter Speiseröhrenentzündung.",
+          "einfach": "Verhindert, dass die Speiseröhrenentzündung wiederkommt."
+        },
+        "mittel": {
+          "default": "Geeignet zur Langzeitbehandlung und zur Vorbeugung eines Rückfalls, nachdem eine Entzündung im Bereich der unteren Speiseröhre abgeheilt ist.",
+          "einfach": "Wenn die Entzündung der Speiseröhre geheilt ist, kann es über lange Zeit eingenommen werden. So soll verhindert werden, dass die Entzündung wiederkommt."
+        },
+        "lang": {
+          "default": "Es ist ausserdem für die Langzeitbehandlung und zur Vorbeugung eines Rückfalls einer abgeheilten Entzündung im Bereich der unteren Speiseröhre angezeigt.",
+          "einfach": "Es wird auch für die Langzeitbehandlung eingesetzt. Außerdem verhindert es, dass eine bereits geheilte Entzündung im unteren Bereich der Speiseröhre wieder auftritt."
+        }
+      },
+      {
+        "bucket": "wofuer",
+        "lese_prioritaet": 2,
+        "claim": "zur Behandlung einer Helicobacter-pylori-Infektion in Kombination mit zwei Antibiotika bei Zwölffingerdarm- und Magengeschwüren",
+        "population": null,
+        "condition": null,
+        "modality": "indication",
+        "negation": false,
+        "source_span": "Ebenfalls soll Pantoprazol-Mepha 40 mg zur Behandlung der Infektion mit dem Bakterium Helicobacter pylori in Kombination mit zwei Antibiotika bei Zwölffingerdarmgeschwür und Magengeschwür eingesetzt werden.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Behandelt Helicobacter-pylori-Infektionen zusammen mit zwei Antibiotika.",
+          "einfach": "Bekämpft das Helicobacter-Bakterium gemeinsam mit zwei Antibiotika."
+        },
+        "mittel": {
+          "default": "Wird in Kombination mit zwei Antibiotika eingesetzt, um eine Helicobacter-pylori-Infektion bei Magen- oder Zwölffingerdarmgeschwüren zu behandeln.",
+          "einfach": "Bei Geschwüren im Magen oder Zwölffingerdarm kann auch das Bakterium Helicobacter pylori die Ursache sein. In diesem Fall wird es zusammen mit zwei Antibiotika eingenommen."
+        },
+        "lang": {
+          "default": "Ebenfalls soll Pantoprazol-Mepha 40 mg zur Behandlung der Infektion mit dem Bakterium Helicobacter pylori in Kombination mit zwei Antibiotika bei Zwölffingerdarmgeschwür und Magengeschwür eingesetzt werden.",
+          "einfach": "Pantoprazol-Mepha 40 mg wird auch eingesetzt, wenn das Bakterium Helicobacter pylori im Körper ist. Das kommt vor bei Geschwüren im Magen oder im Zwölffingerdarm. Dann wird es zusammen mit zwei Antibiotika eingenommen."
+        }
+      },
+      {
+        "bucket": "wofuer",
+        "lese_prioritaet": 2,
+        "claim": "zur Prävention von Magen- und Zwölffingerdarmgeschwüren, die durch nichtsteroidale Antirheumatika (NSAID) hervorgerufen werden, bei erhöhtem Risiko für Läsionen",
+        "population": "Patienten mit erhöhtem Risiko für NSAID-induzierte Geschwüre, bei denen auf NSAID-Behandlung nicht verzichtet werden kann",
+        "condition": null,
+        "modality": "indication",
+        "negation": false,
+        "source_span": "Des Weiteren dient es zur Prävention der durch nichtsteroidale Antirheumatika (NSAID) hervorgerufenen Magen- und Zwölffingerdarmgeschwüre bei Patienten, die ein erhöhtes Risiko für solche Läsionen haben und bei denen auf eine NSAID-Behandlung nicht verzichtet werden kann.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Verhindert Magen- und Zwölffingerdarmgeschwüre durch nichtsteroidale Antirheumatika bei erhöhtem Risiko.",
+          "einfach": "Schützt den Magen bei der Einnahme von bestimmten Schmerzmitteln (NSAID)."
+        },
+        "mittel": {
+          "default": "Schützt vor Magen- und Zwölffingerdarmgeschwüren, die durch nichtsteroidale Antirheumatika (NSAID) entstehen können — bei Personen mit erhöhtem Risiko, die auf NSAID-Behandlung nicht verzichten können.",
+          "einfach": "Manche Schmerzmittel, sogenannte NSAID, können Geschwüre im Magen oder Zwölffingerdarm verursachen. Bei erhöhtem Risiko und wenn diese Schmerzmittel trotzdem nötig sind, schützt Pantoprazol die Magenschleimhaut."
+        },
+        "lang": {
+          "default": "Des Weiteren dient es zur Prävention der durch nichtsteroidale Antirheumatika (NSAID) hervorgerufenen Magen- und Zwölffingerdarmgeschwüre bei Patienten, die ein erhöhtes Risiko für solche Läsionen haben und bei denen auf eine NSAID-Behandlung nicht verzichtet werden kann.",
+          "einfach": "Bestimmte Schmerzmittel heißen nichtsteroidale Antirheumatika oder kurz NSAID. Diese Mittel können Geschwüre im Magen oder im Zwölffingerdarm verursachen. Manche Menschen haben ein höheres Risiko dafür. Wenn diese Menschen die Schmerzmittel trotzdem brauchen, wird Pantoprazol-Mepha 40 mg eingesetzt, um die Geschwüre zu verhindern."
+        }
+      },
+      {
+        "bucket": "wofuer",
+        "lese_prioritaet": 2,
+        "claim": "zur Behandlung leichter Speiseröhrenerkrankungen angewendet",
+        "population": "Erwachsene und Jugendliche ab 12 Jahren",
+        "condition": null,
+        "modality": "indication",
+        "negation": false,
+        "source_span": "Leichte Speiseröhrenerkrankung: In der Regel beträgt die tägliche Dosis für Erwachsene und Kinder ab 12 Jahren 1 magensaftresistente Filmtablette Pantoprazol-Mepha 20 mg.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Zur Behandlung leichter Speiseröhrenerkrankungen.",
+          "einfach": "Hilft bei leichten Erkrankungen der Speiseröhre."
+        },
+        "mittel": {
+          "default": "Angewendet zur Behandlung leichter Speiseröhrenerkrankungen.",
+          "einfach": "Das Mittel wird eingenommen, wenn die Speiseröhre leicht erkrankt ist."
+        },
+        "lang": {
+          "default": "Leichte Speiseröhrenerkrankung: In der Regel beträgt die tägliche Dosis für Erwachsene und Kinder ab 12 Jahren 1 magensaftresistente Filmtablette Pantoprazol-Mepha 20 mg.",
+          "einfach": "Pantoprazol-Mepha 20 mg wird eingenommen, wenn man eine leichte Erkrankung der Speiseröhre hat. Die normale Tagesdosis für Erwachsene und Kinder ab 12 Jahren beträgt 1 magensaftresistente Filmtablette."
+        }
+      },
+      {
+        "bucket": "wofuer",
+        "lese_prioritaet": 2,
+        "claim": "zur Langzeitbehandlung und Vorbeugung eines Rückfalls der Speiseröhrenentzündung eingenommen",
+        "population": "Erwachsene und Jugendliche ab 12 Jahren",
+        "condition": null,
+        "modality": "indication",
+        "negation": false,
+        "source_span": "Langzeitbehandlung und Vorbeugung eines Rückfalls der Speiseröhrenentzündung: Im Regelfall 1 magensaftresistente Filmtablette Pantoprazol-Mepha 20 mg.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Zur Langzeitbehandlung und Rückfallvorbeugung bei Speiseröhrenentzündung.",
+          "einfach": "Für Langzeitbehandlung und zur Vorbeugung bei Speiseröhrenentzündung."
+        },
+        "mittel": {
+          "default": "Angewendet zur Langzeitbehandlung und zur Vorbeugung eines Rückfalls der Speiseröhrenentzündung.",
+          "einfach": "Das Mittel wird auch für eine längere Behandlung genutzt, damit eine Entzündung der Speiseröhre nicht wiederkommt."
+        },
+        "lang": {
+          "default": "Langzeitbehandlung und Vorbeugung eines Rückfalls der Speiseröhrenentzündung: Im Regelfall 1 magensaftresistente Filmtablette Pantoprazol-Mepha 20 mg.",
+          "einfach": "Pantoprazol-Mepha 20 mg kann auch über eine lange Zeit eingenommen werden. Damit wird eine Speiseröhrenentzündung behandelt und verhindert, dass sie wiederkommt."
+        }
+      },
+      {
+        "bucket": "wofuer",
+        "lese_prioritaet": 2,
+        "claim": "zur Behandlung von Zwölffingerdarmgeschwür, Magengeschwür und Speiseröhrenentzündung bei Helicobacter pylori-Infektion in Kombinationstherapie mit Antibiotika",
+        "population": null,
+        "condition": null,
+        "modality": "indication",
+        "negation": false,
+        "source_span": "Bei Zwölffingerdarmgeschwür und Magengeschwür ist bei nachgewiesener Infektion mit Helicobacter pylori eine Beseitigung (Eradikation) der Infektion durch eine Kombinationstherapie anzustreben.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei Helicobacter-pylori-Infektion: Kombinationstherapie mit Antibiotika zur Keimbeseitigung.",
+          "einfach": "Bei Helicobacter-pylori-Infektion: zusammen mit Antibiotika nehmen."
+        },
+        "mittel": {
+          "default": "Bei nachgewiesener Helicobacter-pylori-Infektion wird zur Behandlung von Zwölffingerdarmgeschwür, Magengeschwür und Speiseröhrenentzündung eine Kombinationstherapie mit Antibiotika angestrebt, um die Infektion vollständig zu beseitigen.",
+          "einfach": "Wenn ein Helicobacter-pylori-Keim nachgewiesen wurde, soll man das Mittel zusammen mit Antibiotika nehmen. So kann der Keim vollständig beseitigt werden."
+        },
+        "lang": {
+          "default": "Bei Zwölffingerdarmgeschwür und Magengeschwür ist bei nachgewiesener Infektion mit Helicobacter pylori eine Beseitigung (Eradikation) der Infektion durch eine Kombinationstherapie anzustreben.",
+          "einfach": "Bei einem Zwölffingerdarmgeschwür oder Magengeschwür kann der Keim Helicobacter pylori die Ursache sein. Wenn dieser Keim nachgewiesen wurde, soll man nicht nur dieses Mittel nehmen, sondern auch Antibiotika dazu. So wird der Keim beseitigt (Eradikation). Das gilt auch bei einer Speiseröhrenentzündung mit dieser Infektion."
+        }
+      },
+      {
+        "bucket": "wofuer",
+        "lese_prioritaet": 2,
+        "claim": "zur Behandlung von Zwölffingerdarmgeschwür, Magengeschwür und Speiseröhrenentzündung",
+        "population": null,
+        "condition": null,
+        "modality": "indication",
+        "negation": false,
+        "source_span": "Bei Zwölffingerdarmgeschwür, Magengeschwür und Speiseröhrenentzündung: Im Regelfall 1 magensaftresistente Filmtablette Pantoprazol-Mepha 40 mg täglich.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Angewendet bei Zwölffingerdarmgeschwür, Magengeschwür und Speiseröhrenentzündung.",
+          "einfach": "Bei Magengeschwür, Darmgeschwür und Speiseröhrenentzündung."
+        },
+        "mittel": {
+          "default": "Das Mittel wird zur Behandlung von Zwölffingerdarmgeschwür, Magengeschwür und Speiseröhrenentzündung eingesetzt.",
+          "einfach": "Man nimmt dieses Mittel bei Magengeschwüren, Zwölffingerdarmgeschwüren und einer Entzündung der Speiseröhre."
+        },
+        "lang": {
+          "default": "Bei Zwölffingerdarmgeschwür, Magengeschwür und Speiseröhrenentzündung: Im Regelfall 1 magensaftresistente Filmtablette Pantoprazol-Mepha 40 mg täglich.",
+          "einfach": "Dieses Mittel hilft bei verschiedenen Erkrankungen: bei einem Zwölffingerdarmgeschwür, bei einem Magengeschwür und bei einer Entzündung der Speiseröhre."
+        }
+      },
+      {
+        "bucket": "wofuer",
+        "lese_prioritaet": 2,
+        "claim": "zur Behandlung von Speiseröhrenentzündung, Magen- und Zwölffingerdarmgeschwür, insbesondere wenn diese auf andere Medikamente nicht angesprochen haben",
+        "population": null,
+        "condition": null,
+        "modality": "indication",
+        "negation": false,
+        "source_span": "Speiseröhrenentzündung, beim Magen- und Zwölffingerdarmgeschwür, insbesondere, wenn diese auf andere Medikamente bisher nicht angesprochen haben",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei Speiseröhrenentzündung, Magen- oder Zwölffingerdarmgeschwür, besonders bei Therapieversagen.",
+          "einfach": "Bei Magenproblemen, die andere Medikamente nicht geholfen haben."
+        },
+        "mittel": {
+          "default": "Angewendet bei Speiseröhrenentzündung sowie Magen- und Zwölffingerdarmgeschwür — insbesondere wenn andere Medikamente nicht gewirkt haben.",
+          "einfach": "Es hilft bei Entzündungen in der Speiseröhre und bei Geschwüren im Magen oder Zwölffingerdarm. Besonders dann, wenn andere Medikamente nicht geholfen haben."
+        },
+        "lang": {
+          "default": "Speiseröhrenentzündung, beim Magen- und Zwölffingerdarmgeschwür, insbesondere, wenn diese auf andere Medikamente bisher nicht angesprochen haben",
+          "einfach": "Dieses Medikament wird eingesetzt bei einer Entzündung der Speiseröhre, bei einem Geschwür im Magen oder im Zwölffingerdarm. Es wird besonders dann verwendet, wenn andere Medikamente bisher nicht geholfen haben."
+        }
+      },
+      {
+        "bucket": "wofuer",
+        "lese_prioritaet": 2,
+        "claim": "zur Langzeittherapie von Zollinger-Ellison-Syndrom und anderen Erkrankungen mit pathologischer Hypersekretion von Magensäure",
+        "population": null,
+        "condition": null,
+        "modality": "indication",
+        "negation": false,
+        "source_span": "Für die Langzeittherapie von Zollinger-Ellison-Syndrom und anderen Erkrankungen, die mit einer pathologischen Hypersekretion von Magensäure einhergehen",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Langzeittherapie bei Zollinger-Ellison-Syndrom und krankhafter Überproduktion von Magensäure.",
+          "einfach": "Langzeitbehandlung bei zu viel Magensäure (z. B. Zollinger-Ellison-Syndrom)."
+        },
+        "mittel": {
+          "default": "Geeignet zur Langzeittherapie bei Zollinger-Ellison-Syndrom und anderen Erkrankungen, bei denen der Körper krankhaft zu viel Magensäure produziert.",
+          "einfach": "Es kann auch über eine lange Zeit eingenommen werden. Das ist wichtig bei Zollinger-Ellison-Syndrom und anderen Krankheiten, bei denen zu viel Magensäure gebildet wird."
+        },
+        "lang": {
+          "default": "Für die Langzeittherapie von Zollinger-Ellison-Syndrom und anderen Erkrankungen, die mit einer pathologischen Hypersekretion von Magensäure einhergehen",
+          "einfach": "Dieses Medikament wird auch für die Langzeitbehandlung verwendet. Es hilft bei Zollinger-Ellison-Syndrom und bei anderen Krankheiten, bei denen der Körper krankhaft zu viel Magensäure bildet."
+        }
+      },
+      {
+        "bucket": "wofuer",
+        "lese_prioritaet": 3,
+        "claim": "zur Behandlung des Zollinger-Ellison-Syndroms und anderer Erkrankungen mit pathologischer Überproduktion von Magensäure",
+        "population": null,
+        "condition": null,
+        "modality": "indication",
+        "negation": false,
+        "source_span": "Es wird auch beim Zollinger-Ellison-Syndrom und anderen Erkrankungen, die mit einer krankhaften Überproduktion von Magensäure einhergehen, eingesetzt.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Behandelt Zollinger-Ellison-Syndrom und krankhafte Überproduktion von Magensäure.",
+          "einfach": "Hilft, wenn der Magen zu viel Säure produziert (z.B. Zollinger-Ellison-Syndrom)."
+        },
+        "mittel": {
+          "default": "Wird beim Zollinger-Ellison-Syndrom und anderen Erkrankungen eingesetzt, bei denen der Körper krankhaft zu viel Magensäure produziert.",
+          "einfach": "Bei manchen Erkrankungen macht der Magen viel zu viel Säure. Dazu gehört zum Beispiel das Zollinger-Ellison-Syndrom. In diesen Fällen hilft Pantoprazol, die Säure zu reduzieren."
+        },
+        "lang": {
+          "default": "Es wird auch beim Zollinger-Ellison-Syndrom und anderen Erkrankungen, die mit einer krankhaften Überproduktion von Magensäure einhergehen, eingesetzt.",
+          "einfach": "Es wird auch beim Zollinger-Ellison-Syndrom eingesetzt. Das ist eine Erkrankung, bei der der Magen viel zu viel Säure bildet. Es hilft auch bei anderen Krankheiten, die dazu führen, dass der Magen krankhaft zu viel Säure produziert."
+        }
+      },
+      {
+        "bucket": "wofuer",
+        "lese_prioritaet": 3,
+        "claim": "wirkt durch Hemmung der Protonenpumpe und reduziert damit die Magensäurefreisetzung",
+        "population": null,
+        "condition": null,
+        "modality": "info",
+        "negation": false,
+        "source_span": "Der Wirkstoff von Pantoprazol-Mepha 20 mg/40 mg, das Pantoprazol, gehört zur Klasse der Protonenpumpenhemmer. Es hemmt das Enzym, das für die Freisetzung der Säure im Magen verantwortlich ist (die Protonenpumpe).",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Hemmt die Protonenpumpe und senkt so die Magensäureproduktion.",
+          "einfach": "Stoppt die Magensäureproduktion im Magen."
+        },
+        "mittel": {
+          "default": "Der Wirkstoff Pantoprazol gehört zur Klasse der Protonenpumpenhemmer. Er blockiert gezielt das Enzym, das im Magen für die Säurefreisetzung verantwortlich ist.",
+          "einfach": "Pantoprazol hemmt ein bestimmtes Enzym im Magen. Dieses Enzym ist dafür zuständig, Magensäure freizusetzen. Wird es blockiert, wird weniger Säure produziert."
+        },
+        "lang": {
+          "default": "Der Wirkstoff von Pantoprazol-Mepha 20 mg/40 mg, das Pantoprazol, gehört zur Klasse der Protonenpumpenhemmer. Es hemmt das Enzym, das für die Freisetzung der Säure im Magen verantwortlich ist (die Protonenpumpe).",
+          "einfach": "Der Wirkstoff heißt Pantoprazol. Er gehört zu einer Gruppe von Medikamenten, die man Protonenpumpenhemmer nennt. Im Magen gibt es ein Enzym, das dafür sorgt, dass Säure entsteht. Dieses Enzym heißt Protonenpumpe. Pantoprazol blockiert dieses Enzym. So wird weniger Magensäure freigesetzt."
+        }
+      }
+    ],
+    "nicht_nehmen": [
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 1,
+        "claim": "darf nicht eingenommen werden",
+        "population": "Personen mit bekannter Überempfindlichkeit gegen Pantoprazol oder sonstige Bestandteile",
+        "condition": null,
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "Pantoprazol-Mepha darf nicht angewendet werden bei Überempfindlichkeit gegen Pantoprazol oder einen der sonstigen Bestandteile.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei Allergie oder Überempfindlichkeit gegen Pantoprazol oder Hilfsstoffe.",
+          "einfach": "Bei Allergie gegen Pantoprazol oder andere Bestandteile."
+        },
+        "mittel": {
+          "default": "Nicht anwenden bei bekannter Überempfindlichkeit gegen Pantoprazol oder einen der sonstigen Bestandteile des Präparats.",
+          "einfach": "Nicht nehmen, wenn man allergisch auf Pantoprazol oder andere Inhaltsstoffe des Mittels reagiert."
+        },
+        "lang": {
+          "default": "Pantoprazol-Mepha darf nicht angewendet werden bei Überempfindlichkeit gegen Pantoprazol oder einen der sonstigen Bestandteile.",
+          "einfach": "Pantoprazol-Mepha darf nicht eingenommen werden, wenn man gegen Pantoprazol allergisch ist. Auch wenn man gegen einen anderen Inhaltsstoff dieses Mittels allergisch ist, darf man es nicht nehmen."
+        }
+      },
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 1,
+        "claim": "darf nicht angewendet werden",
+        "population": null,
+        "condition": "bei bekannter Überempfindlichkeit gegen den Wirkstoff Pantoprazol, andere Protonenpumpenhemmer oder einen der Hilfsstoffe",
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "Pantoprazol-Mepha 20 mg/40 mg darf nicht angewendet werden bei bekannter Überempfindlichkeit gegen den Wirkstoff Pantoprazol, andere Protonenpumpenhemmer oder einen der Hilfsstoffe von Pantoprazol-Mepha 20 mg/40 mg.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei Allergie oder Überempfindlichkeit gegen Pantoprazol, andere Protonenpumpenhemmer oder Hilfsstoffe.",
+          "einfach": "Bei Allergie gegen Pantoprazol oder ähnliche Wirkstoffe."
+        },
+        "mittel": {
+          "default": "Nicht anwenden bei bekannter Überempfindlichkeit gegen Pantoprazol, andere Protonenpumpenhemmer oder einen der enthaltenen Hilfsstoffe.",
+          "einfach": "Wer allergisch auf Pantoprazol oder auf ähnliche Magensäuremittel reagiert, darf es nicht nehmen. Das gilt auch bei einer Allergie auf einen der anderen Inhaltsstoffe."
+        },
+        "lang": {
+          "default": "Pantoprazol-Mepha 20 mg/40 mg darf nicht angewendet werden bei bekannter Überempfindlichkeit gegen den Wirkstoff Pantoprazol, andere Protonenpumpenhemmer oder einen der Hilfsstoffe von Pantoprazol-Mepha 20 mg/40 mg.",
+          "einfach": "Pantoprazol-Mepha 20 mg und 40 mg darf nicht eingenommen werden, wenn man allergisch auf den Wirkstoff Pantoprazol ist. Es darf auch nicht eingenommen werden bei einer Allergie auf andere Protonenpumpenhemmer. Das sind ähnliche Magenmittel. Außerdem darf man es nicht nehmen, wenn man auf einen der anderen Inhaltsstoffe von Pantoprazol-Mepha allergisch reagiert."
+        }
+      },
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 2,
+        "claim": "nicht angezeigt bei geringfügigen Magen-Darm-Beschwerden",
+        "population": null,
+        "condition": null,
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "Bei geringfügigen Magen-Darm-Beschwerden, z.B. nervöser Magen, ist Pantoprazol-Mepha 20 mg/40 mg nicht angezeigt.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Nicht geeignet bei geringfügigen Magen-Darm-Beschwerden wie einem nervösen Magen.",
+          "einfach": "Nicht nehmen bei leichten Magenproblemen wie einem nervösen Magen."
+        },
+        "mittel": {
+          "default": "Nicht geeignet bei leichten Magen-Darm-Beschwerden, zum Beispiel bei einem nervösen Magen.",
+          "einfach": "Bei kleinen Magenproblemen wie einem nervösen Magen ist Pantoprazol nicht das richtige Mittel."
+        },
+        "lang": {
+          "default": "Bei geringfügigen Magen-Darm-Beschwerden, z.B. nervöser Magen, ist Pantoprazol-Mepha 20 mg/40 mg nicht angezeigt.",
+          "einfach": "Pantoprazol-Mepha 20 mg und 40 mg ist nicht das richtige Mittel bei leichten Beschwerden im Magen oder Darm. Zum Beispiel bei einem nervösen Magen sollte es nicht eingenommen werden."
+        }
+      }
+    ],
+    "dosierung": [
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 1,
+        "claim": "1 Tablette täglich vor der ersten Mahlzeit des Tages",
+        "population": "Erwachsene",
+        "condition": null,
+        "modality": "dosage_instruction",
+        "negation": false,
+        "source_span": "Dosierung: Erwachsene: 1 Filmtablette à 20 mg oder 40 mg täglich, am besten vor der ersten Mahlzeit des Tages.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "1 Tablette (20 mg oder 40 mg) täglich vor der ersten Mahlzeit.",
+          "einfach": "1 Tablette pro Tag, vor dem ersten Essen."
+        },
+        "mittel": {
+          "default": "Einmal täglich 1 Filmtablette à 20 mg oder 40 mg, am besten vor der ersten Mahlzeit des Tages einnehmen.",
+          "einfach": "Jeden Tag 1 Tablette nehmen — am besten vor dem Frühstück. Die Tablette gibt es in 20 mg und 40 mg."
+        },
+        "lang": {
+          "default": "Dosierung: Erwachsene: 1 Filmtablette à 20 mg oder 40 mg täglich, am besten vor der ersten Mahlzeit des Tages.",
+          "einfach": "Erwachsene nehmen 1 Filmtablette pro Tag. Die Tablette gibt es in zwei Stärken: 20 mg und 40 mg. Am besten nimmt man sie vor der ersten Mahlzeit des Tages."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 1,
+        "claim": "1 magensaftresistente Filmtablette täglich, Besserung der Symptome tritt gewöhnlich innerhalb von 4 Wochen ein",
+        "population": "Erwachsene und Jugendliche ab 12 Jahren",
+        "condition": "bei leichter Speiseröhrenerkrankung",
+        "modality": "dosage_instruction",
+        "negation": false,
+        "source_span": "In der Regel beträgt die tägliche Dosis für Erwachsene und Kinder ab 12 Jahren 1 magensaftresistente Filmtablette Pantoprazol-Mepha 20 mg. Eine Besserung der Symptome tritt gewöhnlich innerhalb von 4 Wochen ein.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "1 Filmtablette täglich; Besserung meist innerhalb von 4 Wochen.",
+          "einfach": "1 Tablette pro Tag; besser in rund 4 Wochen."
+        },
+        "mittel": {
+          "default": "Bei leichter Speiseröhrenerkrankung beträgt die tägliche Dosis 1 magensaftresistente Filmtablette. Eine Besserung der Symptome tritt gewöhnlich innerhalb von 4 Wochen ein.",
+          "einfach": "Man nimmt 1 Tablette pro Tag. Die Beschwerden werden meistens innerhalb von 4 Wochen besser."
+        },
+        "lang": {
+          "default": "In der Regel beträgt die tägliche Dosis für Erwachsene und Kinder ab 12 Jahren 1 magensaftresistente Filmtablette Pantoprazol-Mepha 20 mg. Eine Besserung der Symptome tritt gewöhnlich innerhalb von 4 Wochen ein.",
+          "einfach": "Bei einer leichten Speiseröhrenerkrankung nehmen Erwachsene und Kinder ab 12 Jahren in der Regel 1 magensaftresistente Filmtablette Pantoprazol-Mepha 20 mg pro Tag. Meistens werden die Beschwerden innerhalb von 4 Wochen besser."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 1,
+        "claim": "1 magensaftresistente Filmtablette täglich zur Langzeitbehandlung und Vorbeugung",
+        "population": "Erwachsene und Jugendliche ab 12 Jahren",
+        "condition": null,
+        "modality": "dosage_instruction",
+        "negation": false,
+        "source_span": "Im Regelfall 1 magensaftresistente Filmtablette Pantoprazol-Mepha 20 mg.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "1 magensaftresistente Filmtablette täglich zur Langzeitbehandlung.",
+          "einfach": "1 Tablette pro Tag für die Langzeitbehandlung."
+        },
+        "mittel": {
+          "default": "Zur Langzeitbehandlung und Rückfallvorbeugung beträgt die Regeldosis 1 magensaftresistente Filmtablette täglich.",
+          "einfach": "Für die Langzeitbehandlung nimmt man 1 magensaftresistente Tablette pro Tag."
+        },
+        "lang": {
+          "default": "Im Regelfall 1 magensaftresistente Filmtablette Pantoprazol-Mepha 20 mg.",
+          "einfach": "Für die Langzeitbehandlung und um einen Rückfall zu verhindern, nimmt man in der Regel 1 magensaftresistente Filmtablette Pantoprazol-Mepha 20 mg pro Tag."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 1,
+        "claim": "2-mal täglich 1 magensaftresistente Filmtablette (40 mg) + 2-mal täglich 1000 mg Amoxicillin + 2-mal täglich 500 mg Clarithromycin über 7 Tage",
+        "population": null,
+        "condition": "bei Helicobacter pylori-Infektion (erste Kombinationsmöglichkeit)",
+        "modality": "dosage_instruction",
+        "negation": false,
+        "source_span": "2-mal täglich 1 magensaftresistente Filmtablette Pantoprazol-Mepha 40 mg + 2-mal täglich 1000 mg Amoxicillin + 2-mal täglich 500 mg Clarithromycin. Die Kombinationstherapie zur Beseitigung der Helicobacter pylori Infektion wird über 7 Tage eingenommen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "2× täglich 1 Tablette (40 mg) + Amoxicillin 1000 mg + Clarithromycin 500 mg — je 2× täglich, 7 Tage.",
+          "einfach": "2× täglich: 1 Tablette + Amoxicillin + Clarithromycin — 7 Tage lang."
+        },
+        "mittel": {
+          "default": "Erste Kombination gegen Helicobacter pylori: 2-mal täglich 1 Filmtablette (40 mg) zusammen mit 2-mal täglich 1000 mg Amoxicillin und 2-mal täglich 500 mg Clarithromycin — Dauer: 7 Tage.",
+          "einfach": "Eine Möglichkeit ist: 2-mal täglich 1 Tablette (40 mg) nehmen, dazu 2-mal täglich Amoxicillin (1000 mg) und 2-mal täglich Clarithromycin (500 mg). Das macht man 7 Tage lang."
+        },
+        "lang": {
+          "default": "2-mal täglich 1 magensaftresistente Filmtablette Pantoprazol-Mepha 40 mg + 2-mal täglich 1000 mg Amoxicillin + 2-mal täglich 500 mg Clarithromycin. Die Kombinationstherapie zur Beseitigung der Helicobacter pylori Infektion wird über 7 Tage eingenommen.",
+          "einfach": "Es gibt verschiedene Möglichkeiten, den Helicobacter-pylori-Keim zu beseitigen. Die erste Möglichkeit ist: Man nimmt 2-mal täglich 1 Filmtablette Pantoprazol 40 mg. Dazu nimmt man 2-mal täglich 1000 mg Amoxicillin. Und 2-mal täglich 500 mg Clarithromycin. Diese Kombination nimmt man 7 Tage lang."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 1,
+        "claim": "2-mal täglich 1 magensaftresistente Filmtablette (40 mg) + 2-mal täglich 400-500 mg Metronidazol + 2-mal täglich 250-500 mg Clarithromycin über 7 Tage",
+        "population": null,
+        "condition": "bei Helicobacter pylori-Infektion (zweite Kombinationsmöglichkeit)",
+        "modality": "dosage_instruction",
+        "negation": false,
+        "source_span": "2-mal täglich 1 magensaftresistente Filmtablette Pantoprazol-Mepha 40 mg + 2-mal täglich 400-500 mg Metronidazol + 2-mal täglich 250-500 mg Clarithromycin. Die Kombinationstherapie zur Beseitigung der Helicobacter pylori Infektion wird über 7 Tage eingenommen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "2× täglich 1 Tablette (40 mg) + Metronidazol 400–500 mg + Clarithromycin 250–500 mg — je 2× täglich, 7 Tage.",
+          "einfach": "2× täglich: 1 Tablette + Metronidazol + Clarithromycin — 7 Tage lang."
+        },
+        "mittel": {
+          "default": "Zweite Kombination gegen Helicobacter pylori: 2-mal täglich 1 Filmtablette (40 mg) zusammen mit 2-mal täglich 400–500 mg Metronidazol und 2-mal täglich 250–500 mg Clarithromycin — Dauer: 7 Tage.",
+          "einfach": "Eine weitere Möglichkeit ist: 2-mal täglich 1 Tablette (40 mg) nehmen, dazu 2-mal täglich Metronidazol (400–500 mg) und 2-mal täglich Clarithromycin (250–500 mg). Das macht man 7 Tage lang."
+        },
+        "lang": {
+          "default": "2-mal täglich 1 magensaftresistente Filmtablette Pantoprazol-Mepha 40 mg + 2-mal täglich 400-500 mg Metronidazol + 2-mal täglich 250-500 mg Clarithromycin. Die Kombinationstherapie zur Beseitigung der Helicobacter pylori Infektion wird über 7 Tage eingenommen.",
+          "einfach": "Die zweite Möglichkeit, den Helicobacter-pylori-Keim zu beseitigen, ist: Man nimmt 2-mal täglich 1 Filmtablette Pantoprazol 40 mg. Dazu nimmt man 2-mal täglich 400–500 mg Metronidazol. Und 2-mal täglich 250–500 mg Clarithromycin. Diese Kombination nimmt man 7 Tage lang."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 1,
+        "claim": "2-mal täglich 1 magensaftresistente Filmtablette (40 mg) + 2-mal täglich 1000 mg Amoxicillin + 2-mal täglich 500 mg Metronidazol über 7 Tage",
+        "population": null,
+        "condition": "bei Helicobacter pylori-Infektion (dritte Kombinationsmöglichkeit)",
+        "modality": "dosage_instruction",
+        "negation": false,
+        "source_span": "2-mal täglich 1 magensaftresistente Filmtablette Pantoprazol-Mepha 40 mg + 2-mal täglich 1000 mg Amoxicillin + 2-mal täglich 500 mg Metronidazol. Die Kombinationstherapie zur Beseitigung der Helicobacter pylori Infektion wird über 7 Tage eingenommen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "2× täglich 1 Tablette (40 mg) + Amoxicillin 1000 mg + Metronidazol 500 mg — je 2× täglich, 7 Tage.",
+          "einfach": "2× täglich: 1 Tablette + Amoxicillin + Metronidazol — 7 Tage lang."
+        },
+        "mittel": {
+          "default": "Dritte Kombination gegen Helicobacter pylori: 2-mal täglich 1 Filmtablette (40 mg) zusammen mit 2-mal täglich 1000 mg Amoxicillin und 2-mal täglich 500 mg Metronidazol — Dauer: 7 Tage.",
+          "einfach": "Eine dritte Möglichkeit ist: 2-mal täglich 1 Tablette (40 mg) nehmen, dazu 2-mal täglich Amoxicillin (1000 mg) und 2-mal täglich Metronidazol (500 mg). Das macht man 7 Tage lang."
+        },
+        "lang": {
+          "default": "2-mal täglich 1 magensaftresistente Filmtablette Pantoprazol-Mepha 40 mg + 2-mal täglich 1000 mg Amoxicillin + 2-mal täglich 500 mg Metronidazol. Die Kombinationstherapie zur Beseitigung der Helicobacter pylori Infektion wird über 7 Tage eingenommen.",
+          "einfach": "Die dritte Möglichkeit, den Helicobacter-pylori-Keim zu beseitigen, ist: Man nimmt 2-mal täglich 1 Filmtablette Pantoprazol 40 mg. Dazu nimmt man 2-mal täglich 1000 mg Amoxicillin. Und 2-mal täglich 500 mg Metronidazol. Diese Kombination nimmt man 7 Tage lang."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 1,
+        "claim": "1 magensaftresistente Filmtablette (40 mg) täglich",
+        "population": null,
+        "condition": null,
+        "modality": "dosage_instruction",
+        "negation": false,
+        "source_span": "Im Regelfall 1 magensaftresistente Filmtablette Pantoprazol-Mepha 40 mg täglich.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Regelfall: 1 magensaftresistente Filmtablette (40 mg) täglich.",
+          "einfach": "Normalerweise: 1 Tablette (40 mg) pro Tag."
+        },
+        "mittel": {
+          "default": "Im Regelfall wird täglich 1 magensaftresistente Filmtablette mit 40 mg eingenommen.",
+          "einfach": "Normalerweise nimmt man 1 Tablette mit 40 mg pro Tag."
+        },
+        "lang": {
+          "default": "Im Regelfall 1 magensaftresistente Filmtablette Pantoprazol-Mepha 40 mg täglich.",
+          "einfach": "In den meisten Fällen nimmt man täglich 1 magensaftresistente Filmtablette Pantoprazol 40 mg. Das ist die normale Dosis."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 2,
+        "claim": "bei Bedarf 1 Filmtablette einmal täglich einnehmen",
+        "population": "Erwachsene und Jugendliche ab 12 Jahren",
+        "condition": "wenn nach erreichter Symptombefreiung später erneut Beschwerden auftreten",
+        "modality": "dosage_instruction",
+        "negation": false,
+        "source_span": "Treten nach erreichter Symptombefreiung später erneut Beschwerden auf, können diese nach Absprache mit Ihrem Arzt bzw. Ihrer Ärztin bei Bedarf mit 1 Filmtablette Pantoprazol-Mepha 20 mg einmal täglich behandelt werden.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei erneuten Beschwerden nach Symptombefreiung: 1 Filmtablette täglich bei Bedarf.",
+          "einfach": "Kommen Beschwerden wieder: 1 Tablette pro Tag bei Bedarf."
+        },
+        "mittel": {
+          "default": "Kehren Beschwerden nach erreichter Symptombefreiung zurück, kann nach Absprache mit dem Arzt bei Bedarf 1 Filmtablette täglich eingenommen werden.",
+          "einfach": "Wenn die Beschwerden nach einer beschwerdefreien Zeit zurückkommen, kann man nach Absprache mit dem Arzt 1 Tablette pro Tag nehmen – aber nur bei Bedarf."
+        },
+        "lang": {
+          "default": "Treten nach erreichter Symptombefreiung später erneut Beschwerden auf, können diese nach Absprache mit Ihrem Arzt bzw. Ihrer Ärztin bei Bedarf mit 1 Filmtablette Pantoprazol-Mepha 20 mg einmal täglich behandelt werden.",
+          "einfach": "Wenn die Beschwerden nach einer Zeit ohne Beschwerden wieder auftreten, kann man nach Absprache mit dem Arzt oder der Ärztin bei Bedarf 1 Filmtablette Pantoprazol-Mepha 20 mg einmal täglich einnehmen."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 2,
+        "claim": "2 magensaftresistente Filmtabletten à 40 mg (= 80 mg) täglich als Anfangsdosis",
+        "population": null,
+        "condition": "für Speiseröhrenentzündung und Magen-/Zwölffingerdarmgeschwür bei Therapieversagen mit anderen Medikamenten",
+        "modality": "dosage_instruction",
+        "negation": false,
+        "source_span": "Ihrer Ärztin kann bei der Speiseröhrenentzündung, beim Magen- und Zwölffingerdarmgeschwür, insbesondere, wenn diese auf andere Medikamente bisher nicht angesprochen haben, die doppelte Dosis eingenommen werden (Steigerung auf 2 magensaftresistente Filmtabletten Pantoprazol-Mepha 40 mg täglich)",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Anfangsdosis: 2 × 40 mg Filmtabletten (= 80 mg) täglich bei Therapieversagen.",
+          "einfach": "Am Anfang: 2 Tabletten à 40 mg (= 80 mg) pro Tag."
+        },
+        "mittel": {
+          "default": "Bei Speiseröhrenentzündung oder Magen- und Zwölffingerdarmgeschwür, die auf andere Medikamente nicht angesprochen haben, kann die Dosis auf 2 Filmtabletten à 40 mg (= 80 mg) täglich erhöht werden.",
+          "einfach": "Wenn andere Medikamente nicht geholfen haben, kann die Dosis am Anfang auf 2 Tabletten à 40 mg pro Tag erhöht werden. Das sind zusammen 80 mg täglich."
+        },
+        "lang": {
+          "default": "Ihrer Ärztin kann bei der Speiseröhrenentzündung, beim Magen- und Zwölffingerdarmgeschwür, insbesondere, wenn diese auf andere Medikamente bisher nicht angesprochen haben, die doppelte Dosis eingenommen werden (Steigerung auf 2 magensaftresistente Filmtabletten Pantoprazol-Mepha 40 mg täglich)",
+          "einfach": "Bei einer Entzündung der Speiseröhre oder einem Geschwür im Magen oder Zwölffingerdarm — wenn andere Medikamente nicht gewirkt haben — kann die Ärztin oder der Arzt die Dosis erhöhen. Dann nimmt man 2 Tabletten Pantoprazol 40 mg pro Tag. Das sind zusammen 80 mg täglich."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 2,
+        "claim": "80 mg (2 Filmtabletten à 40 mg) täglich als Anfangsdosis",
+        "population": null,
+        "condition": "bei Langzeittherapie von Zollinger-Ellison-Syndrom und anderen Erkrankungen mit pathologischer Magensäurehypersekretion",
+        "modality": "dosage_instruction",
+        "negation": false,
+        "source_span": "Für die Langzeittherapie von Zollinger-Ellison-Syndrom und anderen Erkrankungen, die mit einer pathologischen Hypersekretion von Magensäure einhergehen, beträgt die empfohlene Anfangsdosis 80 mg (2 Filmtabletten Pantoprazol-Mepha 40 mg) täglich",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Anfangsdosis bei Zollinger-Ellison u. Ä.: 80 mg (2 × 40 mg) täglich.",
+          "einfach": "Start-Dosis: 2 Tabletten à 40 mg (= 80 mg) pro Tag."
+        },
+        "mittel": {
+          "default": "Zur Langzeittherapie bei Zollinger-Ellison-Syndrom und verwandten Erkrankungen mit krankhafter Magensäure-Überproduktion beträgt die empfohlene Anfangsdosis 80 mg (2 Filmtabletten à 40 mg) täglich.",
+          "einfach": "Für die Langzeitbehandlung von Zollinger-Ellison-Syndrom und ähnlichen Erkrankungen beträgt die Startdosis 80 mg pro Tag. Das sind 2 Tabletten à 40 mg."
+        },
+        "lang": {
+          "default": "Für die Langzeittherapie von Zollinger-Ellison-Syndrom und anderen Erkrankungen, die mit einer pathologischen Hypersekretion von Magensäure einhergehen, beträgt die empfohlene Anfangsdosis 80 mg (2 Filmtabletten Pantoprazol-Mepha 40 mg) täglich",
+          "einfach": "Für die Langzeitbehandlung von Zollinger-Ellison-Syndrom und anderen Krankheiten, bei denen zu viel Magensäure gebildet wird, ist die empfohlene Startdosis 80 mg täglich. Das entspricht 2 Tabletten Pantoprazol 40 mg pro Tag."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 2,
+        "claim": "zweite Filmtablette 1 Stunde vor dem Abendessen einnehmen",
+        "population": null,
+        "condition": "im Rahmen der Kombinationstherapie zur Beseitigung der Helicobacter pylori Infektion",
+        "modality": "dosage_instruction",
+        "negation": false,
+        "source_span": "Im Falle der Kombinationstherapie zur Beseitigung der Helicobacter pylori Infektion ist die zweite Pantoprazol-Mepha 40 mg Filmtablette 1 Stunde vor dem Abendessen einzunehmen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Zweite Tablette 1 Stunde vor dem Abendessen einnehmen.",
+          "einfach": "Zweite Tablette 1 Stunde vor dem Abendessen nehmen."
+        },
+        "mittel": {
+          "default": "Bei der Kombinationstherapie gegen Helicobacter pylori wird die zweite Tablette 1 Stunde vor dem Abendessen eingenommen.",
+          "einfach": "Wenn du zwei Tabletten nimmst (gegen Helicobacter pylori): Die zweite Tablette 1 Stunde vor dem Abendessen nehmen."
+        },
+        "lang": {
+          "default": "Im Falle der Kombinationstherapie zur Beseitigung der Helicobacter pylori Infektion ist die zweite Pantoprazol-Mepha 40 mg Filmtablette 1 Stunde vor dem Abendessen einzunehmen.",
+          "einfach": "Wenn du die Kombinations-Therapie machst, um die Helicobacter-pylori-Infektion zu behandeln: Dann nimmst du die zweite Pantoprazol-Tablette (40 mg) 1 Stunde vor dem Abendessen."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 2,
+        "claim": "tägliche Dosis kann nach Rücksprache mit Arzt auf 2 magensaftresistente Filmtabletten erhöht und nach Heilung wieder auf täglich 1 reduziert werden",
+        "population": "Erwachsene und Jugendliche ab 12 Jahren",
+        "condition": "bei einem Rückfall der Speiseröhrenentzündung",
+        "modality": "dosage_adjustment",
+        "negation": false,
+        "source_span": "Bei einem Rückfall kann die tägliche Dosis nach Rücksprache mit Ihrem Arzt bzw. Ihrer Ärztin auf 2 magensaftresistente Filmtabletten Pantoprazol-Mepha 20 mg erhöht und nach Heilung wieder auf täglich 1 Filmtablette reduziert werden.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei Rückfall: Dosis auf 2 Filmtabletten erhöhbar, nach Heilung wieder auf 1 reduzieren.",
+          "einfach": "Bei Rückfall: kurz 2 Tabletten, dann wieder 1."
+        },
+        "mittel": {
+          "default": "Bei einem Rückfall der Speiseröhrenentzündung kann die Tagesdosis nach Rücksprache mit dem Arzt auf 2 Filmtabletten (20 mg) erhöht und nach der Heilung wieder auf 1 täglich gesenkt werden.",
+          "einfach": "Kommt die Speiseröhrenentzündung zurück, kann der Arzt die Dosis auf 2 Tabletten pro Tag erhöhen. Wenn es besser ist, nimmt man wieder nur 1 Tablette täglich."
+        },
+        "lang": {
+          "default": "Bei einem Rückfall kann die tägliche Dosis nach Rücksprache mit Ihrem Arzt bzw. Ihrer Ärztin auf 2 magensaftresistente Filmtabletten Pantoprazol-Mepha 20 mg erhöht und nach Heilung wieder auf täglich 1 Filmtablette reduziert werden.",
+          "einfach": "Wenn die Speiseröhrenentzündung zurückkommt, kann der Arzt oder die Ärztin die tägliche Dosis auf 2 Filmtabletten Pantoprazol 20 mg erhöhen. Wenn die Entzündung geheilt ist, nimmt man wieder nur 1 Filmtablette pro Tag."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 2,
+        "claim": "tägliche Dosis darf 1 Filmtablette nicht überschreiten",
+        "population": "Patienten mit schwerer Leberinsuffizienz",
+        "condition": null,
+        "modality": "dosage_adjustment",
+        "negation": true,
+        "source_span": "Bei schwerer Leberinsuffizienz darf die tägliche Dosis von 1 Filmtablette Pantoprazol-Mepha 20 mg nicht überschritten werden.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei schwerer Leberinsuffizienz: max. 1 Filmtablette täglich.",
+          "einfach": "Bei schwerer Lebererkrankung: höchstens 1 Tablette pro Tag."
+        },
+        "mittel": {
+          "default": "Bei schwerer Leberinsuffizienz darf die Tagesdosis von 1 Filmtablette (20 mg) nicht überschritten werden.",
+          "einfach": "Wer eine schwere Lebererkrankung hat, darf nicht mehr als 1 Tablette (20 mg) pro Tag nehmen."
+        },
+        "lang": {
+          "default": "Bei schwerer Leberinsuffizienz darf die tägliche Dosis von 1 Filmtablette Pantoprazol-Mepha 20 mg nicht überschritten werden.",
+          "einfach": "Bei einer schweren Erkrankung der Leber (Leberinsuffizienz) darf man nicht mehr als 1 Filmtablette Pantoprazol 20 mg pro Tag nehmen. Diese Menge darf nicht überschritten werden."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 2,
+        "claim": "maximale Behandlungsdauer von 10 Tagen für Metronidazol beachten",
+        "population": null,
+        "condition": "bei Kombinationstherapie mit Metronidazol",
+        "modality": "dosage_adjustment",
+        "negation": false,
+        "source_span": "Bei der Kombinationstherapie mit Metronidazol ist die für Metronidazol empfohlene maximale Behandlungsdauer von 10 Tagen zu beachten.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei Metronidazol: empfohlene maximale Behandlungsdauer von 10 Tagen einhalten.",
+          "einfach": "Mit Metronidazol: höchstens 10 Tage nehmen."
+        },
+        "mittel": {
+          "default": "Wird Metronidazol als Teil der Kombinationstherapie eingesetzt, ist die empfohlene maximale Behandlungsdauer von 10 Tagen für Metronidazol zu beachten.",
+          "einfach": "Wenn die Kombination Metronidazol enthält, darf man Metronidazol nicht länger als 10 Tage nehmen."
+        },
+        "lang": {
+          "default": "Bei der Kombinationstherapie mit Metronidazol ist die für Metronidazol empfohlene maximale Behandlungsdauer von 10 Tagen zu beachten.",
+          "einfach": "Wenn man die Kombinationstherapie mit Metronidazol macht, muss man auf etwas achten: Metronidazol darf man höchstens 10 Tage lang nehmen. Diese maximale Dauer darf nicht überschritten werden."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 2,
+        "claim": "Dosierungsempfehlungen für Magen- und Zwölffingerdarmgeschwüre befolgen und ärztliche Anweisungen einhalten zur Absicherung der Abheilung",
+        "population": null,
+        "condition": "nach Kombinationstherapie zur Eradikation von Helicobacter pylori",
+        "modality": "dosage_adjustment",
+        "negation": false,
+        "source_span": "Zur Absicherung der Abheilung der Geschwüre sind die Dosierungsempfehlungen bei Magen- und Zwölffingerdarmgeschwüren zu beachten und die Anweisungen Ihres Arztes bzw. Ihrer Ärztin zu befolgen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Nach Kombinationstherapie: Dosierungsempfehlungen für Geschwüre einhalten und ärztliche Anweisungen befolgen.",
+          "einfach": "Danach: Arzt-Anweisungen und Dosierung für Geschwüre weiter einhalten."
+        },
+        "mittel": {
+          "default": "Nach der Kombinationstherapie zur Keimbeseitigung sind zur Sicherung der Abheilung die Dosierungsempfehlungen für Magen- und Zwölffingerdarmgeschwüre zu beachten und die ärztlichen Anweisungen zu befolgen.",
+          "einfach": "Nach der Kombinationstherapie muss man weiterhin die richtige Dosis für Magengeschwüre oder Zwölffingerdarmgeschwüre nehmen. Man soll dabei die Anweisungen des Arztes oder der Ärztin befolgen."
+        },
+        "lang": {
+          "default": "Zur Absicherung der Abheilung der Geschwüre sind die Dosierungsempfehlungen bei Magen- und Zwölffingerdarmgeschwüren zu beachten und die Anweisungen Ihres Arztes bzw. Ihrer Ärztin zu befolgen.",
+          "einfach": "Nach der Kombinationstherapie zur Beseitigung des Helicobacter-pylori-Keims ist noch nicht alles vorbei. Damit die Geschwüre sicher abheilen, muss man die Dosierungsempfehlungen für Magen- und Zwölffingerdarmgeschwüre weiter beachten. Man soll auch die Anweisungen des Arztes oder der Ärztin genau befolgen."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 2,
+        "claim": "Dosierung bis über 160 mg täglich möglich auf ärztliche Empfehlung, aber nicht länger als medizinisch notwendig für Säureresekretion",
+        "population": null,
+        "condition": null,
+        "modality": "dosage_adjustment",
+        "negation": false,
+        "source_span": "Eine zeitweilige Erhöhung der Dosierung auf über 160 mg Pantoprazol täglich ist auf Empfehlung des Arztes resp. der Ärztin möglich; sie sollte jedoch nicht länger beibehalten werden, als für eine ausreichende Kontrolle der Säuresekretion erforderlich",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Auf ärztliche Empfehlung kurzfristig über 160 mg täglich möglich — nur so kurz wie nötig.",
+          "einfach": "Auf Anweisung: kurzzeitig über 160 mg pro Tag möglich."
+        },
+        "mittel": {
+          "default": "Auf ärztliche Empfehlung kann die Dosis vorübergehend auf über 160 mg täglich erhöht werden. Diese erhöhte Dosis sollte jedoch nur so lange beibehalten werden, wie für die ausreichende Kontrolle der Magensäure nötig.",
+          "einfach": "Die Ärztin oder der Arzt kann die Dosis für eine Zeit auf über 160 mg pro Tag erhöhen. Das sollte aber nicht länger dauern als unbedingt nötig, um die Magensäure unter Kontrolle zu halten."
+        },
+        "lang": {
+          "default": "Eine zeitweilige Erhöhung der Dosierung auf über 160 mg Pantoprazol täglich ist auf Empfehlung des Arztes resp. der Ärztin möglich; sie sollte jedoch nicht länger beibehalten werden, als für eine ausreichende Kontrolle der Säuresekretion erforderlich",
+          "einfach": "Es ist möglich, die Dosis für eine gewisse Zeit auf mehr als 160 mg Pantoprazol pro Tag zu erhöhen. Das darf aber nur auf Empfehlung der Ärztin oder des Arztes geschehen. Die höhere Dosis sollte nicht länger eingenommen werden, als es nötig ist, um die Magensäure ausreichend zu kontrollieren."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 2,
+        "claim": "max. 40 mg Pantoprazol täglich",
+        "population": "Patienten mit eingeschränkter Nierenfunktion und ältere Patienten ab 65 Jahren",
+        "condition": null,
+        "modality": "dosage_adjustment",
+        "negation": false,
+        "source_span": "Bei Patienten mit eingeschränkter Nierenfunktion und bei älteren Patienten sollte die Tagesdosis 40 mg Pantoprazol nicht überschritten werden",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Max. 40 mg täglich bei eingeschränkter Nierenfunktion oder ab 65 Jahren.",
+          "einfach": "Bei Nierenproblemen oder ab 65 Jahren: maximal 40 mg pro Tag."
+        },
+        "mittel": {
+          "default": "Bei eingeschränkter Nierenfunktion sowie bei Patienten ab 65 Jahren darf die Tagesdosis 40 mg Pantoprazol nicht überschreiten.",
+          "einfach": "Wer Nierenprobleme hat oder 65 Jahre oder älter ist, darf höchstens 40 mg Pantoprazol pro Tag nehmen."
+        },
+        "lang": {
+          "default": "Bei Patienten mit eingeschränkter Nierenfunktion und bei älteren Patienten sollte die Tagesdosis 40 mg Pantoprazol nicht überschritten werden",
+          "einfach": "Wenn die Nieren nicht richtig funktionieren oder wenn man 65 Jahre oder älter ist, sollte man nicht mehr als 40 mg Pantoprazol pro Tag einnehmen. Die Tagesdosis darf diesen Wert nicht überschreiten."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 2,
+        "claim": "Dosis auf 20 mg täglich reduzieren (1 Filmtablette Pantoprazol-Mepha 20 mg)",
+        "population": "Patienten mit schwerer Lebererkrankung",
+        "condition": null,
+        "modality": "dosage_adjustment",
+        "negation": false,
+        "source_span": "Bei schwerer Lebererkrankung reduziert der Arzt resp. die Ärztin die tägliche Dosis auf 20 mg Pantoprazol (1 Filmtablette Pantoprazol-Mepha 20 mg)",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei schwerer Lebererkrankung: Dosis auf 20 mg täglich (1 Filmtablette à 20 mg) reduziert.",
+          "einfach": "Bei schwerer Lebererkrankung: nur 1 Tablette à 20 mg pro Tag."
+        },
+        "mittel": {
+          "default": "Bei schwerer Lebererkrankung wird die tägliche Dosis von der Ärztin oder dem Arzt auf 20 mg Pantoprazol reduziert — das entspricht einer Filmtablette à 20 mg täglich.",
+          "einfach": "Wer eine schwere Lebererkrankung hat, bekommt eine niedrigere Dosis. Die Ärztin oder der Arzt senkt die Dosis auf 20 mg pro Tag. Das ist eine Tablette Pantoprazol 20 mg."
+        },
+        "lang": {
+          "default": "Bei schwerer Lebererkrankung reduziert der Arzt resp. die Ärztin die tägliche Dosis auf 20 mg Pantoprazol (1 Filmtablette Pantoprazol-Mepha 20 mg)",
+          "einfach": "Wenn jemand eine schwere Erkrankung der Leber hat, wird die Dosis verringert. Die Ärztin oder der Arzt stellt die Tagesdosis auf 20 mg Pantoprazol um. Das entspricht einer Filmtablette Pantoprazol-Mepha 20 mg pro Tag."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 1,
+        "claim": "nicht länger als 2 Wochen ohne ärztliche Beratung anwenden",
+        "population": "Erwachsene",
+        "condition": null,
+        "modality": "dosage_instruction",
+        "negation": true,
+        "source_span": "Dieses Arzneimittel ist nicht zur Langzeitbehandlung ohne ärztliche Aufsicht vorgesehen. Die Anwendung sollte nicht länger als 2 Wochen ohne Rücksprache mit einem Arzt fortgesetzt werden.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Nicht länger als 2 Wochen ohne ärztliche Rücksprache anwenden.",
+          "einfach": "Maximal 2 Wochen ohne Arzt nehmen."
+        },
+        "mittel": {
+          "default": "Nicht für eine Langzeitbehandlung vorgesehen: Die Anwendung ohne ärztliche Rücksprache auf maximal 2 Wochen begrenzen.",
+          "einfach": "Man sollte das Mittel nicht länger als 2 Wochen nehmen, ohne vorher mit einem Arzt zu sprechen."
+        },
+        "lang": {
+          "default": "Dieses Arzneimittel ist nicht zur Langzeitbehandlung ohne ärztliche Aufsicht vorgesehen. Die Anwendung sollte nicht länger als 2 Wochen ohne Rücksprache mit einem Arzt fortgesetzt werden.",
+          "einfach": "Dieses Medikament ist nicht für eine lange Behandlung ohne Arzt gedacht. Man sollte es nicht länger als 2 Wochen nehmen, ohne vorher mit einem Arzt oder einer Ärztin zu sprechen."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 2,
+        "claim": "Tagesdosis auf zweimalige Gabe aufteilen",
+        "population": null,
+        "condition": "bei Dosierungen von mehr als 80 mg täglich",
+        "modality": "dosage_instruction",
+        "negation": false,
+        "source_span": "Bei Dosierungen von mehr als 80 mg täglich ist die Tagesdosis auf eine zweimalige Gabe zu verteilen",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei mehr als 80 mg täglich: Tagesdosis auf zwei Einnahmen aufteilen.",
+          "einfach": "Über 80 mg pro Tag? Dosis auf 2 Einnahmen aufteilen."
+        },
+        "mittel": {
+          "default": "Liegt die Tagesdosis über 80 mg, muss sie auf zwei Einzelgaben aufgeteilt werden.",
+          "einfach": "Wenn man mehr als 80 mg pro Tag nimmt, darf man nicht alles auf einmal nehmen. Man teilt die Menge dann auf zwei Einnahmen am Tag auf."
+        },
+        "lang": {
+          "default": "Bei Dosierungen von mehr als 80 mg täglich ist die Tagesdosis auf eine zweimalige Gabe zu verteilen",
+          "einfach": "Wenn die Tagesdosis mehr als 80 mg beträgt, darf man sie nicht auf einmal nehmen. Man muss die Tabletten dann auf zwei Einnahmen am Tag aufteilen."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 2,
+        "claim": "Behandlung nach Abklärung durch Arzt bis zu weitere 4 Wochen fortgesetzt werden",
+        "population": "Erwachsene und Jugendliche ab 12 Jahren",
+        "condition": "falls Symptombesserung nicht innerhalb von 4 Wochen eintritt",
+        "modality": "dosage_adjustment",
+        "negation": false,
+        "source_span": "Ist dies nicht der Fall, kann die Behandlung nach Abklärung durch den behandelnden Arzt bzw. die behandelnde Ärztin mit Pantoprazol-Mepha 20 mg weitere 4 Wochen fortgesetzt werden.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Falls keine Besserung nach 4 Wochen: Behandlung nach ärztlicher Abklärung um weitere 4 Wochen verlängern.",
+          "einfach": "Keine Besserung nach 4 Wochen? Arzt fragen, ob weiter einnehmen."
+        },
+        "mittel": {
+          "default": "Tritt nach 4 Wochen keine Besserung ein, kann die Behandlung nach Abklärung durch den Arzt um weitere 4 Wochen verlängert werden.",
+          "einfach": "Wenn die Beschwerden nach 4 Wochen noch da sind, kann der Arzt entscheiden, ob man das Mittel noch einmal 4 Wochen weiter nehmen soll."
+        },
+        "lang": {
+          "default": "Ist dies nicht der Fall, kann die Behandlung nach Abklärung durch den behandelnden Arzt bzw. die behandelnde Ärztin mit Pantoprazol-Mepha 20 mg weitere 4 Wochen fortgesetzt werden.",
+          "einfach": "Wenn sich die Beschwerden nach 4 Wochen nicht gebessert haben, kann der behandelnde Arzt oder die behandelnde Ärztin entscheiden, ob die Behandlung mit Pantoprazol-Mepha 20 mg um weitere 4 Wochen verlängert wird."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 2,
+        "claim": "unzerkaut und unzerbrochen als Ganzes 1 Stunde vor einer Mahlzeit mit etwas Wasser einnehmen",
+        "population": null,
+        "condition": null,
+        "modality": "dosage_instruction",
+        "negation": false,
+        "source_span": "Pantoprazol-Mepha 20 mg/40 mg magensaftresistente Filmtabletten sind unzerkaut und unzerbrochen als Ganzes 1 Stunde vor einer Mahlzeit mit etwas Wasser einzunehmen",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Unzerkaut und unzerbrochen 1 Stunde vor einer Mahlzeit mit etwas Wasser einnehmen.",
+          "einfach": "Ganze Tablette mit Wasser, 1 Stunde vor dem Essen nehmen."
+        },
+        "mittel": {
+          "default": "Die Filmtabletten müssen unzerkaut und unzerbrochen mit etwas Wasser eingenommen werden — und zwar 1 Stunde vor einer Mahlzeit.",
+          "einfach": "Die Tablette darf nicht zerkaut oder zerbrochen werden. Man nimmt sie ganz, mit etwas Wasser, eine Stunde bevor man isst."
+        },
+        "lang": {
+          "default": "Pantoprazol-Mepha 20 mg/40 mg magensaftresistente Filmtabletten sind unzerkaut und unzerbrochen als Ganzes 1 Stunde vor einer Mahlzeit mit etwas Wasser einzunehmen",
+          "einfach": "Die Filmtabletten dürfen nicht zerkaut oder zerbrochen werden. Man schluckt sie ganz mit etwas Wasser. Man soll sie eine Stunde vor einer Mahlzeit einnehmen."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 2,
+        "claim": "nicht die doppelte Dosis beim nächsten Mal einnehmen, sondern auf die vergessene Dosis verzichten und Behandlung wie gewohnt fortsetzen",
+        "population": null,
+        "condition": "bei Vergessen einer Dosis",
+        "modality": "dosage_instruction",
+        "negation": true,
+        "source_span": "Wenn Sie eine Dosis Pantoprazol-Mepha 20 mg/40 mg vergessen haben einzunehmen, nehmen Sie bitte nicht beim nächsten Mal die doppelte Dosis ein, sondern verzichten Sie auf die Einnahme der vergessenen Dosis und setzen die Behandlung beim nächsten Mal wie gewohnt fort.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Vergessene Dosis auslassen, beim nächsten Mal normal weitermachen.",
+          "einfach": "Vergessene Tablette weglassen, normal weitermachen."
+        },
+        "mittel": {
+          "default": "Eine vergessene Dosis nicht nachholen. Einfach die nächste Einnahme wie gewohnt fortsetzen — niemals die doppelte Menge nehmen.",
+          "einfach": "Hast du eine Tablette vergessen? Nimm sie nicht nach. Nimm auch nicht zwei Tabletten auf einmal. Mach einfach weiter wie normal."
+        },
+        "lang": {
+          "default": "Wenn Sie eine Dosis Pantoprazol-Mepha 20 mg/40 mg vergessen haben einzunehmen, nehmen Sie bitte nicht beim nächsten Mal die doppelte Dosis ein, sondern verzichten Sie auf die Einnahme der vergessenen Dosis und setzen die Behandlung beim nächsten Mal wie gewohnt fort.",
+          "einfach": "Wenn du vergessen hast, eine Tablette Pantoprazol (20 mg oder 40 mg) einzunehmen: Nimm beim nächsten Mal nicht die doppelte Menge. Lass die vergessene Tablette einfach weg. Nimm dann beim nächsten Mal wieder deine normale Dosis."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 2,
+        "claim": "nur nach ärztlicher Beratung anwenden",
+        "population": "Schwangere und Stillende",
+        "condition": null,
+        "modality": "dosage_adjustment",
+        "negation": false,
+        "source_span": "Wenn Sie schwanger sind oder es werden möchten, sowie auch in der Stillzeit, sollten Sie Pantoprazol-Mepha 20 mg/40 mg ausschliesslich nach Rücksprache mit dem Arzt bzw. der Ärztin einnehmen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Nur nach ärztlicher Beratung anwenden.",
+          "einfach": "Nur mit Arzt absprechen und dann einnehmen."
+        },
+        "mittel": {
+          "default": "Schwangere, Frauen mit Schwangerschaftswunsch und Stillende sollten Pantoprazol ausschliesslich nach Rücksprache mit dem Arzt einnehmen.",
+          "einfach": "Wenn Sie schwanger sind, schwanger werden möchten oder stillen, sprechen Sie zuerst mit dem Arzt, bevor Sie das Mittel nehmen."
+        },
+        "lang": {
+          "default": "Wenn Sie schwanger sind oder es werden möchten, sowie auch in der Stillzeit, sollten Sie Pantoprazol-Mepha 20 mg/40 mg ausschliesslich nach Rücksprache mit dem Arzt bzw. der Ärztin einnehmen.",
+          "einfach": "Wenn Sie schwanger sind oder schwanger werden möchten, dürfen Sie Pantoprazol-Mepha 20 mg oder 40 mg nur nach Absprache mit Ihrem Arzt oder Ihrer Ärztin einnehmen. Das gilt auch, wenn Sie stillen."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 3,
+        "claim": "Dosierung kann individuell angepasst werden basierend auf der Magensäuresekretion",
+        "population": null,
+        "condition": "nach initialer Behandlung von Zollinger-Ellison-Syndrom und anderen Erkrankungen mit pathologischer Magensäurehypersekretion",
+        "modality": "dosage_adjustment",
+        "negation": false,
+        "source_span": "Im Anschluss kann die Dosierung entsprechend der Bestimmung der Magensäuresekretion individuell eingestellt werden",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Dosis nach Therapiebeginn individuell je nach Magensäuresekretion anpassen.",
+          "einfach": "Dosis wird danach individuell angepasst."
+        },
+        "mittel": {
+          "default": "Nach der ersten Behandlungsphase wird die Dosis anhand der gemessenen Magensäuresekretion individuell auf den Patienten abgestimmt.",
+          "einfach": "Nachdem die Behandlung begonnen hat, kann die Dosis angepasst werden. Die Ärztin oder der Arzt misst dazu die Magensäure und stellt die Dosis dann passend ein."
+        },
+        "lang": {
+          "default": "Im Anschluss kann die Dosierung entsprechend der Bestimmung der Magensäuresekretion individuell eingestellt werden",
+          "einfach": "Nach dem Beginn der Behandlung kann die Dosis verändert werden. Die Ärztin oder der Arzt schaut, wie viel Magensäure der Körper bildet. Dann wird die Dosis so eingestellt, wie es für die jeweilige Person am besten passt."
+        }
+      }
+    ],
+    "beachten": [
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 1,
+        "claim": "sollte abgesetzt werden bei Anstieg der Leberenzyme",
+        "population": null,
+        "condition": "bei Anstieg der Leberenzyme",
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Bei einem Anstieg der Leberenzyme sollte Pantoprazol-Mepha 20 mg/40 mg abgesetzt werden.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei Anstieg der Leberenzyme muss die Behandlung abgebrochen werden.",
+          "einfach": "Wenn die Leberwerte steigen, muss die Einnahme gestoppt werden."
+        },
+        "mittel": {
+          "default": "Steigen die Leberenzyme während der Behandlung an, muss Pantoprazol abgesetzt werden.",
+          "einfach": "Wenn die Leberwerte während der Einnahme zu hoch werden, muss das Mittel sofort abgesetzt werden."
+        },
+        "lang": {
+          "default": "Bei einem Anstieg der Leberenzyme sollte Pantoprazol-Mepha 20 mg/40 mg abgesetzt werden.",
+          "einfach": "Wenn die Leberwerte während der Behandlung mit Pantoprazol-Mepha 20 mg oder 40 mg ansteigen, sollte das Mittel abgesetzt werden. Das bedeutet: Man hört dann mit der Einnahme auf."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 1,
+        "claim": "Arzt oder Apotheker konsultieren bei unbeabsichtigtem Gewichtsverlust, wiederholtem Erbrechen, Schluckbeschwerden, Erbrechen von Blut, Blässe und Schwächegefühl, Blut im Stuhl, schwere und/oder anhaltende Durchfälle, Hautausschlag insbesondere in sonnenexponierten Bereichen",
+        "population": null,
+        "condition": "bei Auftreten dieser Symptome",
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Informieren Sie Ihre Ärztin, wenn Sie eines der folgenden Symptome bei sich bemerken: unbeabsichtigter Gewichtsverlust, wiederholtes Erbrechen, Schluckbeschwerden, Erbrechen von Blut, Blässe und Schwächegefühl, Blut im Stuhl, schwere und/oder anhaltende Durchfälle, Auftreten eines Hautausschlags, insbesondere in den der Sonne ausgesetzten Hautbereichen, da Sie die Behandlung mit Pantoprazol-Mepha deshalb eventuell abbrechen sollten.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Arzt aufsuchen bei Gewichtsverlust, wiederholtem Erbrechen, Schluckbeschwerden, Blut im Erbrochenen oder Stuhl, Blässe, Schwäche, anhaltenden Durchfällen oder Hautausschlag an Sonnenstellen.",
+          "einfach": "Arzt kontaktieren bei Gewichtsverlust, Erbrechen, Schluckproblemen, Blut, Schwäche, Durchfall oder Hautausschlag."
+        },
+        "mittel": {
+          "default": "Bei folgenden Symptomen unbedingt ärztlichen Rat einholen: unbeabsichtigter Gewichtsverlust, wiederholtes Erbrechen, Schluckbeschwerden, Erbrechen von Blut, Blässe und Schwächegefühl, Blut im Stuhl, schwere oder anhaltende Durchfälle sowie Hautausschlag insbesondere an sonnenexponierten Hautstellen — die Behandlung muss dann möglicherweise abgebrochen werden.",
+          "einfach": "Bitte den Arzt aufsuchen, wenn folgende Zeichen auftreten: ungewollter Gewichtsverlust, häufiges Erbrechen, Schwierigkeiten beim Schlucken, Blut beim Erbrechen, Blässe oder Schwäche, Blut im Stuhl, starke oder lange andauernde Durchfälle oder Hautausschlag besonders an Stellen, die Sonne abbekommen. Es kann sein, dass die Behandlung dann gestoppt werden muss."
+        },
+        "lang": {
+          "default": "Informieren Sie Ihre Ärztin, wenn Sie eines der folgenden Symptome bei sich bemerken: unbeabsichtigter Gewichtsverlust, wiederholtes Erbrechen, Schluckbeschwerden, Erbrechen von Blut, Blässe und Schwächegefühl, Blut im Stuhl, schwere und/oder anhaltende Durchfälle, Auftreten eines Hautausschlags, insbesondere in den der Sonne ausgesetzten Hautbereichen, da Sie die Behandlung mit Pantoprazol-Mepha deshalb eventuell abbrechen sollten.",
+          "einfach": "Informiere den Arzt, wenn folgende Beschwerden auftreten: ungewollter Gewichtsverlust, wiederholtes Erbrechen, Schluckbeschwerden, Erbrechen von Blut, Blässe und Schwächegefühl, Blut im Stuhl, schwere oder lange anhaltende Durchfälle sowie ein Hautausschlag — besonders an Hautstellen, die der Sonne ausgesetzt sind. In diesen Fällen muss die Behandlung mit Pantoprazol möglicherweise abgebrochen werden."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 1,
+        "claim": "sollte nicht Fahrzeug lenken oder Maschinen bedienen",
+        "population": null,
+        "condition": "wenn Nebenwirkungen wie Schwindel oder Sehstörungen auftreten",
+        "modality": "precaution",
+        "negation": true,
+        "source_span": "Wenn bei Ihnen Nebenwirkungen wie Schwindel oder Sehstörungen auftreten, sollten Sie kein Fahrzeug lenken oder Maschinen bedienen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei Schwindel oder Sehstörungen kein Fahrzeug lenken und keine Maschinen bedienen.",
+          "einfach": "Bei Schwindel oder Sehproblemen nicht Auto fahren oder Maschinen bedienen."
+        },
+        "mittel": {
+          "default": "Wenn Schwindel oder Sehstörungen als Nebenwirkungen auftreten, darf kein Fahrzeug gelenkt und keine Maschine bedient werden.",
+          "einfach": "Wenn man Schwindel bekommt oder schlechter sieht, darf man kein Auto fahren und keine Maschinen benutzen."
+        },
+        "lang": {
+          "default": "Wenn bei Ihnen Nebenwirkungen wie Schwindel oder Sehstörungen auftreten, sollten Sie kein Fahrzeug lenken oder Maschinen bedienen.",
+          "einfach": "Wenn Nebenwirkungen wie Schwindel oder Probleme mit dem Sehen auftreten, sollte man kein Fahrzeug lenken und keine Maschinen bedienen."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 2,
+        "claim": "kann Kopfschmerzen, Übelkeit, Bauchschmerzen oder Durchfall verursachen",
+        "population": null,
+        "condition": null,
+        "modality": "side_effect",
+        "negation": false,
+        "source_span": "Häufig werden Kopfschmerzen, Übelkeit, Bauchschmerzen und Durchfall beobachtet.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Häufige Nebenwirkungen: Kopfschmerzen, Übelkeit, Bauchschmerzen, Durchfall.",
+          "einfach": "Kann Kopfschmerzen, Übelkeit, Bauchschmerzen oder Durchfall machen."
+        },
+        "mittel": {
+          "default": "Häufig beobachtete Nebenwirkungen sind Kopfschmerzen, Übelkeit, Bauchschmerzen und Durchfall.",
+          "einfach": "Manche Menschen bekommen Kopfschmerzen, Übelkeit, Bauchschmerzen oder Durchfall. Das sind häufige Nebenwirkungen."
+        },
+        "lang": {
+          "default": "Häufig werden Kopfschmerzen, Übelkeit, Bauchschmerzen und Durchfall beobachtet.",
+          "einfach": "Es gibt Nebenwirkungen, die häufig vorkommen. Dazu gehören Kopfschmerzen, Übelkeit, Bauchschmerzen und Durchfall. Diese Beschwerden wurden bei mehreren Personen beobachtet."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 2,
+        "claim": "kann selten allergische Reaktionen verursachen",
+        "population": null,
+        "condition": null,
+        "modality": "side_effect",
+        "negation": false,
+        "source_span": "In seltenen Fällen können allergische Reaktionen auftreten, einschließlich Hautausschlag, Juckreiz und Ödeme.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Selten: allergische Reaktionen wie Hautausschlag, Juckreiz oder Ödeme.",
+          "einfach": "Selten: Hautausschlag, Juckreiz oder Schwellungen möglich."
+        },
+        "mittel": {
+          "default": "In seltenen Fällen können allergische Reaktionen auftreten, darunter Hautausschlag, Juckreiz und Ödeme.",
+          "einfach": "Selten kann es zu Allergien kommen: zum Beispiel Hautausschlag, Juckreiz oder Schwellungen."
+        },
+        "lang": {
+          "default": "In seltenen Fällen können allergische Reaktionen auftreten, einschließlich Hautausschlag, Juckreiz und Ödeme.",
+          "einfach": "In seltenen Fällen kann das Mittel eine allergische Reaktion auslösen. Das kann sich zum Beispiel als Hautausschlag zeigen. Auch Juckreiz und Schwellungen sind möglich. Diese Reaktionen kommen aber nur selten vor."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 2,
+        "claim": "kann während der Schwangerschaft angewendet werden",
+        "population": "Schwangere",
+        "condition": null,
+        "modality": "precaution",
+        "negation": false,
+        "source_span": "Pantoprazol kann während der Schwangerschaft angewendet werden, wenn der Arzt dies für notwendig hält.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Anwendung in der Schwangerschaft nur nach ärztlicher Einschätzung.",
+          "einfach": "In der Schwangerschaft nur mit Arzt absprechen."
+        },
+        "mittel": {
+          "default": "Eine Anwendung während der Schwangerschaft ist möglich, wenn der Arzt oder die Ärztin dies für notwendig hält.",
+          "einfach": "Schwangere dürfen das Mittel nehmen, aber nur wenn der Arzt oder die Ärztin es für nötig hält."
+        },
+        "lang": {
+          "default": "Pantoprazol kann während der Schwangerschaft angewendet werden, wenn der Arzt dies für notwendig hält.",
+          "einfach": "Pantoprazol kann auch während der Schwangerschaft eingenommen werden. Das ist aber nur erlaubt, wenn ein Arzt oder eine Ärztin es für notwendig hält. Schwangere sollten das immer zuerst mit ihrem Arzt besprechen."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 2,
+        "claim": "Leberenzyme müssen während Behandlung, besonders bei Langzeittherapie, regelmässig gemessen werden",
+        "population": "Patienten mit schweren Leberfunktionsstörungen",
+        "condition": null,
+        "modality": "precaution",
+        "negation": false,
+        "source_span": "Bei Patienten mit schweren Leberfunktionsstörungen wird der Arzt bzw. die Ärztin die Leberenzyme während der Behandlung mit Pantoprazol-Mepha 20 mg/40 mg, vor allem während einer Langzeittherapie, regelmässig messen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Regelmässige Kontrolle der Leberenzyme erforderlich, besonders bei Langzeittherapie.",
+          "einfach": "Leberwerte müssen regelmässig kontrolliert werden, besonders bei langer Einnahme."
+        },
+        "mittel": {
+          "default": "Bei schweren Leberfunktionsstörungen werden die Leberenzyme während der Behandlung regelmässig gemessen — besonders bei einer Langzeittherapie.",
+          "einfach": "Wer schwere Leberprobleme hat, muss regelmässig zum Arzt oder zur Ärztin. Die Leberwerte werden dann während der Einnahme kontrolliert. Das ist besonders wichtig, wenn das Mittel lange eingenommen wird."
+        },
+        "lang": {
+          "default": "Bei Patienten mit schweren Leberfunktionsstörungen wird der Arzt bzw. die Ärztin die Leberenzyme während der Behandlung mit Pantoprazol-Mepha 20 mg/40 mg, vor allem während einer Langzeittherapie, regelmässig messen.",
+          "einfach": "Wenn jemand eine schwere Lebererkrankung hat, wird der Arzt oder die Ärztin die Leberwerte während der Behandlung mit Pantoprazol-Mepha 20 mg oder 40 mg regelmässig messen. Das ist besonders wichtig, wenn das Mittel über einen langen Zeitraum eingenommen wird."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 2,
+        "claim": "Arzt oder Apotheker konsultieren",
+        "population": null,
+        "condition": "bei versehentlicher Überdosierung",
+        "modality": "precaution",
+        "negation": false,
+        "source_span": "Falls Sie versehentlich zu viele Filmtabletten Pantoprazol-Mepha 20 mg/40 mg eingenommen haben, so sprechen Sie mit Ihrem Arzt oder Apotheker bzw. Ihrer Ärztin oder Apothekerin.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei versehentlicher Überdosierung Arzt oder Apotheker kontaktieren.",
+          "einfach": "Zu viele Tabletten genommen? Arzt oder Apotheke anrufen."
+        },
+        "mittel": {
+          "default": "Wurden versehentlich zu viele Tabletten eingenommen, sofort einen Arzt oder Apotheker aufsuchen.",
+          "einfach": "Hast du aus Versehen zu viele Tabletten genommen? Dann geh sofort zu einem Arzt oder in eine Apotheke."
+        },
+        "lang": {
+          "default": "Falls Sie versehentlich zu viele Filmtabletten Pantoprazol-Mepha 20 mg/40 mg eingenommen haben, so sprechen Sie mit Ihrem Arzt oder Apotheker bzw. Ihrer Ärztin oder Apothekerin.",
+          "einfach": "Hast du aus Versehen zu viele Filmtabletten Pantoprazol (20 mg oder 40 mg) eingenommen? Dann sprich sofort mit deinem Arzt oder deiner Ärztin. Oder geh in eine Apotheke und frage den Apotheker oder die Apothekerin."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "ärztliche Beratung erforderlich",
+        "population": "Personen mit Leber- oder Nierenfunktionsstörungen",
+        "condition": null,
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Vor der Anwendung sollten Patienten mit Leber- oder Nierenfunktionsstörungen ihren Arzt konsultieren.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei Leber- oder Nierenproblemen vorher ärztlichen Rat einholen.",
+          "einfach": "Bei Leber- oder Nierenproblemen zuerst den Arzt fragen."
+        },
+        "mittel": {
+          "default": "Personen mit Leber- oder Nierenfunktionsstörungen sollten vor der Einnahme ärztlichen Rat einholen.",
+          "einfach": "Wer Probleme mit der Leber oder den Nieren hat, sollte vor der Einnahme mit einem Arzt sprechen."
+        },
+        "lang": {
+          "default": "Vor der Anwendung sollten Patienten mit Leber- oder Nierenfunktionsstörungen ihren Arzt konsultieren.",
+          "einfach": "Manche Menschen haben Probleme mit der Leber oder den Nieren. Diese Personen sollten vor der Einnahme von Pantoprazol-Mepha ihren Arzt oder ihre Ärztin fragen. Der Arzt kann prüfen, ob das Mittel für sie geeignet ist."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "Alter > 65 Jahre ist ein erhöhter Risikofaktor für NSAID-Komplikationen",
+        "population": "ältere Patienten ab 65 Jahren",
+        "condition": "bei gleichzeitiger NSAID-Anwendung",
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Das erhöhte Risiko sollte anhand individueller Risikofaktoren, z.B. Alter (>65 Jahre), früher aufgetretene Magen- und Zwölffingerdarmgeschwüre oder Blutungen im oberen Magen-Darm-Trakt bewertet werden.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Erhöhtes Risiko bei Alter über 65 Jahre, früheren Geschwüren oder Magenblutungen.",
+          "einfach": "Höheres Risiko ab 65 Jahren oder bei früheren Magengeschwüren."
+        },
+        "mittel": {
+          "default": "Das erhöhte Risiko wird anhand individueller Faktoren bewertet: Alter über 65 Jahre, frühere Magen- oder Zwölffingerdarmgeschwüre sowie frühere Blutungen im oberen Magen-Darm-Trakt.",
+          "einfach": "Es gibt Risikofaktoren, die wichtig sind: ein Alter über 65 Jahre, frühere Magengeschwüre oder frühere Blutungen im Magen oder Darm."
+        },
+        "lang": {
+          "default": "Das erhöhte Risiko sollte anhand individueller Risikofaktoren, z.B. Alter (>65 Jahre), früher aufgetretene Magen- und Zwölffingerdarmgeschwüre oder Blutungen im oberen Magen-Darm-Trakt bewertet werden.",
+          "einfach": "Das erhöhte Risiko für Magen-Darm-Probleme durch Entzündungshemmer (NSAID) sollte anhand persönlicher Risikofaktoren bewertet werden. Solche Faktoren sind zum Beispiel ein Alter von über 65 Jahren, früher aufgetretene Magengeschwüre oder Geschwüre im Zwölffingerdarm sowie Blutungen im oberen Magen-Darm-Trakt."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "Arzt konsultieren vor Behandlungsbeginn",
+        "population": "Personen mit vorherige Hautreaktionen unter Behandlung mit säurereduzierenden Magensäure-Hemmern",
+        "condition": null,
+        "modality": "warning",
+        "negation": false,
+        "source_span": "wenn Sie jemals infolge einer Behandlung mit einem mit Pantoprazol vergleichbaren Arzneimittel, das ebenfalls die Magensäure reduziert, Hautreaktionen festgestellt haben",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Vor Behandlungsbeginn Arzt informieren bei früheren Hautreaktionen unter magensäurereduzierenden Mitteln.",
+          "einfach": "Arzt fragen, wenn früher bei ähnlichen Medikamenten Hautprobleme auftraten."
+        },
+        "mittel": {
+          "default": "Wer unter einem anderen magensäurereduzierenden Mittel bereits Hautreaktionen erlebt hat, sollte vor Behandlungsbeginn mit dem Arzt sprechen.",
+          "einfach": "Wenn bei einem anderen Mittel gegen Magensäure früher Hautreaktionen aufgetreten sind, muss man den Arzt vorher informieren."
+        },
+        "lang": {
+          "default": "wenn Sie jemals infolge einer Behandlung mit einem mit Pantoprazol vergleichbaren Arzneimittel, das ebenfalls die Magensäure reduziert, Hautreaktionen festgestellt haben",
+          "einfach": "Wenn man früher bei einem Arzneimittel, das ähnlich wie Pantoprazol wirkt und ebenfalls die Magensäure reduziert, Hautreaktionen bemerkt hat, sollte man den Arzt oder die Ärztin vor der Behandlung darüber informieren."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "Magnesiumspiegel kann sinken",
+        "population": null,
+        "condition": "bei Einnahme für mehr als 3 Monate",
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Wenn Sie Pantoprazol für mehr als 3 Monate einnehmen, ist es möglich, dass der Magnesiumspiegel in Ihrem Blut sinken kann.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Magnesiumspiegel im Blut kann bei Einnahme länger als 3 Monate sinken.",
+          "einfach": "Nach mehr als 3 Monaten kann der Magnesium-Wert im Blut sinken."
+        },
+        "mittel": {
+          "default": "Bei einer Einnahmedauer von mehr als 3 Monaten kann der Magnesiumspiegel im Blut absinken.",
+          "einfach": "Wenn man Pantoprazol länger als 3 Monate nimmt, kann der Magnesiumspiegel im Blut zu niedrig werden."
+        },
+        "lang": {
+          "default": "Wenn Sie Pantoprazol für mehr als 3 Monate einnehmen, ist es möglich, dass der Magnesiumspiegel in Ihrem Blut sinken kann.",
+          "einfach": "Wenn man Pantoprazol länger als 3 Monate einnimmt, ist es möglich, dass der Magnesiumspiegel im Blut sinkt. Das ist wichtig zu wissen."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "Arzt unverzüglich konsultieren",
+        "population": null,
+        "condition": "wenn Symptome eines niedrigen Magnesiumspiegels auftreten (Ermüdung, unwillkürliche Muskelspannungen, Verwirrtheit, Krämpfe, Schwindel, erhöhte Herzfrequenz)",
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Wenn bei Ihnen eine dieser Nebenwirkungen auftritt, sagen Sie es bitte unverzüglich Ihrem Arzt bzw. Ihrer Ärztin.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei Symptomen: sofort Arzt aufsuchen.",
+          "einfach": "Sofort zum Arzt gehen, wenn Symptome auftreten."
+        },
+        "mittel": {
+          "default": "Treten Symptome eines niedrigen Magnesiumspiegels auf – wie Ermüdung, unwillkürliche Muskelspannungen, Verwirrtheit, Krämpfe, Schwindel oder erhöhte Herzfrequenz – sofort den Arzt informieren.",
+          "einfach": "Wenn Sie sich sehr müde fühlen, Muskelkrämpfe, Verwirrtheit, Schwindel oder einen schnellen Herzschlag bemerken, gehen Sie sofort zum Arzt."
+        },
+        "lang": {
+          "default": "Wenn bei Ihnen eine dieser Nebenwirkungen auftritt, sagen Sie es bitte unverzüglich Ihrem Arzt bzw. Ihrer Ärztin.",
+          "einfach": "Wenn Sie diese Zeichen bemerken – zum Beispiel starke Müdigkeit, Muskelzucken oder -krämpfe, Verwirrtheit, Schwindel oder ein schnell schlagendes Herz – dann sagen Sie das bitte sofort Ihrem Arzt oder Ihrer Ärztin."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "niedriger Magnesiumspiegel kann zu Absenkung der Kalium- und Kalciumspiegel führen",
+        "population": null,
+        "condition": null,
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Ein niedriger Magnesiumspiegel kann auch zu einer Absenkung der Kalium- und Kalciumspiegel im Blut führen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Niedriger Magnesiumspiegel kann Kalium- und Kalciumspiegel absenken.",
+          "einfach": "Zu wenig Magnesium kann auch Kalium und Kalcium senken."
+        },
+        "mittel": {
+          "default": "Ein niedriger Magnesiumspiegel im Blut kann zusätzlich dazu führen, dass auch die Kalium- und Kalciumspiegel absinken.",
+          "einfach": "Wenn zu wenig Magnesium im Blut ist, kann das auch dazu führen, dass Kalium und Kalcium im Blut sinken."
+        },
+        "lang": {
+          "default": "Ein niedriger Magnesiumspiegel kann auch zu einer Absenkung der Kalium- und Kalciumspiegel im Blut führen.",
+          "einfach": "Ein niedriger Magnesiumspiegel im Blut kann auch dazu führen, dass der Kalium-Spiegel und der Kalcium-Spiegel im Blut niedriger werden."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "Risiko für Knochenbrüche (Hüfte, Handgelenk, Wirbelsäule) kann sich leicht erhöhen",
+        "population": null,
+        "condition": "bei Einnahme von Protonenpumpenhemmern wie Pantoprazol-Mepha, besonders über einen Zeitraum von mehr als einem Jahr",
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Bei der Einnahme von Protonenpumpenhemmern wie Pantoprazol-Mepha, besonders über einen Zeitraum von mehr als einem Jahr, kann sich das Risiko für Knochenbrüche in der Hüfte, dem Handgelenk oder der Wirbelsäule leicht erhöhen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Knochenbruchrisiko (Hüfte, Handgelenk, Wirbelsäule) kann leicht steigen – besonders bei Einnahme über 1 Jahr.",
+          "einfach": "Risiko für Knochenbrüche kann leicht höher werden, besonders nach 1 Jahr."
+        },
+        "mittel": {
+          "default": "Bei Einnahme von Protonenpumpenhemmern, besonders über mehr als ein Jahr, kann das Risiko für Knochenbrüche in der Hüfte, am Handgelenk oder in der Wirbelsäule leicht ansteigen.",
+          "einfach": "Wenn man Protonenpumpenhemmer länger als ein Jahr nimmt, kann das Risiko für Knochenbrüche an der Hüfte, am Handgelenk oder an der Wirbelsäule etwas höher werden."
+        },
+        "lang": {
+          "default": "Bei der Einnahme von Protonenpumpenhemmern wie Pantoprazol-Mepha, besonders über einen Zeitraum von mehr als einem Jahr, kann sich das Risiko für Knochenbrüche in der Hüfte, dem Handgelenk oder der Wirbelsäule leicht erhöhen.",
+          "einfach": "Wenn man Protonenpumpenhemmer wie Pantoprazol-Mepha einnimmt – besonders wenn man das länger als ein Jahr macht – kann das Risiko für Knochenbrüche leicht steigen. Das betrifft vor allem die Hüfte, das Handgelenk und die Wirbelsäule."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "nicht von sich aus absetzen, ohne vorher mit Arzt oder Apotheker zu sprechen",
+        "population": null,
+        "condition": null,
+        "modality": "warning",
+        "negation": true,
+        "source_span": "Beenden Sie nicht von sich aus die Einnahme von Pantoprazol-Mepha 20 mg/40 mg, ohne zuerst mit Ihrem Arzt oder Apotheker bzw. Ihrer Ärztin oder Apothekerin zu sprechen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Behandlung nicht eigenmächtig beenden — vorher Arzt oder Apotheker fragen.",
+          "einfach": "Tabletten nicht einfach aufhören — erst Arzt oder Apotheke fragen."
+        },
+        "mittel": {
+          "default": "Die Einnahme nicht ohne Rücksprache mit einem Arzt oder Apotheker auf eigene Faust beenden.",
+          "einfach": "Hör nicht einfach auf, die Tabletten zu nehmen. Sprich zuerst mit einem Arzt oder einem Apotheker."
+        },
+        "lang": {
+          "default": "Beenden Sie nicht von sich aus die Einnahme von Pantoprazol-Mepha 20 mg/40 mg, ohne zuerst mit Ihrem Arzt oder Apotheker bzw. Ihrer Ärztin oder Apothekerin zu sprechen.",
+          "einfach": "Hör nicht einfach von dir aus auf, Pantoprazol (20 mg oder 40 mg) einzunehmen. Sprich zuerst mit deinem Arzt oder deiner Ärztin. Oder frag einen Apotheker oder eine Apothekerin, bevor du die Tabletten weglässt."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "kann Wechselwirkungen mit bestimmten Arzneimitteln eingehen",
+        "population": null,
+        "condition": "bei Einnahme von Medikamenten zur Blutgerinnungshemmung (z.B. Warfarin, Clopidogrel), Antiretroviralen (z.B. Atazanavir), oder Methotrexat",
+        "modality": "drug_interaction",
+        "negation": false,
+        "source_span": "Pantoprazol kann mit Medikamenten zur Blutgerinnungshemmung wie Warfarin und Clopidogrel sowie mit Antiretroviralen und Methotrexat wechselwirken.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Wechselwirkungen mit Warfarin, Clopidogrel, Atazanavir und Methotrexat möglich.",
+          "einfach": "Kann andere Medikamente beeinflussen, z. B. Warfarin oder Methotrexat."
+        },
+        "mittel": {
+          "default": "Mögliche Wechselwirkungen bestehen mit Blutgerinnungshemmern (z. B. Warfarin, Clopidogrel), antiretroviralen Mitteln (z. B. Atazanavir) sowie Methotrexat.",
+          "einfach": "Das Mittel kann mit anderen Medikamenten zusammenwirken: zum Beispiel mit Warfarin oder Clopidogrel gegen Blutgerinnsel, mit Atazanavir gegen HIV und mit Methotrexat."
+        },
+        "lang": {
+          "default": "Pantoprazol kann mit Medikamenten zur Blutgerinnungshemmung wie Warfarin und Clopidogrel sowie mit Antiretroviralen und Methotrexat wechselwirken.",
+          "einfach": "Pantoprazol kann mit bestimmten anderen Medikamenten zusammenwirken. Dazu gehören Medikamente gegen Blutgerinnsel wie Warfarin und Clopidogrel. Auch antiretrovirale Mittel wie Atazanavir, die bei HIV eingesetzt werden, können betroffen sein. Gleiches gilt für Methotrexat. Wer eines dieser Mittel nimmt, sollte seinen Arzt informieren."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "Wirkung von Blutverdünnern sollte während Anwendung kontrolliert werden",
+        "population": "Patienten, die gleichzeitig Blutverdünner einnehmen",
+        "condition": null,
+        "modality": "drug_interaction",
+        "negation": false,
+        "source_span": "Bei Patienten, die gleichzeitig Blutverdünner einnehmen, sollte bei der Anwendung von Pantoprazol-Mepha 20 mg/40 mg die Wirkung der Blutverdünner kontrolliert werden.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Wirkung von Blutverdünnern bei gleichzeitiger Anwendung kontrollieren lassen.",
+          "einfach": "Blutverdünner-Wirkung regelmässig kontrollieren lassen."
+        },
+        "mittel": {
+          "default": "Bei gleichzeitiger Einnahme von Blutverdünnern sollte deren Wirkung während der Behandlung regelmässig kontrolliert werden.",
+          "einfach": "Wenn man gleichzeitig Blutverdünner nimmt, muss deren Wirkung während der Behandlung überwacht werden."
+        },
+        "lang": {
+          "default": "Bei Patienten, die gleichzeitig Blutverdünner einnehmen, sollte bei der Anwendung von Pantoprazol-Mepha 20 mg/40 mg die Wirkung der Blutverdünner kontrolliert werden.",
+          "einfach": "Wenn man gleichzeitig Blutverdünner einnimmt, sollte während der Anwendung von Pantoprazol 20 mg oder 40 mg die Wirkung dieser Blutverdünner regelmässig überprüft werden."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "Aufnahme bestimmter Arzneimittel (Pilzmittel, Krebsmittel) kann sich verändern",
+        "population": null,
+        "condition": "bei gleichzeitiger Anwendung von Pantoprazol-Mepha 20 mg/40 mg",
+        "modality": "drug_interaction",
+        "negation": false,
+        "source_span": "Die Aufnahme gewisser Arzneimittel, wie z.B. Pilzmittel zum Einnehmen oder gewisse Arzneimittel gegen Krebs hängt von der Säurekonzentration (pH) im Magen ab. Es gilt zu beachten, dass sich bei gleichzeitiger Anwendung von Pantoprazol-Mepha 20 mg/40 mg die Aufnahme solcher Arzneimittel verändert.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Aufnahme von Pilzmitteln zum Einnehmen oder bestimmten Krebsmitteln kann sich verändern.",
+          "einfach": "Pilzmittel oder Krebsmittel können schlechter aufgenommen werden."
+        },
+        "mittel": {
+          "default": "Die Aufnahme bestimmter Arzneimittel, wie oral eingenommene Pilzmittel oder bestimmte Krebsmittel, hängt vom Säuregehalt im Magen ab und kann sich bei gleichzeitiger Anwendung verändern.",
+          "einfach": "Manche Medikamente, zum Beispiel Mittel gegen Pilzinfektionen zum Einnehmen oder bestimmte Mittel gegen Krebs, werden vom Körper anders aufgenommen, wenn man gleichzeitig Pantoprazol nimmt."
+        },
+        "lang": {
+          "default": "Die Aufnahme gewisser Arzneimittel, wie z.B. Pilzmittel zum Einnehmen oder gewisse Arzneimittel gegen Krebs hängt von der Säurekonzentration (pH) im Magen ab. Es gilt zu beachten, dass sich bei gleichzeitiger Anwendung von Pantoprazol-Mepha 20 mg/40 mg die Aufnahme solcher Arzneimittel verändert.",
+          "einfach": "Manche Medikamente brauchen einen bestimmten Säuregehalt im Magen, damit sie gut wirken. Dazu gehören zum Beispiel Pilzmittel zum Einnehmen oder bestimmte Mittel gegen Krebs. Wenn man Pantoprazol 20 mg oder 40 mg gleichzeitig einnimmt, kann sich die Aufnahme dieser Medikamente verändern. Das ist wichtig zu beachten."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "Wirksamkeit gegen HIV-Infektionen kann vermindert sein",
+        "population": null,
+        "condition": "bei gleichzeitiger Anwendung von Pantoprazol mit bestimmten antiretroviralen Mitteln (Atazanavir, Ritonavir)",
+        "modality": "drug_interaction",
+        "negation": true,
+        "source_span": "Pantoprazol kann die Wirksamkeit bestimmter Arzneimittel gegen HIV-Infektionen (z.B. Atazanavir, Ritonavir) vermindern. Teilen Sie Ihrem Arzt oder Apotheker bzw. Ihrer Ärztin oder Apothekerin mit, wenn Sie diese Medikamente einnehmen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Kann Wirksamkeit von HIV-Mitteln wie Atazanavir oder Ritonavir vermindern.",
+          "einfach": "Bestimmte HIV-Medikamente können schlechter wirken."
+        },
+        "mittel": {
+          "default": "Pantoprazol kann die Wirksamkeit bestimmter antiretroviraler Mittel gegen HIV-Infektionen, insbesondere Atazanavir und Ritonavir, vermindern. Den Arzt oder Apotheker darüber informieren.",
+          "einfach": "Pantoprazol kann dazu führen, dass bestimmte Medikamente gegen HIV, zum Beispiel Atazanavir oder Ritonavir, weniger gut wirken. Bitte den Arzt oder Apotheker informieren, wenn solche Mittel eingenommen werden."
+        },
+        "lang": {
+          "default": "Pantoprazol kann die Wirksamkeit bestimmter Arzneimittel gegen HIV-Infektionen (z.B. Atazanavir, Ritonavir) vermindern. Teilen Sie Ihrem Arzt oder Apotheker bzw. Ihrer Ärztin oder Apothekerin mit, wenn Sie diese Medikamente einnehmen.",
+          "einfach": "Pantoprazol kann die Wirkung von bestimmten Medikamenten gegen HIV-Infektionen vermindern. Zum Beispiel Atazanavir und Ritonavir. Bitte den Arzt oder Apotheker beziehungsweise die Ärztin oder Apothekerin informieren, wenn diese Medikamente eingenommen werden."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "niedriger Magnesiumspiegel äussert sich durch Ermüdung, unwillkürliche Muskelspannungen, Verwirrtheit, Krämpfe, Schwindel und erhöhte Herzfrequenz",
+        "population": null,
+        "condition": null,
+        "modality": "side_effect",
+        "negation": false,
+        "source_span": "Ein niedriger Magnesiumspiegel macht sich durch Ermüdung, unwillkürliche Muskelspannungen, Verwirrtheit, Krämpfe, Schwindel und erhöhte Herzfrequenz bemerkbar.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Niedriger Magnesiumspiegel äussert sich durch Ermüdung, Muskelspannungen, Verwirrtheit, Krämpfe, Schwindel und erhöhte Herzfrequenz.",
+          "einfach": "Zeichen für zu wenig Magnesium: Müdigkeit, Muskelzucken, Verwirrtheit, Krämpfe, Schwindel, schneller Herzschlag."
+        },
+        "mittel": {
+          "default": "Ein niedriger Magnesiumspiegel kann sich durch folgende Beschwerden bemerkbar machen: Ermüdung, unwillkürliche Muskelspannungen, Verwirrtheit, Krämpfe, Schwindel und erhöhte Herzfrequenz.",
+          "einfach": "Wenn der Magnesiumspiegel zu niedrig ist, können folgende Beschwerden auftreten: Müdigkeit, ungewollte Muskelspannungen, Verwirrtheit, Krämpfe, Schwindel und ein schneller Herzschlag."
+        },
+        "lang": {
+          "default": "Ein niedriger Magnesiumspiegel macht sich durch Ermüdung, unwillkürliche Muskelspannungen, Verwirrtheit, Krämpfe, Schwindel und erhöhte Herzfrequenz bemerkbar.",
+          "einfach": "Ein zu niedriger Magnesiumspiegel im Blut kann sich auf verschiedene Arten zeigen: Man fühlt sich erschöpft, die Muskeln spannen sich ungewollt an, man ist verwirrt, bekommt Krämpfe, fühlt Schwindel oder hat einen schnellen Herzschlag."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "Anwendung zur Prävention von NSAID-induzierten Magen- und Zwölffingerdarmgeschwüren sollte auf Patienten beschränkt werden, bei denen NSAID-Behandlung notwendig ist und erhöhtes GI-Risiko besteht",
+        "population": "Patienten mit erhöhtem Risiko für NSAID-Komplikationen",
+        "condition": null,
+        "modality": "dosage_adjustment",
+        "negation": false,
+        "source_span": "Die Anwendung von Pantoprazol-Mepha 40 mg zur Prävention der durch nichtsteroidale Antirheumatika (NSAID) hervorgerufenen Magen- und Zwölffingerdarmgeschwüre sollte auf Patienten beschränkt werden, bei denen auf eine NSAID-Behandlung nicht verzichtet werden kann und die ein erhöhtes Risiko zur Entwicklung von Komplikationen im Magen-Darm-Trakt haben.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Nur anwenden zur Vorbeugung von NSAID-Geschwüren bei zwingender NSAID-Therapie und erhöhtem GI-Risiko.",
+          "einfach": "Nur nehmen, wenn NSAID nötig ist und Magenprobleme drohen."
+        },
+        "mittel": {
+          "default": "Die Vorbeugung von NSAID-bedingten Magen- und Zwölffingerdarmgeschwüren ist nur angezeigt, wenn die NSAID-Behandlung unumgänglich ist und gleichzeitig ein erhöhtes Risiko für Magen-Darm-Komplikationen besteht.",
+          "einfach": "Pantoprazol zum Schutz vor Magengeschwüren durch Schmerzgel oder Entzündungshemmer (NSAID) sollte nur eingenommen werden, wenn diese Mittel unbedingt nötig sind und der Magen besonders gefährdet ist."
+        },
+        "lang": {
+          "default": "Die Anwendung von Pantoprazol-Mepha 40 mg zur Prävention der durch nichtsteroidale Antirheumatika (NSAID) hervorgerufenen Magen- und Zwölffingerdarmgeschwüre sollte auf Patienten beschränkt werden, bei denen auf eine NSAID-Behandlung nicht verzichtet werden kann und die ein erhöhtes Risiko zur Entwicklung von Komplikationen im Magen-Darm-Trakt haben.",
+          "einfach": "Pantoprazol 40 mg zum Schutz vor Magengeschwüren und Geschwüren im Zwölffingerdarm durch Entzündungshemmer (NSAID) sollte nur dann eingenommen werden, wenn man auf diese Entzündungshemmer nicht verzichten kann und gleichzeitig ein erhöhtes Risiko für Probleme im Magen-Darm-Bereich besteht."
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+# API-Keys und Secrets
+.env
+*.env
+.env.*
+!.env.template
+
+# SSL-Zertifikate
+cert.pem
+key.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+*.pyc
+
+# Cache (grosse AI-Antworten)
+# cache/ komplett versioniert
+
+# Grosse Datendateien (Swissmedic-Lizenzdaten)
+data/*
+!data/mapping.json
+
+# Backup-Dateien
+*.bak
+*.bak_*
+
+# Debug-Output
+debug/
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# IDE
+.vscode/
+.idea/

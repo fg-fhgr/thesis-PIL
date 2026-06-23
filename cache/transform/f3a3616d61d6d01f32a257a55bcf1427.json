@@ -1,0 +1,541 @@
+{
+  "cache_key": "v22_transform_Mydocalm®/- mite|{\"altersgruppe\": \"ab 18 Jahren\", \"schwangerschaft\": \"Nein\"}",
+  "buckets": {
+    "wofuer": [
+      {
+        "bucket": "wofuer",
+        "lese_prioritaet": 1,
+        "claim": "wirkt auf das zentrale Nervensystem und wird zur Behandlung krankhaft erhöhter Spannung der Skelettmuskulatur nach Schlaganfall eingesetzt",
+        "population": "Erwachsene ab 18 Jahren",
+        "condition": null,
+        "modality": "indication",
+        "negation": false,
+        "source_span": "Mydocalm/Mydocalm mite enthält den Wirkstoff Tolperison Hydrochlorid, ein Arzneimittel mit Wirkung auf das zentrale Nervensystem. Es wird auf ärztliche Verschreibung hin verwendet zur Behandlung einer krankhaft erhöhten Spannung der Skelettmuskulatur nach einem Schlaganfall bei Erwachsenen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Wirkt auf Zentralnervensystem, behandelt erhöhte Muskelspannung nach Schlaganfall.",
+          "einfach": "Hilft bei zu verspannten Muskeln nach Schlaganfall."
+        },
+        "mittel": {
+          "default": "Der Wirkstoff Tolperison wirkt auf das Zentralnervensystem und wird zur Behandlung von krankhaft erhöhter Skelettmuskelspannung nach Schlaganfall eingesetzt.",
+          "einfach": "Das Mittel hilft bei Muskeln, die nach einem Schlaganfall zu angespannt sind."
+        },
+        "lang": {
+          "default": "Mydocalm/Mydocalm mite enthält den Wirkstoff Tolperison Hydrochlorid, ein Arzneimittel mit Wirkung auf das zentrale Nervensystem. Es wird auf ärztliche Verschreibung hin verwendet zur Behandlung einer krankhaft erhöhten Spannung der Skelettmuskulatur nach einem Schlaganfall bei Erwachsenen.",
+          "einfach": "Mydocalm/Mydocalm mite enthält den Wirkstoff Tolperison Hydrochlorid. Dieses Mittel wirkt auf das zentrale Nervensystem. Es wird verwendet, um eine krankhaft erhöhte Anspannung der Skelettmuskulatur nach einem Schlaganfall bei Erwachsenen zu behandeln. Der Arzt muss es verschreiben."
+        },
+        "icon_slug": "neurology"
+      },
+      {
+        "bucket": "wofuer",
+        "lese_prioritaet": 1,
+        "claim": "Muskelrelaxans zur Behandlung von Muskelverspannungen",
+        "population": "Erwachsene",
+        "condition": null,
+        "modality": "indication",
+        "negation": false,
+        "source_span": "Mydocalm® enthält den Wirkstoff Tolperison, ein Muskelrelaxans zur Behandlung von Muskelverspannungen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Muskelrelaxans zur Behandlung von Muskelverspannungen.",
+          "einfach": "Mittel gegen Muskelverspannungen."
+        },
+        "mittel": {
+          "default": "Mydocalm® enthält Tolperison, ein Muskelrelaxans zur Behandlung von Muskelverspannungen.",
+          "einfach": "Das Medikament enthält den Wirkstoff Tolperison, der gegen Muskelverspannungen hilft."
+        },
+        "lang": {
+          "default": "Mydocalm® enthält den Wirkstoff Tolperison, ein Muskelrelaxans zur Behandlung von Muskelverspannungen.",
+          "einfach": "Mydocalm® enthält den Wirkstoff Tolperison. Das ist ein Medikament, das Muskelverspannungen behandelt und die Muskeln lockert."
+        },
+        "icon_slug": "nerve"
+      }
+    ],
+    "nicht_nehmen": [
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 1,
+        "claim": "darf nicht eingenommen werden",
+        "population": "Patienten mit Myasthenia gravis",
+        "condition": null,
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "Bei Myasthenia gravis (einer seltenen Krankheit, die zu einer Muskelschwäche führt).",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei Myasthenia gravis (seltene Erkrankung mit Muskelschwäche).",
+          "einfach": "Bei Myasthenia gravis (seltene Muskelkrankheit)."
+        },
+        "mittel": {
+          "default": "Das Mittel darf nicht eingenommen werden, wenn Sie an Myasthenia gravis leiden – einer seltenen Erkrankung, die zu Muskelschwäche führt.",
+          "einfach": "Du darfst es nicht nehmen, wenn du Myasthenia gravis hast. Das ist eine seltene Krankheit, die Muskelschwäche verursacht."
+        },
+        "lang": {
+          "default": "Bei Myasthenia gravis (einer seltenen Krankheit, die zu einer Muskelschwäche führt).",
+          "einfach": "Bei Myasthenia gravis (einer seltenen Krankheit, die zu einer Muskelschwäche führt)."
+        },
+        "icon_slug": null
+      },
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 1,
+        "claim": "darf nicht eingenommen werden",
+        "population": null,
+        "condition": "bei Allergie gegen Tolperisonhydrochlorid, Eperison oder sonstige Bestandteile",
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "Mydocalm/Mydocalm mite darf nicht eingenommen werden wenn Sie allergisch gegen den Wirkstoff (Tolperisonhydrochlorid) oder Arzneimittel, die Eperison enthalten, oder einen der in Abschnitt Zusammensetzung genannten sonstigen Bestandteile dieses Arzneimittels sind",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei Allergie gegen Tolperisonhydrochlorid, Eperison oder sonstige Bestandteile.",
+          "einfach": "Bei Allergie gegen den Wirkstoff oder andere Stoffe im Mittel."
+        },
+        "mittel": {
+          "default": "Das Mittel darf nicht eingenommen werden, wenn Sie allergisch gegen Tolperisonhydrochlorid, gegen Arzneimittel mit Eperison oder gegen sonstige Bestandteile sind.",
+          "einfach": "Du darfst es nicht nehmen, wenn du allergisch gegen den Wirkstoff, gegen Eperison oder gegen andere Stoffe im Mittel bist."
+        },
+        "lang": {
+          "default": "Mydocalm/Mydocalm mite darf nicht eingenommen werden wenn Sie allergisch gegen den Wirkstoff (Tolperisonhydrochlorid) oder Arzneimittel, die Eperison enthalten, oder einen der in Abschnitt Zusammensetzung genannten sonstigen Bestandteile dieses Arzneimittels sind",
+          "einfach": "Mydocalm/Mydocalm mite darf nicht eingenommen werden, wenn Sie allergisch gegen den Wirkstoff (Tolperisonhydrochlorid) oder gegen Arzneimittel, die Eperison enthalten, oder gegen einen der sonstigen Bestandteile dieses Arzneimittels sind."
+        },
+        "icon_slug": null
+      },
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 1,
+        "claim": "darf nicht eingenommen werden",
+        "population": "Personen mit bekannter Allergie gegen Tolperison",
+        "condition": null,
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "Wenn Sie bereits einmal eine allergische Reaktion auf Tolperison gehabt haben, dürfen Sie dieses Arzneimittel nicht einnehmen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei bekannter Allergie gegen Tolperison.",
+          "einfach": "Bei früherer allergischer Reaktion auf Tolperison."
+        },
+        "mittel": {
+          "default": "Das Mittel darf nicht eingenommen werden, wenn Sie bereits eine allergische Reaktion auf Tolperison gehabt haben.",
+          "einfach": "Du darfst es nicht nehmen, wenn du schon mal allergisch auf Tolperison reagiert hast."
+        },
+        "lang": {
+          "default": "Wenn Sie bereits einmal eine allergische Reaktion auf Tolperison gehabt haben, dürfen Sie dieses Arzneimittel nicht einnehmen.",
+          "einfach": "Wenn Sie bereits einmal eine allergische Reaktion auf Tolperison gehabt haben, dürfen Sie dieses Arzneimittel nicht einnehmen."
+        },
+        "icon_slug": null
+      },
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 2,
+        "claim": "darf nicht eingenommen werden",
+        "population": "Patienten mit stark eingeschränkter Nierenfunktion",
+        "condition": null,
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "Wenn Ihre Nierenfunktion stark eingeschränkt ist, sollten Sie dieses Arzneimittel nicht einnehmen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Stark eingeschränkte Nierenfunktion.",
+          "einfach": "Sehr schlechte Nierenfunktion."
+        },
+        "mittel": {
+          "default": "Das Medikament darf nicht eingenommen werden, wenn die Nierenfunktion stark eingeschränkt ist.",
+          "einfach": "Wenn deine Nieren sehr schlecht arbeiten, darfst du dieses Medikament nicht nehmen."
+        },
+        "lang": {
+          "default": "Wenn Ihre Nierenfunktion stark eingeschränkt ist, sollten Sie dieses Arzneimittel nicht einnehmen.",
+          "einfach": "Wenn deine Nierenfunktion stark eingeschränkt ist, solltest du dieses Arzneimittel nicht einnehmen."
+        },
+        "icon_slug": null
+      },
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 2,
+        "claim": "darf nicht eingenommen werden",
+        "population": "Patienten mit stark eingeschränkter Leberfunktion",
+        "condition": null,
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "Wenn Ihre Leberfunktion stark eingeschränkt ist, sollten Sie dieses Arzneimittel nicht einnehmen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Stark eingeschränkte Leberfunktion.",
+          "einfach": "Sehr schlechte Leberfunktion."
+        },
+        "mittel": {
+          "default": "Das Medikament darf nicht eingenommen werden, wenn die Leberfunktion stark eingeschränkt ist.",
+          "einfach": "Wenn deine Leber sehr schlecht arbeitet, darfst du dieses Medikament nicht nehmen."
+        },
+        "lang": {
+          "default": "Wenn Ihre Leberfunktion stark eingeschränkt ist, sollten Sie dieses Arzneimittel nicht einnehmen.",
+          "einfach": "Wenn deine Leberfunktion stark eingeschränkt ist, solltest du dieses Arzneimittel nicht einnehmen."
+        },
+        "icon_slug": null
+      }
+    ],
+    "dosierung": [
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 1,
+        "claim": "1 Filmtablette (150 mg) dreimal täglich, direkt nach den Mahlzeiten mit Wasser eingenommen",
+        "population": "Erwachsene",
+        "condition": null,
+        "modality": "dosage_instruction",
+        "negation": false,
+        "source_span": "Bei Erwachsenen beträgt die Dosis im allgemeinen je eine Filmtablette Mydocalm (d.h. eine Dosis von 150 mg) am Morgen, Mittag und Abend. Das Arzneimittel sollte direkt nach den Mahlzeiten mit einem Glas Wasser eingenommen werden.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "1 Filmtablette (150 mg) dreimal täglich direkt nach den Mahlzeiten mit Wasser.",
+          "einfach": "1 Tablette (150 mg) drei Mal täglich nach dem Essen."
+        },
+        "mittel": {
+          "default": "Die übliche Dosierung beträgt je eine Filmtablette (150 mg) morgens, mittags und abends, direkt nach den Mahlzeiten mit einem Glas Wasser eingenommen.",
+          "einfach": "Nimm drei Mal täglich eine Tablette zu 150 mg. Du solltest sie direkt nach dem Essen mit einem Glas Wasser nehmen."
+        },
+        "lang": {
+          "default": "Bei Erwachsenen beträgt die Dosis im allgemeinen je eine Filmtablette Mydocalm (d.h. eine Dosis von 150 mg) am Morgen, Mittag und Abend. Das Arzneimittel sollte direkt nach den Mahlzeiten mit einem Glas Wasser eingenommen werden.",
+          "einfach": "Die normale Dosierung ist: Drei Mal täglich eine Filmtablette mit 150 mg. Du solltest jede Tablette direkt nach dem Essen mit einem Glas Wasser nehmen."
+        },
+        "icon_slug": "take-3x-daily-with-meals"
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 2,
+        "claim": "bis zu 4 Filmtabletten täglich (150 mg je Tablette) in bestimmten Fällen möglich",
+        "population": "Erwachsene",
+        "condition": "auf ärztliche Verordnung",
+        "modality": "dosage_adjustment",
+        "negation": false,
+        "source_span": "In gewissen Fällen kann der Arzt eine höhere Dosis verschreiben (viermal täglich eine Filmtablette zu 150 mg).",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Höhere Dosierung bis zu 4 Filmtabletten täglich möglich auf ärztliche Verordnung.",
+          "einfach": "Höhere Dosis möglich: bis zu 4 Tabletten pro Tag (nur vom Arzt)."
+        },
+        "mittel": {
+          "default": "In bestimmten Fällen kann der Arzt eine höhere Dosierung von bis zu 4 Filmtabletten täglich (150 mg je Tablette) verordnen.",
+          "einfach": "In manchen Fällen kann der Arzt eine höhere Dosis verschreiben: bis zu 4 Tabletten pro Tag statt 3."
+        },
+        "lang": {
+          "default": "In gewissen Fällen kann der Arzt eine höhere Dosis verschreiben (viermal täglich eine Filmtablette zu 150 mg).",
+          "einfach": "In bestimmten Fällen kann der Arzt dir eine höhere Dosis verschreiben. Das bedeutet, du kannst bis zu 4 Filmtabletten pro Tag nehmen, jede Tablette mit 150 mg."
+        },
+        "icon_slug": null
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 2,
+        "claim": "Dosierung beibehalten bis therapeutische Wirkung erreicht ist, dann kann Dosisintervall vergrößert werden",
+        "population": null,
+        "condition": null,
+        "modality": "dosage_instruction",
+        "negation": false,
+        "source_span": "Die Dosierung wird beibehalten, bis die therapeutische Wirkung erreicht ist. Danach kann eine Einnahme der einzelnen Dosen in grösseren Zeitabständen verschrieben werden.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Dosierung beibehalten, bis Wirkung eintritt; dann Abstände vergrößern.",
+          "einfach": "Gleiche Menge nehmen bis es wirkt, dann größere Abstände."
+        },
+        "mittel": {
+          "default": "Die Dosierung wird beibehalten, bis die therapeutische Wirkung eintritt. Danach können Sie die einzelnen Dosen in größeren Zeitabständen einnehmen.",
+          "einfach": "Sie nehmen die gleiche Menge, bis das Mittel wirkt. Danach können Sie längere Pausen zwischen den Einnahmen machen."
+        },
+        "lang": {
+          "default": "Die Dosierung wird beibehalten, bis die therapeutische Wirkung erreicht ist. Danach kann eine Einnahme der einzelnen Dosen in grösseren Zeitabständen verschrieben werden.",
+          "einfach": "Die Dosierung wird beibehalten, bis die therapeutische Wirkung erreicht ist. Danach kann eine Einnahme der einzelnen Dosen in größeren Zeitabständen verschrieben werden."
+        },
+        "icon_slug": null
+      }
+    ],
+    "beachten": [
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 1,
+        "claim": "sofort Einnahme beenden und Arzt/Notaufnahme aufsuchen",
+        "population": null,
+        "condition": "bei Auftreten von Anzeichen einer Überempfindlichkeit (Gesichtsröte, Hautausschlag, starkes Hautjucken, pfeifender Atem, Atembeschwerden mit oder ohne Schwellung von Gesicht/Lippen/Zunge/Rachen, Schluckbeschwerden, beschleunigter Herzschlag, niedriger Blutdruck oder rascher Blutdruckabfall)",
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Frühe Zeichen einer Überempfindlichkeit sind: Gesichtsröte, Hautausschlag, starkes Hautjucken (mit Hauterhebungen), pfeifender Atem, Atembeschwerden mit oder ohne Schwellung von Gesicht, Lippen, Zunge und/oder Rachen, Schluckbeschwerden, beschleunigter Herzschlag, niedriger Blutdruck, rascher Blutdruckabfall. Wenn Sie eines dieser Zeichen bemerken, beenden Sie sofort die Einnahme dieses Arzneimittels und suchen Sie Ihren Arzt oder die Notaufnahme des nächstgelegenen Krankenhauses auf.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Sofort Einnahme beenden und Arzt/Notaufnahme aufsuchen bei Zeichen einer Überempfindlichkeit.",
+          "einfach": "Sofort stoppen und zum Arzt oder zur Notaufnahme, wenn Überempfindlichkeitszeichen auftreten."
+        },
+        "mittel": {
+          "default": "Beenden Sie die Einnahme sofort und suchen Sie einen Arzt oder eine Notaufnahme auf, wenn Sie Gesichtsröte, Ausschlag, starkes Jucken, pfeifenden Atem, Atembeschwerden (mit oder ohne Schwellungen im Gesichts-/Rachenbereich), Schluckbeschwerden, schnellen Herzschlag oder niedriger/schnell fallenden Blutdruck bemerken.",
+          "einfach": "Höre sofort auf, das Mittel zu nehmen, und geh zum Arzt oder zur Notaufnahme, wenn du rote Flecken, Ausschlag, starken Juckreiz, pfeifende Atemgeräusche, Atemprobleme, Schwellungen im Gesicht/Hals, Schluckbeschwerden, schnellen Herzschlag oder Blutdruckprobleme hast."
+        },
+        "lang": {
+          "default": "Frühe Zeichen einer Überempfindlichkeit sind: Gesichtsröte, Hautausschlag, starkes Hautjucken (mit Hauterhebungen), pfeifender Atem, Atembeschwerden mit oder ohne Schwellung von Gesicht, Lippen, Zunge und/oder Rachen, Schluckbeschwerden, beschleunigter Herzschlag, niedriger Blutdruck, rascher Blutdruckabfall. Wenn Sie eines dieser Zeichen bemerken, beenden Sie sofort die Einnahme dieses Arzneimittels und suchen Sie Ihren Arzt oder die Notaufnahme des nächstgelegenen Krankenhauses auf.",
+          "einfach": "Die frühen Zeichen einer Überempfindlichkeit sind: Gesichtsröte, Hautausschlag, starkes Hautjucken (mit Hauterhebungen), pfeifender Atem, Atembeschwerden mit oder ohne Schwellung von Gesicht, Lippen, Zunge und/oder Rachen, Schluckbeschwerden, beschleunigter Herzschlag, niedriger Blutdruck, rascher Blutdruckabfall. Wenn Sie eines dieser Zeichen bemerken, beenden Sie sofort die Einnahme dieses Arzneimittels und suchen Sie Ihren Arzt oder die Notaufnahme des nächstgelegenen Krankenhauses auf."
+        },
+        "icon_slug": "alert"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 1,
+        "claim": "unverzüglich Arzt oder Notaufnahme kontaktieren",
+        "population": null,
+        "condition": "bei Überdosierung",
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Im Falle einer Überdosierung sollten Sie sofort Ihren Arzt oder eine Notaufnahme kontaktieren.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei Überdosierung: unverzüglich Arzt oder Notaufnahme kontaktieren.",
+          "einfach": "Bei Überdosis sofort zum Arzt oder in die Notaufnahme."
+        },
+        "mittel": {
+          "default": "Im Falle einer Überdosierung kontaktieren Sie sofort Ihren Arzt oder eine Notaufnahme.",
+          "einfach": "Wenn du zu viel Medikament genommen hast, rufe sofort deinen Arzt an oder gehe in die Notaufnahme."
+        },
+        "lang": {
+          "default": "Im Falle einer Überdosierung sollten Sie sofort Ihren Arzt oder eine Notaufnahme kontaktieren.",
+          "einfach": "Falls du zu viel von diesem Medikament genommen hast, kontaktiere sofort deinen Arzt oder eine Notaufnahme."
+        },
+        "icon_slug": "alert"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 1,
+        "claim": "häufigste gemeldete Nebenwirkung sind Überempfindlichkeitsreaktionen (von leichten Hautreaktionen bis zu schweren systemischen Reaktionen wie allergischer Schock)",
+        "population": null,
+        "condition": null,
+        "modality": "side_effect",
+        "negation": false,
+        "source_span": "Die Nebenwirkungen, die nach der Markteinführung von Arzneimitteln, die Tolperison (den Wirkstoff in Mydocalm/Mydocalm mite) enthalten, am häufigsten gemeldet wurden, waren Überempfindlichkeitsreaktionen. Diese reichten von leichten Hautreaktionen bis hin zu schweren, den gesamten Organismus betreffenden Reaktionen (z.B. allergischer Schock).",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Häufigste Nebenwirkung: Überempfindlichkeitsreaktionen, von leicht bis schwer.",
+          "einfach": "Häufige Nebenwirkung: Überempfindlichkeitsreaktionen, manchmal schwer."
+        },
+        "mittel": {
+          "default": "Die häufigsten gemeldeten Nebenwirkungen sind Überempfindlichkeitsreaktionen, die von leichten Hautreaktionen bis zu schweren Reaktionen wie allergischem Schock reichen können.",
+          "einfach": "Die häufigste Nebenwirkung sind Überempfindlichkeitsreaktionen. Sie können leicht (z.B. Hautreaktion) oder schwer sein, bis zu allergischem Schock."
+        },
+        "lang": {
+          "default": "Die Nebenwirkungen, die nach der Markteinführung von Arzneimitteln, die Tolperison (den Wirkstoff in Mydocalm/Mydocalm mite) enthalten, am häufigsten gemeldet wurden, waren Überempfindlichkeitsreaktionen. Diese reichten von leichten Hautreaktionen bis hin zu schweren, den gesamten Organismus betreffenden Reaktionen (z.B. allergischer Schock).",
+          "einfach": "Die Nebenwirkungen, die nach der Markteinführung von Arzneimitteln, die Tolperison enthalten, am häufigsten gemeldet wurden, waren Überempfindlichkeitsreaktionen. Diese reichten von leichten Hautreaktionen bis hin zu schweren, den gesamten Organismus betreffenden Reaktionen (z.B. allergischer Schock)."
+        },
+        "icon_slug": "antibody"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 2,
+        "claim": "erhöhtes Risiko für Nebenwirkungen; Nierenfunktion und Allgemeinzustand regelmäßig kontrollieren",
+        "population": "Patienten mit eingeschränkter Nierenfunktion",
+        "condition": null,
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Bei den regelmäßig während der Behandlung mit Mydocalm/Mydocalm mite durchgeführten ärztlichen Untersuchungen werden auch Ihre Nierenfunktion und Ihr Allgemeinzustand häufig kontrolliert, da bei Patienten mit eingeschränkter Nierenfunktion eine höhere Zahl von Nebenwirkungen beobachtet wurde.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Erhöhtes Risiko für Nebenwirkungen bei eingeschränkter Nierenfunktion; regelmäßige ärztliche Kontrolle erforderlich.",
+          "einfach": "Wenn die Nieren nicht gut arbeiten: höheres Nebenwirkungsrisiko, regelmäßige Kontrolle nötig."
+        },
+        "mittel": {
+          "default": "Bei eingeschränkter Nierenfunktion besteht ein erhöhtes Risiko für Nebenwirkungen. Nierenfunktion und Allgemeinzustand sollten daher regelmäßig kontrolliert werden.",
+          "einfach": "Wenn deine Nieren nicht gut arbeiten, kann das Medikament mehr Nebenwirkungen verursachen. Der Arzt muss deine Nieren und deinen Zustand regelmäßig überprüfen."
+        },
+        "lang": {
+          "default": "Bei den regelmäßig während der Behandlung mit Mydocalm/Mydocalm mite durchgeführten ärztlichen Untersuchungen werden auch Ihre Nierenfunktion und Ihr Allgemeinzustand häufig kontrolliert, da bei Patienten mit eingeschränkter Nierenfunktion eine höhere Zahl von Nebenwirkungen beobachtet wurde.",
+          "einfach": "Bei Patienten mit schwacher Nierenfunktion wurden mehr Nebenwirkungen beobachtet. Deshalb muss der Arzt während der Behandlung deine Nierenfunktion und deinen allgemeinen Gesundheitszustand häufiger überprüfen."
+        },
+        "icon_slug": "kidneys"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 2,
+        "claim": "erhöhtes Risiko für Nebenwirkungen",
+        "population": "Patienten mit eingeschränkter Leberfunktion",
+        "condition": null,
+        "modality": "warning",
+        "negation": false,
+        "source_span": "bei Patienten mit eingeschränkter Leberfunktion eine höhere Zahl von Nebenwirkungen beobachtet wurde",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Erhöhtes Risiko für Nebenwirkungen bei eingeschränkter Leberfunktion.",
+          "einfach": "Schlechte Leberfunktion: höheres Nebenwirkungsrisiko."
+        },
+        "mittel": {
+          "default": "Bei eingeschränkter Leberfunktion besteht ein erhöhtes Risiko für Nebenwirkungen.",
+          "einfach": "Wenn deine Leber nicht gut arbeitet, können mehr Nebenwirkungen auftreten."
+        },
+        "lang": {
+          "default": "bei Patienten mit eingeschränkter Leberfunktion eine höhere Zahl von Nebenwirkungen beobachtet wurde",
+          "einfach": "Bei Patienten mit schwacher Leberfunktion wurden mehr Nebenwirkungen beobachtet."
+        },
+        "icon_slug": "alert"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 2,
+        "claim": "Schläfrigkeit, Übelkeit, Erbrechen, Oberbauchschmerzen, erhöhte Herzfrequenz, erhöhter Blutdruck, Bewegungsverlangsamung, Schwindel",
+        "population": null,
+        "condition": "bei Überdosierung",
+        "modality": "side_effect",
+        "negation": false,
+        "source_span": "Wenn Sie mehr Medikamente eingenommen haben, als Sie sollten, können folgende Symptome einer Überdosierung auftreten: Schläfrigkeit, gastrointestinale Symptome (wie Übelkeit, Erbrechen, Schmerzen im Oberbauch), erhöhte Herzfrequenz, erhöhter Blutdruck, Verlangsamung der Bewegungen und ein Schwindelgefühl.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Überdosierungssymptome: Schläfrigkeit, Übelkeit, Erbrechen, Oberbauchschmerzen, erhöhte Herzfrequenz und Blutdruck, Bewegungsverlangsamung, Schwindel.",
+          "einfach": "Zu viel Medikament: Müdigkeit, Übelkeit, Erbrechen, Bauchweh, schneller Herzschlag, Schwindel."
+        },
+        "mittel": {
+          "default": "Eine Überdosierung kann zu Schläfrigkeit, Übelkeit, Erbrechen, Oberbauchschmerzen, erhöhter Herzfrequenz und Blutdruck, Bewegungsverlangsamung und Schwindel führen.",
+          "einfach": "Bei zu viel Medikament können folgende Symptome auftreten: Müdigkeit, Übelkeit, Erbrechen, Bauchweh, schneller Herzschlag, höherer Blutdruck, langsame Bewegungen und Schwindel."
+        },
+        "lang": {
+          "default": "Wenn Sie mehr Medikamente eingenommen haben, als Sie sollten, können folgende Symptome einer Überdosierung auftreten: Schläfrigkeit, gastrointestinale Symptome (wie Übelkeit, Erbrechen, Schmerzen im Oberbauch), erhöhte Herzfrequenz, erhöhter Blutdruck, Verlangsamung der Bewegungen und ein Schwindelgefühl.",
+          "einfach": "Wenn du zu viel Medikament nimmst, können diese Symptome auftreten: Müdigkeit, Übelkeit, Erbrechen, Schmerzen im oberen Bauch, erhöhte Herzfrequenz, höherer Blutdruck, verlangsamte Bewegungen und Schwindel."
+        },
+        "icon_slug": "warning-may-cause-drowsiness"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 2,
+        "claim": "Arzt aufsuchen",
+        "population": null,
+        "condition": "bei Auftreten von Schwindel, Schläfrigkeit, Aufmerksamkeitsstörungen, Krampfanfällen, Verschwommensehen oder Muskelschwäche während der Einnahme",
+        "modality": "precaution",
+        "negation": false,
+        "source_span": "Wenn es bei Ihnen während der Einnahme von Mydocalm/Mydocalm mite zu Schwindel, Schläfrigkeit, Aufmerksamkeitsstörungen, Krampfanfällen, Verschwommensehen oder Muskelschwäche kommt, suchen Sie Ihren Arzt auf.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei Schwindel, Schläfrigkeit, Aufmerksamkeitsstörungen, Krampfanfällen, Verschwommensehen oder Muskelschwäche: Arzt aufsuchen.",
+          "einfach": "Arzt aufsuchen bei Schwindel, Müdigkeit oder Sehproblemen."
+        },
+        "mittel": {
+          "default": "Treten während der Einnahme Schwindel, Schläfrigkeit, Aufmerksamkeitsstörungen, Krampfanfälle, Verschwommensehen oder Muskelschwäche auf, suchen Sie Ihren Arzt auf.",
+          "einfach": "Wenn du während der Einnahme Schwindel, Müdigkeit, Konzentrationsprobleme, Krampfanfälle, Sehstörungen oder Muskelschwäche bekommst, gehe zum Arzt."
+        },
+        "lang": {
+          "default": "Wenn es bei Ihnen während der Einnahme von Mydocalm/Mydocalm mite zu Schwindel, Schläfrigkeit, Aufmerksamkeitsstörungen, Krampfanfällen, Verschwommensehen oder Muskelschwäche kommt, suchen Sie Ihren Arzt auf.",
+          "einfach": "Wenn du während der Einnahme von diesem Medikament Schwindel, Schläfrigkeit, Konzentrationsprobleme, Krampfanfälle, verschwommenes Sehen oder Muskelschwäche bekommst, suche sofort deinen Arzt auf."
+        },
+        "icon_slug": "doctor"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 2,
+        "claim": "Leberfunktion und Allgemeinzustand werden regelmäßig kontrolliert",
+        "population": "Patienten mit eingeschränkter Leberfunktion",
+        "condition": "während der Behandlung mit Mydocalm/Mydocalm mite",
+        "modality": "precaution",
+        "negation": false,
+        "source_span": "Bei den regelmäßig während der Behandlung mit Mydocalm/Mydocalm mite durchgeführten ärztlichen Untersuchungen werden auch Ihre Leberfunktion und Ihr Allgemeinzustand häufig kontrolliert",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Leberfunktion und Allgemeinzustand werden regelmäßig kontrolliert.",
+          "einfach": "Leber und Allgemeinzustand werden regelmäßig überprüft."
+        },
+        "mittel": {
+          "default": "Bei regelmäßigen ärztlichen Untersuchungen während der Behandlung werden Ihre Leberfunktion und Ihr Allgemeinzustand häufig kontrolliert.",
+          "einfach": "Der Arzt oder die Ärztin überprüft bei regelmäßigen Besuchen, wie es Ihrer Leber geht und wie Sie sich insgesamt fühlen."
+        },
+        "lang": {
+          "default": "Bei den regelmäßig während der Behandlung mit Mydocalm/Mydocalm mite durchgeführten ärztlichen Untersuchungen werden auch Ihre Leberfunktion und Ihr Allgemeinzustand häufig kontrolliert",
+          "einfach": "Bei den regelmäßigen Besuchen beim Arzt oder bei der Ärztin während der Behandlung mit Mydocalm/Mydocalm mite wird häufig überprüft, wie Ihre Leber arbeitet und wie es Ihnen allgemein geht."
+        },
+        "icon_slug": "liver"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "erhöhtes Risiko für Überempfindlichkeitsreaktionen",
+        "population": "Frauen",
+        "condition": null,
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Frauen, ältere Patienten oder Patienten, die gleichzeitig andere Arzneimittel (vor allem nichtsteroidale Antirheumatika) anwenden, scheinen ein höheres Risiko für das Auftreten von Überempfindlichkeitsreaktionen zu haben.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Erhöhtes Risiko für Überempfindlichkeitsreaktionen.",
+          "einfach": "Höheres Risiko für allergische Reaktionen."
+        },
+        "mittel": {
+          "default": "Sie haben ein erhöhtes Risiko für Überempfindlichkeitsreaktionen, besonders wenn Sie gleichzeitig nichtsteroidale Antirheumatika anwenden.",
+          "einfach": "Du hast ein höheres Risiko für allergische Reaktionen, vor allem wenn du auch andere Schmerzmittel nimmst."
+        },
+        "lang": {
+          "default": "Frauen, ältere Patienten oder Patienten, die gleichzeitig andere Arzneimittel (vor allem nichtsteroidale Antirheumatika) anwenden, scheinen ein höheres Risiko für das Auftreten von Überempfindlichkeitsreaktionen zu haben.",
+          "einfach": "Sie scheinen ein höheres Risiko für das Auftreten von Überempfindlichkeitsreaktionen zu haben. Das ist besonders der Fall, wenn Sie gleichzeitig andere Arzneimittel (vor allem nichtsteroidale Antirheumatika) anwenden."
+        },
+        "icon_slug": "alert"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "erhöhtes Risiko für allergische Reaktionen",
+        "population": "Patienten mit Arzneimittelallergien oder allergischen Erkrankungen/Beschwerden (einschliesslich Veranlagung zu allergischen Erkrankungen)",
+        "condition": null,
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Es scheint auch ein höheres Risiko für eine allergische Reaktion auf dieses Arzneimittel zu bestehen bei Patienten mit Arzneimittelallergien oder allergischen Erkrankungen oder Beschwerden (wie eine Veranlagung zu allergischen Erkrankungen",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Erhöhtes Allergie-Risiko bei bestehenden Arzneimittel- oder allergischen Erkrankungen.",
+          "einfach": "Höheres Risiko, wenn du schon Arzneimittel- oder Allergien hast."
+        },
+        "mittel": {
+          "default": "Ein höheres Risiko für allergische Reaktionen besteht, wenn Sie bereits Arzneimittelallergien oder allergische Erkrankungen (z.B. Veranlagung zu Allergien) haben.",
+          "einfach": "Du hast ein höheres Risiko für eine allergische Reaktion, wenn du schon Arzneimittelallergien oder andere allergische Erkrankungen hast."
+        },
+        "lang": {
+          "default": "Es scheint auch ein höheres Risiko für eine allergische Reaktion auf dieses Arzneimittel zu bestehen bei Patienten mit Arzneimittelallergien oder allergischen Erkrankungen oder Beschwerden (wie eine Veranlagung zu allergischen Erkrankungen",
+          "einfach": "Es scheint ein höheres Risiko für eine allergische Reaktion auf dieses Arzneimittel zu bestehen bei Patienten mit Arzneimittelallergien oder allergischen Erkrankungen oder Beschwerden (wie eine Veranlagung zu allergischen Erkrankungen)."
+        },
+        "icon_slug": "alert"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "erhöhtes Allergie-Risiko gegen Tolperison",
+        "population": "Personen mit bekannter Allergie gegen Lidocain",
+        "condition": null,
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Wenn Sie eine bekannte Allergie gegen Lidocain haben, ist bei Ihnen das Risiko, gegen Tolperison allergisch zu sein, höher. Sprechen Sie in diesem Fall vor Beginn der Behandlung mit Ihrem Arzt.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Erhöhtes Allergie-Risiko bei bekannter Lidocain-Allergie; vor Behandlung mit Arzt sprechen.",
+          "einfach": "Höheres Risiko, wenn du gegen Lidocain allergisch bist; mit Arzt sprechen."
+        },
+        "mittel": {
+          "default": "Wenn Sie allergisch gegen Lidocain sind, besteht ein höheres Risiko einer Allergie gegen Tolperison. Sprechen Sie vor Behandlungsbeginn mit Ihrem Arzt.",
+          "einfach": "Wenn du gegen Lidocain allergisch bist, hast du höhere Chancen, auch gegen Tolperison allergisch zu sein. Sprich mit deinem Arzt, bevor du das Mittel nimmst."
+        },
+        "lang": {
+          "default": "Wenn Sie eine bekannte Allergie gegen Lidocain haben, ist bei Ihnen das Risiko, gegen Tolperison allergisch zu sein, höher. Sprechen Sie in diesem Fall vor Beginn der Behandlung mit Ihrem Arzt.",
+          "einfach": "Wenn Sie eine bekannte Allergie gegen Lidocain haben, ist bei Ihnen das Risiko, gegen Tolperison allergisch zu sein, höher. Sprechen Sie in diesem Fall vor Beginn der Behandlung mit Ihrem Arzt."
+        },
+        "icon_slug": "alert"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "erhöhtes Risiko für allergische Reaktion",
+        "population": "Personen mit Atopie (Heuschnupfen, Asthma, atopische Dermatitis mit hohem Serum-IgE-Spiegel, Nesselsucht)",
+        "condition": null,
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Atopie (Heuschnupfen, Asthma, atopische Dermatitis mit hohem Serum-IgE-Spiegel, Nesselsucht) in der Krankengeschichte oder bei gleichzeitig vorliegender Virusinfektion.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Erhöhtes Allergie-Risiko bei Heuschnupfen, Asthma, atopischer Dermatitis oder Nesselsucht.",
+          "einfach": "Höheres Risiko, wenn du Heuschnupfen, Asthma oder ähnliche Allergien hast."
+        },
+        "mittel": {
+          "default": "Ein erhöhtes Risiko für allergische Reaktionen besteht, wenn Sie Heuschnupfen, Asthma, atopische Dermatitis mit hohem Serum-IgE-Spiegel, Nesselsucht in der Vorgeschichte haben oder gerade eine Virusinfektion haben.",
+          "einfach": "Du hast ein höheres Risiko, wenn du Heuschnupfen, Asthma, atopische Dermatitis oder Nesselsucht hast oder gerade eine Virusinfektion hast."
+        },
+        "lang": {
+          "default": "Atopie (Heuschnupfen, Asthma, atopische Dermatitis mit hohem Serum-IgE-Spiegel, Nesselsucht) in der Krankengeschichte oder bei gleichzeitig vorliegender Virusinfektion.",
+          "einfach": "Ein höheres Risiko besteht bei Atopie (Heuschnupfen, Asthma, atopische Dermatitis mit hohem Serum-IgE-Spiegel, Nesselsucht) in der Krankengeschichte oder bei gleichzeitig vorliegender Virusinfektion."
+        },
+        "icon_slug": "alert"
+      }
+    ]
+  }
+}

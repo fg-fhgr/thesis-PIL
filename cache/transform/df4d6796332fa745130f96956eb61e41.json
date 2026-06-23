@@ -1,0 +1,661 @@
+{
+  "cache_key": "v22_transform_DAFALGAN® 500 mg Tabletten|{\"altersgruppe\": \"ab 12 Jahren\", \"schwangerschaft\": \"Ja, ich bin schwanger\"}",
+  "buckets": {
+    "wofuer": [
+      {
+        "bucket": "wofuer",
+        "lese_prioritaet": 1,
+        "claim": "wirkt schmerzlindernd und fiebersenkend",
+        "population": null,
+        "condition": null,
+        "modality": "indication",
+        "negation": false,
+        "source_span": "DAFALGAN 500 mg enthält den Wirkstoff Paracetamol, der schmerzlindernd und fiebersenkend wirkt.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Wirkt schmerzlindernd und fiebersenkend.",
+          "einfach": "Hilft gegen Schmerzen und Fieber."
+        },
+        "mittel": {
+          "default": "Der Wirkstoff Paracetamol wirkt schmerzlindernd und fiebersenkend.",
+          "einfach": "Das Mittel hilft gegen Schmerzen und senkt Fieber."
+        },
+        "lang": {
+          "default": "DAFALGAN 500 mg enthält den Wirkstoff Paracetamol, der schmerzlindernd und fiebersenkend wirkt.",
+          "einfach": "DAFALGAN 500 mg enthält den Wirkstoff Paracetamol. Dieser Stoff lindert Schmerzen und senkt Fieber."
+        },
+        "icon_slug": "for-headache"
+      },
+      {
+        "bucket": "wofuer",
+        "lese_prioritaet": 1,
+        "claim": "zur kurzfristigen Behandlung von Kopfschmerzen, Zahnschmerzen, Schmerzen im Bereich von Gelenken und Bändern, Rückenschmerzen, Schmerzen während der Monatsblutung, Schmerzen nach Verletzungen (z.B. Sportverletzungen), Schmerzen bei Erkältungskrankheiten und Fieber sowie Arthroseschmerzen",
+        "population": null,
+        "condition": null,
+        "modality": "indication",
+        "negation": false,
+        "source_span": "Es wird angewendet zur kurzfristigen Behandlung von Kopfschmerzen, Zahnschmerzen, Schmerzen im Bereich von Gelenken und Bändern, Rückenschmerzen, Schmerzen während der Monatsblutung, Schmerzen nach Verletzungen (z.B. Sportverletzungen), Schmerzen bei Erkältungskrankheiten und Fieber und Arthroseschmerzen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Kurzzeitige Behandlung vieler Schmerz- und Fieberzustände.",
+          "einfach": "Hilft bei vielen Arten von Schmerzen und Fieber."
+        },
+        "mittel": {
+          "default": "Wird kurzfristig gegen Kopfschmerzen, Zahnschmerzen, Gelenkschmerzen, Bänderschmerzen, Rückenschmerzen, Regelschmerzen, Verletzungsschmerzen (etwa Sportverletzungen), Erkältungsschmerzen, Fieber und Arthroseschmerzen eingesetzt.",
+          "einfach": "Hilft kurzzeitig bei vielen Schmerzen und Fieber: Kopfschmerzen, Zahnschmerzen, Gelenkschmerzen, Bänderschmerzen, Rückenschmerzen, Regelschmerzen, Verletzungsschmerzen (zum Beispiel beim Sport), Erkältungsschmerzen und Arthroseschmerzen."
+        },
+        "lang": {
+          "default": "Es wird angewendet zur kurzfristigen Behandlung von Kopfschmerzen, Zahnschmerzen, Schmerzen im Bereich von Gelenken und Bändern, Rückenschmerzen, Schmerzen während der Monatsblutung, Schmerzen nach Verletzungen (z.B. Sportverletzungen), Schmerzen bei Erkältungskrankheiten und Fieber und Arthroseschmerzen.",
+          "einfach": "Es wird kurzzeitig verwendet gegen Kopfschmerzen, Zahnschmerzen, Schmerzen in Gelenken und Bändern, Rückenschmerzen, Schmerzen während der Regelblutung, Schmerzen nach Verletzungen (zum Beispiel Sportverletzungen), Schmerzen bei Erkältungen und Fieber sowie Arthroseschmerzen."
+        },
+        "icon_slug": "for-headache"
+      }
+    ],
+    "nicht_nehmen": [
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 1,
+        "claim": "darf nicht eingenommen werden",
+        "population": null,
+        "condition": "bei Überempfindlichkeit auf Paracetamol und verwandte Substanzen (z.B. Propacetamol) oder auf einen der Hilfsstoffe",
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "In folgenden Fällen dürfen Sie DAFALGAN 500 mg nicht einnehmen: ·Bei Überempfindlichkeit auf den Wirkstoff Paracetamol und verwandte Substanzen (z.B. Propacetamol) oder auf einen der Hilfsstoffe (siehe «Was ist in DAFALGAN 500 mg Tabletten enthalten?»).",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei Überempfindlichkeit auf Paracetamol oder verwandte Substanzen oder Hilfsstoffe.",
+          "einfach": "Bei Allergie auf Paracetamol oder verwandte Stoffe oder auf Hilfsstoffe."
+        },
+        "mittel": {
+          "default": "Darf nicht eingenommen werden bei Überempfindlichkeit gegenüber Paracetamol und verwandten Substanzen (wie Propacetamol) oder gegenüber einem der Hilfsstoffe.",
+          "einfach": "Darfst du nicht nehmen, wenn du überempfindlich auf Paracetamol oder ähnliche Stoffe (wie Propacetamol) bist oder wenn du überempfindlich auf einen der Hilfsstoffe bist."
+        },
+        "lang": {
+          "default": "In folgenden Fällen dürfen Sie DAFALGAN 500 mg nicht einnehmen: ·Bei Überempfindlichkeit auf den Wirkstoff Paracetamol und verwandte Substanzen (z.B. Propacetamol) oder auf einen der Hilfsstoffe (siehe «Was ist in DAFALGAN 500 mg Tabletten enthalten?»).",
+          "einfach": "Du darfst DAFALGAN 500 mg nicht einnehmen, wenn du überempfindlich (allergisch) auf den Wirkstoff Paracetamol und verwandte Substanzen (zum Beispiel Propacetamol) bist oder wenn du überempfindlich auf einen der Hilfsstoffe bist."
+        },
+        "icon_slug": null
+      },
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 1,
+        "claim": "darf nicht eingenommen werden",
+        "population": null,
+        "condition": "bei schweren Lebererkrankungen (akute Hepatitis, Leberzirrhose, Aszites)",
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "·Bei schweren Lebererkrankungen (z.B. akute Hepatitis, Leberzirrhose, Aszites, d.h. Flüssigkeitsansammlung in der Bauchhöhle).",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei schweren Lebererkrankungen (Hepatitis, Leberzirrhose, Aszites).",
+          "einfach": "Bei schwerer Leberkrankheit oder Flüssigkeit im Bauch."
+        },
+        "mittel": {
+          "default": "Nicht einnehmen bei schweren Lebererkrankungen wie akuter Hepatitis, Leberzirrhose oder Aszites (Flüssigkeitsansammlung in der Bauchhöhle).",
+          "einfach": "Nicht nehmen, wenn Sie eine schwere Leberkrankheit haben oder Flüssigkeit im Bauch angesammelt hat."
+        },
+        "lang": {
+          "default": "·Bei schweren Lebererkrankungen (z.B. akute Hepatitis, Leberzirrhose, Aszites, d.h. Flüssigkeitsansammlung in der Bauchhöhle).",
+          "einfach": "Sie dürfen das Mittel nicht nehmen, wenn Sie eine schwere Lebererkrankung haben. Das kann zum Beispiel sein: akute Hepatitis (Leberentzündung), Leberzirrhose (vernarbte Leber) oder Aszites, das heisst Flüssigkeit, die sich in der Bauchhöhle angesammelt hat."
+        },
+        "icon_slug": null
+      },
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 1,
+        "claim": "darf nicht eingenommen werden",
+        "population": null,
+        "condition": "bei Alkoholüberkonsum",
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "·Bei Alkoholüberkonsum.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei Alkoholüberkonsum.",
+          "einfach": "Wenn Sie viel Alkohol trinken."
+        },
+        "mittel": {
+          "default": "Nicht einnehmen bei Alkoholüberkonsum.",
+          "einfach": "Nicht nehmen, wenn Sie viel Alkohol trinken."
+        },
+        "lang": {
+          "default": "·Bei Alkoholüberkonsum.",
+          "einfach": "Sie dürfen das Mittel nicht nehmen, wenn Sie zu viel Alkohol trinken oder Alkohol übermässig konsumieren."
+        },
+        "icon_slug": null
+      },
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 2,
+        "claim": "Überempfindlichkeit auf Schmerz- oder Rheumamittel kann auch auf Paracetamol übertragen",
+        "population": "Personen mit Überempfindlichkeit auf Schmerz- oder Rheumamittel",
+        "condition": null,
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "Einzelne Personen mit Überempfindlichkeit auf Schmerz- oder Rheumamittel können auch auf Paracetamol überempfindlich reagieren.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei Überempfindlichkeit auf Schmerz- oder Rheumamittel kann auch auf Paracetamol überempfindlich reagieren.",
+          "einfach": "Bei Allergie auf Schmerzmittel: auch Paracetamol meiden."
+        },
+        "mittel": {
+          "default": "Personen mit Überempfindlichkeit auf Schmerz- oder Rheumamittel können auch allergisch auf Paracetamol reagieren und sollten es meiden.",
+          "einfach": "Wenn du allergisch auf Schmerzmittel reagierst, kann es auch bei Paracetamol passieren. Deshalb solltest du es nicht nehmen."
+        },
+        "lang": {
+          "default": "Einzelne Personen mit Überempfindlichkeit auf Schmerz- oder Rheumamittel können auch auf Paracetamol überempfindlich reagieren.",
+          "einfach": "Einzelne Personen mit Überempfindlichkeit auf Schmerz- oder Rheumamittel können auch auf Paracetamol überempfindlich reagieren. Das heißt: Wenn du allergisch auf andere Schmerzmittel bist, könnte es auch bei Paracetamol zu einer allergischen Reaktion kommen."
+        },
+        "icon_slug": null
+      },
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 3,
+        "claim": "darf nicht eingenommen werden",
+        "population": null,
+        "condition": "bei erblicher Leberstörung (Meulengracht-Krankheit)",
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "·Bei einer erblichen Leberstörung (sogenannte Meulengracht-Krankheit).",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei Meulengracht-Krankheit (erbliche Leberstörung).",
+          "einfach": "Bei erblicher Leberstörung (Meulengracht-Krankheit)."
+        },
+        "mittel": {
+          "default": "Nicht einnehmen bei erblicher Leberstörung wie der Meulengracht-Krankheit.",
+          "einfach": "Nicht nehmen, wenn Sie die seltene Erbkrankheit Meulengracht-Krankheit haben."
+        },
+        "lang": {
+          "default": "·Bei einer erblichen Leberstörung (sogenannte Meulengracht-Krankheit).",
+          "einfach": "Sie dürfen das Mittel nicht nehmen, wenn Sie eine seltene erbliche Leberstörung haben, die Meulengracht-Krankheit heisst."
+        },
+        "icon_slug": null
+      }
+    ],
+    "dosierung": [
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 1,
+        "claim": "max. 5 Tage ohne ärztliche Verordnung anwenden",
+        "population": "Erwachsene und Kinder ab 12 Jahren",
+        "condition": null,
+        "modality": "dosage_instruction",
+        "negation": true,
+        "source_span": "DAFALGAN 500 nicht ohne Verordnung des Arztes oder der Ärztin länger als 5 Tage bei Erwachsenen und Kindern ab 12 Jahren angewendet werden.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Max. 5 Tage ohne ärztliche Verordnung anwenden.",
+          "einfach": "Nicht länger als 5 Tage ohne Arzt nehmen."
+        },
+        "mittel": {
+          "default": "Sollte nicht länger als 5 Tage ohne ärztliche Verordnung angewendet werden.",
+          "einfach": "Du solltest das Mittel nicht länger als 5 Tage ohne Arzt nehmen."
+        },
+        "lang": {
+          "default": "DAFALGAN 500 nicht ohne Verordnung des Arztes oder der Ärztin länger als 5 Tage bei Erwachsenen und Kindern ab 12 Jahren angewendet werden.",
+          "einfach": "DAFALGAN 500 darf nicht länger als 5 Tage ohne Verordnung vom Arzt oder von der Ärztin genommen werden."
+        },
+        "icon_slug": null
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 1,
+        "claim": "max. 3 Tage ohne ärztliche Verordnung anwenden",
+        "population": null,
+        "condition": "bei Fieber",
+        "modality": "dosage_instruction",
+        "negation": true,
+        "source_span": "Bei Fieber sollte DAFALGAN 500 nicht länger als 3 Tage ohne Verordnung des Arztes oder der Ärztin angewendet werden.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei Fieber max. 3 Tage ohne ärztliche Verordnung.",
+          "einfach": "Bei Fieber nicht länger als 3 Tage ohne Arzt."
+        },
+        "mittel": {
+          "default": "Bei Fieber sollte es nicht länger als 3 Tage ohne ärztliche Verordnung angewendet werden.",
+          "einfach": "Bei Fieber solltest du es nicht länger als 3 Tage ohne Arzt nehmen."
+        },
+        "lang": {
+          "default": "Bei Fieber sollte DAFALGAN 500 nicht länger als 3 Tage ohne Verordnung des Arztes oder der Ärztin angewendet werden.",
+          "einfach": "Bei Fieber sollte DAFALGAN 500 nicht länger als 3 Tage ohne Verordnung vom Arzt oder von der Ärztin genommen werden."
+        },
+        "icon_slug": null
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 1,
+        "claim": "1–2 Tabletten bis 4× täglich (max. 8 Tabletten pro Tag), Einzeldosen mindestens 4–8 Stunden Abstand",
+        "population": "Erwachsene und Jugendliche über 40 kg (über 12 Jahre)",
+        "condition": null,
+        "modality": "dosage_instruction",
+        "negation": false,
+        "source_span": "Erwachsene und Jugendliche über 40 kg (über 12 Jahre): 1–2 Tabletten bis 4× täglich (max. 8 Tabletten pro Tag). Einzeldosen nicht häufiger als alle 4 -8 Stunden verabreichen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "1–2 Tabletten bis 4× täglich, max. 8 Tabletten/Tag, mindestens 4–8 Stunden Abstand.",
+          "einfach": "1–2 Tabletten bis 4-mal täglich, höchstens 8 Tabletten pro Tag."
+        },
+        "mittel": {
+          "default": "Die übliche Dosierung beträgt 1–2 Tabletten bis zu 4-mal täglich mit mindestens 4–8 Stunden Abstand zwischen den Einzeldosen, nicht mehr als 8 Tabletten pro Tag.",
+          "einfach": "Nimm 1–2 Tabletten bis zu 4-mal täglich. Warte zwischen den Gaben mindestens 4–8 Stunden. Insgesamt nicht mehr als 8 Tabletten pro Tag."
+        },
+        "lang": {
+          "default": "Erwachsene und Jugendliche über 40 kg (über 12 Jahre): 1–2 Tabletten bis 4× täglich (max. 8 Tabletten pro Tag). Einzeldosen nicht häufiger als alle 4 -8 Stunden verabreichen.",
+          "einfach": "Erwachsene und Jugendliche über 40 kg (über 12 Jahre) nehmen 1–2 Tabletten bis 4-mal täglich. Das heißt: maximal 8 Tabletten pro Tag. Zwischen den einzelnen Gaben müssen mindestens 4–8 Stunden liegen."
+        },
+        "icon_slug": "take-4x-daily"
+      }
+    ],
+    "beachten": [
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 1,
+        "claim": "kann zu einer schweren Leberschädigung führen",
+        "population": null,
+        "condition": "bei Überdosierung",
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Eine Überdosierung von Paracetamol kann zu einer schweren Leberschädigung führen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Überdosierung kann zu schwerer Leberschädigung führen.",
+          "einfach": "Zu viel kann die Leber schwer schädigen."
+        },
+        "mittel": {
+          "default": "Eine Überdosierung von Paracetamol kann zu einer schweren Leberschädigung führen.",
+          "einfach": "Wenn du zu viel nimmst, kann das deine Leber schwer schädigen."
+        },
+        "lang": {
+          "default": "Eine Überdosierung von Paracetamol kann zu einer schweren Leberschädigung führen.",
+          "einfach": "Eine Überdosis von Paracetamol kann zu einer schweren Schädigung der Leber führen."
+        },
+        "icon_slug": "liver"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 1,
+        "claim": "unverzüglich ärztliche Hilfe aufsuchen (auch ohne vorhandene Beschwerden)",
+        "population": null,
+        "condition": "bei unkontrollierter Einnahme (Überdosierung)",
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Bei unkontrollierter Einnahme (Überdosierung) unverzüglich ärztliche Hilfe aufsuchen, auch wenn Sie noch keine Beschwerden haben. Wegen des möglichen Risikos einer schweren Leberschädigung sind umgehende medizinische Massnahmen entscheidend.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Überdosierung: unverzüglich ärztliche Hilfe aufsuchen, auch ohne Symptome.",
+          "einfach": "Zu viel genommen: sofort zum Arzt, auch wenn dir gut geht."
+        },
+        "mittel": {
+          "default": "Bei Verdacht auf Überdosierung ist sofort medizinische Hilfe erforderlich, auch wenn noch keine Beschwerden vorliegen. Grund: Risiko einer schweren Leberschädigung.",
+          "einfach": "Wenn du zu viel genommen hast, geh sofort zum Arzt. Das ist wichtig, auch wenn du dich noch gut fühlst. Das Mittel kann die Leber schädigen."
+        },
+        "lang": {
+          "default": "Bei unkontrollierter Einnahme (Überdosierung) unverzüglich ärztliche Hilfe aufsuchen, auch wenn Sie noch keine Beschwerden haben. Wegen des möglichen Risikos einer schweren Leberschädigung sind umgehende medizinische Massnahmen entscheidend.",
+          "einfach": "Bei unkontrollierter Einnahme (Überdosierung) musst du unverzüglich ärztliche Hilfe aufsuchen. Das musst du tun, auch wenn du noch keine Beschwerden hast. Der Grund ist das mögliche Risiko einer schweren Leberschädigung – darum sind schnelle medizinische Maßnahmen sehr wichtig."
+        },
+        "icon_slug": "alert"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 1,
+        "claim": "sicherstellen, dass andere gleichzeitig eingenommene Arzneimittel kein Paracetamol enthalten",
+        "population": null,
+        "condition": null,
+        "modality": "precaution",
+        "negation": false,
+        "source_span": "Um das Risiko einer Überdosierung zu verhindern sollte sichergestellt werden, dass andere Arzneimittel, die gleichzeitig eingenommen werden (z.B. andere Schmerzmittel, Arzneimittel gegen Fieber oder Erkältungssymptome) kein Paracetamol enthalten.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Andere Arzneimittel dürfen kein Paracetamol enthalten.",
+          "einfach": "Andere Mittel dürfen kein Paracetamol haben."
+        },
+        "mittel": {
+          "default": "Stelle sicher, dass andere gleichzeitig eingenommene Arzneimittel (wie andere Schmerzmittel, Fieber- oder Erkältungsmittel) kein Paracetamol enthalten, um eine Überdosierung zu vermeiden.",
+          "einfach": "Achte darauf, dass andere Mittel, die du zur gleichen Zeit nimmst (wie Schmerzmittel, Fieber- oder Erkältungsmittel), kein Paracetamol enthalten. So vermeidest du eine Überdosis."
+        },
+        "lang": {
+          "default": "Um das Risiko einer Überdosierung zu verhindern sollte sichergestellt werden, dass andere Arzneimittel, die gleichzeitig eingenommen werden (z.B. andere Schmerzmittel, Arzneimittel gegen Fieber oder Erkältungssymptome) kein Paracetamol enthalten.",
+          "einfach": "Um das Risiko einer Überdosierung zu verhindern, sollte man sicherstellen, dass andere Arzneimittel, die man zur gleichen Zeit einnimmt (zum Beispiel andere Schmerzmittel, Mittel gegen Fieber oder Erkältungssymptome), kein Paracetamol enthalten."
+        },
+        "icon_slug": "are-you-taking-other-medicines"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 2,
+        "claim": "Übelkeit, Erbrechen, Bauchschmerzen, Appetitlosigkeit oder allgemeines Krankheitsbild können Hinweis auf Überdosierung sein",
+        "population": null,
+        "condition": "mehrere Stunden bis ein Tag nach Einnahme",
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Übelkeit, Erbrechen, Bauchschmerzen, Appetitlosigkeit oder ein allgemeines Krankheitsbild können ein Hinweis auf eine Überdosierung sein, treten aber erst mehrere Stunden bis einen Tag nach Einnahme auf.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Übelkeit, Erbrechen, Bauchschmerzen, Appetitlosigkeit, Krankheitsgefühl = mögliche Überdosierungszeichen.",
+          "einfach": "Magenschmerzen, Übelkeit, Erbrechen: könnte Überdosierung sein."
+        },
+        "mittel": {
+          "default": "Übelkeit, Erbrechen, Bauchschmerzen, Appetitlosigkeit oder ein allgemeines Krankheitsgefühl können Zeichen einer Überdosierung sein. Diese Symptome treten jedoch erst mehrere Stunden bis einen Tag nach der Einnahme auf.",
+          "einfach": "Wenn dir nach einigen Stunden übel wird oder du Bauchschmerzen hast, könnte es eine Überdosierung sein. Das können auch Erbrechen oder Appetitlosigkeit sein."
+        },
+        "lang": {
+          "default": "Übelkeit, Erbrechen, Bauchschmerzen, Appetitlosigkeit oder ein allgemeines Krankheitsbild können ein Hinweis auf eine Überdosierung sein, treten aber erst mehrere Stunden bis einen Tag nach Einnahme auf.",
+          "einfach": "Übelkeit, Erbrechen, Bauchschmerzen, Appetitlosigkeit oder ein allgemeines Krankheitsbild können ein Zeichen dafür sein, dass du zu viel genommen hast. Aber Achtung: Diese Zeichen treten nicht sofort auf – erst mehrere Stunden bis einen Tag nach der Einnahme."
+        },
+        "icon_slug": "nauseous"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 2,
+        "claim": "kann sich durch Asthma, Atemnot, Kreislaufbeschwerden, Schwellungen der Haut und Schleimhäute oder Hautausschläge (Nesselfieber) äussern",
+        "population": null,
+        "condition": "bei Überempfindlichkeit auf Paracetamol oder Hilfsstoffe",
+        "modality": "side_effect",
+        "negation": false,
+        "source_span": "Eine solche Überempfindlichkeit äussert sich z.B. durch Asthma, Atemnot, Kreislaufbeschwerden, Schwellungen der Haut und Schleimhäute oder Hautausschläge (Nesselfieber).",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Kann sich durch Atemnot, Asthma, Kreislaufbeschwerden, Schwellungen und Hautausschläge äussern.",
+          "einfach": "Kann Atemnot, Asthma, Hautausschläge oder Schwellungen verursachen."
+        },
+        "mittel": {
+          "default": "Bei Überempfindlichkeit auf Paracetamol oder Hilfsstoffe können Symptome wie Asthma, Atemnot, Kreislaufbeschwerden, Schwellungen der Haut und Schleimhäute oder Nesselfieber auftreten.",
+          "einfach": "Wenn Sie überempfindlich auf Paracetamol reagieren, können Atemnot, Asthma, Hautausschläge oder Schwellungen entstehen."
+        },
+        "lang": {
+          "default": "Eine solche Überempfindlichkeit äussert sich z.B. durch Asthma, Atemnot, Kreislaufbeschwerden, Schwellungen der Haut und Schleimhäute oder Hautausschläge (Nesselfieber).",
+          "einfach": "Wenn Sie überempfindlich auf Paracetamol oder die Zusatzstoffe sind, kann das zum Beispiel so aussehen: Sie bekommen Asthma, Atemnot, Kreislaufprobleme, Schwellungen an Haut und Schleimhäuten oder Hautausschläge wie Nesselfieber."
+        },
+        "icon_slug": "alert_triangle"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 2,
+        "claim": "Arzt konsultieren",
+        "population": null,
+        "condition": "bei hohem Fieber, Anzeichen einer Sekundärinfektion oder Anhalten der Symptome über mehr als drei Tage",
+        "modality": "precaution",
+        "negation": false,
+        "source_span": "Bei hohem Fieber, Anzeichen einer Sekundärinfektion oder Anhalten der Symptome über mehr als drei Tage, sollte der Arzt konsultiert werden.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei hohem Fieber, Sekundärinfektion oder Symptomen >3 Tage: Arzt konsultieren.",
+          "einfach": "Hohes Fieber, Anzeichen einer Zweitinfektion oder Symptome >3 Tage: Arzt fragen."
+        },
+        "mittel": {
+          "default": "Konsultiere einen Arzt, wenn das Fieber hoch ist, Zeichen einer Sekundärinfektion auftreten oder die Symptome länger als drei Tage anhalten.",
+          "einfach": "Sprich mit deinem Arzt, wenn das Fieber sehr hoch ist, wenn es Zeichen einer Zweitinfektion gibt, oder wenn die Beschwerden länger als drei Tage andauern."
+        },
+        "lang": {
+          "default": "Bei hohem Fieber, Anzeichen einer Sekundärinfektion oder Anhalten der Symptome über mehr als drei Tage, sollte der Arzt konsultiert werden.",
+          "einfach": "Wenn das Fieber hoch ist, wenn du Zeichen einer Sekundärinfektion bekommst (das ist eine Zweitinfektion) oder wenn die Symptome länger als drei Tage anhalten, dann solltest du einen Arzt sprechen."
+        },
+        "icon_slug": "doctor"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "können während der Schwangerschaft angewendet werden",
+        "population": "Schwangere",
+        "condition": "falls erforderlich",
+        "modality": "indication",
+        "negation": false,
+        "source_span": "Falls erforderlich, können DAFALGAN 500 mg Tabletten während der Schwangerschaft angewendet werden.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Können bei Bedarf in der Schwangerschaft angewendet werden.",
+          "einfach": "Bei Bedarf in der Schwangerschaft erlaubt."
+        },
+        "mittel": {
+          "default": "Das Mittel kann während der Schwangerschaft eingenommen werden, wenn es medizinisch erforderlich ist.",
+          "einfach": "Du kannst das Mittel in der Schwangerschaft nehmen, wenn du es brauchst."
+        },
+        "lang": {
+          "default": "Falls erforderlich, können DAFALGAN 500 mg Tabletten während der Schwangerschaft angewendet werden.",
+          "einfach": "Falls es erforderlich ist, können DAFALGAN 500 mg Tabletten während der Schwangerschaft angewendet werden."
+        },
+        "icon_slug": "pregnant_0812w"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "langdauernder Gebrauch kann zu Fortbestand oder Verschlimmerung von Kopfschmerzen beitragen",
+        "population": null,
+        "condition": null,
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Es ist auch zu bedenken, dass der langdauernde Gebrauch von Schmerzmitteln seinerseits dazu beitragen kann, dass Kopfschmerzen weiter bestehen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Langdauernder Gebrauch kann Kopfschmerzen fortbestehen lassen.",
+          "einfach": "Lange Einnahme kann Kopfschmerzen verschlimmern."
+        },
+        "mittel": {
+          "default": "Beachte, dass die Langzeitanwendung von Schmerzmitteln selbst dazu beitragen kann, dass Kopfschmerzen bestehen bleiben oder sich verschlimmern.",
+          "einfach": "Wenn du Schmerzmittel lange nimmst, können Kopfschmerzen dadurch auch länger andauern oder schlimmer werden."
+        },
+        "lang": {
+          "default": "Es ist auch zu bedenken, dass der langdauernde Gebrauch von Schmerzmitteln seinerseits dazu beitragen kann, dass Kopfschmerzen weiter bestehen.",
+          "einfach": "Es ist auch zu beachten, dass der langdauernde Gebrauch von Schmerzmitteln selbst dazu führen kann, dass Kopfschmerzen weiter bestehen."
+        },
+        "icon_slug": "warning-may-cause-drowsiness"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "kann zur dauerhaften Nierenschädigung mit Risiko eines Nierenversagens führen",
+        "population": null,
+        "condition": "bei langfristiger Einnahme, insbesondere bei Kombination mehrerer schmerzstillender Wirkstoffe",
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Die langfristige Einnahme von Schmerzmitteln, insbesondere bei Kombination mehrerer schmerzstillender Wirkstoffe, kann zur dauerhaften Nierenschädigung mit dem Risiko eines Nierenversagens führen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Langfristige Einnahme, besonders kombiniert: Risiko von Nierenschädigung und Nierenversagen.",
+          "einfach": "Lange Einnahme kann die Nieren schädigen, besonders mit anderen Mitteln."
+        },
+        "mittel": {
+          "default": "Bei langfristiger Einnahme, insbesondere wenn mehrere schmerzstillende Wirkstoffe kombiniert werden, besteht das Risiko einer dauerhaften Nierenschädigung bis hin zum Nierenversagen.",
+          "einfach": "Wenn du das Mittel lange nimmst, besonders zusammen mit anderen Schmerzmitteln, können deine Nieren dauerhaft geschädigt werden. Im schlimmsten Fall können sie ganz versagen."
+        },
+        "lang": {
+          "default": "Die langfristige Einnahme von Schmerzmitteln, insbesondere bei Kombination mehrerer schmerzstillender Wirkstoffe, kann zur dauerhaften Nierenschädigung mit dem Risiko eines Nierenversagens führen.",
+          "einfach": "Die langfristige Einnahme von Schmerzmitteln, besonders wenn man mehrere verschiedene Schmerzmittel zusammen nimmt, kann zu einer dauerhaften Schädigung der Nieren mit dem Risiko eines Nierenversagens führen."
+        },
+        "icon_slug": "kidneys"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "kann zu Leberschädigung führen",
+        "population": "Personen mit vorgeschädigter Niere oder Leber",
+        "condition": null,
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Sie sollten vor der Einnahme Ihren Arzt bzw. Ihre Ärztin konsultieren: · bei vorgeschädigter Niere oder Leber",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Kann zu Leberschädigung führen bei vorgeschädigter Niere oder Leber.",
+          "einfach": "Kann die Leber schädigen, wenn Niere oder Leber schon beschädigt sind."
+        },
+        "mittel": {
+          "default": "Bei vorgeschädigter Niere oder Leber ist ärztliche Beratung erforderlich, da das Mittel zu Leberschädigung führen kann.",
+          "einfach": "Wenn Ihre Niere oder Leber schon beschädigt sind, fragen Sie vorher Ihren Arzt oder Ihre Ärztin, weil das Mittel die Leber schädigen kann."
+        },
+        "lang": {
+          "default": "Sie sollten vor der Einnahme Ihren Arzt bzw. Ihre Ärztin konsultieren: · bei vorgeschädigter Niere oder Leber",
+          "einfach": "Wenn Ihre Niere oder Leber schon vorher beschädigt oder krank waren, müssen Sie vor der Einnahme mit Ihrem Arzt oder Ihrer Ärztin sprechen. Das Mittel könnte die Leber noch mehr schädigen."
+        },
+        "icon_slug": "liver"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "ärztliche Beratung erforderlich",
+        "population": "Personen mit Glucose-6-Phosphat-Dehydrogenase-Mangel",
+        "condition": null,
+        "modality": "warning",
+        "negation": false,
+        "source_span": "bei einer seltenen erblichen Krankheit der roten Blutkörperchen, dem sogenannten «Glucose-6-Phosphat-Dehydrogenase-Mangel»",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Ärztliche Beratung erforderlich bei Glucose-6-Phosphat-Dehydrogenase-Mangel.",
+          "einfach": "Fragen Sie Ihren Arzt, wenn Sie eine seltene Bluterkrankheit haben."
+        },
+        "mittel": {
+          "default": "Bei seltener erblicher Krankheit der roten Blutkörperchen (Glucose-6-Phosphat-Dehydrogenase-Mangel) ist vorherige ärztliche Beratung erforderlich.",
+          "einfach": "Wenn Sie eine seltene Erbkrankheit der roten Blutkörperchen haben, fragen Sie vorher Ihren Arzt oder Ihre Ärztin."
+        },
+        "lang": {
+          "default": "bei einer seltenen erblichen Krankheit der roten Blutkörperchen, dem sogenannten «Glucose-6-Phosphat-Dehydrogenase-Mangel»",
+          "einfach": "Wenn Sie eine seltene erbliche Krankheit der roten Blutkörperchen haben, die Glucose-6-Phosphat-Dehydrogenase-Mangel heisst, müssen Sie vorher mit Ihrem Arzt oder Ihrer Ärztin sprechen."
+        },
+        "icon_slug": "medical_advice"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "erhöhtes Risiko für Leberschädigung",
+        "population": "Personen mit schweren Infektionen",
+        "condition": null,
+        "modality": "warning",
+        "negation": false,
+        "source_span": "falls Sie eine schwere Infektion haben (z.B. eine Blutvergiftung)",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Erhöhtes Risiko für Leberschädigung bei schweren Infektionen (z.B. Blutvergiftung).",
+          "einfach": "Gefahr für Leberschädigung bei schweren Infektionen."
+        },
+        "mittel": {
+          "default": "Bei schweren Infektionen wie Blutvergiftung besteht erhöhtes Risiko für Leberschädigung.",
+          "einfach": "Wenn Sie eine schwere Infektion haben, wie zum Beispiel Blutvergiftung, können Sie die Leber schädigen."
+        },
+        "lang": {
+          "default": "falls Sie eine schwere Infektion haben (z.B. eine Blutvergiftung)",
+          "einfach": "Wenn Sie eine schwere Infektion haben, zum Beispiel eine Blutvergiftung, steigt die Gefahr, dass das Mittel Ihre Leber schädigt."
+        },
+        "icon_slug": "liver"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "erhöhtes Risiko für Leberschädigung",
+        "population": "Personen, die untergewichtig oder unterernährt sind",
+        "condition": null,
+        "modality": "warning",
+        "negation": false,
+        "source_span": "falls Sie untergewichtig oder unterernährt sind",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Erhöhtes Risiko für Leberschädigung bei Untergewicht oder Unterernährung.",
+          "einfach": "Gefahr für Leberschädigung, wenn Sie untergewichtig sind."
+        },
+        "mittel": {
+          "default": "Bei Untergewicht oder Unterernährung ist das Risiko für Leberschädigung erhöht.",
+          "einfach": "Wenn Sie untergewichtig oder unterernährt sind, können Sie leichter eine Leberschädigung bekommen."
+        },
+        "lang": {
+          "default": "falls Sie untergewichtig oder unterernährt sind",
+          "einfach": "Wenn Sie untergewichtig oder unterernährt sind, steigt die Gefahr, dass das Mittel Ihre Leber schädigt."
+        },
+        "icon_slug": "liver"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "erhöhtes Risiko für Leberschädigung",
+        "population": "Personen, die regelmässig Alkohol konsumieren",
+        "condition": null,
+        "modality": "warning",
+        "negation": false,
+        "source_span": "falls Sie regelmässig Alkohol konsumieren. Von der gleichzeitigen Anwendung von Paracetamol und Alkohol ist abzuraten. Besonders bei fehlender gleichzeitiger Nahrungsaufnahme erhöht sich die Gefahr einer Leberschädigung.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Erhöhtes Risiko für Leberschädigung bei regelmässigem Alkoholkonsum, besonders ohne Nahrungsaufnahme.",
+          "einfach": "Gefahr für die Leber, wenn Sie regelmässig Alkohol trinken."
+        },
+        "mittel": {
+          "default": "Bei regelmässigem Alkoholkonsum ist das Risiko für Leberschädigung erhöht, besonders wenn Sie gleichzeitig nicht essen. Von der gleichzeitigen Einnahme mit Alkohol ist abzuraten.",
+          "einfach": "Wenn Sie regelmässig Alkohol trinken, können Sie leichter eine Leberschädigung bekommen. Nicht zusammen mit Alkohol nehmen, besonders wenn Sie nichts essen."
+        },
+        "lang": {
+          "default": "falls Sie regelmässig Alkohol konsumieren. Von der gleichzeitigen Anwendung von Paracetamol und Alkohol ist abzuraten. Besonders bei fehlender gleichzeitiger Nahrungsaufnahme erhöht sich die Gefahr einer Leberschädigung.",
+          "einfach": "Wenn Sie regelmässig Alkohol trinken, steigt die Gefahr einer Leberschädigung. Sie sollten das Mittel nicht zusammen mit Alkohol nehmen. Das Risiko ist besonders gross, wenn Sie gleichzeitig nichts essen."
+        },
+        "icon_slug": "liver"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "Anwendung abbrechen und Arzt aufsuchen",
+        "population": null,
+        "condition": "beim Auftreten von Hautreaktionen",
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Beim Auftreten von Hautreaktionen ist die Anwendung von DAFALGAN 500mg Tabletten abzubrechen und der Arzt bzw. die Ärztin aufzusuchen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei Hautreaktionen: Mittel absetzen und Arzt aufsuchen.",
+          "einfach": "Bei Hautproblemen: sofort zum Arzt."
+        },
+        "mittel": {
+          "default": "Zeigt sich eine Hautreaktion, sollte die Einnahme beendet und umgehend ein Arzt aufgesucht werden.",
+          "einfach": "Wenn du Hautprobleme bekommst, höre auf, das Mittel zu nehmen, und geh zum Arzt."
+        },
+        "lang": {
+          "default": "Beim Auftreten von Hautreaktionen ist die Anwendung von DAFALGAN 500mg Tabletten abzubrechen und der Arzt bzw. die Ärztin aufzusuchen.",
+          "einfach": "Wenn du Hautreaktionen bekommst, musst du DAFALGAN 500 mg Tabletten sofort nicht mehr nehmen und zum Arzt oder zur Ärztin gehen."
+        },
+        "icon_slug": "alert"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "Wechselwirkungen mit mehreren Arzneimitteln (gewisse Mittel gegen Tuberkulose und Epilepsie, Zidovudin, Blutverdünner, Cholestyramin, Chloramphenicol, Metoclopramid, Phenytoin, Phenobarbital, Carbamazepin, Rifampicin, Isoniazid, Probenecid)",
+        "population": null,
+        "condition": "bei gleichzeitiger Einnahme",
+        "modality": "drug_interaction",
+        "negation": false,
+        "source_span": "bei gleichzeitigem Gebrauch von Arzneimitteln, welche die Leber beeinflussen, namentlich gewisse Mittel gegen Tuberkulose und Anfallsleiden (Epilepsie) oder bei Arzneimittel mit dem Wirkstoff Zidovudin, die bei Immunschwäche (AIDS) eingesetzt werden; · wenn Sie folgende Arzneimittel einnehmen: · Blutverdünnende Arzneimittel (z.B. Marcoumar); · Cholestyramin (Arzneimittel zur Senkung der Blutfette); · Chloramphenicol (Arzneimittel gegen Infektionen); · Metoclopramid (Arzneimittel bei Übelkeit, Erbrechen); · Phenytoin, Phenobarbital, Carbamazepin (Arzneimittel gegen Epilepsie (Krampfanfälle)); · Rifampicin, Isoniazid (Arzneimittel gegen Tuberkulose); · Probenecid (Arzneimittel gegen Gicht); · Zidovudin (Arzneimittel gegen HIV-Infektion (AIDS)).",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Wechselwirkungen mit Tuberkulose- und Epilepsie-Mitteln, Zidovudin, Blutverdünnern, Cholestyramin, Chloramphenicol, Metoclopramid, Phenytoin, Phenobarbital, Carbamazepin, Rifampicin, Isoniazid, Probenecid.",
+          "einfach": "Kann mit vielen anderen Mitteln nicht zusammen genommen werden."
+        },
+        "mittel": {
+          "default": "Bei gleichzeitiger Einnahme von Arzneimitteln, die die Leber beeinflussen (Tuberkulose- und Epilepsie-Mittel), sowie Zidovudin, Blutverdünnern, Cholestyramin, Chloramphenicol, Metoclopramid, Phenytoin, Phenobarbital, Carbamazepin, Rifampicin, Isoniazid oder Probenecid können Wechselwirkungen auftreten.",
+          "einfach": "Wenn Sie andere Mittel nehmen, besonders gegen Tuberkulose oder Epilepsie, oder Blutverdünner, sollten Sie Ihren Arzt fragen. Auch mit vielen anderen Mitteln kann es Probleme geben."
+        },
+        "lang": {
+          "default": "bei gleichzeitigem Gebrauch von Arzneimitteln, welche die Leber beeinflussen, namentlich gewisse Mittel gegen Tuberkulose und Anfallsleiden (Epilepsie) oder bei Arzneimittel mit dem Wirkstoff Zidovudin, die bei Immunschwäche (AIDS) eingesetzt werden; · wenn Sie folgende Arzneimittel einnehmen: · Blutverdünnende Arzneimittel (z.B. Marcoumar); · Cholestyramin (Arzneimittel zur Senkung der Blutfette); · Chloramphenicol (Arzneimittel gegen Infektionen); · Metoclopramid (Arzneimittel bei Übelkeit, Erbrechen); · Phenytoin, Phenobarbital, Carbamazepin (Arzneimittel gegen Epilepsie (Krampfanfälle)); · Rifampicin, Isoniazid (Arzneimittel gegen Tuberkulose); · Probenecid (Arzneimittel gegen Gicht); · Zidovudin (Arzneimittel gegen HIV-Infektion (AIDS)).",
+          "einfach": "Wenn Sie gleichzeitig andere Arzneimittel nehmen, kann es Wechselwirkungen geben. Das ist besonders wichtig bei Mitteln gegen Tuberkulose und Epilepsie oder bei Arzneimitteln mit Zidovudin gegen AIDS. Achten Sie auch auf: Blutverdünnende Mittel (zum Beispiel Marcoumar), Cholestyramin (gegen hohe Blutfette), Chloramphenicol (gegen Infektionen), Metoclopramid (gegen Übelkeit und Erbrechen), Phenytoin, Phenobarbital, Carbamazepin (gegen Epilepsie und Krampfanfälle), Rifampicin und Isoniazid (gegen Tuberkulose), Probenecid (gegen Gicht) und Zidovudin (gegen HIV und AIDS)."
+        },
+        "icon_slug": "do-not-combine-with-other-medicines"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "kann in sehr seltenen Fällen schwere Hautreaktionen auslösen (z.B. Akutes generalisiertes pustulöses Exanthem, toxisch-epidermale Nekrolyse, Stevens Johnson Syndrom)",
+        "population": null,
+        "condition": null,
+        "modality": "side_effect",
+        "negation": false,
+        "source_span": "Paracetamol kann in sehr seltenen Fällen schwere Hautreaktionen (z.B. Akutes generalisiertes pustulöses Exanthem (AGEP), toxisch-epidermale Nekrolyse (TEN, Lyell Syndrom), Stevens Johnson Syndrom (SJS)) auslösen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Kann in sehr seltenen Fällen schwere Hautreaktionen auslösen.",
+          "einfach": "Sehr selten: ernsthafte Hautreaktionen möglich."
+        },
+        "mittel": {
+          "default": "In sehr seltenen Fällen können schwere Hautreaktionen auftreten, darunter Akutes generalisiertes pustulöses Exanthem, toxisch-epidermale Nekrolyse und Stevens-Johnson-Syndrom.",
+          "einfach": "Sehr selten kann das Mittel schwere Hautprobleme machen. Das sind besondere Hauterkrankungen, die gefährlich sein können."
+        },
+        "lang": {
+          "default": "Paracetamol kann in sehr seltenen Fällen schwere Hautreaktionen (z.B. Akutes generalisiertes pustulöses Exanthem (AGEP), toxisch-epidermale Nekrolyse (TEN, Lyell Syndrom), Stevens Johnson Syndrom (SJS)) auslösen.",
+          "einfach": "Paracetamol kann in sehr seltenen Fällen schwere Hautreaktionen auslösen. Das können sein: Akutes generalisiertes pustulöses Exanthem (eine Art Ausschlag mit Pusteln), toxisch-epidermale Nekrolyse (eine sehr schwere Hauterkrankung, auch Lyell-Syndrom genannt) und Stevens-Johnson-Syndrom (eine andere schwere Hauterkrankung)."
+        },
+        "icon_slug": "alert_triangle"
+      }
+    ]
+  }
+}

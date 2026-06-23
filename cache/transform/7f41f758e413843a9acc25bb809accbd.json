@@ -1,0 +1,1071 @@
+{
+  "cache_key": "v22_transform_Olfen retard Depotabs®|{\"schwangerschaft\": \"Nein\"}",
+  "buckets": {
+    "wofuer": [
+      {
+        "bucket": "wofuer",
+        "lese_prioritaet": 1,
+        "claim": "nichtsteroidales Antirheumatikum mit entzündungshemmender und schmerzlindernder Wirkung",
+        "population": null,
+        "condition": null,
+        "modality": "indication",
+        "negation": false,
+        "source_span": "Olfen retard ist ein nichtsteroidales Antirheumatikum und wirkt entzündungshemmend und schmerzlindernd.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Nichtsteroidales Antirheumatikum mit entzündungshemmender und schmerzlindernder Wirkung.",
+          "einfach": "Hemmt Entzündungen und lindert Schmerzen."
+        },
+        "mittel": {
+          "default": "Olfen retard ist ein nichtsteroidales Antirheumatikum, das Entzündungen hemmt und Schmerzen lindert.",
+          "einfach": "Das Mittel hemmt Entzündungen und lindert Schmerzen."
+        },
+        "lang": {
+          "default": "Olfen retard ist ein nichtsteroidales Antirheumatikum und wirkt entzündungshemmend und schmerzlindernd.",
+          "einfach": "Olfen retard ist ein Schmerz- und Rheumamittel, das gegen Entzündungen wirkt und Schmerzen lindert."
+        }
+      },
+      {
+        "bucket": "wofuer",
+        "lese_prioritaet": 1,
+        "claim": "zur Behandlung von rheumatischen Erkrankungen wie Arthrosen, Weichteilrheumatismus, schmerzhaften Entzündungszuständen, Schwellungen im Rücken und Gelenken, Entzündungen und Schmerzen nach Verletzungen und operativen Eingriffen, schmerzhaften entzündlichen Frauenleiden",
+        "population": "Erwachsene ab 18 Jahren",
+        "condition": null,
+        "modality": "indication",
+        "negation": false,
+        "source_span": "Olfen retard wird auf Verschreibung des Arztes oder der Ärztin angewendet zur Behandlung von rheumatischen Krankheiten wie z.B. Arthrosen, Weichteilrheumatismus, schmerzhaften Entzündungszuständen, Schwellungen im Rücken und im Bereich der Gelenke, Entzündungen und Schmerzen nach Verletzungen und operativen Eingriffen, schmerzhaften entzündlichen Frauenleiden.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Rheumatische Erkrankungen, Arthrosen, Gelenk- und Rückenschwellungen, Verletzungsfolgen.",
+          "einfach": "Rheuma, Arthrosen, Gelenk- und Rückenschmerzen, Verletzungsfolgen."
+        },
+        "mittel": {
+          "default": "Wird zur Behandlung von rheumatischen Erkrankungen wie Arthrosen, Weichteilrheumatismus und schmerzhaften Entzündungszuständen eingesetzt. Auch bei Schwellungen und Schmerzen in Rücken und Gelenken, nach Verletzungen oder operativen Eingriffen sowie bei entzündlichen Frauenleiden.",
+          "einfach": "Wird verwendet gegen Rheuma, Arthrosen, Weichteilrheumatismus und entzündliche Zustände. Hilft auch bei Schwellungen und Schmerzen in Rücken und Gelenken, nach Verletzungen oder Operationen und bei Frauenleiden."
+        },
+        "lang": {
+          "default": "Olfen retard wird auf Verschreibung des Arztes oder der Ärztin angewendet zur Behandlung von rheumatischen Krankheiten wie z.B. Arthrosen, Weichteilrheumatismus, schmerzhaften Entzündungszuständen, Schwellungen im Rücken und im Bereich der Gelenke, Entzündungen und Schmerzen nach Verletzungen und operativen Eingriffen, schmerzhaften entzündlichen Frauenleiden.",
+          "einfach": "Olfen retard wird zur Behandlung von rheumatischen Krankheiten wie zum Beispiel Arthrosen, Weichteilrheumatismus, schmerzhaften Entzündungszuständen, Schwellungen im Rücken und im Bereich der Gelenke, Entzündungen und Schmerzen nach Verletzungen und operativen Eingriffen und schmerzhaften entzündlichen Frauenleiden verwendet."
+        }
+      },
+      {
+        "bucket": "wofuer",
+        "lese_prioritaet": 1,
+        "claim": "wirkt schmerzlindernd und entzündungshemmend",
+        "population": null,
+        "condition": null,
+        "modality": "indication",
+        "negation": false,
+        "source_span": "Es ist generell wichtig, die niedrigste Dosis Olfen anzuwenden, die Ihre Schmerzen und/oder Schwellung lindert",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Wirkt schmerzlindernd und entzündungshemmend.",
+          "einfach": "Lindert Schmerzen und Entzündungen."
+        },
+        "mittel": {
+          "default": "Das Medikament lindert Schmerzen und Schwellungen und sollte in der niedrigstmöglichen wirksamen Dosis angewendet werden.",
+          "einfach": "Das Mittel hilft gegen Schmerzen und Schwellungen. Verwenden Sie immer die kleinste Dosis, die hilft."
+        },
+        "lang": {
+          "default": "Es ist generell wichtig, die niedrigste Dosis Olfen anzuwenden, die Ihre Schmerzen und/oder Schwellung lindert",
+          "einfach": "Es ist allgemein wichtig, die kleinste Menge Olfen zu nehmen, die Ihre Schmerzen und/oder Schwellungen lindert."
+        }
+      },
+      {
+        "bucket": "wofuer",
+        "lese_prioritaet": 2,
+        "claim": "einmalige Verabreichung pro Tag vereinfacht längerdauernde Behandlung",
+        "population": "Erwachsene ab 18 Jahren",
+        "condition": null,
+        "modality": "info",
+        "negation": false,
+        "source_span": "Olfen retard eignet sich besonders für erwachsene Patientinnen und Patienten, bei denen die Tagesdosis von 75 mg dem Krankheitszustand entspricht. Die Möglichkeit der einmaligen Verabreichung pro Tag vereinfacht vor allem eine länger dauernde Behandlung.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Einmalige tägliche Einnahme vereinfacht längerdauernde Behandlung.",
+          "einfach": "Nur eine Tablette pro Tag nötig, auch bei längerer Behandlung."
+        },
+        "mittel": {
+          "default": "Die Möglichkeit der einmaligen Verabreichung pro Tag vereinfacht vor allem eine längerdauernde Behandlung.",
+          "einfach": "Du nimmst es nur einmal pro Tag. Das macht längere Behandlungen einfacher."
+        },
+        "lang": {
+          "default": "Olfen retard eignet sich besonders für erwachsene Patientinnen und Patienten, bei denen die Tagesdosis von 75 mg dem Krankheitszustand entspricht. Die Möglichkeit der einmaligen Verabreichung pro Tag vereinfacht vor allem eine länger dauernde Behandlung.",
+          "einfach": "Olfen retard eignet sich besonders für Erwachsene, bei denen die Tagesdosis von 75 mg dem Krankheitszustand entspricht. Die Möglichkeit der einmaligen Verabreichung pro Tag vereinfacht vor allem eine länger dauernde Behandlung."
+        }
+      }
+    ],
+    "nicht_nehmen": [
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 1,
+        "claim": "darf nicht angewendet werden",
+        "population": "Personen mit Allergie gegen einen der Inhaltsstoffe",
+        "condition": null,
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "Olfen retard darf nicht angewendet werden, wenn Sie auf einen der Inhaltsstoffe allergisch reagieren",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei Allergie gegen einen der Inhaltsstoffe.",
+          "einfach": "Bei Allergie gegen die Stoffe darin."
+        },
+        "mittel": {
+          "default": "Wenn Sie auf einen der Inhaltsstoffe allergisch reagieren.",
+          "einfach": "Wenn du gegen einen Stoff darin allergisch bist."
+        },
+        "lang": {
+          "default": "Olfen retard darf nicht angewendet werden, wenn Sie auf einen der Inhaltsstoffe allergisch reagieren",
+          "einfach": "Olfen retard darf nicht angewendet werden, wenn Sie auf einen der Inhaltsstoffe allergisch reagieren."
+        }
+      },
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 1,
+        "claim": "darf nicht angewendet werden",
+        "population": "Personen mit Allergie gegen Acetylsalicylsäure oder andere NSAR",
+        "condition": "wenn früher Atemnot oder allergieähnliche Hautreaktionen (Schwellung von Gesicht, Lippen, Zunge, Hals und/oder Extremitäten/Angioödem) aufgetreten sind",
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "Olfen retard darf nicht angewendet werden, wenn Sie [...] nach der Einnahme von Acetylsalicylsäure oder anderen Schmerz- oder Rheumamitteln, sogenannten nichtsteroidalen entzündungshemmenden Arzneimitteln Atemnot oder allergieähnliche Hautreaktionen hatten, z.B. Schwellung von Gesicht, Lippen, Zunge, Hals und/oder an den Extremitäten (Zeichen eines Angioödems)",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei Allergie gegen Acetylsalicylsäure oder andere NSAR mit Atemnotgeschichte.",
+          "einfach": "Bei Allergie auf ähnliche Schmerzmittel mit Atemnot."
+        },
+        "mittel": {
+          "default": "Wenn Sie nach Einnahme von Acetylsalicylsäure oder anderen nichtsteroidalen entzündungshemmenden Arzneimitteln Atemnot oder allergieähnliche Hautreaktionen (Schwellung von Gesicht, Lippen, Zunge, Hals oder Extremitäten/Angioödem) hatten.",
+          "einfach": "Wenn du nach ähnlichen Schmerzmitteln Atemnot oder Schwellungen im Gesicht, Lippen, Zunge, Hals oder an den Armen und Beinen bekommen hast."
+        },
+        "lang": {
+          "default": "Olfen retard darf nicht angewendet werden, wenn Sie [...] nach der Einnahme von Acetylsalicylsäure oder anderen Schmerz- oder Rheumamitteln, sogenannten nichtsteroidalen entzündungshemmenden Arzneimitteln Atemnot oder allergieähnliche Hautreaktionen hatten, z.B. Schwellung von Gesicht, Lippen, Zunge, Hals und/oder an den Extremitäten (Zeichen eines Angioödems)",
+          "einfach": "Olfen retard darf nicht angewendet werden, wenn Sie nach der Einnahme von Acetylsalicylsäure oder anderen Schmerz- oder Rheumamitteln, sogenannten nichtsteroidalen entzündungshemmenden Arzneimitteln Atemnot oder allergieähnliche Hautreaktionen hatten, zum Beispiel Schwellung von Gesicht, Lippen, Zunge, Hals und/oder an den Extremitäten (Zeichen eines Angioödems)."
+        }
+      },
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 2,
+        "claim": "soll nicht zur ausschliesslichen Fiebersenkung verwendet werden",
+        "population": null,
+        "condition": null,
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "Olfen retard soll nicht zur ausschliesslichen Fiebersenkung verwendet werden.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Nicht für die alleinige Fiebersenkung verwenden.",
+          "einfach": "Nicht nur zum Senken von Fieber nutzen."
+        },
+        "mittel": {
+          "default": "Soll nicht ausschliesslich zur Fiebersenkung verwendet werden.",
+          "einfach": "Verwende es nicht allein, um Fieber zu senken."
+        },
+        "lang": {
+          "default": "Olfen retard soll nicht zur ausschliesslichen Fiebersenkung verwendet werden.",
+          "einfach": "Olfen retard soll nicht zur ausschliesslichen Fiebersenkung verwendet werden."
+        }
+      },
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 2,
+        "claim": "darf nicht angewendet werden",
+        "population": "Personen mit aktiven Magen- und/oder Dünndarm-Geschwüren oder Zwölffingerdarmgeschwüren",
+        "condition": null,
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "Olfen retard darf nicht angewendet werden [...] bei aktiven Magen- und/oder Dünndarm-Geschwüren (Zwölffingerdarmgeschwüren)",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei aktiven Magen-, Dünndarm- oder Zwölffingerdarmgeschwüren.",
+          "einfach": "Bei Geschwüren im Magen oder Darm."
+        },
+        "mittel": {
+          "default": "Wenn Sie aktive Magen-, Dünndarm- oder Zwölffingerdarmgeschwüre haben.",
+          "einfach": "Wenn du Geschwüre im Magen oder Darm hast."
+        },
+        "lang": {
+          "default": "Olfen retard darf nicht angewendet werden [...] bei aktiven Magen- und/oder Dünndarm-Geschwüren (Zwölffingerdarmgeschwüren)",
+          "einfach": "Olfen retard darf nicht angewendet werden bei aktiven Magen- und/oder Dünndarm-Geschwüren (Zwölffingerdarmgeschwüren)."
+        }
+      },
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 2,
+        "claim": "darf nicht angewendet werden",
+        "population": "Personen mit Magen-/Darm-Blutungen oder Perforation",
+        "condition": null,
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "Olfen retard darf nicht angewendet werden [...] bei [...] Magen-/Darm-Blutungen oder Perforation",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei Magen-/Darm-Blutungen oder Perforation.",
+          "einfach": "Bei Blutungen im Magen-Darm-Bereich oder Durchbruch."
+        },
+        "mittel": {
+          "default": "Wenn Sie Magen-/Darm-Blutungen oder eine Perforation haben.",
+          "einfach": "Wenn du Blutungen im Magen oder Darm hast oder ein Loch darin."
+        },
+        "lang": {
+          "default": "Olfen retard darf nicht angewendet werden [...] bei [...] Magen-/Darm-Blutungen oder Perforation",
+          "einfach": "Olfen retard darf nicht angewendet werden bei Magen-/Darm-Blutungen oder Perforation."
+        }
+      },
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 2,
+        "claim": "darf nicht angewendet werden",
+        "population": "Personen mit Symptomen wie Blut im Stuhl oder schwarzem Stuhl",
+        "condition": null,
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "Olfen retard darf nicht angewendet werden [...] bei Symptomen wie Blut im Stuhl oder schwarzem Stuhl",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei Blut im Stuhl oder schwarzem Stuhl.",
+          "einfach": "Bei Blut im Stuhl."
+        },
+        "mittel": {
+          "default": "Das Mittel darf nicht angewendet werden, wenn Blut im Stuhl oder schwarzer Stuhl auftritt.",
+          "einfach": "Das Mittel darf nicht genommen werden, wenn Blut im Stuhl kommt."
+        },
+        "lang": {
+          "default": "Olfen retard darf nicht angewendet werden [...] bei Symptomen wie Blut im Stuhl oder schwarzem Stuhl",
+          "einfach": "Das Mittel darf nicht angewendet werden, wenn Symptome wie Blut im Stuhl oder schwarzer Stuhl vorhanden sind."
+        }
+      },
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 2,
+        "claim": "darf nicht angewendet werden",
+        "population": "Personen mit chronischen Darmentzündungen (Morbus Crohn, Colitis ulcerosa)",
+        "condition": null,
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "Olfen retard darf nicht angewendet werden [...] bei chronischen Darmentzündungen (Morbus Crohn, Colitis ulcerosa)",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei chronischen Darmentzündungen (Morbus Crohn, Colitis ulcerosa).",
+          "einfach": "Bei chronischen Darmentzündungen."
+        },
+        "mittel": {
+          "default": "Das Mittel ist nicht geeignet bei chronischen Darmentzündungen wie Morbus Crohn oder Colitis ulcerosa.",
+          "einfach": "Das Mittel darf nicht genommen werden, wenn der Darm chronisch entzündet ist."
+        },
+        "lang": {
+          "default": "Olfen retard darf nicht angewendet werden [...] bei chronischen Darmentzündungen (Morbus Crohn, Colitis ulcerosa)",
+          "einfach": "Das Mittel darf nicht angewendet werden bei chronischen Darmentzündungen, wie zum Beispiel Morbus Crohn oder Colitis ulcerosa."
+        }
+      },
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 2,
+        "claim": "darf nicht angewendet werden",
+        "population": "Personen mit Leber- oder Nierenversagen",
+        "condition": null,
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "Olfen retard darf nicht angewendet werden [...] bei Leber- oder Nierenversagen",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei Leber- oder Nierenversagen.",
+          "einfach": "Bei Leber- oder Nierenversagen."
+        },
+        "mittel": {
+          "default": "Das Mittel darf nicht angewendet werden, wenn die Leber oder Nieren nicht richtig funktionieren.",
+          "einfach": "Das Mittel darf nicht genommen werden, wenn Leber oder Nieren nicht arbeiten."
+        },
+        "lang": {
+          "default": "Olfen retard darf nicht angewendet werden [...] bei Leber- oder Nierenversagen",
+          "einfach": "Das Mittel darf nicht angewendet werden bei Leber- oder Nierenversagen."
+        }
+      },
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 2,
+        "claim": "darf nicht angewendet werden",
+        "population": "Personen mit schwerer Herzleistungsschwäche",
+        "condition": null,
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "Olfen retard darf nicht angewendet werden [...] bei schwerer Herzleistungsschwäche",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei schwerer Herzleistungsschwäche.",
+          "einfach": "Bei schwacher Herzleistung."
+        },
+        "mittel": {
+          "default": "Das Mittel ist nicht geeignet bei schwerer Herzleistungsschwäche.",
+          "einfach": "Das Mittel darf nicht genommen werden, wenn das Herz sehr schwach ist."
+        },
+        "lang": {
+          "default": "Olfen retard darf nicht angewendet werden [...] bei schwerer Herzleistungsschwäche",
+          "einfach": "Das Mittel darf nicht angewendet werden bei schwerer Herzleistungsschwäche."
+        }
+      },
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 2,
+        "claim": "darf nicht angewendet werden",
+        "population": "Personen zur Behandlung von Schmerzen nach einer koronaren Bypassoperation am Herzen",
+        "condition": null,
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "Olfen retard darf nicht angewendet werden [...] zur Behandlung von Schmerzen nach einer koronaren Bypassoperation am Herzen (resp. Einsatz einer Herz-Lungen-Maschine)",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Nicht zur Schmerzbehandlung nach Herzbypass-Operation.",
+          "einfach": "Nicht nach Herzoperation nutzen."
+        },
+        "mittel": {
+          "default": "Das Mittel darf nicht zur Schmerzbehandlung nach einer koronaren Bypassoperation oder während eines Einsatzes einer Herz-Lungen-Maschine verwendet werden.",
+          "einfach": "Das Mittel darf nicht für Schmerzen nach einer Herzoperation genommen werden."
+        },
+        "lang": {
+          "default": "Olfen retard darf nicht angewendet werden [...] zur Behandlung von Schmerzen nach einer koronaren Bypassoperation am Herzen (resp. Einsatz einer Herz-Lungen-Maschine)",
+          "einfach": "Das Mittel darf nicht zur Behandlung von Schmerzen nach einer koronaren Bypassoperation am Herzen oder beim Einsatz einer Herz-Lungen-Maschine angewendet werden."
+        }
+      },
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 2,
+        "claim": "darf nicht angewendet werden",
+        "population": "Kinder unter 14 Jahren",
+        "condition": null,
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "Olfen retard darf nicht angewendet werden [...] bei Kindern unter 14 Jahren",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Unter 14 Jahren nicht geeignet.",
+          "einfach": "Unter 14 Jahren nicht nutzen."
+        },
+        "mittel": {
+          "default": "Das Mittel darf bei Kindern unter 14 Jahren nicht angewendet werden.",
+          "einfach": "Das Mittel ist für Kinder unter 14 Jahren nicht geeignet."
+        },
+        "lang": {
+          "default": "Olfen retard darf nicht angewendet werden [...] bei Kindern unter 14 Jahren",
+          "einfach": "Das Mittel darf nicht bei Kindern unter 14 Jahren angewendet werden."
+        }
+      },
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 2,
+        "claim": "erhöhtes Risiko bzw. Behandlung üblicherweise nicht empfohlen",
+        "population": "Patienten mit Herz- oder Blutgefässerkrankungen (kardiovaskuläre Erkrankung, einschliesslich unkontrolliertem Bluthochdruck, Herzinsuffizienz, bestehender ischämischer Herzkrankheit oder peripherer arterieller Erkrankung)",
+        "condition": null,
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "Vorsicht ist geboten, wenn Sie an einer Herz- oder Blutgefässerkrankung leiden (sogenannte kardiovaskuläre Krankheit, einschliesslich unkontrollierten Bluthochdrucks, Herzinsuffizienz, bestehende ischämische Herzkrankheit oder periphere arterielle Krankheit), da eine Behandlung mit Olfen üblicherweise nicht empfohlen ist.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei Herz- oder Blutgefäßerkrankung: Behandlung üblicherweise nicht empfohlen.",
+          "einfach": "Bei Herz- oder Blutgefäßkrankheit nicht empfohlen."
+        },
+        "mittel": {
+          "default": "Bei Herz- oder Blutgefäßerkrankungen – einschließlich unkontrolliertem Bluthochdruck, Herzinsuffizienz, ischämischer Herzkrankheit oder peripherer arterieller Erkrankung – ist eine Behandlung mit Olfen üblicherweise nicht ratsam.",
+          "einfach": "Wenn Sie herz- oder blutgefäßkrank sind (auch unkontrollierter Blutdruck, Herzinsuffizienz oder Durchblutungsstörungen), sollten Sie dieses Mittel üblicherweise nicht nehmen."
+        },
+        "lang": {
+          "default": "Vorsicht ist geboten, wenn Sie an einer Herz- oder Blutgefässerkrankung leiden (sogenannte kardiovaskuläre Krankheit, einschliesslich unkontrollierten Bluthochdrucks, Herzinsuffizienz, bestehende ischämische Herzkrankheit oder periphere arterielle Krankheit), da eine Behandlung mit Olfen üblicherweise nicht empfohlen ist.",
+          "einfach": "Vorsicht ist nötig, wenn Sie an einer Herz- oder Blutgefäßkrankheit leiden. Das bedeutet: Blutgefäßkrankheit, unkontrollierter hoher Blutdruck, Herzinsuffizienz (schwaches Herz), vorhandene ischämische Herzkrankheit (schlecht durchblutetes Herz) oder periphere arterielle Krankheit (Durchblutungsstörung in den Beinen). In diesen Fällen wird eine Behandlung mit Olfen üblicherweise nicht empfohlen."
+        }
+      }
+    ],
+    "dosierung": [
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 1,
+        "claim": "Tagesdosis zu Behandlungsbeginn im Allgemeinen 100–150 mg",
+        "population": null,
+        "condition": "Zu Beginn der Behandlung",
+        "modality": "dosage_instruction",
+        "negation": false,
+        "source_span": "Zu Beginn der Behandlung beträgt die Tagesdosis im Allgemeinen 100 - 150 mg.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Tagesdosis zu Behandlungsbeginn: 100–150 mg.",
+          "einfach": "Am Anfang: 100–150 mg pro Tag."
+        },
+        "mittel": {
+          "default": "Zu Beginn der Behandlung liegt die empfohlene Tagesdosis in der Regel bei 100–150 mg.",
+          "einfach": "Am Anfang der Behandlung nimmt man meist 100–150 mg pro Tag."
+        },
+        "lang": {
+          "default": "Zu Beginn der Behandlung beträgt die Tagesdosis im Allgemeinen 100 - 150 mg.",
+          "einfach": "Wenn man mit der Behandlung anfängt, beträgt die Tagesdosis im Allgemeinen 100 bis 150 Milligramm."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 1,
+        "claim": "Tagesdosis bei leichteren Fällen und zur Langzeitbehandlung: 75–100 mg pro Tag (1 Depotab zu 75 mg oder 1 Retardkapsel zu 100 mg morgens oder abends)",
+        "population": null,
+        "condition": "bei leichteren Fällen und zur Langzeitbehandlung",
+        "modality": "dosage_instruction",
+        "negation": false,
+        "source_span": "In leichteren Fällen und zur Langzeitbehandlung sind 75 - 100 mg pro Tag, also eine 75 mg Olfen retard Depotab oder eine 100 mg Retardkapsel, erhältlich unter dem Handelsnamen Olfen Depocaps morgens oder abends, in der Regel ausreichend.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Leichtere Fälle und Langzeitbehandlung: 75–100 mg pro Tag.",
+          "einfach": "Schwache Schmerzen oder Langzeitgebrauch: 75–100 mg pro Tag."
+        },
+        "mittel": {
+          "default": "Bei leichteren Beschwerden oder zur Langzeitbehandlung sind 75–100 mg pro Tag ausreichend, was einer 75-mg-Depotab oder einer 100-mg-Retardkapsel morgens oder abends entspricht.",
+          "einfach": "Bei leichten Schmerzen oder wenn man das Mittel lange nehmen muss, reichen 75–100 mg pro Tag. Das ist eine Tablette (75 mg) oder eine Kapsel (100 mg) morgens oder abends."
+        },
+        "lang": {
+          "default": "In leichteren Fällen und zur Langzeitbehandlung sind 75 - 100 mg pro Tag, also eine 75 mg Olfen retard Depotab oder eine 100 mg Retardkapsel, erhältlich unter dem Handelsnamen Olfen Depocaps morgens oder abends, in der Regel ausreichend.",
+          "einfach": "Wenn die Schmerzen leicht sind oder wenn man das Mittel lange nehmen muss, sind 75 bis 100 Milligramm pro Tag genug. Das ist entweder eine 75-Milligramm-Depotablette oder eine 100-Milligramm-Retardkapsel, die man morgens oder abends nimmt."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 1,
+        "claim": "Tagesdosis kann auf maximal 150 mg erhöht werden (2 Depotabs zu 75 mg oder 1 Retardkapsel zu 100 mg + Olfen Lactab zu 25 oder 50 mg)",
+        "population": null,
+        "condition": "bei Bedarf",
+        "modality": "dosage_instruction",
+        "negation": false,
+        "source_span": "Bei Bedarf kann die Tagesdosis auf 150 mg (2 Depotabs Olfen retard zu 75 mg oder 1 Retardkapsel zu 100 mg erhältlich unter dem Handelsnamen Olfen Depocaps in Kombination mit Olfen Lactab zu 25 oder 50 mg) erhöht werden, die vorzugsweise über den Tag zu verteilen sind.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Maximal 150 mg pro Tag (2 × 75 mg oder 100 mg + 25–50 mg).",
+          "einfach": "Höchstens 150 mg pro Tag."
+        },
+        "mittel": {
+          "default": "Die Tagesdosis kann bei Bedarf auf maximal 150 mg erhöht werden, entweder als zwei 75-mg-Depotabs oder als eine 100-mg-Retardkapsel kombiniert mit Olfen Lactab (25 oder 50 mg), vorzugsweise über den Tag verteilt.",
+          "einfach": "Wenn nötig, kann man die Tagesdosis auf höchstens 150 mg erhöhen. Man nimmt dann zwei 75-mg-Tabletten oder eine 100-mg-Kapsel plus eine 25–50-mg-Tablette, verteilt über den Tag."
+        },
+        "lang": {
+          "default": "Bei Bedarf kann die Tagesdosis auf 150 mg (2 Depotabs Olfen retard zu 75 mg oder 1 Retardkapsel zu 100 mg erhältlich unter dem Handelsnamen Olfen Depocaps in Kombination mit Olfen Lactab zu 25 oder 50 mg) erhöht werden, die vorzugsweise über den Tag zu verteilen sind.",
+          "einfach": "Wenn man mehr Wirkung braucht, kann man die tägliche Menge bis zu 150 Milligramm erhöhen. Das kann sein: 2 Tabletten zu je 75 Milligramm oder 1 Kapsel zu 100 Milligramm plus 1 Tablette zu 25 oder 50 Milligramm. Diese Mengen sollte man über den ganzen Tag verteilt nehmen."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 1,
+        "claim": "Dosis nicht über 100 mg pro Tag erhöhen bei Langzeitbehandlung (>4 Wochen)",
+        "population": "Patienten mit Herz-Kreislauf-Erkrankung oder bedeutenden Risikofaktoren (hoher Blutdruck, abnormal hohe Blutfettwerte/Cholesterin/Triglyzeride, Diabetes, Rauchen)",
+        "condition": "bei Langzeitbehandlung länger als 4 Wochen",
+        "modality": "dosage_adjustment",
+        "negation": true,
+        "source_span": "Wenn Sie an einer Herz-Kreislauf-Erkrankung (siehe oben) leiden oder bedeutende Risikofaktoren wie hoher Blutdruck, abnormal hohe Blutfettwerte (Cholesterin, Triglyzeride), Diabetes haben, oder falls Sie rauchen, und Ihr Arzt bzw. Ihre Ärztin sich entschliesst, Ihnen Olfen zu verschreiben, dürfen Sie die Dosis nicht über 100 mg pro Tag erhöhen, wenn Sie länger als 4 Wochen behandelt werden.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei Langzeitbehandlung (>4 Wochen): Dosis max. 100 mg pro Tag.",
+          "einfach": "Bei längerer Einnahme (>4 Wochen): nicht über 100 mg pro Tag."
+        },
+        "mittel": {
+          "default": "Bei Herz-Kreislauf-Erkrankungen oder Risikofaktoren (Bluthochdruck, erhöhte Blutfettwerte, Diabetes, Rauchen) darf die Dosis während einer Langzeitbehandlung über 4 Wochen 100 mg pro Tag nicht überschreiten.",
+          "einfach": "Wenn Sie Herz-Kreislauf-Probleme haben oder Risiken (hoher Blutdruck, hohe Blutfette, Diabetes, Rauchen), darf die Tagesdosis bei längerer Einnahme (über 4 Wochen) nicht über 100 mg liegen."
+        },
+        "lang": {
+          "default": "Wenn Sie an einer Herz-Kreislauf-Erkrankung (siehe oben) leiden oder bedeutende Risikofaktoren wie hoher Blutdruck, abnormal hohe Blutfettwerte (Cholesterin, Triglyzeride), Diabetes haben, oder falls Sie rauchen, und Ihr Arzt bzw. Ihre Ärztin sich entschliesst, Ihnen Olfen zu verschreiben, dürfen Sie die Dosis nicht über 100 mg pro Tag erhöhen, wenn Sie länger als 4 Wochen behandelt werden.",
+          "einfach": "Wenn Sie an einer Herz-Kreislauf-Erkrankung leiden oder wichtige Risikofaktoren haben wie hoher Blutdruck, abnorm hohe Blutfettwerte (Cholesterin, Triglyceride), Diabetes oder wenn Sie rauchen, und Ihr Arzt entschließt sich, Ihnen Olfen zu geben: Sie dürfen die Dosis nicht über 100 mg pro Tag erhöhen, wenn Sie länger als 4 Wochen behandelt werden."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 1,
+        "claim": "nicht länger als wenige Wochen ohne reguläre ärztliche Kontrollen anwenden",
+        "population": null,
+        "condition": "bei längerfristiger Anwendung (länger als wenige Wochen)",
+        "modality": "dosage_instruction",
+        "negation": false,
+        "source_span": "Falls Sie Olfen länger als wenige Wochen anwenden, sollten Sie Ihren Arzt bzw. Ihre Ärztin für reguläre Kontrollen aufsuchen, um sicher zu stellen, dass Sie nicht an unbemerkten Nebenwirkungen leiden.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Regelmäßige ärztliche Kontrollen bei längerfristiger Anwendung.",
+          "einfach": "Arzt regelmäßig besuchen bei Langzeitgebrauch."
+        },
+        "mittel": {
+          "default": "Bei einer Anwendung länger als wenige Wochen sind regelmäßige ärztliche Kontrollen erforderlich, um unbemerkte Nebenwirkungen frühzeitig zu erkennen.",
+          "einfach": "Wenn man das Mittel mehrere Wochen lang nimmt, muss man zum Arzt gehen. Der Arzt prüft, ob man Nebenwirkungen bekommt."
+        },
+        "lang": {
+          "default": "Falls Sie Olfen länger als wenige Wochen anwenden, sollten Sie Ihren Arzt bzw. Ihre Ärztin für reguläre Kontrollen aufsuchen, um sicher zu stellen, dass Sie nicht an unbemerkten Nebenwirkungen leiden.",
+          "einfach": "Falls du Olfen länger als wenige Wochen nimmst, solltest du deinen Arzt regelmäßig besuchen. Der Arzt muss prüfen, dass du keine versteckten Nebenwirkungen hast, die du nicht merkst."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 1,
+        "claim": "kleinste wirksame Dosis während der kürzest möglichen Therapiedauer anwenden, um Magen-Darm-Risiko zu verringern",
+        "population": null,
+        "condition": null,
+        "modality": "precaution",
+        "negation": false,
+        "source_span": "Um dieses Risiko zu verringern, verschreibt Ihr Arzt oder Ihre Ärztin Ihnen die kleinste wirksame Dosis während der kürzest möglichen Therapiedauer.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Kleinstmögliche Dosis und kürzestmögliche Dauer anwenden.",
+          "einfach": "Niedrige Dosis, kurze Anwendung."
+        },
+        "mittel": {
+          "default": "Um das Magen-Darm-Risiko zu verringern, sollte die kleinste wirksame Dosis für die kürzest mögliche Behandlungsdauer verwendet werden.",
+          "einfach": "Die kleinste wirksame Menge über die kürzest mögliche Zeit hilft, Magenschäden zu vermeiden."
+        },
+        "lang": {
+          "default": "Um dieses Risiko zu verringern, verschreibt Ihr Arzt oder Ihre Ärztin Ihnen die kleinste wirksame Dosis während der kürzest möglichen Therapiedauer.",
+          "einfach": "Um dieses Risiko zu verringern, sollte die kleinste wirksame Dosis während der kürzest möglichen Therapiedauer verwendet werden."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 2,
+        "claim": "abends einnehmen zur Vermeidung von Nachtschmerzen und/oder Morgensteifigkeit",
+        "population": null,
+        "condition": "zur Vermeidung von Nachtschmerzen und/oder Morgensteifigkeit",
+        "modality": "dosage_instruction",
+        "negation": false,
+        "source_span": "Zur Vermeidung von Nachtschmerzen und/oder Morgensteifigkeit wird Olfen retard abends eingenommen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Abends einnehmen gegen Nachtschmerzen und Morgensteifigkeit.",
+          "einfach": "Abends nehmen gegen Nacht- und Morgenschmerzen."
+        },
+        "mittel": {
+          "default": "Die abendliche Einnahme von Olfen retard hilft, Nachtschmerzen und Morgensteifigkeit zu vermeiden.",
+          "einfach": "Wenn man das Mittel abends nimmt, hat man nachts weniger Schmerzen und morgens weniger steife Gelenke."
+        },
+        "lang": {
+          "default": "Zur Vermeidung von Nachtschmerzen und/oder Morgensteifigkeit wird Olfen retard abends eingenommen.",
+          "einfach": "Um Schmerzen in der Nacht und Steifheit am Morgen zu vermeiden, sollte man Olfen retard abends einnehmen."
+        }
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 2,
+        "claim": "niedrigste wirksame Dosierung sollte verwendet werden",
+        "population": "ältere Patienten, insbesondere gebrechliche oder solche mit geringem Körpergewicht",
+        "condition": null,
+        "modality": "dosage_adjustment",
+        "negation": false,
+        "source_span": "Vorsicht ist bei älteren Patientinnen und Patienten geboten, insbesondere bei gebrechlichen oder solchen mit einem geringen Körpergewicht. Sie können auf die Wirkung von Olfen retard empfindlicher reagieren. Deswegen sollten sie vorsorglich die niedrigste wirksame Dosierung verwenden.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Niedrigste wirksame Dosierung verwenden.",
+          "einfach": "Kleinste wirksame Menge nehmen."
+        },
+        "mittel": {
+          "default": "Eine niedrigere Empfindlichkeit gegenüber Olfen retard erfordert die Verwendung der niedrigsten wirksamen Dosierung, um Nebenwirkungen zu minimieren.",
+          "einfach": "Der Körper kann auf Olfen stärker reagieren. Deshalb sollte man die kleinste Menge nehmen, die wirkt."
+        },
+        "lang": {
+          "default": "Vorsicht ist bei älteren Patientinnen und Patienten geboten, insbesondere bei gebrechlichen oder solchen mit einem geringen Körpergewicht. Sie können auf die Wirkung von Olfen retard empfindlicher reagieren. Deswegen sollten sie vorsorglich die niedrigste wirksame Dosierung verwenden.",
+          "einfach": "Bei älteren Menschen, besonders wenn sie schwach sind oder wenig wiegen, muss man vorsichtig sein. Sie reagieren auf Olfen retard stärker als andere Menschen. Deshalb sollten sie von Anfang an die kleinste Menge nehmen, die gegen ihre Schmerzen hilft."
+        }
+      }
+    ],
+    "beachten": [
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 1,
+        "claim": "diese Magen-Darm-Komplikationen können jederzeit ohne Warnsymptome auftreten",
+        "population": null,
+        "condition": "während der Behandlung",
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Diese Komplikationen können während der Behandlung jederzeit auch ohne Warnsymptome auftreten.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Magen-Darm-Komplikationen können ohne Warnung auftreten.",
+          "einfach": "Komplikationen ohne Warnung möglich."
+        },
+        "mittel": {
+          "default": "Diese Magen-Darm-Komplikationen können jederzeit auch ohne vorherige Warnsymptome auftreten.",
+          "einfach": "Diese Probleme können plötzlich kommen, ohne Ankündigung."
+        },
+        "lang": {
+          "default": "Diese Komplikationen können während der Behandlung jederzeit auch ohne Warnsymptome auftreten.",
+          "einfach": "Diese Magen-Darm-Komplikationen können während der Behandlung jederzeit auch ohne Warnsymptome auftreten."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 1,
+        "claim": "erhöhtes Risiko für Herzinfarkt und Schlaganfall unter hohen Dosierungen und/oder Langzeitbehandlung möglich",
+        "population": null,
+        "condition": "bei COX-2-Hemmern, für Olfen retard noch nicht bekannt",
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Für gewisse Schmerzmittel, die so genannten COX-2-Hemmer, wurde unter hohen Dosierungen und/oder Langzeitbehandlung ein erhöhtes Risiko für Herzinfarkt und Schlaganfall festgestellt. Ob dieses erhöhte Risiko auch für Olfen retard zutrifft, ist noch nicht bekannt.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Für COX-2-Hemmer: Herzinfarkt- und Schlaganfallrisiko bei hohen Dosen/Langzeit (für Olfen retard noch unklar).",
+          "einfach": "Bei hohen Dosen/Langzeitgebrauch: Herzinfarkt- und Schlaganfallrisiko (für Olfen retard noch nicht bekannt)."
+        },
+        "mittel": {
+          "default": "Bei ähnlichen Schmerzmitteln (COX-2-Hemmer) wurde unter hohen Dosierungen und/oder Langzeitbehandlung ein erhöhtes Risiko für Herzinfarkt und Schlaganfall beobachtet. Für Olfen retard ist dieses Risiko bislang nicht erwiesen.",
+          "einfach": "Ähnliche Schmerzmittel können bei hohen Dosen oder langer Einnahme das Risiko für Herzinfarkt und Schlaganfall erhöhen. Für Olfen retard ist das noch nicht bekannt."
+        },
+        "lang": {
+          "default": "Für gewisse Schmerzmittel, die so genannten COX-2-Hemmer, wurde unter hohen Dosierungen und/oder Langzeitbehandlung ein erhöhtes Risiko für Herzinfarkt und Schlaganfall festgestellt. Ob dieses erhöhte Risiko auch für Olfen retard zutrifft, ist noch nicht bekannt.",
+          "einfach": "Bei bestimmten Schmerzmitteln (den sogenannten COX-2-Hemmer) wurde bei hohen Dosen und/oder Langzeitbehandlung ein erhöhtes Risiko für Herzinfarkt und Schlaganfall festgestellt. Ob dieses erhöhte Risiko auch für Olfen retard zutrifft, ist noch nicht bekannt."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 1,
+        "claim": "kann die Nierenfunktion beeinträchtigen, was zu Blutdruckanstieg und/oder Flüssigkeitsansammlungen (Ödeme) führen kann",
+        "population": null,
+        "condition": null,
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Die Einnahme von Olfen retard kann die Funktion Ihrer Nieren beeinträchtigen, was zu einer Erhöhung des Blutdrucks und/oder Flüssigkeitsansammlungen (Ödemen) führen kann.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Kann Nierenfunktion beeinträchtigen: Blutdruckanstieg und/oder Ödeme möglich.",
+          "einfach": "Kann Nieren schädigen: Blutdruck steigt, Wasser in Beinen/Körper sammelt sich."
+        },
+        "mittel": {
+          "default": "Die Einnahme kann die Nierenfunktion beeinträchtigen und zu Blutdruckanstieg sowie Flüssigkeitsansammlungen (Ödemen) führen.",
+          "einfach": "Das Mittel kann Ihre Nieren schwächen. Dann steigt der Blutdruck, und Wasser staut sich im Körper (Schwellungen)."
+        },
+        "lang": {
+          "default": "Die Einnahme von Olfen retard kann die Funktion Ihrer Nieren beeinträchtigen, was zu einer Erhöhung des Blutdrucks und/oder Flüssigkeitsansammlungen (Ödemen) führen kann.",
+          "einfach": "Die Einnahme von Olfen retard kann die Funktion Ihrer Nieren beeinträchtigen. Das kann dazu führen, dass Ihr Blutdruck ansteigt und/oder sich Flüssigkeit in Ihrem Körper ansammelt (Ödeme)."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 2,
+        "claim": "Arzt informieren bei Herz- oder Nierenerkrankung, Blutdruckmedikamenten oder erhöhtem Flüssigkeitsverlust",
+        "population": "Patienten mit Herz- oder Nierenerkrankung, Einnahme von Blutdruckmitteln (z.B. harntreibende Mittel, ACE-Hemmer) oder erhöhtem Flüssigkeitsverlust (z.B. durch starkes Schwitzen)",
+        "condition": null,
+        "modality": "precaution",
+        "negation": false,
+        "source_span": "Informieren Sie Ihren Arzt oder Ihre Ärztin, wenn Sie herzkrank oder nierenkrank sind, falls Sie Arzneimittel gegen Bluthochdruck (z.B. harntreibende Mittel, ACE-Hemmer) einnehmen oder bei einem erhöhten Flüssigkeitsverlust, z.B. durch starkes Schwitzen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Arzt informieren: bei Herz-/Nierenerkrankung, Blutdruckmedikamenten oder erhöhtem Flüssigkeitsverlust.",
+          "einfach": "Sag dem Arzt: Herz-/Nierenkrankheit, Blutdruckmittel, viel Schwitzen?"
+        },
+        "mittel": {
+          "default": "Informieren Sie Ihren Arzt, wenn Sie Herz- oder Nierenerkrankungen haben, Blutdruckmedikamente (z.B. Diuretika, ACE-Hemmer) nehmen oder unter erhöhtem Flüssigkeitsverlust leiden (z.B. durch starkes Schwitzen).",
+          "einfach": "Sagen Sie dem Arzt: wenn Sie herz- oder nierenkrank sind, Blutdruckmedikamente nehmen (z.B. Wassertabletten, ACE-Hemmer) oder viel schwitzen."
+        },
+        "lang": {
+          "default": "Informieren Sie Ihren Arzt oder Ihre Ärztin, wenn Sie herzkrank oder nierenkrank sind, falls Sie Arzneimittel gegen Bluthochdruck (z.B. harntreibende Mittel, ACE-Hemmer) einnehmen oder bei einem erhöhten Flüssigkeitsverlust, z.B. durch starkes Schwitzen.",
+          "einfach": "Informieren Sie Ihren Arzt oder Ihre Ärztin, wenn Sie herzkrank oder nierenkrank sind. Auch wenn Sie Arzneimittel gegen Bluthochdruck nehmen (z.B. harntreibende Mittel, ACE-Hemmer) oder bei erhöhtem Flüssigkeitsverlust, zum Beispiel durch starkes Schwitzen."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 2,
+        "claim": "auf das Führen eines Motorfahrzeuges oder das Bedienen von Maschinen verzichten und umgehend Arzt aufsuchen",
+        "population": null,
+        "condition": "insbesondere beim Auftreten von Schwindel, Sehstörungen oder anderen zentralnervösen Störungen",
+        "modality": "precaution",
+        "negation": false,
+        "source_span": "Insbesondere beim Auftreten von Schwindel, Sehstörungen oder anderen zentralnervösen Störungen sollten Sie auf das Führen eines Motorfahrzeuges oder das Bedienen von Maschinen verzichten und umgehend Ihren Arzt oder Ihre Ärztin aufsuchen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei Schwindel, Sehstörungen oder anderen zentralnervösen Störungen: nicht fahren/Maschinen bedienen, sofort Arzt aufsuchen.",
+          "einfach": "Schwindel/Sehstörungen: nicht fahren, Arzt anrufen."
+        },
+        "mittel": {
+          "default": "Wenn Schwindel, Sehstörungen oder andere Störungen des Nervensystems auftreten, verzichten Sie auf das Fahren und das Bedienen von Maschinen und suchen Sie sofort einen Arzt auf.",
+          "einfach": "Bei Schwindel, Sehproblemen oder Nervenstörungen: nicht fahren, nicht mit Maschinen arbeiten, sofort zum Arzt."
+        },
+        "lang": {
+          "default": "Insbesondere beim Auftreten von Schwindel, Sehstörungen oder anderen zentralnervösen Störungen sollten Sie auf das Führen eines Motorfahrzeuges oder das Bedienen von Maschinen verzichten und umgehend Ihren Arzt oder Ihre Ärztin aufsuchen.",
+          "einfach": "Besonders wenn Schwindel, Sehstörungen oder andere Störungen des Nervensystems auftreten: Verzichten Sie auf das Führen eines Autos oder das Bedienen von Maschinen und suchen Sie sofort Ihren Arzt oder Ihre Ärztin auf."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 2,
+        "claim": "Behandlung abbrechen und Arzt informieren",
+        "population": null,
+        "condition": "bei den ersten Anzeichen einer Hautreaktion",
+        "modality": "precaution",
+        "negation": false,
+        "source_span": "Bei den ersten Anzeichen einer Hautreaktion ist die Behandlung mit Olfen abzubrechen und den Arzt bzw. die Ärztin zu informieren.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei Hautreaktion: Behandlung sofort abbrechen und Arzt informieren.",
+          "einfach": "Hautreaktion: Sofort stoppen und Arzt anrufen."
+        },
+        "mittel": {
+          "default": "Sobald die ersten Anzeichen einer Hautreaktion auftreten, muss die Einnahme beendet und der Arzt oder die Ärztin umgehend informiert werden.",
+          "einfach": "Wenn Sie eine Hautreaktion bekommen, stoppen Sie sofort und rufen Sie den Arzt an."
+        },
+        "lang": {
+          "default": "Bei den ersten Anzeichen einer Hautreaktion ist die Behandlung mit Olfen abzubrechen und den Arzt bzw. die Ärztin zu informieren.",
+          "einfach": "Bei den ersten Anzeichen einer Hautreaktion ist die Behandlung mit Olfen abzubrechen und den Arzt bzw. die Ärztin zu informieren."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 2,
+        "claim": "Behandlung einstellen und unverzüglich medizinische Hilfe suchen bei Hautausschlag mit Fieber, Schleimhautläsionen, Blasen oder anderen Allergie-Anzeichen",
+        "population": null,
+        "condition": "bei Auftreten von Hautausschlag, einschliesslich Fieber, Läsionen der Schleimhäute, Blasen oder sonstigen Anzeichen einer Allergie",
+        "modality": "precaution",
+        "negation": false,
+        "source_span": "Bei Auftreten von Hautausschlag, einschliesslich Fieber, Läsionen der Schleimhäute, Blasen oder sonstigen Anzeichen einer Allergie, sollten Sie die Behandlung mit Olfen retard Depotabs einstellen und sich unverzüglich in medizinische Behandlung begeben, da dies die ersten Anzeichen einer sehr schwerwiegenden Hautreaktion sein können.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Hautausschlag, Fieber, Schleimhautläsionen, Blasen: sofort Behandlung beenden und Arzt aufsuchen.",
+          "einfach": "Ausschlag mit Fieber oder Blasen: sofort zum Arzt."
+        },
+        "mittel": {
+          "default": "Bei Hautausschlag mit Fieber, Schleimhautläsionen, Blasen oder anderen Allergie-Anzeichen muss die Behandlung sofort beendet und unverzüglich medizinische Hilfe gesucht werden, da dies erste Anzeichen einer sehr schwerwiegenden Hautreaktion sein können.",
+          "einfach": "Bei Ausschlag, Fieber, offenen Stellen im Mund oder Blasen sofort stoppen und zum Arzt gehen. Das können Zeichen einer sehr schweren Hautreaktion sein."
+        },
+        "lang": {
+          "default": "Bei Auftreten von Hautausschlag, einschliesslich Fieber, Läsionen der Schleimhäute, Blasen oder sonstigen Anzeichen einer Allergie, sollten Sie die Behandlung mit Olfen retard Depotabs einstellen und sich unverzüglich in medizinische Behandlung begeben, da dies die ersten Anzeichen einer sehr schwerwiegenden Hautreaktion sein können.",
+          "einfach": "Bei Auftreten von Hautausschlag, einschliesslich Fieber, Läsionen der Schleimhäute, Blasen oder sonstigen Anzeichen einer Allergie, sollten Sie die Behandlung mit Olfen retard Depotabs einstellen und sich unverzüglich in medizinische Behandlung begeben, da dies die ersten Anzeichen einer sehr schwerwiegenden Hautreaktion sein können."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 2,
+        "claim": "regelmässige Kontrolluntersuchungen durch Arzt sind erforderlich",
+        "population": null,
+        "condition": "bei Einnahme länger als 2–3 Wochen",
+        "modality": "precaution",
+        "negation": false,
+        "source_span": "Wenn Sie Olfen retard längere Zeit (mehr als 2-3 Wochen) einnehmen, sollten Sie die regelmässigen von Ihrem Arzt oder Ihrer Ärztin angeordneten Kontrolluntersuchungen nicht versäumen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei Einnahme länger als 2–3 Wochen: regelmässige Kontrolluntersuchungen erforderlich.",
+          "einfach": "Nach 2–3 Wochen: regelmässige Kontrollen beim Arzt."
+        },
+        "mittel": {
+          "default": "Wenn die Einnahme länger als 2 bis 3 Wochen andauert, sollten die vom Arzt angeordneten regelmässigen Kontrolluntersuchungen nicht versäumt werden.",
+          "einfach": "Wenn Sie das Mittel länger als 2–3 Wochen nehmen, gehen Sie regelmässig zu den Kontrollterminen beim Arzt."
+        },
+        "lang": {
+          "default": "Wenn Sie Olfen retard längere Zeit (mehr als 2-3 Wochen) einnehmen, sollten Sie die regelmässigen von Ihrem Arzt oder Ihrer Ärztin angeordneten Kontrolluntersuchungen nicht versäumen.",
+          "einfach": "Wenn Sie Olfen retard längere Zeit (mehr als 2-3 Wochen) einnehmen, sollten Sie die regelmässigen von Ihrem Arzt oder Ihrer Ärztin angeordneten Kontrolluntersuchungen nicht versäumen."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "mit regelmässigen Abständen neu beurteilen, insbesondere wenn Behandlung über mehr als 4 Wochen dauert",
+        "population": "Patienten mit Herzkrankheit oder wesentlichen Risiken für Herzkrankheit",
+        "condition": null,
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Wenn Sie an einer Herzkrankheit leiden oder wesentliche Risiken für eine Herzkrankheit haben, wird Ihr Arzt bzw. Ihre Ärztin die Fortsetzung der Behandlung mit Olfen in regelmässigen Abständen neu beurteilen, insbesondere wenn die Behandlung über mehr als 4 Wochen dauert.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Regelmässige Beurteilung erforderlich, insbesondere nach 4 Wochen Behandlung.",
+          "einfach": "Arzt muss es regelmässig überprüfen, besonders nach 4 Wochen."
+        },
+        "mittel": {
+          "default": "Die Behandlung muss in regelmässigen Abständen neu beurteilt werden, insbesondere wenn die Behandlung über mehr als 4 Wochen dauert.",
+          "einfach": "Der Arzt oder die Ärztin muss regelmässig überprüfen, wie die Behandlung wirkt, besonders wenn sie länger als 4 Wochen dauert."
+        },
+        "lang": {
+          "default": "Wenn Sie an einer Herzkrankheit leiden oder wesentliche Risiken für eine Herzkrankheit haben, wird Ihr Arzt bzw. Ihre Ärztin die Fortsetzung der Behandlung mit Olfen in regelmässigen Abständen neu beurteilen, insbesondere wenn die Behandlung über mehr als 4 Wochen dauert.",
+          "einfach": "Wenn Sie an einer Herzkrankheit leiden oder wesentliche Risiken für eine Herzkrankheit haben, wird Ihr Arzt bzw. Ihre Ärztin die Fortsetzung der Behandlung mit Olfen in regelmässigen Abständen neu beurteilen, insbesondere wenn die Behandlung über mehr als 4 Wochen dauert."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "kann die Reaktionsfähigkeit, Fahrtüchtigkeit und Fähigkeit, Werkzeuge oder Maschinen zu bedienen, beeinträchtigen",
+        "population": null,
+        "condition": null,
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Dieses Arzneimittel kann die Reaktionsfähigkeit, die Fahrtüchtigkeit und Fähigkeit, Werkzeuge oder Maschinen zu bedienen, beeinträchtigen!",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Kann Reaktionsfähigkeit, Fahrtüchtigkeit und Maschinenbedienung beeinträchtigen.",
+          "einfach": "Kann Konzentration schwächen: Vorsicht beim Autofahren und mit Maschinen."
+        },
+        "mittel": {
+          "default": "Das Medikament kann die Reaktionsfähigkeit, Fahrtüchtigkeit und Fähigkeit zum Bedienen von Maschinen beeinträchtigen.",
+          "einfach": "Das Mittel kann Ihre Konzentration und Reaktion verschlechtern. Seien Sie vorsichtig beim Autofahren und mit Maschinen."
+        },
+        "lang": {
+          "default": "Dieses Arzneimittel kann die Reaktionsfähigkeit, die Fahrtüchtigkeit und Fähigkeit, Werkzeuge oder Maschinen zu bedienen, beeinträchtigen!",
+          "einfach": "Dieses Arzneimittel kann Ihre Reaktionsfähigkeit, Fahrtüchtigkeit und Fähigkeit, Werkzeuge oder Maschinen zu bedienen, beeinträchtigen."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "Schmerzen im Brustkorb können ein Anzeichen für möglicherweise schwere allergische Reaktion (Kounis-Syndrom) sein",
+        "population": null,
+        "condition": null,
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Bei der Anwendung von nichtsteroidalen Antirheumatika (NSAR), zu denen auch Olfen retard gehört, wurde über Schmerzen im Brustkorb berichtet, die ein Anzeichen für eine möglicherweise schwere allergische Reaktion sein können, die Kounis-Syndrom genannt wird.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Brustschmerzen können Anzeichen schwerer allergischer Reaktion sein.",
+          "einfach": "Brustschmerz kann schwere Allergie sein."
+        },
+        "mittel": {
+          "default": "Brustschmerzen können ein Anzeichen für eine möglicherweise schwere allergische Reaktion (Kounis-Syndrom) sein und erfordern sofortige medizinische Aufmerksamkeit.",
+          "einfach": "Brustschmerzen können eine sehr schwere allergische Reaktion anzeigen, die sofort behandelt werden muss."
+        },
+        "lang": {
+          "default": "Bei der Anwendung von nichtsteroidalen Antirheumatika (NSAR), zu denen auch Olfen retard gehört, wurde über Schmerzen im Brustkorb berichtet, die ein Anzeichen für eine möglicherweise schwere allergische Reaktion sein können, die Kounis-Syndrom genannt wird.",
+          "einfach": "Bei der Anwendung von nichtsteroidalen Antirheumatika (NSAR), zu denen auch Olfen retard gehört, wurde über Schmerzen im Brustkorb berichtet, die ein Anzeichen für eine möglicherweise schwere allergische Reaktion sein können, die Kounis-Syndrom genannt wird."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "Arzt informieren vor Einnahme",
+        "population": "Patienten mit Asthma, Heuschnupfen (saisonale allergische Rhinitis), Leber- oder Nierenproblemen, Blutgerinnungsstörungen oder Porphyrie",
+        "condition": "falls einer dieser Zustände zutrifft",
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Ferner ist besondere Vorsicht angezeigt, wenn Sie Olfen retard gleichzeitig mit anderen entzündungshemmenden Arzneimitteln (wie Acetylsalicylsäure, Kortikosteroide), «Blutverdünner» oder Serotonin-Wiederaufnahmehemmer (SSRI's) (Arzneimittel gegen Depression) einnehmen, wenn Sie Asthma, Heuschnupfen (saisonale allergische Rhinitis), Leber- oder Nierenprobleme, Blutgerinnungsstörungen haben, oder andere Schwierigkeiten mit dem Blut, einschliesslich ein seltenes Leberproblem bekannt als Porphyrie. Wenn einer dieser Zustände zutrifft, informieren Sie Ihren Arzt bzw. Ihre Ärztin bevor Sie Olfen retard einnehmen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Arzt informieren bei Asthma, Heuschnupfen, Leber-/Nierenprobleme, Blutgerinnungsstörungen, Porphyrie.",
+          "einfach": "Arzt informieren bei Asthma, Allergie, Leber-, Nierenproblemen, Blutproblemen."
+        },
+        "mittel": {
+          "default": "Informieren Sie den Arzt oder die Ärztin vor Beginn der Behandlung, falls Sie Asthma, Heuschnupfen, Leber- oder Nierenprobleme, Blutgerinnungsstörungen oder das seltene Leberproblem Porphyrie haben.",
+          "einfach": "Teilen Sie Ihrem Arzt mit, wenn Sie Asthma, allergischen Schnupfen, Leber- oder Nierenproblemen oder Blutprobleme haben."
+        },
+        "lang": {
+          "default": "Ferner ist besondere Vorsicht angezeigt, wenn Sie Olfen retard gleichzeitig mit anderen entzündungshemmenden Arzneimitteln (wie Acetylsalicylsäure, Kortikosteroide), «Blutverdünner» oder Serotonin-Wiederaufnahmehemmer (SSRI's) (Arzneimittel gegen Depression) einnehmen, wenn Sie Asthma, Heuschnupfen (saisonale allergische Rhinitis), Leber- oder Nierenprobleme, Blutgerinnungsstörungen haben, oder andere Schwierigkeiten mit dem Blut, einschliesslich ein seltenes Leberproblem bekannt als Porphyrie. Wenn einer dieser Zustände zutrifft, informieren Sie Ihren Arzt bzw. Ihre Ärztin bevor Sie Olfen retard einnehmen.",
+          "einfach": "Ferner ist besondere Vorsicht angezeigt, wenn Sie Asthma, Heuschnupfen (saisonale allergische Rhinitis), Leber- oder Nierenprobleme, Blutgerinnungsstörungen haben, oder andere Schwierigkeiten mit dem Blut, einschliesslich ein seltenes Leberproblem bekannt als Porphyrie. Wenn einer dieser Zustände zutrifft, informieren Sie Ihren Arzt bzw. Ihre Ärztin bevor Sie Olfen retard einnehmen."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "kann Symptome einer Infektion verschleiern",
+        "population": null,
+        "condition": null,
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Olfen retard kann die Anzeichen einer Infektion (z.B.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Kann Symptome einer Infektion verschleiern.",
+          "einfach": "Kann verstecken, dass Sie eine Infektion haben."
+        },
+        "mittel": {
+          "default": "Das Mittel kann die Anzeichen einer Infektion verbergen, was die Diagnose erschwert.",
+          "einfach": "Das Medikament kann verstecken, dass Sie krank sind oder eine Infektion haben."
+        },
+        "lang": {
+          "default": "Olfen retard kann die Anzeichen einer Infektion (z.B.",
+          "einfach": "Olfen retard kann die Anzeichen einer Infektion (z.B. verschleiern."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "kann schwerwiegende Hautreaktionen auslösen",
+        "population": null,
+        "condition": null,
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Im Zusammenhang mit der Behandlung mit nicht-steroidaler Antirheumatika wurden schwerwiegende Hautreaktionen berichtet.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Kann schwerwiegende Hautreaktionen auslösen.",
+          "einfach": "Kann schwere Hautreaktionen auslösen."
+        },
+        "mittel": {
+          "default": "Bei Einnahme wurden schwerwiegende Hautreaktionen berichtet.",
+          "einfach": "Das Medikament kann schwere Hautprobleme verursachen."
+        },
+        "lang": {
+          "default": "Im Zusammenhang mit der Behandlung mit nicht-steroidaler Antirheumatika wurden schwerwiegende Hautreaktionen berichtet.",
+          "einfach": "Im Zusammenhang mit der Behandlung mit nicht-steroidaler Antirheumatika wurden schwerwiegende Hautreaktionen berichtet."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "höchstes Risiko für Hautreaktionen besteht zu Beginn der Therapie",
+        "population": null,
+        "condition": null,
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Das höchste Risiko für derartige Reaktionen scheint zu Beginn der Therapie zu bestehen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Höchstes Risiko für Hautreaktionen zu Therapiebeginn.",
+          "einfach": "Hautreaktionen sind am Anfang am wahrscheinlichsten."
+        },
+        "mittel": {
+          "default": "Das Risiko für Hautreaktionen ist am höchsten zu Beginn der Therapie.",
+          "einfach": "Am meisten Hautprobleme treten am Anfang der Behandlung auf."
+        },
+        "lang": {
+          "default": "Das höchste Risiko für derartige Reaktionen scheint zu Beginn der Therapie zu bestehen.",
+          "einfach": "Das höchste Risiko für derartige Reaktionen scheint zu Beginn der Therapie zu bestehen."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "Wechselwirkungen mit anderen Arzneimitteln (andere entzündungshemmende Mittel wie Acetylsalicylsäure oder Kortikosteroide, Blutverdünner, Serotonin-Wiederaufnahmehemmer/SSRI)",
+        "population": null,
+        "condition": "bei gleichzeitiger Einnahme",
+        "modality": "drug_interaction",
+        "negation": false,
+        "source_span": "Ferner ist besondere Vorsicht angezeigt, wenn Sie Olfen retard gleichzeitig mit anderen entzündungshemmenden Arzneimitteln (wie Acetylsalicylsäure, Kortikosteroide), «Blutverdünner» oder Serotonin-Wiederaufnahmehemmer (SSRI's) (Arzneimittel gegen Depression) einnehmen",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Wechselwirkungen mit anderen entzündungshemmenden Mitteln, Blutverdünnern, SSRI möglich.",
+          "einfach": "Vorsicht mit anderen Schmerzmitteln, Blutverdünnern, Antidepressiva."
+        },
+        "mittel": {
+          "default": "Besondere Vorsicht ist erforderlich bei gleichzeitiger Einnahme anderer entzündungshemmender Mittel wie Acetylsalicylsäure oder Kortikosteroide, von Blutverdünnern oder Serotonin-Wiederaufnahmehemmern (SSRI) gegen Depression.",
+          "einfach": "Wenn Sie andere Schmerzmittel, Mittel zum Blutdünnmachen oder Antidepressiva nehmen, ist Vorsicht nötig."
+        },
+        "lang": {
+          "default": "Ferner ist besondere Vorsicht angezeigt, wenn Sie Olfen retard gleichzeitig mit anderen entzündungshemmenden Arzneimitteln (wie Acetylsalicylsäure, Kortikosteroide), «Blutverdünner» oder Serotonin-Wiederaufnahmehemmer (SSRI's) (Arzneimittel gegen Depression) einnehmen",
+          "einfach": "Ferner ist besondere Vorsicht angezeigt, wenn Sie Olfen retard gleichzeitig mit anderen entzündungshemmenden Arzneimitteln (wie Acetylsalicylsäure, Kortikosteroide), «Blutverdünner» oder Serotonin-Wiederaufnahmehemmer (SSRI's) (Arzneimittel gegen Depression) einnehmen."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "Arzt oder Apotheker informieren bei Mehrmedikation und speziellen Wechselwirkungen",
+        "population": null,
+        "condition": "bei Einnahme von Lithium, SSRIs, Digoxin, Diuretika, ACE-Hemmern, Betablockern, anderen NSAIDs, Kortikosteroiden, Antikoagulanzien, Antidiabetika (ausgenommen Insulin), Methotrexat, Ciclosporin, Tacrolimus, Trimethoprim, Chinolon-Antibiotika, Voriconazol, Phenytoin oder Rifampicin",
+        "modality": "drug_interaction",
+        "negation": false,
+        "source_span": "Informieren Sie Ihren Arzt oder Apotheker bzw. Ihre Ärztin oder Apothekerin, wenn Sie ... andere Arzneimittel (auch selbstgekaufte!) einnehmen oder äusserlich anwenden! insbesondere, wenn Sie folgende Arzneimittel einnehmen: Lithium oder Serotonin-Wiederaufnahmehemmer (SSRI's) (zur Behandlung von Depressionen), Digoxin (bei Herzproblemen), Diuretika (zur Erhöhung der Harnausscheidung), ACE-Hemmer oder Betablocker (gegen Bluthochdruck und Herzprobleme), andere entzündungshemmende Arzneimittel wie Acetylsalicylsäure oder Ibuprofen, Kortikosteroide, gerinnungshemmende Arzneimittel (Antikoagulantien), Arzneimittel (z.B. Metformin) zur Behandlung von Diabetes ausgenommen Insulin, Methotrexat (bei Arthritis und Krebserkrankung), Ciclosporin oder Tacrolimus (bei Organtransplantation), Trimethoprim (bei Harnwegsinfektionen), Chinolon-Antibiotika (einige Arzneimittel gegen Infektionen), Voriconazol (ein Arzneimittel zur Behandlung von Pilzinfektion) oder Phenytoin (ein Arzneimittel zur Behandlung von epileptischen Anfällen), Rifampicin (Antibiotikum zur Behandlung von bakteriellen Infektionen).",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Arzt/Apotheker informieren bei Lithium, SSRI, Digoxin, Diuretika, ACE-Hemmern, Betablockern, NSAID, Kortikosteroiden, Antikoagulanzien, Antidiabetika, Methotrexat, Ciclosporin, Tacrolimus, Trimethoprim, Chinolon-Antibiotika, Voriconazol, Phenytoin, Rifampicin.",
+          "einfach": "Arzt/Apotheker sagen: Lithium, Antidepressiva, Herzmedikament, Wassertabletten, Blutdrucksenker, Blutdünner, Diabetesmedikament, Krebs-, Transplantations-, Infektionsmedikament."
+        },
+        "mittel": {
+          "default": "Informieren Sie Arzt oder Apotheker vor Einnahme, insbesondere wenn Sie Lithium, Serotonin-Wiederaufnahmehemmer gegen Depression, Digoxin gegen Herzprobleme, Diuretika, ACE-Hemmer oder Betablocker gegen Bluthochdruck, andere entzündungshemmende Mittel, Kortikosteroide, Blutverdünner, Diabetesmedikamente (ausser Insulin), Methotrexat, Ciclosporin oder Tacrolimus, Trimethoprim, Chinolon-Antibiotika, Voriconazol gegen Pilzinfektion oder Phenytoin gegen Anfallserkrankungen oder Rifampicin gegen bakterielle Infektionen nehmen.",
+          "einfach": "Sagen Sie dem Arzt oder Apotheker, wenn Sie andere Medikamente nehmen. Das ist wichtig bei: Lithium, Antidepressiva, Herzmedikamenten, Wassertabletten, Blutdruckmedikamenten, Blutdünnern, Diabetesmedikamenten, Krebs- oder Transplantationsmedikamenten, Infektionsmedikamenten."
+        },
+        "lang": {
+          "default": "Informieren Sie Ihren Arzt oder Apotheker bzw. Ihre Ärztin oder Apothekerin, wenn Sie ... andere Arzneimittel (auch selbstgekaufte!) einnehmen oder äusserlich anwenden! insbesondere, wenn Sie folgende Arzneimittel einnehmen: Lithium oder Serotonin-Wiederaufnahmehemmer (SSRI's) (zur Behandlung von Depressionen), Digoxin (bei Herzproblemen), Diuretika (zur Erhöhung der Harnausscheidung), ACE-Hemmer oder Betablocker (gegen Bluthochdruck und Herzprobleme), andere entzündungshemmende Arzneimittel wie Acetylsalicylsäure oder Ibuprofen, Kortikosteroide, gerinnungshemmende Arzneimittel (Antikoagulantien), Arzneimittel (z.B. Metformin) zur Behandlung von Diabetes ausgenommen Insulin, Methotrexat (bei Arthritis und Krebserkrankung), Ciclosporin oder Tacrolimus (bei Organtransplantation), Trimethoprim (bei Harnwegsinfektionen), Chinolon-Antibiotika (einige Arzneimittel gegen Infektionen), Voriconazol (ein Arzneimittel zur Behandlung von Pilzinfektion) oder Phenytoin (ein Arzneimittel zur Behandlung von epileptischen Anfällen), Rifampicin (Antibiotikum zur Behandlung von bakteriellen Infektionen).",
+          "einfach": "Informieren Sie Ihren Arzt oder Apotheker bzw. Ihre Ärztin oder Apothekerin, wenn Sie andere Arzneimittel (auch selbstgekaufte!) einnehmen oder äusserlich anwenden! insbesondere, wenn Sie folgende Arzneimittel einnehmen: Lithium oder Serotonin-Wiederaufnahmehemmer (SSRI's) (zur Behandlung von Depressionen), Digoxin (bei Herzproblemen), Diuretika (zur Erhöhung der Harnausscheidung), ACE-Hemmer oder Betablocker (gegen Bluthochdruck und Herzprobleme), andere entzündungshemmende Arzneimittel wie Acetylsalicylsäure oder Ibuprofen, Kortikosteroide, gerinnungshemmende Arzneimittel (Antikoagulantien), Arzneimittel (z.B. Metformin) zur Behandlung von Diabetes ausgenommen Insulin, Methotrexat (bei Arthritis und Krebserkrankung), Ciclosporin oder Tacrolimus (bei Organtransplantation), Trimethoprim (bei Harnwegsinfektionen), Chinolon-Antibiotika (einige Arzneimittel gegen Infektionen), Voriconazol (ein Arzneimittel zur Behandlung von Pilzinfektion) oder Phenytoin (ein Arzneimittel zur Behandlung von epileptischen Anfällen), Rifampicin (Antibiotikum zur Behandlung von bakteriellen Infektionen)."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "können Schleimhautgeschwüre, Blutungen oder Perforationen (Magen-, Darmdurchbrüche) im oberen Magen-Darm-Trakt auftreten",
+        "population": null,
+        "condition": "während der Behandlung",
+        "modality": "side_effect",
+        "negation": false,
+        "source_span": "Während der Behandlung mit Olfen retard können im oberen Magen-Darm-Trakt Schleimhautgeschwüre, selten Blutungen oder in Einzelfällen Perforationen (Magen-, Darmdurchbrüche) auftreten.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Schleimhautgeschwüre, Blutungen oder Darmdurchbrüche möglich.",
+          "einfach": "Magenschäden möglich."
+        },
+        "mittel": {
+          "default": "Im oberen Magen-Darm-Bereich können Schleimhautgeschwüre auftreten, in seltenen Fällen auch Blutungen oder sogar Darmdurchbrüche.",
+          "einfach": "Der Magen oder Darm können geschädigt werden. Es können auch Blutungen vorkommen."
+        },
+        "lang": {
+          "default": "Während der Behandlung mit Olfen retard können im oberen Magen-Darm-Trakt Schleimhautgeschwüre, selten Blutungen oder in Einzelfällen Perforationen (Magen-, Darmdurchbrüche) auftreten.",
+          "einfach": "Während der Behandlung können im oberen Magen-Darm-Bereich Schleimhautgeschwüre auftreten, selten auch Blutungen oder in Einzelfällen Durchbrüche im Magen oder Darm."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "können in sehr seltenen Fällen schwerwiegende Hautreaktionen auslösen (Hautausschlag u.ä.)",
+        "population": null,
+        "condition": null,
+        "modality": "side_effect",
+        "negation": false,
+        "source_span": "In sehr seltenen Fällen können Entzündungshemmer (einschliesslich Olfen) schwerwiegende Hautreaktionen (z.B. Hautausschlag) auslösen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Sehr selten: schwerwiegende Hautreaktionen möglich (Hautausschlag u.ä.).",
+          "einfach": "Sehr selten: schwere Hautreaktionen (Ausschlag usw.)."
+        },
+        "mittel": {
+          "default": "In sehr seltenen Fällen können Entzündungshemmer wie Olfen schwerwiegende Hautreaktionen wie Ausschläge auslösen.",
+          "einfach": "Sehr selten können schwere Hautreaktionen auftreten, zum Beispiel Ausschlag."
+        },
+        "lang": {
+          "default": "In sehr seltenen Fällen können Entzündungshemmer (einschliesslich Olfen) schwerwiegende Hautreaktionen (z.B. Hautausschlag) auslösen.",
+          "einfach": "In sehr seltenen Fällen können Entzündungshemmer (einschließlich Olfen) schwerwiegende Hautreaktionen auslösen, zum Beispiel Hautausschlag."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "Arzt konsultieren bei Magenschmerzen mit Verdacht auf Zusammenhang mit dem Arzneimittel",
+        "population": null,
+        "condition": "bei Magenschmerzen mit Verdacht auf Zusammenhang mit der Einnahme",
+        "modality": "precaution",
+        "negation": false,
+        "source_span": "Wenden Sie sich an Ihren Arzt oder Ihre Ärztin, wenn Sie Magenschmerzen haben und einen Zusammenhang mit der Einnahme des Arzneimittels vermuten.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei Magenschmerzen mit Verdacht auf Zusammenhang mit Mittel: Arzt konsultieren.",
+          "einfach": "Magenschmerzen? Arzt fragen."
+        },
+        "mittel": {
+          "default": "Konsultieren Sie Ihren Arzt, falls Sie Magenschmerzen entwickeln und diese mit dem Mittel zusammenhängen könnten.",
+          "einfach": "Wenn du Magenschmerzen hast, die vom Mittel kommen könnten, frag deinen Arzt."
+        },
+        "lang": {
+          "default": "Wenden Sie sich an Ihren Arzt oder Ihre Ärztin, wenn Sie Magenschmerzen haben und einen Zusammenhang mit der Einnahme des Arzneimittels vermuten.",
+          "einfach": "Wenden Sie sich an Ihren Arzt oder Ihre Ärztin, wenn Sie Magenschmerzen haben und vermuten, dass diese mit der Einnahme des Arzneimittels zusammenhängen."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "Arzt muss entscheiden über Anwendbarkeit bei kardiovaskulärer Vorgeschichte oder Risikofaktoren",
+        "population": "Patienten mit früherer Herzinfarkt-, Schlaganfall- oder Thromboseereignis oder mit Risikofaktoren (hoher Blutdruck, Diabetes, hohe Blutfettwerte, Rauchen)",
+        "condition": null,
+        "modality": "precaution",
+        "negation": false,
+        "source_span": "Falls Sie bereits einen Herzinfarkt, Schlaganfall oder eine Venenthrombose hatten, oder falls Sie Risikofaktoren haben wie hoher Blutdruck, Diabetes (Zuckerkrankheit), hohe Blutfettwerte, Rauchen, wird Ihr Arzt oder Ihre Ärztin entscheiden, ob Sie Olfen retard trotzdem anwenden können. Informieren Sie in jedem Fall Ihren Arzt oder Ihre Ärztin darüber.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Arzt muss Anwendbarkeit bei Herzinfarkt-, Schlaganfall-/Thrombose-Vorgeschichte oder Risikofaktoren entscheiden.",
+          "einfach": "Arzt entscheidet: frühere Herzinfarkt/Schlaganfall/Blutgerinnsel oder Risikofaktoren?"
+        },
+        "mittel": {
+          "default": "Wenn Sie einen früheren Herzinfarkt, Schlaganfall oder eine Venenthrombose hatten oder Risikofaktoren wie Bluthochdruck, Diabetes, hohe Blutfettwerte oder Rauchen haben, muss Ihr Arzt entscheiden, ob Olfen retard für Sie geeignet ist. Informieren Sie ihn auf jeden Fall darüber.",
+          "einfach": "Wenn Sie schon mal einen Herzinfarkt, Schlaganfall oder Blutgerinnsel hatten oder hohen Blutdruck, Diabetes, hohe Blutfette oder Sie rauchen: Ihr Arzt entscheidet, ob Sie das Mittel nehmen können. Sagen Sie ihm alles."
+        },
+        "lang": {
+          "default": "Falls Sie bereits einen Herzinfarkt, Schlaganfall oder eine Venenthrombose hatten, oder falls Sie Risikofaktoren haben wie hoher Blutdruck, Diabetes (Zuckerkrankheit), hohe Blutfettwerte, Rauchen, wird Ihr Arzt oder Ihre Ärztin entscheiden, ob Sie Olfen retard trotzdem anwenden können. Informieren Sie in jedem Fall Ihren Arzt oder Ihre Ärztin darüber.",
+          "einfach": "Falls Sie bereits einen Herzinfarkt, Schlaganfall oder eine Venenthrombose hatten, oder falls Sie Risikofaktoren haben wie hoher Blutdruck, Diabetes (Zuckerkrankheit), hohe Blutfettwerte oder Rauchen: Ihr Arzt oder Ihre Ärztin entscheidet, ob Sie Olfen retard trotzdem nehmen können. Informieren Sie ihn oder sie auf jeden Fall darüber."
+        }
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "blockiert die Synthese von Prostaglandinen, die verantwortlich sind für Entzündung, Schmerz und Fieber",
+        "population": null,
+        "condition": null,
+        "modality": "info",
+        "negation": false,
+        "source_span": "Die Einnahme von Olfen retard kann von den Symptomen einer Entzündung wie Schmerz und Schwellung befreien, indem es die Synthese der Moleküle (Prostaglandine) blockiert, welche verantwortlich sind für Entzündung, Schmerz und Fieber.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Blockiert Prostaglandin-Synthese, verantwortlich für Entzündung, Schmerz und Fieber.",
+          "einfach": "Stoppt Stoffe, die Entzündung, Schmerz und Fieber verursachen."
+        },
+        "mittel": {
+          "default": "Olfen retard lindert Symptome wie Schmerz und Schwellung, indem es die Synthese von Prostaglandinen blockiert – Moleküle, die Entzündung, Schmerz und Fieber verursachen.",
+          "einfach": "Das Mittel bekämpft Schmerz und Schwellung, indem es bestimmte Stoffe blockiert, die Entzündungen und Fieber verursachen."
+        },
+        "lang": {
+          "default": "Die Einnahme von Olfen retard kann von den Symptomen einer Entzündung wie Schmerz und Schwellung befreien, indem es die Synthese der Moleküle (Prostaglandine) blockiert, welche verantwortlich sind für Entzündung, Schmerz und Fieber.",
+          "einfach": "Die Einnahme von Olfen retard kann von den Symptomen einer Entzündung wie Schmerz und Schwellung befreien, indem es die Synthese der Moleküle (Prostaglandine) blockiert, welche verantwortlich sind für Entzündung, Schmerz und Fieber."
+        }
+      }
+    ]
+  }
+}

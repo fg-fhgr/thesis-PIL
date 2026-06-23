@@ -1,0 +1,1117 @@
+{
+  "cache_key": "v22_transform_Irfen Filmtabletten|{\"altersgruppe\": \"ab 18 Jahren\", \"schwangerschaft\": \"Nein\"}",
+  "buckets": {
+    "wofuer": [
+      {
+        "bucket": "wofuer",
+        "lese_prioritaet": 1,
+        "claim": "wirkt schmerzstillend, entzündungshemmend und fiebersenkend",
+        "population": null,
+        "condition": null,
+        "modality": "indication",
+        "negation": false,
+        "source_span": "Irfen enthält den Wirkstoff Ibuprofen, mit den für die wirksame Behandlung rheumatischer Krankheiten erforderlichen schmerzstillenden, entzündungshemmenden und fiebersenkenden Eigenschaften.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Wirkt schmerzstillend, entzündungshemmend und fiebersenkend.",
+          "einfach": "Lindert Schmerzen, hemmt Entzündungen, senkt Fieber."
+        },
+        "mittel": {
+          "default": "Der Wirkstoff Ibuprofen hat schmerzstillende, entzündungshemmende und fiebersenkende Eigenschaften.",
+          "einfach": "Das Mittel lindert Schmerzen, hemmt Entzündungen und senkt Fieber."
+        },
+        "lang": {
+          "default": "Irfen enthält den Wirkstoff Ibuprofen, mit den für die wirksame Behandlung rheumatischer Krankheiten erforderlichen schmerzstillenden, entzündungshemmenden und fiebersenkenden Eigenschaften.",
+          "einfach": "Irfen enthält den Stoff Ibuprofen. Dieser Stoff kann Schmerzen lindern, Entzündungen hemmen und Fieber senken. Diese Wirkungen sind wichtig für die Behandlung von rheumatischen Krankheiten."
+        },
+        "icon_slug": "for-headache"
+      },
+      {
+        "bucket": "wofuer",
+        "lese_prioritaet": 1,
+        "claim": "zur Behandlung von Schmerz und Entzündung bei rheumatischen Erkrankungen (Arthrosen, Arthritis, Rückenschmerzen, Entzündung der Gelenkkapseln, Muskeln oder Sehnen) sowie Verstauchungen und Zerrungen (Sportverletzungen)",
+        "population": null,
+        "condition": null,
+        "modality": "indication",
+        "negation": false,
+        "source_span": "Irfen wird angewendet zur Behandlung von Schmerz und Entzündung bei rheumatischen Erkrankungen wie Arthrosen, Arthritis, Rückenschmerzen, Entzündung der Gelenkkapseln, Muskeln oder Sehnen; Verstauchungen, Zerrungen (Sportverletzungen).",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei Gelenk-, Muskel- und Sehnenentzündungen, Rückenschmerzen, Sportverletzungen.",
+          "einfach": "Bei Gelenk-, Muskel- und Sehnenentzündungen, Rückenschmerzen, Sportverletzungen."
+        },
+        "mittel": {
+          "default": "Hilft bei Schmerz und Entzündung bei rheumatischen Erkrankungen wie Arthrosen, Arthritis, Rückenschmerzen, Entzündungen der Gelenkkapseln, Muskeln oder Sehnen, sowie bei Verstauchungen und Zerrungen.",
+          "einfach": "Hilft bei Schmerzen und Entzündungen bei Gelenkkrankheiten, Arthritis, Rückenschmerzen und Entzündungen von Muskeln und Sehnen. Auch bei Verstauchungen und Zerrungen von Sportverletzungen."
+        },
+        "lang": {
+          "default": "Irfen wird angewendet zur Behandlung von Schmerz und Entzündung bei rheumatischen Erkrankungen wie Arthrosen, Arthritis, Rückenschmerzen, Entzündung der Gelenkkapseln, Muskeln oder Sehnen; Verstauchungen, Zerrungen (Sportverletzungen).",
+          "einfach": "Irfen wird verwendet bei Schmerzen und Entzündungen, wenn man eine rheumatische Krankheit hat. Das sind Krankheiten wie Arthrosen (Verschleiß der Gelenke), Arthritis (Entzündung der Gelenke), Rückenschmerzen oder Entzündungen der Gelenkkapseln, Muskeln oder Sehnen. Irfen hilft auch bei Verstauchungen und Zerrungen, zum Beispiel bei Sportverletzungen."
+        },
+        "icon_slug": "joints"
+      },
+      {
+        "bucket": "wofuer",
+        "lese_prioritaet": 1,
+        "claim": "zur Behandlung von rheumatischen Beschwerden und Sportverletzungen",
+        "population": null,
+        "condition": null,
+        "modality": "indication",
+        "negation": false,
+        "source_span": "Rheumatische Beschwerden, Sportverletzungen",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Gegen rheumatische Beschwerden und Sportverletzungen.",
+          "einfach": "Gegen rheumatische Beschwerden und Sportverletzungen."
+        },
+        "mittel": {
+          "default": "Das Mittel wird zur Behandlung von rheumatischen Beschwerden und Sportverletzungen eingesetzt.",
+          "einfach": "Das Mittel hilft bei rheumatischen Beschwerden und Sportverletzungen."
+        },
+        "lang": {
+          "default": "Rheumatische Beschwerden, Sportverletzungen",
+          "einfach": "Das Mittel wird gegen rheumatische Beschwerden und Sportverletzungen verwendet."
+        },
+        "icon_slug": "joints"
+      },
+      {
+        "bucket": "wofuer",
+        "lese_prioritaet": 2,
+        "claim": "kann bei Schmerzen nach zahnärztlichen Eingriffen, Zahnschmerzen, Menstruationsbeschwerden, Kopfschmerzen, Migräne sowie zur Fiebersenkung verordnet werden",
+        "population": null,
+        "condition": null,
+        "modality": "indication",
+        "negation": false,
+        "source_span": "Darüber hinaus kann Irfen bei Schmerzen nach zahnärztlichen Eingriffen, Zahnschmerzen, Menstruationsbeschwerden, bei Kopfschmerzen, Migräne sowie zur Fiebersenkung verordnet werden.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei Zahnschmerzen, Zahnbehandlungen, Menstruationsbeschwerden, Kopfschmerzen, Migräne, Fieber.",
+          "einfach": "Bei Zahnschmerzen, Zahnbehandlungen, Menstruationsbeschwerden, Kopfschmerzen, Migräne, Fieber."
+        },
+        "mittel": {
+          "default": "Wirksam auch bei Zahnschmerzen und Schmerzen nach zahnärztlichen Eingriffen, Menstruationsbeschwerden, Kopfschmerzen, Migräne und zur Fiebersenkung.",
+          "einfach": "Hilft auch bei Zahnschmerzen, Schmerzen nach Zahnarztbesuchen, Periodenbeschwerden, Kopfschmerzen, Migräne und wenn man Fieber hat."
+        },
+        "lang": {
+          "default": "Darüber hinaus kann Irfen bei Schmerzen nach zahnärztlichen Eingriffen, Zahnschmerzen, Menstruationsbeschwerden, bei Kopfschmerzen, Migräne sowie zur Fiebersenkung verordnet werden.",
+          "einfach": "Irfen kann auch bei vielen anderen Schmerzen und bei Fieber verwendet werden: bei Schmerzen nach zahnärztlichen Eingriffen (Zahnarztbehandlungen), bei Zahnschmerzen, bei Menstruationsbeschwerden (Periodenschmerzen), bei Kopfschmerzen, bei Migräne und um Fieber zu senken."
+        },
+        "icon_slug": "for-headache"
+      },
+      {
+        "bucket": "wofuer",
+        "lese_prioritaet": 2,
+        "claim": "schmerzlindernd und entzündungshemmend (NSAR mit dem Wirkstoff Ibuprofen)",
+        "population": null,
+        "condition": null,
+        "modality": "indication",
+        "negation": false,
+        "source_span": "Irfen Filmtabletten [enthält Ibuprofen, das schmerzlindernd und entzündungshemmend wirkt]",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Schmerzlindernd und entzündungshemmend (Ibuprofen-basiertes NSAR).",
+          "einfach": "Lindert Schmerzen und stoppt Entzündungen."
+        },
+        "mittel": {
+          "default": "Es wirkt schmerzlindernd und entzündungshemmend durch den Wirkstoff Ibuprofen.",
+          "einfach": "Der Wirkstoff Ibuprofen lindert Schmerzen und stoppt Entzündungen."
+        },
+        "lang": {
+          "default": "Irfen Filmtabletten [enthält Ibuprofen, das schmerzlindernd und entzündungshemmend wirkt]",
+          "einfach": "Irfen Filmtabletten enthalten Ibuprofen. Das wirkt schmerzlindernd und entzündungshemmend."
+        },
+        "icon_slug": "for-stomach-intestinal-problems"
+      }
+    ],
+    "nicht_nehmen": [
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 1,
+        "claim": "darf nicht eingenommen werden",
+        "population": "Personen mit Allergie auf Inhaltsstoffe des Medikaments oder mit dokumentierter Überempfindlichkeit gegen Acetylsalicylsäure oder andere NSAIDs",
+        "condition": "bei Atemnot, allergieähnlichen Hautreaktionen nach vorheriger Einnahme von Acetylsalicylsäure oder anderen nicht-steroidalen entzündungshemmenden Arzneimitteln",
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "Irfen darf nicht eingenommen werden, wenn Sie auf einen der Inhaltsstoffe allergisch reagieren oder nach der Einnahme von Acetylsalicylsäure oder anderen Schmerz- oder Rheumamitteln, sogenannten nicht-steroidalen entzündungshemmenden Arzneimitteln Atemnot, allergieähnliche Hautreaktionen hatten",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei Allergie gegen Ibuprofen oder Überempfindlichkeit gegen Acetylsalicylsäure/NSAIDs; bei früherer Atemnot oder allergieähnlichen Hautreaktionen.",
+          "einfach": "Bei Allergie gegen Ibuprofen oder ähnliche Schmerzmittel; bei früherer Atemnot oder Hautreaktionen."
+        },
+        "mittel": {
+          "default": "Nicht einzunehmen, wenn Sie auf Ibuprofen oder andere Inhaltstoffe allergisch reagieren oder nach Einnahme von Acetylsalicylsäure oder anderen NSAIDs Atemnot oder allergieähnliche Hautreaktionen hatten.",
+          "einfach": "Nicht nehmen, wenn Sie gegen Ibuprofen allergisch sind oder wenn Sie früher nach Schmerzmitteln Atemnot oder Hautausschlag bekommen haben."
+        },
+        "lang": {
+          "default": "Irfen darf nicht eingenommen werden, wenn Sie auf einen der Inhaltsstoffe allergisch reagieren oder nach der Einnahme von Acetylsalicylsäure oder anderen Schmerz- oder Rheumamitteln, sogenannten nicht-steroidalen entzündungshemmenden Arzneimitteln Atemnot, allergieähnliche Hautreaktionen hatten",
+          "einfach": "Irfen darf nicht genommen werden, wenn Sie auf einen der Stoffe in Irfen allergisch sind. Irfen darf auch nicht genommen werden, wenn Sie früher nach der Einnahme von Acetylsalicylsäure oder anderen Schmerz- oder Rheumamitteln (nicht-steroidale entzündungshemmende Arzneimittel) Atemnot bekommen haben oder allergieähnliche Hautreaktionen hatten."
+        },
+        "icon_slug": null
+      },
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 1,
+        "claim": "darf nicht eingenommen werden",
+        "population": "Personen mit aktiven oder wiederholt aufgetretenen Magen- und/oder Zwölffingerdarmgeschwüren oder Magen-/Darm-Blutungen",
+        "condition": null,
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "Irfen darf nicht eingenommen werden, bei aktiven oder in der Vergangenheit wiederholt aufgetretenen Magen- und/oder Zwölffingerdarmgeschwüren oder Magen-/Darm-Blutungen",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei aktiven oder wiederholt aufgetretenen Magen-/Zwölffingerdarmgeschwüren oder Magen-/Darm-Blutungen.",
+          "einfach": "Bei Magenbeschwerden, Magen- oder Darmgeschwüren, Darmblutungen."
+        },
+        "mittel": {
+          "default": "Nicht einzunehmen bei aktiven oder in der Vergangenheit wiederholt aufgetretenen Magen- und/oder Zwölffingerdarmgeschwüren oder Magen-/Darm-Blutungen.",
+          "einfach": "Nicht nehmen, wenn Sie jetzt oder früher Magen- oder Darmgeschwüre oder Blutungen im Magen oder Darm hatten."
+        },
+        "lang": {
+          "default": "Irfen darf nicht eingenommen werden, bei aktiven oder in der Vergangenheit wiederholt aufgetretenen Magen- und/oder Zwölffingerdarmgeschwüren oder Magen-/Darm-Blutungen",
+          "einfach": "Irfen darf nicht genommen werden, wenn Sie jetzt Magen- oder Zwölffingerdarmgeschwüre haben oder wenn Sie diese Geschwüre in der Vergangenheit mehrmals hatten. Irfen darf auch nicht genommen werden, wenn Sie Blutungen im Magen oder Darm hatten."
+        },
+        "icon_slug": null
+      },
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 2,
+        "claim": "darf nicht eingenommen werden",
+        "population": "Personen mit chronischen Darmentzündungen",
+        "condition": "bei Morbus Crohn oder Colitis ulzerosa",
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "Irfen darf nicht eingenommen werden, bei chronischen Darmentzündungen (Morbus Crohn, Colitis ulzerosa)",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei chronischen Darmentzündungen (Morbus Crohn, Colitis ulzerosa).",
+          "einfach": "Bei chronischen Darmentzündungen oder Morbus Crohn."
+        },
+        "mittel": {
+          "default": "Nicht einzunehmen bei chronischen Darmentzündungen wie Morbus Crohn oder Colitis ulzerosa.",
+          "einfach": "Nicht nehmen, wenn Sie eine chronische Darmentzündung haben, wie Morbus Crohn oder Colitis ulzerosa."
+        },
+        "lang": {
+          "default": "Irfen darf nicht eingenommen werden, bei chronischen Darmentzündungen (Morbus Crohn, Colitis ulzerosa)",
+          "einfach": "Irfen darf nicht genommen werden, wenn Sie eine chronische Darmentzündung haben. Chronische Darmentzündungen sind zum Beispiel Morbus Crohn oder Colitis ulzerosa."
+        },
+        "icon_slug": null
+      },
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 2,
+        "claim": "darf nicht eingenommen werden",
+        "population": "Personen mit erhöhter Neigung zu Blutungen",
+        "condition": null,
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "Irfen darf nicht eingenommen werden, bei erhöhter Neigung zu Blutungen",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei erhöhter Neigung zu Blutungen.",
+          "einfach": "Bei Blutungsneigung."
+        },
+        "mittel": {
+          "default": "Nicht einzunehmen bei erhöhter Neigung zu Blutungen.",
+          "einfach": "Nicht nehmen, wenn Sie leicht zu Blutungen neigen."
+        },
+        "lang": {
+          "default": "Irfen darf nicht eingenommen werden, bei erhöhter Neigung zu Blutungen",
+          "einfach": "Irfen darf nicht genommen werden, wenn Sie eine erhöhte Neigung zu Blutungen haben."
+        },
+        "icon_slug": null
+      },
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 2,
+        "claim": "darf nicht eingenommen werden",
+        "population": "Personen mit schwerer Einschränkung der Leber- oder Nierenfunktion",
+        "condition": null,
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "Irfen darf nicht eingenommen werden, bei schwerer Einschränkung der Leber- oder Nierenfunktion",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei schwerer Einschränkung der Leber- oder Nierenfunktion.",
+          "einfach": "Bei schweren Leber- oder Nierenproblemen."
+        },
+        "mittel": {
+          "default": "Nicht einzunehmen bei schwerer Einschränkung der Leber- oder Nierenfunktion.",
+          "einfach": "Nicht nehmen, wenn Ihre Leber oder Nieren stark beeinträchtigt sind."
+        },
+        "lang": {
+          "default": "Irfen darf nicht eingenommen werden, bei schwerer Einschränkung der Leber- oder Nierenfunktion",
+          "einfach": "Irfen darf nicht genommen werden, wenn Sie schwere Probleme mit der Leber oder den Nieren haben."
+        },
+        "icon_slug": null
+      },
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 2,
+        "claim": "darf nicht eingenommen werden",
+        "population": "Personen mit schwerer Herzleistungsschwäche",
+        "condition": null,
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "Irfen darf nicht eingenommen werden, bei schwerer Herzleistungsschwäche",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei schwerer Herzleistungsschwäche.",
+          "einfach": "Bei schwerer Herzschwäche."
+        },
+        "mittel": {
+          "default": "Nicht einzunehmen bei schwerer Herzleistungsschwäche.",
+          "einfach": "Nicht nehmen, wenn Sie an schwerer Herzschwäche leiden."
+        },
+        "lang": {
+          "default": "Irfen darf nicht eingenommen werden, bei schwerer Herzleistungsschwäche",
+          "einfach": "Irfen darf nicht genommen werden, wenn Sie eine schwere Herzleistungsschwäche haben, das heißt, wenn Ihr Herz nicht mehr richtig pumpt."
+        },
+        "icon_slug": null
+      },
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 2,
+        "claim": "darf nicht zur Behandlung von Schmerzen nach einer koronaren Bypassoperation am Herzen oder Einsatz einer Herz-Lungen-Maschine verwendet werden",
+        "population": null,
+        "condition": "nach koronarer Bypassoperation oder Einsatz einer Herz-Lungen-Maschine",
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "Irfen darf nicht eingenommen werden, zur Behandlung von Schmerzen nach einer koronaren Bypassoperation am Herzen (resp. Einsatz einer Herz-Lungen-Maschine)",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Nicht zur Schmerzbehandlung nach koronarer Bypassoperation oder Herz-Lungen-Maschine.",
+          "einfach": "Nicht nach Herz-Operation mit Bypassoperation oder Herz-Lungen-Maschine."
+        },
+        "mittel": {
+          "default": "Nicht zur Schmerzbehandlung nach einer koronaren Bypassoperation am Herzen oder nach dem Einsatz einer Herz-Lungen-Maschine.",
+          "einfach": "Nicht nehmen für Schmerzen, wenn Sie eine Herz-Operation mit Bypass oder Herz-Lungen-Maschine hatten."
+        },
+        "lang": {
+          "default": "Irfen darf nicht eingenommen werden, zur Behandlung von Schmerzen nach einer koronaren Bypassoperation am Herzen (resp. Einsatz einer Herz-Lungen-Maschine)",
+          "einfach": "Irfen darf nicht genommen werden, wenn Sie Schmerzen nach einer koronaren Bypassoperation am Herzen haben. Irfen darf auch nicht genommen werden, wenn Sie eine Herz-Lungen-Maschine bekommen haben und jetzt Schmerzen haben."
+        },
+        "icon_slug": "for-heart-problems"
+      },
+      {
+        "bucket": "nicht_nehmen",
+        "lese_prioritaet": 2,
+        "claim": "Anwendung in hohen Dosen nicht mehr empfohlen",
+        "population": "Personen mit vorangegangener Herzinfarkt-, Schlaganfall- oder Venenthrombose",
+        "condition": null,
+        "modality": "contraindication",
+        "negation": true,
+        "source_span": "Falls Sie bereits einen Herzinfarkt, Schlaganfall oder eine Venenthrombose hatten, wird die Anwendung von Irfen in hohen Dosen nicht mehr empfohlen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei früherer Herzinfarkt-, Schlaganfall- oder Venenthrombose: hohe Dosen nicht empfohlen.",
+          "einfach": "Mit früherer Herzinfarkt-, Schlaganfall- oder Blutgerinnsel: hohe Dosen nicht mehr."
+        },
+        "mittel": {
+          "default": "Wenn Sie bereits einen Herzinfarkt, Schlaganfall oder eine Venenthrombose hatten, wird die Anwendung in hohen Dosen nicht mehr empfohlen.",
+          "einfach": "Falls Sie früher einen Herzinfarkt, Schlaganfall oder ein Blutgerinnsel hatten, sollten Sie hohe Dosen nicht nehmen."
+        },
+        "lang": {
+          "default": "Falls Sie bereits einen Herzinfarkt, Schlaganfall oder eine Venenthrombose hatten, wird die Anwendung von Irfen in hohen Dosen nicht mehr empfohlen.",
+          "einfach": "Falls Sie bereits einen Herzinfarkt, Schlaganfall oder eine Venenthrombose (ein Blutgerinnsel in einer Vene) hatten, wird empfohlen, Irfen nicht in hohen Dosen zu nehmen."
+        },
+        "icon_slug": "alert"
+      }
+    ],
+    "dosierung": [
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 1,
+        "claim": "1200–1800 mg täglich (max. 2400 mg täglich), aufgeteilt in 3–4 Einzeldosen (z.B. 3–4 × täglich 1 Filmtablette à 400 mg oder 600 mg)",
+        "population": "Erwachsene",
+        "condition": "bei rheumatischen Beschwerden und Sportverletzungen",
+        "modality": "dosage_instruction",
+        "negation": false,
+        "source_span": "Wenn vom Arzt oder der Ärztin nicht anders verordnet, ist die folgende Dosierung empfohlen: Erwachsene Rheumatische Beschwerden, Sportverletzungen 1200–1800 mg Ibuprofen, höchstens 2400 mg täglich. Dies entspricht 3-4 mal täglich 1 Filmtablette Irfen 400 mg oder 3-4 mal täglich 1 Filmtablette Irfen 600 mg.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "1200–1800 mg täglich, max. 2400 mg in 3–4 Einzeldosen (z.B. 3–4 × 400 mg oder 600 mg).",
+          "einfach": "1200–1800 mg täglich, höchstens 2400 mg in 3–4 Dosen."
+        },
+        "mittel": {
+          "default": "Bei rheumatischen Beschwerden und Sportverletzungen wird eine tägliche Dosis von 1200–1800 mg Ibuprofen empfohlen, höchstens 2400 mg täglich. Diese wird auf 3–4 Einzeldosen verteilt (z.B. 3–4 × täglich 1 Filmtablette à 400 mg oder 600 mg).",
+          "einfach": "Bei Gelenkbeschwerden und Sportverletzungen nehmen Sie täglich 1200–1800 mg, höchstens aber 2400 mg. Das verteilen Sie auf 3–4 Dosen pro Tag (z.B. 3–4 × täglich 1 Filmtablette à 400 mg oder 600 mg)."
+        },
+        "lang": {
+          "default": "Wenn vom Arzt oder der Ärztin nicht anders verordnet, ist die folgende Dosierung empfohlen: Erwachsene Rheumatische Beschwerden, Sportverletzungen 1200–1800 mg Ibuprofen, höchstens 2400 mg täglich. Dies entspricht 3-4 mal täglich 1 Filmtablette Irfen 400 mg oder 3-4 mal täglich 1 Filmtablette Irfen 600 mg.",
+          "einfach": "Wenn der Arzt oder die Ärztin nicht anders verordnet, wird folgende Dosierung empfohlen: Bei rheumatischen Beschwerden und Sportverletzungen 1200–1800 mg Ibuprofen, höchstens 2400 mg täglich. Das entspricht 3–4 mal täglich 1 Filmtablette à 400 mg oder 600 mg."
+        },
+        "icon_slug": "take-3x-daily"
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 1,
+        "claim": "3–4 Filmtabletten täglich (1 Filmtablette je Dosis)",
+        "population": null,
+        "condition": "bei Dysmenorrhoe (Menstruationsschmerzen)",
+        "modality": "dosage_instruction",
+        "negation": false,
+        "source_span": "Dysmenorrhoe 3-4 mal täglich 1 Filmtablette Irfen 400 mg oder 600 mg.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "3–4 Filmtabletten täglich (1 pro Dosis) bei Menstruationsschmerzen.",
+          "einfach": "3–4 Tabletten täglich (1 pro Dosis) bei Periodenschmerzen."
+        },
+        "mittel": {
+          "default": "Bei Menstruationsschmerzen werden 3–4 Filmtabletten täglich eingenommen, jeweils 1 Tablette pro Dosis.",
+          "einfach": "Bei Periodenschmerzen nehmen Sie 3–4 Tabletten am Tag. Das sind 1 Tablette pro Dosis."
+        },
+        "lang": {
+          "default": "Dysmenorrhoe 3-4 mal täglich 1 Filmtablette Irfen 400 mg oder 600 mg.",
+          "einfach": "Bei Menstruationsschmerzen nehmen Sie 3- bis 4-mal täglich 1 Filmtablette Irfen 400 mg oder 600 mg."
+        },
+        "icon_slug": "take-4x-daily"
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 1,
+        "claim": "1 Filmtablette 400 mg alle 4–6 Stunden nach Bedarf einnehmen (max. 6 Filmtabletten 400 mg pro Tag); als erste Dosis optional 2 Filmtabletten 400 mg",
+        "population": null,
+        "condition": "bei Kopfschmerzen/Migräne",
+        "modality": "dosage_instruction",
+        "negation": false,
+        "source_span": "Kopfschmerzen/Migräne Bei Bedarf 1 Filmtablette Irfen 400 mg mit etwas Flüssigkeit alle 4-6 Stunden einnehmen, maximal 6 Filmtabletten Irfen 400 mg pro Tag. Als erste Dosis können auch 1x 2 Filmtabletten Irfen 400 mg genommen werden.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "1 Filmtablette 400 mg alle 4–6 Stunden; max. 6 täglich, erste Dosis optional 2.",
+          "einfach": "1 Tablette 400 mg alle 4–6 Stunden, höchstens 6 pro Tag."
+        },
+        "mittel": {
+          "default": "Bei Kopfschmerzen oder Migräne werden 1 Filmtablette 400 mg mit etwas Flüssigkeit alle 4–6 Stunden nach Bedarf eingenommen, maximal 6 Filmtabletten 400 mg pro Tag. Die erste Dosis kann optional auch 2 Filmtabletten 400 mg betragen.",
+          "einfach": "Bei Kopfschmerzen oder Migräne nehmen Sie wenn nötig 1 Tablette 400 mg mit etwas Wasser alle 4–6 Stunden. Höchstens 6 Tabletten pro Tag. Die erste Dosis kann auch 2 Tabletten sein."
+        },
+        "lang": {
+          "default": "Kopfschmerzen/Migräne Bei Bedarf 1 Filmtablette Irfen 400 mg mit etwas Flüssigkeit alle 4-6 Stunden einnehmen, maximal 6 Filmtabletten Irfen 400 mg pro Tag. Als erste Dosis können auch 1x 2 Filmtabletten Irfen 400 mg genommen werden.",
+          "einfach": "Bei Kopfschmerzen oder Migräne nehmen Sie wenn nötig 1 Filmtablette Irfen 400 mg mit etwas Flüssigkeit alle 4–6 Stunden. Höchstens 6 Filmtabletten Irfen 400 mg pro Tag. Als erste Dosis können Sie auch 2 Filmtabletten Irfen 400 mg nehmen."
+        },
+        "icon_slug": "take-4x-daily"
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 2,
+        "claim": "Filmtabletten zu 200 mg müssen ganz geschluckt werden",
+        "population": null,
+        "condition": null,
+        "modality": "dosage_instruction",
+        "negation": false,
+        "source_span": "Die Filmtabletten zu 200 mg sind ganz zu schlucken.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "200 mg-Filmtabletten müssen ganz geschluckt werden.",
+          "einfach": "200 mg-Tabletten ganz schlucken."
+        },
+        "mittel": {
+          "default": "Filmtabletten zu 200 mg müssen ganz geschluckt werden.",
+          "einfach": "Filmtabletten à 200 mg müssen Sie ganz schlucken."
+        },
+        "lang": {
+          "default": "Die Filmtabletten zu 200 mg sind ganz zu schlucken.",
+          "einfach": "Die Filmtabletten zu 200 mg sind ganz zu schlucken."
+        },
+        "icon_slug": "do-not-break-crush-or-open"
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 2,
+        "claim": "Filmtabletten zu 400 mg und 600 mg können ganz geschluckt oder geteilt werden (z.B. zur Halbierung der Dosis oder zur Erleichterung der Einnahme)",
+        "population": null,
+        "condition": null,
+        "modality": "dosage_instruction",
+        "negation": false,
+        "source_span": "Die Filmtabletten zu 400 mg und 600 mg können ganz geschluckt oder zur Halbierung der Dosis oder zur Erleichterung der Einnahme geteilt werden.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "400 mg und 600 mg-Filmtabletten können ganz geschluckt oder geteilt werden.",
+          "einfach": "400 mg und 600 mg-Tabletten können ganz oder geteilt werden."
+        },
+        "mittel": {
+          "default": "Filmtabletten zu 400 mg und 600 mg können ganz geschluckt oder zur Dosierungshalbierung bzw. Erleichterung der Einnahme geteilt werden.",
+          "einfach": "Filmtabletten à 400 mg und 600 mg können Sie ganz nehmen oder teilen – zum Halbieren der Dosis oder zur einfacheren Einnahme."
+        },
+        "lang": {
+          "default": "Die Filmtabletten zu 400 mg und 600 mg können ganz geschluckt oder zur Halbierung der Dosis oder zur Erleichterung der Einnahme geteilt werden.",
+          "einfach": "Die Filmtabletten zu 400 mg und 600 mg können ganz geschluckt oder zur Halbierung der Dosis oder zur Erleichterung der Einnahme geteilt werden."
+        },
+        "icon_slug": null
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 1,
+        "claim": "Dosierung wird vom Arzt oder der Ärztin gewichtsgerecht verschrieben",
+        "population": "Kinder und Jugendliche ab 6 Jahren",
+        "condition": null,
+        "modality": "dosage_adjustment",
+        "negation": false,
+        "source_span": "Bei Kindern wird der Arzt oder die Ärztin eine Dosis entsprechend dem Körpergewicht des Kindes verschreiben.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Dosierung wird gewichtsgerecht vom Arzt oder der Ärztin verschrieben.",
+          "einfach": "Der Arzt verschreibt die Dosis nach dem Körpergewicht."
+        },
+        "mittel": {
+          "default": "Die Dosierung wird vom Arzt oder der Ärztin entsprechend dem Körpergewicht festgelegt.",
+          "einfach": "Der Arzt oder die Ärztin bestimmt die richtige Menge nach dem Körpergewicht."
+        },
+        "lang": {
+          "default": "Bei Kindern wird der Arzt oder die Ärztin eine Dosis entsprechend dem Körpergewicht des Kindes verschreiben.",
+          "einfach": "Der Arzt oder die Ärztin werden eine Dosis verschreiben, die dem Körpergewicht des Kindes entspricht."
+        },
+        "icon_slug": "doctor"
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 2,
+        "claim": "nicht zerkaut, zerbrochen, zerdrückt oder gelutscht werden (ganz schlucken)",
+        "population": null,
+        "condition": null,
+        "modality": "dosage_instruction",
+        "negation": true,
+        "source_span": "Die Filmtabletten sollten nicht zerkaut, zerbrochen, zerdrückt oder gelutscht werden, um Mundbeschwerden und Irritationen im Rachen vorzubeugen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Ganz schlucken, nicht kauen, brechen, drücken oder lutschen.",
+          "einfach": "Ganz schlucken, nicht kauen oder brechen."
+        },
+        "mittel": {
+          "default": "Die Filmtabletten sollten ganz geschluckt werden, nicht gekaut, gebrochen, gedrückt oder gelutscht. Das verhindert Mundbeschwerden und Reizungen im Rachen.",
+          "einfach": "Schlucken Sie die Filmtabletten ganz. Kauen, brechen oder drücken Sie sie nicht. So vermeiden Sie Probleme im Mund und Rachen."
+        },
+        "lang": {
+          "default": "Die Filmtabletten sollten nicht zerkaut, zerbrochen, zerdrückt oder gelutscht werden, um Mundbeschwerden und Irritationen im Rachen vorzubeugen.",
+          "einfach": "Die Filmtabletten sollten nicht gekaut, gebrochen, gedrückt oder gelutscht werden, um Mundbeschwerden und Irritationen im Rachen vorzubeugen."
+        },
+        "icon_slug": "do-not-break-crush-or-open"
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 2,
+        "claim": "folgende Dosen nach der ersten Morgendosis zu oder nach den Mahlzeiten einnehmen",
+        "population": "Patienten die erste Dosis auf nüchternen Magen eingenommen haben",
+        "condition": "nach der Einnahme der ersten Dosis auf nüchternen Magen",
+        "modality": "dosage_instruction",
+        "negation": false,
+        "source_span": "Die folgenden Dosen sollten jeweils zu oder nach den Mahlzeiten eingenommen werden.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Folgedosen zu oder nach den Mahlzeiten einnehmen.",
+          "einfach": "Nach der ersten Dosis: zu oder nach dem Essen nehmen."
+        },
+        "mittel": {
+          "default": "Nach der ersten Morgendosis auf nüchternen Magen sollten alle weiteren Dosen zu oder nach den Mahlzeiten eingenommen werden.",
+          "einfach": "Die erste Dosis nehmen Sie auf leeren Magen. Die nächsten Dosen nehmen Sie dann zu oder nach dem Essen."
+        },
+        "lang": {
+          "default": "Die folgenden Dosen sollten jeweils zu oder nach den Mahlzeiten eingenommen werden.",
+          "einfach": "Die folgenden Dosen sollten jeweils zu oder nach den Mahlzeiten eingenommen werden."
+        },
+        "icon_slug": "take-with-meals"
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 2,
+        "claim": "mit etwas Flüssigkeit einnehmen",
+        "population": null,
+        "condition": "bei Kopfschmerzen/Migräne",
+        "modality": "dosage_instruction",
+        "negation": false,
+        "source_span": "Bei Bedarf 1 Filmtablette Irfen 400 mg mit etwas Flüssigkeit alle 4-6 Stunden einnehmen",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Mit etwas Flüssigkeit einnehmen.",
+          "einfach": "Mit etwas Wasser nehmen."
+        },
+        "mittel": {
+          "default": "Die Filmtablette sollte mit etwas Flüssigkeit eingenommen werden.",
+          "einfach": "Nehmen Sie die Tablette mit etwas Wasser oder einer anderen Flüssigkeit."
+        },
+        "lang": {
+          "default": "Bei Bedarf 1 Filmtablette Irfen 400 mg mit etwas Flüssigkeit alle 4-6 Stunden einnehmen",
+          "einfach": "Nehmen Sie 1 Filmtablette Irfen 400 mg mit etwas Flüssigkeit."
+        },
+        "icon_slug": "take-with-water"
+      },
+      {
+        "bucket": "dosierung",
+        "lese_prioritaet": 2,
+        "claim": "erste Dosis auf nüchternen Magen einnehmen (morgens vor dem Frühstück)",
+        "population": "Patienten mit steifen Gelenken am Morgen",
+        "condition": "wenn steife Gelenke das morgendliche Aufstehen behindern",
+        "modality": "dosage_adjustment",
+        "negation": false,
+        "source_span": "Wenn steife Gelenke Sie am morgendlichen Aufstehen behindern, können Sie die erste Dosis morgens auf nüchternen Magen einnehmen. Schmerz und Steifigkeit verschwinden dann rasch.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Erste Dosis morgens auf nüchternen Magen einnehmen bei steifen Gelenken.",
+          "einfach": "Erste Dosis morgens vor dem Essen nehmen bei steifen Gelenken."
+        },
+        "mittel": {
+          "default": "Wenn steife Gelenke das morgendliche Aufstehen behindern, können Sie die erste Dosis morgens auf nüchternen Magen einnehmen. Schmerz und Steifigkeit verschwinden dann rasch.",
+          "einfach": "Wenn Ihre Gelenke morgens steif sind, nehmen Sie die erste Dosis morgens auf leeren Magen. Dann gehen der Schmerz und die Steifigkeit schneller weg."
+        },
+        "lang": {
+          "default": "Wenn steife Gelenke Sie am morgendlichen Aufstehen behindern, können Sie die erste Dosis morgens auf nüchternen Magen einnehmen. Schmerz und Steifigkeit verschwinden dann rasch.",
+          "einfach": "Wenn steife Gelenke Sie am morgendlichen Aufstehen behindern, können Sie die erste Dosis morgens auf nüchternen Magen einnehmen. Schmerz und Steifigkeit verschwinden dann rasch."
+        },
+        "icon_slug": "take-morning"
+      }
+    ],
+    "beachten": [
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 1,
+        "claim": "können Schleimhautgeschwüre, Blutungen oder Perforationen im oberen Magen-Darm-Trakt verursachen",
+        "population": null,
+        "condition": "während der Behandlung mit Irfen",
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Während der Behandlung mit Irfen können im oberen Magen-Darm-Trakt Schleimhautgeschwüre, selten Blutungen oder in Einzelfällen Perforationen (Magen-, Darmdurchbrüche) auftreten.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Können Schleimhautgeschwüre, Blutungen oder Perforationen im oberen Magen-Darm-Trakt verursachen.",
+          "einfach": "Können Geschwüre, Blutungen oder Durchbrüche im Magen oder Darm verursachen."
+        },
+        "mittel": {
+          "default": "Während der Behandlung können im oberen Magen-Darm-Trakt Schleimhautgeschwüre auftreten, seltener Blutungen oder in Einzelfällen Perforationen (Durchbrüche von Magen- oder Darmwand).",
+          "einfach": "Bei der Einnahme können im Magen und oberen Darm Geschwüre entstehen. Selten gibt es Blutungen oder in manchen Fällen sogar Durchbrüche."
+        },
+        "lang": {
+          "default": "Während der Behandlung mit Irfen können im oberen Magen-Darm-Trakt Schleimhautgeschwüre, selten Blutungen oder in Einzelfällen Perforationen (Magen-, Darmdurchbrüche) auftreten.",
+          "einfach": "Während Sie Irfen nehmen, können in Ihrem Magen und oberen Darm Geschwüre entstehen. Das ist selten, aber manchmal können auch Blutungen oder Löcher in der Magenwand oder im Darm entstehen."
+        },
+        "icon_slug": "for-stomach-intestinal-problems"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 1,
+        "claim": "erhöhtes Risiko für Herzinfarkt und Schlaganfall bei hohen Dosen (2400 mg/Tag)",
+        "population": null,
+        "condition": null,
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Auch bei Irfen kann bei einer hohen Dosis (2400 mg/Tag) dieses Risiko geringfügig erhöht sein.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei hoher Dosis (2400 mg/Tag): geringfügig erhöhtes Herzinfarkt- und Schlaganfallrisiko.",
+          "einfach": "Bei hoher Dosis (2400 mg pro Tag): etwas höheres Risiko für Herzinfarkt oder Schlaganfall."
+        },
+        "mittel": {
+          "default": "Bei hoher Dosierung von 2400 mg pro Tag ist das Risiko für Herzinfarkt und Schlaganfall geringfügig erhöht.",
+          "einfach": "Bei einer sehr hohen Dosis von 2400 mg pro Tag ist das Risiko für Herzinfarkt oder Schlaganfall etwas erhöht."
+        },
+        "lang": {
+          "default": "Auch bei Irfen kann bei einer hohen Dosis (2400 mg/Tag) dieses Risiko geringfügig erhöht sein.",
+          "einfach": "Bei Irfen kann bei einer sehr hohen Dosis von 2400 mg pro Tag das Risiko für einen Herzinfarkt oder Schlaganfall etwas erhöht sein."
+        },
+        "icon_slug": "for-heart-problems"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 2,
+        "claim": "Arzt konsultieren bei bestehender Infektion",
+        "population": null,
+        "condition": "bei Infektion",
+        "modality": "precaution",
+        "negation": false,
+        "source_span": "Wenden Sie sich an Ihren Arzt oder Ihre Ärztin, wenn Sie ... eine Infektion haben",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Arzt konsultieren bei bestehender Infektion.",
+          "einfach": "Arzt anrufen bei einer Infektion."
+        },
+        "mittel": {
+          "default": "Informieren Sie Ihren Arzt oder Ihre Ärztin, wenn Sie eine Infektion haben.",
+          "einfach": "Sagen Sie Ihrem Arzt Bescheid, wenn Sie eine Infektion haben."
+        },
+        "lang": {
+          "default": "Wenden Sie sich an Ihren Arzt oder Ihre Ärztin, wenn Sie ... eine Infektion haben",
+          "einfach": "Wenden Sie sich an Ihren Arzt oder Ihre Ärztin, wenn Sie eine Infektion haben."
+        },
+        "icon_slug": "doctor"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 2,
+        "claim": "kann die Reaktionsfähigkeit, Fahrtüchtigkeit und Fähigkeit, Werkzeuge oder Maschinen zu bedienen, beeinträchtigen",
+        "population": null,
+        "condition": null,
+        "modality": "precaution",
+        "negation": false,
+        "source_span": "Dieses Arzneimittel kann die Reaktionsfähigkeit, die Fahrtüchtigkeit und Fähigkeit Werkzeuge oder Maschinen zu bedienen, beeinträchtigen!",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Kann Reaktionsfähigkeit, Fahrtüchtigkeit und Fähigkeit zum Bedienen von Maschinen beeinträchtigen.",
+          "einfach": "Kann Aufmerksamkeit, Fahren und Bedienen von Maschinen beeinträchtigen."
+        },
+        "mittel": {
+          "default": "Das Mittel kann beeinflussen, wie schnell Sie reagieren, wie sicher Sie fahren und wie gut Sie Werkzeuge oder Maschinen bedienen können.",
+          "einfach": "Irfen kann beeinflussen, wie schnell du reagierst. Du kannst unsicherer fahren und Maschinen schlechter bedienen."
+        },
+        "lang": {
+          "default": "Dieses Arzneimittel kann die Reaktionsfähigkeit, die Fahrtüchtigkeit und Fähigkeit Werkzeuge oder Maschinen zu bedienen, beeinträchtigen!",
+          "einfach": "Dieses Arzneimittel kann beeinträchtigen, wie schnell Sie reagieren können, ob Sie noch sicher fahren können und ob Sie Werkzeuge oder Maschinen bedienen können."
+        },
+        "icon_slug": "warning-may-impair-driving"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 2,
+        "claim": "Beeinträchtigung der Fahrtüchtigkeit ist besonders ausgeprägt bei gleichzeitiger Alkoholeinnahme",
+        "population": null,
+        "condition": "bei gleichzeitiger Einnahme mit Alkohol",
+        "modality": "precaution",
+        "negation": false,
+        "source_span": "Das gilt besonders für die Einnahme zusammen mit Alkohol.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Beeinträchtigung der Fahrtüchtigkeit besonders ausgeprägt bei gleichzeitiger Alkoholeinnahme.",
+          "einfach": "Mit Alkohol: Fahrtüchtigkeit noch stärker beeinträchtigt."
+        },
+        "mittel": {
+          "default": "Die Beeinträchtigung der Fahrtüchtigkeit wird durch gleichzeitige Alkoholeinnahme deutlich verstärkt.",
+          "einfach": "Wenn Sie Alkohol zusammen mit dem Mittel nehmen, kann die Fahrtüchtigkeit noch viel stärker beeinträchtigt werden."
+        },
+        "lang": {
+          "default": "Das gilt besonders für die Einnahme zusammen mit Alkohol.",
+          "einfach": "Das gilt besonders, wenn Sie Alkohol zusammen mit Irfen nehmen – dann ist die Beeinträchtigung der Fahrtüchtigkeit noch stärker."
+        },
+        "icon_slug": "no-alcohol"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 2,
+        "claim": "kein erhöhtes Risiko für Herzinfarkt und Schlaganfall bei üblicher Dosierung (maximal 1200 mg/Tag)",
+        "population": null,
+        "condition": null,
+        "modality": "info",
+        "negation": false,
+        "source_span": "Bei üblicher Dosierung (maximal 1200 mg/Tag) wurde jedoch keine Erhöhung dieses Risikos festgestellt.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Übliche Dosierung (maximal 1200 mg/Tag): kein erhöhtes Herzinfarkt- oder Schlaganfallrisiko.",
+          "einfach": "Normale Dosis (maximal 1200 mg pro Tag): kein erhöhtes Risiko für Herzinfarkt oder Schlaganfall."
+        },
+        "mittel": {
+          "default": "Bei der üblichen Dosierung von maximal 1200 mg pro Tag wurde keine Erhöhung des Herzinfarkt- oder Schlaganfallrisikos beobachtet.",
+          "einfach": "Bei der normalen Dosis von maximal 1200 mg pro Tag ist das Risiko für Herzinfarkt oder Schlaganfall nicht erhöht."
+        },
+        "lang": {
+          "default": "Bei üblicher Dosierung (maximal 1200 mg/Tag) wurde jedoch keine Erhöhung dieses Risikos festgestellt.",
+          "einfach": "Bei der üblichen Dosis von maximal 1200 mg pro Tag wurde festgestellt, dass das Risiko für Herzinfarkt oder Schlaganfall nicht erhöht ist."
+        },
+        "icon_slug": "ok"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "Arzt konsultieren bei kardiovaskulären Vorerkrankungen und Risikofaktoren",
+        "population": null,
+        "condition": "falls bereits Herzinfarkt, Schlaganfall oder Venenthrombose aufgetreten sind, oder bei Risikofaktoren wie hohem Blutdruck, Diabetes, hohen Blutfettwerten oder Rauchen",
+        "modality": "warning",
+        "negation": false,
+        "source_span": "informieren Sie in jedem Fall Ihren Arzt oder Ihre Ärztin, falls Sie bereits einen Herzinfarkt, Schlaganfall oder eine Venenthrombose hatten, oder falls Sie Risikofaktoren haben (wie hoher Blutdruck, Diabetes (Zuckerkrankheit), hohe Blutfettwerte, Rauchen). Ihr Arzt oder Ihre Ärztin wird entscheiden, ob Sie Irfen trotzdem anwenden können und welche Dosis für Sie geeignet ist.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Arzt informieren bei Herzinfarkt, Schlaganfall, Venenthrombose oder Risikofaktoren wie hoher Blutdruck, Diabetes, hohe Blutfettwerte oder Rauchen.",
+          "einfach": "Arzt informieren bei Herzerkrankung, Diabetes, hohem Blutdruck, hohen Blutfettwerten oder Rauchen."
+        },
+        "mittel": {
+          "default": "Informieren Sie Ihren Arzt oder Ihre Ärztin, falls Sie einen Herzinfarkt, Schlaganfall oder eine Venenthrombose hatten, oder wenn Sie Risikofaktoren wie hohen Blutdruck, Diabetes, hohe Blutfettwerte oder Rauchen haben. Ihr Arzt wird entscheiden, ob Sie Irfen anwenden können und in welcher Dosis.",
+          "einfach": "Sagen Sie Ihrem Arzt Bescheid, wenn Sie Herzinfarkt, Schlaganfall oder Blutgerinnsel hatten oder wenn Sie Risikofaktoren haben wie hohen Blutdruck, Diabetes, hohe Blutfettwerte oder Rauchen. Dann kann Ihr Arzt entscheiden, ob und wie Sie Irfen nehmen können."
+        },
+        "lang": {
+          "default": "informieren Sie in jedem Fall Ihren Arzt oder Ihre Ärztin, falls Sie bereits einen Herzinfarkt, Schlaganfall oder eine Venenthrombose hatten, oder falls Sie Risikofaktoren haben (wie hoher Blutdruck, Diabetes (Zuckerkrankheit), hohe Blutfettwerte, Rauchen). Ihr Arzt oder Ihre Ärztin wird entscheiden, ob Sie Irfen trotzdem anwenden können und welche Dosis für Sie geeignet ist.",
+          "einfach": "Informieren Sie in jedem Fall Ihren Arzt oder Ihre Ärztin, falls Sie bereits einen Herzinfarkt, Schlaganfall oder eine Venenthrombose (ein Blutgerinnsel in einer Vene) hatten, oder falls Sie Risikofaktoren haben wie hoher Blutdruck, Diabetes (Zuckerkrankheit), hohe Blutfettwerte oder Rauchen. Ihr Arzt oder Ihre Ärztin wird dann entscheiden, ob Sie Irfen trotzdem anwenden können und in welcher Dosis."
+        },
+        "icon_slug": "for-heart-problems"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "kann die Nierenfunktion beeinträchtigen, was zu Blutdruckerhöhung und/oder Flüssigkeitsansammlungen (Ödemen) führen kann",
+        "population": null,
+        "condition": null,
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Die Einnahme von Irfen kann die Funktion Ihrer Nieren beeinträchtigen, was zu einer Erhöhung des Blutdrucks und/oder zu Flüssigkeitsansammlungen (Ödemen) führen kann.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Kann Nierenfunktion beeinträchtigen und zu Blutdruckerhöhung oder Ödemen führen.",
+          "einfach": "Kann Nieren schädigen und zu höherem Blutdruck oder Ödemen führen."
+        },
+        "mittel": {
+          "default": "Irfen kann die Nierenfunktion beeinträchtigen, was zu erhöhtem Blutdruck und/oder Flüssigkeitsansammlungen im Körper (Ödemen) führen kann.",
+          "einfach": "Das Mittel kann die Nieren schädigen. Das kann zu höherem Blutdruck oder zu Wassereinlagerungen (Ödemen) im Körper führen."
+        },
+        "lang": {
+          "default": "Die Einnahme von Irfen kann die Funktion Ihrer Nieren beeinträchtigen, was zu einer Erhöhung des Blutdrucks und/oder zu Flüssigkeitsansammlungen (Ödemen) führen kann.",
+          "einfach": "Die Einnahme von Irfen kann die Funktion Ihrer Nieren beeinträchtigen. Das kann zu einer Erhöhung des Blutdrucks und/oder zu Flüssigkeitsansammlungen (Ödemen, also Schwellungen durch Wassereinlagerungen) führen."
+        },
+        "icon_slug": "kidneys"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "Arzt informieren bei Herz- oder Nierenerkrankung, Einnahme von Bluthochdruckmitteln oder erhöhtem Flüssigkeitsverlust",
+        "population": null,
+        "condition": "wenn herzkrank oder nierenkrank, bei Einnahme von Bluthochdruckmitteln (z.B. harntreibende Mittel, ACE-Hemmer) oder bei erhöhtem Flüssigkeitsverlust (z.B. durch starkes Schwitzen)",
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Informieren Sie Ihren Arzt oder Ihre Ärztin, wenn Sie herzkrank oder nierenkrank sind, falls Sie Arzneimittel gegen Bluthochdruck (z.B. harntreibende Mittel, ACE-Hemmer) einnehmen oder bei einem erhöhten Flüssigkeitsverlust, z.B. durch starkes Schwitzen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Arzt informieren bei Herz- oder Nierenerkrankung, Bluthochdruck-Mitteln oder Flüssigkeitsverlust.",
+          "einfach": "Sag dem Arzt, wenn dein Herz oder deine Nieren krank sind."
+        },
+        "mittel": {
+          "default": "Informieren Sie Ihren Arzt, wenn Sie herzkrank oder nierenkrank sind, Bluthochdruck-Mittel (wie harntreibende Mittel oder ACE-Hemmer) nehmen oder viel Flüssigkeit verlieren, etwa durch starkes Schwitzen.",
+          "einfach": "Sag deinem Arzt Bescheid, wenn dein Herz oder deine Nieren nicht gut funktionieren, wenn du Mittel gegen hohen Blutdruck nimmst oder wenn du viel schwitzt."
+        },
+        "lang": {
+          "default": "Informieren Sie Ihren Arzt oder Ihre Ärztin, wenn Sie herzkrank oder nierenkrank sind, falls Sie Arzneimittel gegen Bluthochdruck (z.B. harntreibende Mittel, ACE-Hemmer) einnehmen oder bei einem erhöhten Flüssigkeitsverlust, z.B. durch starkes Schwitzen.",
+          "einfach": "Sag deinem Arzt oder deiner Ärztin, wenn dein Herz oder deine Nieren krank sind. Sag es auch, wenn du Medikamente gegen hohen Blutdruck nimmst, wie Mittel, die entwässern, oder ACE-Hemmer. Sag auch Bescheid, wenn du viel Flüssigkeit verlierst, zum Beispiel durch starkes Schwitzen."
+        },
+        "icon_slug": "doctor"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "kann Anzeichen von Infektionen wie Fieber und Schmerzen verdecken",
+        "population": null,
+        "condition": null,
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Infektionen Irfen kann Anzeichen von Infektionen wie Fieber und Schmerzen verdecken.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Kann Fieber und Schmerzen als Infektionszeichen verdecken.",
+          "einfach": "Versteckt Fieber und Schmerzen von Infektionen."
+        },
+        "mittel": {
+          "default": "Das Mittel kann Anzeichen einer Infektion wie Fieber und Schmerzen überlagern.",
+          "einfach": "Das Mittel kann Fieber und Schmerzen von einer Infektion verbergen."
+        },
+        "lang": {
+          "default": "Infektionen Irfen kann Anzeichen von Infektionen wie Fieber und Schmerzen verdecken.",
+          "einfach": "Irfen kann Zeichen von Infektionen verdecken, wie Fieber und Schmerzen. Das bedeutet, du merkst vielleicht nicht, dass du eine Infektion hast."
+        },
+        "icon_slug": "fever"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "verzögerte oder unzureichende Behandlung einer Infektion mit erhöhtem Komplikationsrisiko möglich",
+        "population": null,
+        "condition": "wenn während einer Infektion eingenommen",
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Daher ist es möglich, dass sich durch Irfen eine angemessene Behandlung der Infektion verzögert, was zu einem erhöhten Risiko für Komplikationen führen kann.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Behandlung einer Infektion kann sich verzögern mit erhöhtem Komplikationsrisiko.",
+          "einfach": "Infektion-Behandlung kann sich verzögern und mehr Probleme geben."
+        },
+        "mittel": {
+          "default": "Die angemessene Behandlung einer Infektion kann sich verzögern, was das Risiko für Komplikationen erhöht.",
+          "einfach": "Die richtige Behandlung einer Infektion kann länger dauern, wenn du dieses Mittel nimmst. Das kann zu mehr Problemen führen."
+        },
+        "lang": {
+          "default": "Daher ist es möglich, dass sich durch Irfen eine angemessene Behandlung der Infektion verzögert, was zu einem erhöhten Risiko für Komplikationen führen kann.",
+          "einfach": "Wenn du das Mittel während einer Infektion nimmst, kann es sein, dass die richtige Behandlung zu spät kommt. Das kann zu mehr Komplikationen führen."
+        },
+        "icon_slug": "alert"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "erhöhtes Risiko für Komplikationen bei bakterieller Pneumonie und bakteriellen Hautinfektionen im Zusammenhang mit Windpocken",
+        "population": null,
+        "condition": "wenn während dieser Infektionen eingenommen",
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Dies wurde bei bakterieller Pneumonie und bakteriellen Hautinfektionen im Zusammenhang mit Windpocken beobachtet.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Erhöhtes Komplikationsrisiko bei bakterieller Pneumonie und Hautinfektionen mit Windpocken.",
+          "einfach": "Mehr Risiko bei Lungenentzündung und Hautinfektionen mit Windpocken."
+        },
+        "mittel": {
+          "default": "Besonders bei bakterieller Lungenentzündung und bakteriellen Hautinfektionen in Verbindung mit Windpocken ist das Komplikationsrisiko erhöht.",
+          "einfach": "Besonders bei einer Lungenentzündung durch Bakterien oder Hautinfektionen mit Windpocken kann es zu mehr Problemen kommen."
+        },
+        "lang": {
+          "default": "Dies wurde bei bakterieller Pneumonie und bakteriellen Hautinfektionen im Zusammenhang mit Windpocken beobachtet.",
+          "einfach": "Das wurde bei Lungenentzündungen durch Bakterien beobachtet und bei Hautinfektionen, die zusammen mit Windpocken auftreten. Bei diesen Infektionen ist das Risiko für Komplikationen erhöht."
+        },
+        "icon_slug": "pneumonia"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "unverzüglich Arzt konsultieren",
+        "population": null,
+        "condition": "wenn Infektionssymptome anhalten oder sich verschlimmern während der Einnahme",
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Wenn Sie dieses Arzneimittel während einer Infektion einnehmen und Ihre lnfektionssymptome anhalten oder sich verschlimmern, konsultieren Sie unverzüglich einen Arzt bzw. eine Ärztin.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Arzt unverzüglich konsultieren, wenn Infektionssymptome anhalten oder sich verschlimmern.",
+          "einfach": "Schnell zum Arzt, wenn Infektionssymptome schlimmer werden."
+        },
+        "mittel": {
+          "default": "Kontaktieren Sie sofort Ihren Arzt, wenn Infektionssymptome während der Einnahme anhalten oder sich verschlimmern.",
+          "einfach": "Geh sofort zum Arzt, wenn Zeichen der Infektion nicht besser werden oder schlechter."
+        },
+        "lang": {
+          "default": "Wenn Sie dieses Arzneimittel während einer Infektion einnehmen und Ihre lnfektionssymptome anhalten oder sich verschlimmern, konsultieren Sie unverzüglich einen Arzt bzw. eine Ärztin.",
+          "einfach": "Wenn du dieses Mittel während einer Infektion nimmst und deine Infektionssymptome nicht verschwinden oder werden noch schlechter, dann geh sofort zum Arzt oder zur Ärztin."
+        },
+        "icon_slug": "alert"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "höhere Häufigkeit von Nebenwirkungen, insbesondere Blutungen und Magen-Darm-Durchbrüchen",
+        "population": "Ältere Patienten ab 65 Jahren",
+        "condition": null,
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Bei älteren Patienten treten häufiger Nebenwirkungen nach Anwendung von nicht-steroidalen Entzündungshemmern auf, insbesondere Blutungen und Durchbrüche im Magen- und Darmbereich.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Blutungen und Magen-Darm-Durchbrüche treten häufiger auf.",
+          "einfach": "Blutungen und Darm-Durchbrüche treten häufiger auf."
+        },
+        "mittel": {
+          "default": "Blutungen und Durchbrüche im Magen- und Darmbereich treten gehäuft auf.",
+          "einfach": "Blutungen und Löcher im Magen oder Darm treten häufiger auf."
+        },
+        "lang": {
+          "default": "Bei älteren Patienten treten häufiger Nebenwirkungen nach Anwendung von nicht-steroidalen Entzündungshemmern auf, insbesondere Blutungen und Durchbrüche im Magen- und Darmbereich.",
+          "einfach": "Nach der Anwendung von nicht-steroidalen Entzündungshemmern treten häufiger Nebenwirkungen auf, besonders Blutungen und Durchbrüche im Magen- und Darmbereich."
+        },
+        "icon_slug": "alert"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "Arzt unverzüglich konsultieren falls Symptome anhalten oder sich verschlimmern",
+        "population": "Personen mit Infektionen",
+        "condition": "wenn Fieber, Schmerzen oder andere Symptome anhalten oder sich verschlimmern",
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Wenn Sie eine Infektion haben, konsultieren Sie unverzüglich einen Arzt bzw. eine Ärztin, falls die Symptome (z.B. Fieber und Schmerzen) anhalten oder sich verschlimmern",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Arzt unverzüglich konsultieren, falls Symptome anhalten oder sich verschlimmern.",
+          "einfach": "Gehen Sie zum Arzt, wenn Symptome bleiben oder schlimmer werden."
+        },
+        "mittel": {
+          "default": "Konsultieren Sie unverzüglich einen Arzt oder eine Ärztin, wenn die Symptome (z.B. Fieber und Schmerzen) anhalten oder sich verschlimmern.",
+          "einfach": "Gehen Sie sofort zum Arzt oder zur Ärztin, wenn das Fieber oder die Schmerzen nicht besser werden oder schlimmer werden."
+        },
+        "lang": {
+          "default": "Wenn Sie eine Infektion haben, konsultieren Sie unverzüglich einen Arzt bzw. eine Ärztin, falls die Symptome (z.B. Fieber und Schmerzen) anhalten oder sich verschlimmern",
+          "einfach": "Wenn Sie eine Infektion haben, konsultieren Sie unverzüglich einen Arzt oder eine Ärztin, falls die Symptome wie Fieber und Schmerzen anhalten oder sich verschlimmern."
+        },
+        "icon_slug": "doctor"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "unverzüglich Arzt oder Ärztin aufsuchen für Risikobewertung und Behandlungsrat",
+        "population": null,
+        "condition": "bei Überdosierung oder bei versehentlicher Einnahme durch Kinder (Symptome können Übelkeit, Magenschmerzen, Erbrechen möglicherweise mit Blut, Kopfschmerzen, Ohrensausen, Verwirrung und Augenzittern umfassen; bei hohen Dosen auch Schläfrigkeit, Brustschmerzen, Herzklopfen, Ohnmacht, Krämpfe vor allem bei Kindern, Schwäche und Schwindelgefühle, Blut im Urin, Frieren und Atemprobleme)",
+        "modality": "warning",
+        "negation": false,
+        "source_span": "Falls Sie mehr Irfen eingenommen haben, als Sie sollten, oder falls Kinder aus Versehen das Arzneimittel eingenommen haben, wenden Sie sich immer an einen Arzt oder an eine Ärztin, um eine Einschätzung des Risikos und Rat zur weiteren Behandlung zu bekommen. Die Symptome können Übelkeit, Magenschmerzen, Erbrechen (möglicherweise mit Blut), Kopfschmerzen, Ohrensausen, Verwirrung und Augenzittern umfassen. Bei hohen Dosen wurde über Schläfrigkeit, Brustschmerzen, Herzklopfen, Ohnmacht, Krämpfe (vor allem bei Kindern), Schwäche und Schwindelgefühle, Blut im Urin, Frieren und Atemprobleme berichtet.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Bei Überdosierung oder versehentlicher Einnahme durch Kinder sofort Arzt aufsuchen.",
+          "einfach": "Zu viel genommen oder Kind hat es genommen? Sofort zum Arzt."
+        },
+        "mittel": {
+          "default": "Bei Überdosierung oder versehentlicher Einnahme durch Kinder sollte unverzüglich ein Arzt oder eine Ärztin aufgesucht werden. Mögliche Symptome sind Übelkeit, Magenschmerzen, Erbrechen (möglicherweise mit Blut), Kopfschmerzen, Ohrensausen, Verwirrung und Augenzittern. Bei hohen Dosen können auch Schläfrigkeit, Brustschmerzen, Herzklopfen, Ohnmacht, Krämpfe (besonders bei Kindern), Schwäche, Schwindelgefühle, Blut im Urin, Frieren und Atemprobleme auftreten.",
+          "einfach": "Haben Sie zu viel genommen oder hat ein Kind das Mittel versehentlich genommen? Gehen Sie sofort zum Arzt. Mögliche Zeichen sind Übelkeit, Magenschmerzen, Erbrechen, Kopfschmerzen, Ohrensausen, Verwirrung, Augenzittern, Schläfrigkeit, Brustschmerzen, Herzklopfen, Ohnmacht, Krämpfe, Schwäche, Schwindel, Blut im Urin, Frieren und Atemprobleme."
+        },
+        "lang": {
+          "default": "Falls Sie mehr Irfen eingenommen haben, als Sie sollten, oder falls Kinder aus Versehen das Arzneimittel eingenommen haben, wenden Sie sich immer an einen Arzt oder an eine Ärztin, um eine Einschätzung des Risikos und Rat zur weiteren Behandlung zu bekommen. Die Symptome können Übelkeit, Magenschmerzen, Erbrechen (möglicherweise mit Blut), Kopfschmerzen, Ohrensausen, Verwirrung und Augenzittern umfassen. Bei hohen Dosen wurde über Schläfrigkeit, Brustschmerzen, Herzklopfen, Ohnmacht, Krämpfe (vor allem bei Kindern), Schwäche und Schwindelgefühle, Blut im Urin, Frieren und Atemprobleme berichtet.",
+          "einfach": "Falls Sie mehr Irfen genommen haben als Sie sollten, oder falls ein Kind das Arzneimittel versehentlich genommen hat, wenden Sie sich immer an einen Arzt oder eine Ärztin. Der Arzt muss das Risiko beurteilen und Ihnen sagen, wie es weitergehen soll. Die Symptome können Übelkeit, Magenschmerzen, Erbrechen (möglicherweise mit Blut), Kopfschmerzen, Ohrensausen, Verwirrung und Augenzittern sein. Bei hohen Dosen können auch Schläfrigkeit, Brustschmerzen, Herzklopfen, Ohnmacht, Krämpfe (besonders bei Kindern), Schwäche und Schwindelgefühle, Blut im Urin, Frieren und Atemprobleme auftreten."
+        },
+        "icon_slug": "medical_advice"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "Wechselwirkungen mit mehreren Arzneimitteln möglich (Blutverdünnungsmittel wie niedrig dosierte Acetylsalicylsäure, Diuretika, ACE-Hemmer, β-Blocker, Antibiotika, bestimmte Antimykotika wie Voriconazol oder Fluconazol, Immunsuppressiva, Ginkgo biloba Extrakt, Mittel gegen erhöhten Blutzucker, gegen Aids, Epilepsie und Depressionen)",
+        "population": null,
+        "condition": "wenn gleichzeitig mit diesen Arzneimitteln behandelt",
+        "modality": "drug_interaction",
+        "negation": false,
+        "source_span": "Informieren Sie Ihren Arzt oder Ihre Ärztin, falls Sie mit Arzneimitteln behandelt werden, wie Blutverdünnungsmitteln (z.B. niedrig dosierte Acetylsalicylsäure), Diuretika (harntreibende Mittel), ACE-Hemmern oder β-Blockern (Präparate gegen hohen Blutdruck und Herzinsuffizienz), Antibiotika, bestimmte Mittel gegen Pilzinfektionen (z.B. Voriconazol oder Fluconazol), Immunsuppressiva (Präparate gegen Transplantatabstossungen), pflanzlicher Ginkgo biloba Extrakt, Arzneimittel gegen erhöhten Blutzucker, gegen Aids, Epilepsie und Depressionen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Wechselwirkungen mit Blutverdünnern, Diuretika, ACE-Hemmern, β-Blockern, Antibiotika, Antimykotika, Immunsuppressiva und vielen weiteren Mitteln.",
+          "einfach": "Kann mit vielen Mitteln Probleme geben: Blutverdünner, Blutdruckmittel, Antibiotika, Pilzmittel."
+        },
+        "mittel": {
+          "default": "Informieren Sie Ihren Arzt vor der Einnahme, wenn Sie mit Blutverdünnern, harntreibenden Mitteln, Blutdruck-Mitteln, Antibiotika, Pilzmitteln wie Voriconazol oder Fluconazol, Mitteln gegen Transplantatabstossung, Ginkgo-biloba-Extrakt, Diabetes-Mitteln, Aids-Mitteln, Epilepsie- oder Depressionsmedikamenten behandelt werden.",
+          "einfach": "Sag deinem Arzt, wenn du andere Mittel nimmst. Das sind wichtig: Mittel zum Verdünnen des Blutes, Mittel zum Wasserlassen, Blutdruck-Mittel, Antibiotika, Pilz-Mittel, Mittel gegen zu hohen Zucker, gegen Aids, Epilepsie oder Depressionen."
+        },
+        "lang": {
+          "default": "Informieren Sie Ihren Arzt oder Ihre Ärztin, falls Sie mit Arzneimitteln behandelt werden, wie Blutverdünnungsmitteln (z.B. niedrig dosierte Acetylsalicylsäure), Diuretika (harntreibende Mittel), ACE-Hemmern oder β-Blockern (Präparate gegen hohen Blutdruck und Herzinsuffizienz), Antibiotika, bestimmte Mittel gegen Pilzinfektionen (z.B. Voriconazol oder Fluconazol), Immunsuppressiva (Präparate gegen Transplantatabstossungen), pflanzlicher Ginkgo biloba Extrakt, Arzneimittel gegen erhöhten Blutzucker, gegen Aids, Epilepsie und Depressionen.",
+          "einfach": "Sag deinem Arzt oder deiner Ärztin, wenn du mit anderen Mitteln behandelt wirst. Das ist wichtig bei: Blutverdünnungsmitteln wie niedrig dosierter Acetylsalicylsäure, Diuretika (Mittel zum Wasserlassen), ACE-Hemmern oder β-Blockern (Mittel gegen hohen Blutdruck und Herzprobleme), Antibiotika, bestimmten Mitteln gegen Pilzinfektionen wie Voriconazol oder Fluconazol, Immunsuppressiva (Mittel gegen Transplantatabstossung), Ginkgo-biloba-Extrakt aus der Natur, Mitteln gegen hohen Blutzucker, gegen Aids, Epilepsie und Depressionen."
+        },
+        "icon_slug": "are-you-taking-other-medicines"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "gegenseitige Beeinflussung möglich mit Nichtsteroidalen Antirheumatika wie Ibuprofen",
+        "population": null,
+        "condition": "wenn gleichzeitig mit anderen NSAIDs eingenommen",
+        "modality": "drug_interaction",
+        "negation": false,
+        "source_span": "Nichtsteroidale Antirheumatika, wie Ibuprofen, und die oben aufgeführten Arzneimittel können sich gegenseitig beeinflussen.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Gegenseitige Beeinflussung mit anderen Schmerzmitteln wie Ibuprofen möglich.",
+          "einfach": "Beeinflusst andere Schmerzmittel wie Ibuprofen gegenseitig."
+        },
+        "mittel": {
+          "default": "Andere Schmerzmittel wie Ibuprofen können sich gegenseitig mit diesem Mittel beeinflussen.",
+          "einfach": "Andere Schmerzmittel wie Ibuprofen können sich gegenseitig beeinflussen."
+        },
+        "lang": {
+          "default": "Nichtsteroidale Antirheumatika, wie Ibuprofen, und die oben aufgeführten Arzneimittel können sich gegenseitig beeinflussen.",
+          "einfach": "Nichtsteroidale Antirheumatika, wie Ibuprofen, und die anderen Mittel können sich gegenseitig beeinflussen."
+        },
+        "icon_slug": "do-not-combine-with-other-medicines"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "herzschützende Wirkung von niedrig dosierter Acetylsalicylsäure kann bei Langzeitbehandlung reduziert werden",
+        "population": null,
+        "condition": "bei Langzeitbehandlung mit Irfen zusammen mit niedrig dosierter Acetylsalicylsäure",
+        "modality": "drug_interaction",
+        "negation": false,
+        "source_span": "Insbesondere kann es sein, dass die herzschützende Wirkung von niedrig dosierter Acetylsalicylsäure bei einer Langzeitbehandlung mit Irfen reduziert wird.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Herzschützende Wirkung von niedrig dosierter Acetylsalicylsäure kann reduziert werden.",
+          "einfach": "Schutz des Herzens durch Acetylsalicylsäure kann schwächer werden."
+        },
+        "mittel": {
+          "default": "Bei längerfristiger Einnahme zusammen mit niedrig dosierter Acetylsalicylsäure kann deren herzschützende Wirkung vermindert werden.",
+          "einfach": "Wenn du das lange nimmst zusammen mit niedrig dosierter Acetylsalicylsäure, kann der Herzschutz schwächer werden."
+        },
+        "lang": {
+          "default": "Insbesondere kann es sein, dass die herzschützende Wirkung von niedrig dosierter Acetylsalicylsäure bei einer Langzeitbehandlung mit Irfen reduziert wird.",
+          "einfach": "Besonders bei einer Langzeitbehandlung kann es sein, dass die herzschützende Wirkung von niedrig dosierter Acetylsalicylsäure verringert wird, wenn du Irfen gleichzeitig nimmst."
+        },
+        "icon_slug": "for-heart-problems"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "erhöhtes Risiko von Nebenwirkungen",
+        "population": null,
+        "condition": "bei gleichzeitiger Einnahme von Acetylsalicylsäure oder anderen Schmerzmitteln",
+        "modality": "drug_interaction",
+        "negation": false,
+        "source_span": "Acetylsalicylsäure oder andere Schmerzmittel sollten nicht gleichzeitig mit Ibuprofen eingenommen werden, da das Risiko von Nebenwirkungen erhöht werden kann.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Erhöhtes Nebenwirkungsrisiko bei Kombinationen mit Acetylsalicylsäure oder anderen Schmerzmitteln.",
+          "einfach": "Mehr Nebenwirkungen, wenn du mit anderen Schmerzmitteln kombinierst."
+        },
+        "mittel": {
+          "default": "Acetylsalicylsäure oder andere Schmerzmittel sollten nicht gleichzeitig eingenommen werden, da das Nebenwirkungsrisiko steigt.",
+          "einfach": "Nimm nicht gleichzeitig Acetylsalicylsäure oder andere Schmerzmittel, weil Nebenwirkungen wahrscheinlicher werden."
+        },
+        "lang": {
+          "default": "Acetylsalicylsäure oder andere Schmerzmittel sollten nicht gleichzeitig mit Ibuprofen eingenommen werden, da das Risiko von Nebenwirkungen erhöht werden kann.",
+          "einfach": "Du solltest nicht gleichzeitig Acetylsalicylsäure oder andere Schmerzmittel zusammen mit diesem Mittel nehmen. Das ist gefährlich, weil dann mehr Nebenwirkungen möglich sind."
+        },
+        "icon_slug": "alert"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "Nebenwirkungen können verstärkt werden, insbesondere am Magen-Darm-Trakt und zentralen Nervensystem",
+        "population": null,
+        "condition": "bei gleichzeitigem Alkoholkonsum",
+        "modality": "drug_interaction",
+        "negation": false,
+        "source_span": "Bei gleichzeitigem Alkoholkonsum können Nebenwirkungen, insbesondere die den Magen-Darm-Trakt oder das zentrale Nervensystem betreffen, verstärkt werden.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Nebenwirkungen am Magen-Darm-Trakt und zentralen Nervensystem können bei Alkohol verstärkt werden.",
+          "einfach": "Alkohol kann Nebenwirkungen stärker machen."
+        },
+        "mittel": {
+          "default": "Bei gleichzeitigem Alkoholkonsum können Nebenwirkungen, insbesondere solche, die den Magen-Darm-Trakt oder das zentrale Nervensystem betreffen, verstärkt werden.",
+          "einfach": "Wenn Sie Alkohol trinken, können Nebenwirkungen stärker werden. Das gilt besonders für den Magen und das Nervensystem."
+        },
+        "lang": {
+          "default": "Bei gleichzeitigem Alkoholkonsum können Nebenwirkungen, insbesondere die den Magen-Darm-Trakt oder das zentrale Nervensystem betreffen, verstärkt werden.",
+          "einfach": "Wenn Sie zur gleichen Zeit Alkohol trinken, können die Nebenwirkungen stärker werden. Das betrifft besonders den Magen und Darm oder das zentrale Nervensystem."
+        },
+        "icon_slug": "alert"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "Arzt konsultieren bei Magenschmerzen mit Vermutung eines Zusammenhangs zur Medikation",
+        "population": null,
+        "condition": "bei Magenschmerzen mit vermuteter Assoziation zur Irfen-Einnahme",
+        "modality": "precaution",
+        "negation": false,
+        "source_span": "Wenden Sie sich an Ihren Arzt oder Ihre Ärztin, wenn Sie Magenschmerzen haben und einen Zusammenhang mit der Einnahme des Arzneimittels vermuten.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Arzt konsultieren bei Magenschmerzen mit vermuteter Assoziation zur Einnahme.",
+          "einfach": "Arzt anrufen bei Magenschmerzen durch das Mittel."
+        },
+        "mittel": {
+          "default": "Bei Magenschmerzen, die möglicherweise mit der Einnahme zusammenhängen, sollten Sie ärztliche Beratung suchen.",
+          "einfach": "Wenn Sie Magenschmerzen bekommen und denken, dass sie vom Mittel kommen, sprechen Sie mit Ihrem Arzt."
+        },
+        "lang": {
+          "default": "Wenden Sie sich an Ihren Arzt oder Ihre Ärztin, wenn Sie Magenschmerzen haben und einen Zusammenhang mit der Einnahme des Arzneimittels vermuten.",
+          "einfach": "Wenden Sie sich an Ihren Arzt oder Ihre Ärztin, wenn Sie Magenschmerzen haben und vermuten, dass diese von der Einnahme von Irfen kommen."
+        },
+        "icon_slug": "doctor"
+      },
+      {
+        "bucket": "beachten",
+        "lese_prioritaet": 3,
+        "claim": "Arzt informieren",
+        "population": null,
+        "condition": "falls kürzlich Schwangerschaftsabbruch-Behandlung erfolgt ist",
+        "modality": "precaution",
+        "negation": false,
+        "source_span": "Informieren Sie Ihren Arzt oder Ihre Ärztin, falls Sie vor kurzem wegen einem Schwangerschaftsabbruch behandelt wurden.",
+        "relevant_for_user": true,
+        "kurz": {
+          "default": "Arzt informieren bei kürzlichem Schwangerschaftsabbruch.",
+          "einfach": "Sag dem Arzt, wenn du kürzlich Schwangerschaftsabbruch hattest."
+        },
+        "mittel": {
+          "default": "Informieren Sie Ihren Arzt, wenn Sie kürzlich einen Schwangerschaftsabbruch hatten.",
+          "einfach": "Sag deinem Arzt Bescheid, wenn du vor kurzem einen Schwangerschaftsabbruch hattest."
+        },
+        "lang": {
+          "default": "Informieren Sie Ihren Arzt oder Ihre Ärztin, falls Sie vor kurzem wegen einem Schwangerschaftsabbruch behandelt wurden.",
+          "einfach": "Sag deinem Arzt oder deiner Ärztin Bescheid, wenn du vor kurzem wegen einem Schwangerschaftsabbruch behandelt worden bist."
+        },
+        "icon_slug": "doctor"
+      }
+    ]
+  }
+}
